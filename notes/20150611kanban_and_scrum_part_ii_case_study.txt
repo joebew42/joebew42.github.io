@@ -1,0 +1,60 @@
+### Addressing stakeholders
+
+It was likely that the stakeholders would be affected by the Kanban
+implementation as well. However the changes would be for the better
+- it meant the team would start saying “no” to work they couldn’t
+complete, start standing up for quality and removing low-priority
+items from the team’s backlog. Despite this, having a discussion
+before is always a good idea.
+
+### Constructing the first board
+
+A good way to start the construction of a Kanban board is by doing
+value-stream map. It’s basically a visualization of the value chain
+and provides insight into work states, flow and time through the
+system (cycle time).
+
+### Trying to build a Kanban board
+
+Common questions that emerged during the discussion
+
+* What types of work do we have?
+* Who handles it?
+* Should we share responsibility across different work types?
+
+  "Should we let one fixed part of the team deal with the direct
+   questions (reactive work) and let the rest of the team focus
+   on the projects (proactive work)?"
+
+* How do we deal with shared responsibility given specialized skills?
+
+### A first Kanban board (an example)
+
+
+              |  BACKLOG  |  READY FOR WIP  |  WIP  |  DONE  |
+--------------|-----------|-----------------|-------|--------|
+Support       |           |                 |       |        |
+              |           |                 |       |  X     |
+--------------|-----------|-----------------|-------|--------|
+Daily duties  |           |                 |       |        |
+              |           |     X           |       |        |
+--------------|-----------|-----------------|-------|--------|
+Project A     |    X      |                 |  X    |        |
+              |    X      |                 |   X   |        |
+--------------|-----------|-----------------|-------|--------|
+Project B     |           |     X           |       |        |
+              |           |                 |       |        |
+
+As you can see the "WIP" is limited to only 2 activities
+
+### Setting the first Work In Progress (WIP) limit
+
+The first WIP limit we used was 2n-1. (n= number of team members, -1
+to encourage cooperation). Why? Simple, we had no better idea J. Also
+it seemed uncontroversial to start off with. The formula provided a
+simple and logical explanation to anyone trying to push work onto the
+team: “... so given that each team member can work on at most two things
+at the same time, one active and one waiting, why would you expect them
+to take on more?” Looking back, any generous limit would have worked for
+starters. By monitoring the Kanban board it is easy to figure out the
+right limits along the way.

@@ -1,0 +1,20 @@
+There are 5 core properties to a Kanban implementation
+
+1. Limit Work-in-Progress
+   limit the overall work that can be done in parallel for each process phase
+2. Visualize Workflow
+   that means give a visual representation of the work process, highlighting for each phase of the process, the outcame value.
+3. Measure & Optimize Flow
+   find a way to measure every actions
+4. Make Process Policies Explicit
+5. Manage Quantitatively
+
+There at least 5 emergent properties we might expect in a Kanban implementation
+
+1. Prioritize Work by Cost of Delay
+2. Optimize Value with Classes of Service
+3. Spread Risk with Capacity Allocation
+4. Encourage Process Innovation
+5. Use Models to Recognize Improvement Opportunities
+
+Source: http://www.scrumsense.com/wp-content/uploads/2010/02/KanbanManuscript-dja-rev1_07_2.pdf
