@@ -10,7 +10,7 @@ before is always a good idea.
 ### Constructing the first board
 
 A good way to start the construction of a Kanban board is by doing
-value-stream map. It’s basically a visualization of the value chain
+value-stream map. It's basically a visualization of the value chain
 and provides insight into work states, flow and time through the
 system (cycle time).
 
@@ -53,8 +53,8 @@ The first WIP limit we used was 2n-1. (n= number of team members, -1
 to encourage cooperation). Why? Simple, we had no better idea J. Also
 it seemed uncontroversial to start off with. The formula provided a
 simple and logical explanation to anyone trying to push work onto the
-team: “... so given that each team member can work on at most two things
+team: "... so given that each team member can work on at most two things
 at the same time, one active and one waiting, why would you expect them
-to take on more?” Looking back, any generous limit would have worked for
+to take on more?" Looking back, any generous limit would have worked for
 starters. By monitoring the Kanban board it is easy to figure out the
 right limits along the way.
