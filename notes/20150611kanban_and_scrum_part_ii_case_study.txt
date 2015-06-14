@@ -58,3 +58,14 @@ at the same time, one active and one waiting, why would you expect them
 to take on more?" Looking back, any generous limit would have worked for
 starters. By monitoring the Kanban board it is easy to figure out the
 right limits along the way.
+
+### General lessons learned
+
+* As work in progress decreases, constraints emerge
+* Board will change along the way, don’t carve layout in stone
+* Don’t be afraid to experiment and fail
+
+### Final take-away points
+
+* Start with retrospectives!
+* Never stop experimenting!
