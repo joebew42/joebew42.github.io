@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="events.xsl"?>
+<events>
+  <event date="2015-06-14">
+    <action type="reading">Part I of "Kanban and Scrum - making the most of both"</action>
+    <references>
+      <reference src="http://www.infoq.com/minibooks/kanban-scrum-minibook" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-13">
+    <action type="reading">Part I of "Kanban and Scrum - making the most of both"</action>
+    <references>
+      <reference src="http://www.infoq.com/minibooks/kanban-scrum-minibook" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-13">
+    <action type="reading">"Part II: Case study" of "Kanban and Scrum - making the most of both"</action>
+    <references>
+      <reference src="http://www.infoq.com/minibooks/kanban-scrum-minibook" type="source" />
+      <reference src="notes/20150611kanban_and_scrum_part_ii_case_study.txt" type="note" />
+    </references>
+  </event>
+  <event date="2015-06-12">
+    <action type="reading">How to express action in RDF</action>
+    <references>
+      <reference src="http://schema.org/Action" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-12">
+    <action type="studying">Why RDF model is different from the XML model</action>
+    <references>
+      <reference src="http://www.w3.org/DesignIssues/RDF-XML" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-12">
+    <action type="preparing">Kanban Pizza Game workshop</action>
+    <references>
+      <reference src="http://www.agile42.com/en/training/kanban-pizza-game/" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-12">
+    <action type="reading">"Part II: Case study" of "Kanban and Scrum - making the most of both"</action>
+    <references>
+      <reference src="http://www.infoq.com/minibooks/kanban-scrum-minibook" type="source" />
+      <reference src="notes/20150611kanban_and_scrum_part_ii_case_study.txt" type="note" />
+    </references>
+  </event>
+  <event date="2015-06-11">
+    <action type="reading">"Part II: Case study" of "Kanban and Scrum - making the most of both"</action>
+    <references>
+      <reference src="http://www.infoq.com/minibooks/kanban-scrum-minibook" type="source" />
+      <reference src="notes/20150611kanban_and_scrum_part_ii_case_study.txt" type="note" />
+    </references>
+  </event>
+  <event date="2015-06-11">
+    <action type="reading">Kanban, dall'idea alla pratica</action>
+    <references>
+      <reference src="http://www2.mokabyte.it/cms/article.run?articleId=1ZE-MG3-HTF-KXM_7f000001_20231187_a57bcc6b" type="source" />
+      <reference src="notes/20150611kanban.txt" type="note" />
+    </references>
+  </event>
+  <event date="2015-06-11">
+    <action type="download">Kanban and Scrum - making the most of both</action>
+    <references>
+      <reference src="http://www.infoq.com/minibooks/kanban-scrum-minibook" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-11">
+    <action type="viewing">How the process/product quality is perceived from internal to external</action>
+    <references>
+      <reference src="http://image.slidesharecdn.com/201102xpmeetupkanbanafter-110208125329-phpapp01/95/how-to-get-started-with-kanban-and-why-21-728.jpg" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-11">
+    <action type="viewing">How to get started with Kanban and why</action>
+    <references>
+      <reference src="http://www.slideshare.net/ingvaldskaug/how-to-get-started-with-kanban-and-why" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-11">
+    <action type="thinking">about a web based application that helps you to create and organize notes on a virtual desktop (like post-it)</action>
+  </event>
+  <event date="2015-06-11">
+    <action type="reading">Designing your Kanban board to map your process</action>
+    <references>
+      <reference src="http://leankit.com/blog/wp-content/uploads/2014/02/Designing-Your-Kanban-Board-to-Map-Your-Process-PDF.pdf" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-11">
+    <action type="reading">XML and XSLT</action>
+    <references>
+      <reference src="http://www.w3schools.com/xml/xml_xsl.asp" type="source" />
+    </references>
+  </event>
+</events>
