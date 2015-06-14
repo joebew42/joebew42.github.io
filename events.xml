@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-06-14">
+    <action type="preparing">Kanban Pizza Game workshop</action>
+    <references>
+      <reference src="http://www.agile42.com/en/training/kanban-pizza-game/" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-14">
     <action type="practice">Using XML/XSLT to display my activity log</action>
   </event>
   <event date="2015-06-14">
