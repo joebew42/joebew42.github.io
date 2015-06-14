@@ -3,7 +3,7 @@ body {
 }
 
 .event-title {
-    font-size: 16pt;
+    font-size: 12pt;
 }
 
 ul {
@@ -14,4 +14,8 @@ ul {
 .event {
     margin-bottom: 10px;
     padding: 5px;
+}
+
+.references {
+    font-size: 10pt;
 }

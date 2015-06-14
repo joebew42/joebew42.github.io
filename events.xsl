@@ -23,9 +23,9 @@
 
   <xsl:template match="event">
     <li class="event">
-      <small><xsl:value-of select="@date"/></small>
-      <br/>
       <xsl:apply-templates select="action"/>
+      <br/>
+      <small><xsl:value-of select="@date"/></small>
       <xsl:apply-templates select="references"/>
     </li>
   </xsl:template>
@@ -35,20 +35,18 @@
   </xsl:template>
 
   <xsl:template match="references">
-    <ul>
-      <xsl:apply-templates select="reference"/>
-    </ul>
+    <span class="references">
+      (<xsl:apply-templates select="reference"/>)
+    </span>
   </xsl:template>
 
   <xsl:template match="reference">
-    <li>
       <a target="_blank">
         <xsl:attribute name="href">
           <xsl:value-of select="@src"/>
         </xsl:attribute>
         <xsl:value-of select="@type"/>
-      </a>
-    </li>
+      </a>,
   </xsl:template>
 
 </xsl:stylesheet>
