@@ -2,6 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-06-14">
+    <action type="practice">Using XML/XSLT to display my activity log</action>
+  </event>
+  <event date="2015-06-14">
     <action type="reading">Part I of "Kanban and Scrum - making the most of both"</action>
     <references>
       <reference src="http://www.infoq.com/minibooks/kanban-scrum-minibook" type="source" />
