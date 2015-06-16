@@ -1,0 +1,15 @@
+### How to get started with Kanban
+
+- Taking a snapshot of the actual process
+- Do a retrospective
+
+- Visualize the workflow
+- Trying to limit the WIP
+- Trying to add some buffers and swith to a pull system, instead of push
+-- Buffers helps you to improve process and understand how to set the right
+   WIP that allows you to streamline the process, reduce bottlenecks
+- Adapt your process
+-- Change WIPs
+-- rebuild the workflow
+
+Doing practice, learn from failures, improve the process!

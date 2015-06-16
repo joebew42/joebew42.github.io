@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-06-16">
+    <action type="learned">How to get started with Kanban</action>
+    <references>
+      <reference src="notes/20150616some_aspects_of_kanban.txt" type="note" />
+    </references>
+  </event>
   <event date="2015-06-14">
     <action type="preparing">Kanban Pizza Game workshop</action>
     <references>
