@@ -31,7 +31,7 @@
   </xsl:template>
 
   <xsl:template match="action">
-    <span class="event-title"><xsl:value-of select="@type"/>&#160;<xsl:value-of select="."/></span>
+    <span class="action-type"><xsl:value-of select="@type"/></span>&#160;<span class="event-title"><xsl:value-of select="."/></span>
   </xsl:template>
 
   <xsl:template match="references">

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-06-17">
+    <action type="bookmark">Q&amp;A How to deal with a legacy infrastructure</action>
+    <references>
+      <reference src="http://searchsoa.techtarget.com/feature/QA-How-to-deal-with-a-legacy-infrastructure" type="source" />
+    </references>
+  </event>
   <event date="2015-06-16">
     <action type="learned">How to get started with Kanban</action>
     <references>

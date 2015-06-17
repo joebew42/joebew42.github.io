@@ -1,9 +1,16 @@
 body {
-    font-family: 'Fauna One', serif;
+    font-family: 'Fauna One', sans;
+    font-size: 12pt;
 }
 
-.event-title {
-    font-size: 12pt;
+.event-title {}
+
+.action-type {
+    color: #fff;
+    font-size: 10pt;
+    padding: 2px 6px;
+    background: cadetblue;
+    border-radius: 6px;
 }
 
 ul {
