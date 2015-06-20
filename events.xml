@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-06-20">
+    <action type="reading">Composition vs. Inheritance: How to Choose?</action>
+    <references>
+      <reference src="http://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose" type="source" />
+    </references>
+  </event>
   <event date="2015-06-17">
     <action type="bookmark">Q&amp;A How to deal with a legacy infrastructure</action>
     <references>
