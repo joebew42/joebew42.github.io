@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="events.css" />
       </head>
       <body>
-        <h2>What's going on ...</h2>
+        <h1>What's happening ...</h1>
         <xsl:apply-templates/>
       </body>
     </html>
@@ -25,13 +25,16 @@
     <li class="event">
       <xsl:apply-templates select="action"/>
       <br/>
-      <small><xsl:value-of select="@date"/></small>
-      <xsl:apply-templates select="references"/>
+      <small>
+        <xsl:value-of select="@date"/>
+        <xsl:apply-templates select="references"/>
+      </small>
     </li>
   </xsl:template>
 
   <xsl:template match="action">
-    <span class="action-type"><xsl:value-of select="@type"/></span>&#160;<span class="event-title"><xsl:value-of select="."/></span>
+    <span class="action-type"><xsl:value-of select="@type"/></span>
+    <span class="event-title"><xsl:value-of select="."/></span>
   </xsl:template>
 
   <xsl:template match="references">
