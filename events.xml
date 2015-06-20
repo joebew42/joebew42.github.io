@@ -5,6 +5,7 @@
     <action type="reading">Composition vs. Inheritance: How to Choose?</action>
     <references>
       <reference src="http://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose" type="source" />
+      <reference src="notes/20150620_composition_vs_inheritance_how_to_choose.txt" type="note" />
     </references>
   </event>
   <event date="2015-06-17">

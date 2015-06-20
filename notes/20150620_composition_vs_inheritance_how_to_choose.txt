@@ -1,0 +1,37 @@
+"Domain classes should use implementation classes, not inherit from them."
+
+### How to Decide: Composition or Inheritance?
+
+When you have a situation where either composition or inheritance will work,
+consider splitting the design discussion in two:
+
+# The representation/implementation of your domain concepts is one dimension
+# The semantics of your domain concepts and their relationship to one another is a second dimension
+
+In general, inheriting within one of these dimensions is fine.
+The problem becomes when we forget to separate the two dimensions,
+and start inheriting across inter-dimensional boundaries.
+
+If you find that you are using a component to provide the vast majority of your functionality,
+creating forwarding methods on your class to call the component's methods, exposing the component's fields, etc.,
+consider whether inheritance - for some or all of the desired behavior - might be more appropriate.
+
+There is no substitute for object modeling and critical design thinking.
+But if you must have some guidelines, consider these -
+
+Inheritance should only be used when:
+
+# Both classes are in the same logical domain
+# The subclass is a proper subtype of the superclass
+# The superclass's implementation is necessary or appropriate for the subclass
+# The enhancements made by the subclass are primarily additive.
+
+There are times when all of these things converge:
+
+# Higher-level domain modeling
+# Frameworks and framework extensions
+# Differential programming
+
+If you're not doing any of these things, you probably won't need class inheritance very often.
+The "preference" for composition is not a matter of "better",
+it's a question of "most appropriate" for your needs, in a specific context.
