@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-06-21">
+    <action type="bookmark">Ember.js documentation</action>
+    <references>
+      <reference src="http://guides.emberjs.com/" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-21">
+    <action type="reading">Q&amp;A How to deal with a legacy infrastructure</action>
+    <references>
+      <reference src="http://searchsoa.techtarget.com/feature/QA-How-to-deal-with-a-legacy-infrastructure" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-21">
+    <action type="reading">
+      Just finished to read "Kanban and Scrum - making the most of both", really enjoyed it.
+      If you are searching for a pratically and a smoothly introduction to Kanban,
+      this is the book to start with.
+    </action>
+    <references>
+      <reference src="http://www.infoq.com/minibooks/kanban-scrum-minibook" type="source" />
+    </references>
+  </event>
   <event date="2015-06-20">
     <action type="reading">Composition vs. Inheritance: How to Choose?</action>
     <references>
