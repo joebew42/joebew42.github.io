@@ -30,6 +30,13 @@
       <reference src="notes/20150620_composition_vs_inheritance_how_to_choose.txt" type="note" />
     </references>
   </event>
+  <event date="2015-06-19">
+    <action type="practice">Mob Programming Kata @ HLCS</action>
+    <references>
+      <reference src="http://codetojoy.blogspot.it/2013/02/a-simple-code-kata.html" type="source" />
+      <reference src="http://hlcs.it/2015/06/18/venerdi-19-giugno-ancora-serata-kata-in-hpcc/" type="source" />
+    </references>
+  </event>
   <event date="2015-06-17">
     <action type="bookmark">Q&amp;A How to deal with a legacy infrastructure</action>
     <references>
