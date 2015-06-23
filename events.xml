@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-06-23">
+    <action type="reading">
+      Working Effectively with Legacy Code: Using Effect Sketches to Find Hidden Classes
+    </action>
+    <references>
+      <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
+    </references>
+  </event>
   <event date="2015-06-21">
     <action type="bookmark">Ember.js documentation</action>
     <references>
