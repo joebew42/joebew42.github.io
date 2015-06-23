@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-06-23">
+    <action type="bookmark">Refactoring with Loops and Collection Pipelines</action>
+    <references>
+      <reference src="http://martinfowler.com/articles/refactoring-pipelines.html" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-23">
+    <action type="project">
+      Preparing the daily-activity-log-concept github repository and a ready-to-go project to help users to start with.
+    </action>
+    <references>
+      <reference src="https://github.com/joebew42/daily-activity-log-concept" type="concept" />
+      <reference src="https://github.com/joebew42/daily-activity-log" type="ready-to-go project" />
+    </references>
+  </event>
+  <event date="2015-06-23">
     <action type="studying">
       Chapter 12 of "Working Effectively with Legacy Code":
       - Using Effect Sketches to Find Hidden Classes
