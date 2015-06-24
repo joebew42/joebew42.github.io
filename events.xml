@@ -2,6 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-06-23">
+    <action type="studying">Testing Puppet with rspec-puppet and manage module dependecies with librarian-puppet</action>
+    <references>
+      <reference src="http://rspec-puppet.com/" type="rspec-puppet" />
+      <reference src="http://librarian-puppet.com/" type="librarian-puppet" />
+    </references>
+  </event>
+  <event date="2015-06-23">
     <action type="bookmark">Refactoring with Loops and Collection Pipelines</action>
     <references>
       <reference src="http://martinfowler.com/articles/refactoring-pipelines.html" type="source" />
