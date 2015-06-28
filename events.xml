@@ -2,6 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-06-28">
+    <action type="studying">Chapter 5 of "Programming Erlang" - Records and Maps</action>
+    <references>
+      <reference src="https://pragprog.com/book/jaerlang2/programming-erlang" type="source" />
+      <reference src="https://github.com/joebew42/programming-erlang/blob/master/exercises/chap5/records_maps.erl" type="exercise" />
+    </references>
+  </event>
+  <event date="2015-06-28">
     <action type="studying">Refactoring with Loops and Collection Pipelines</action>
     <references>
       <reference src="http://martinfowler.com/articles/refactoring-pipelines.html" type="source" />
