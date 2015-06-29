@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-06-29">
+    <action type="bookmark">Anti-fragile and feedback. Trying to make up for the failures of "agile."</action>
+    <references>
+      <reference src="https://vimeo.com/131410262" type="video" />
+    </references>
+  </event>
+  <event date="2015-06-29">
     <action type="bookmark">Phoenix Framework</action>
     <references>
       <reference src="http://www.phoenixframework.org/" type="source" />
