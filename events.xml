@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-06-29">
+    <action type="bookmark">Phoenix Framework</action>
+    <references>
+      <reference src="http://www.phoenixframework.org/" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-29">
     <action type="studying">
       Chapter 13 of "Working Effectively with Legacy Code":
       - I Need to Make a Change, but I Don’t Know What Tests to Write - Characterization Tests
