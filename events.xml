@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-06-30">
+    <action type="bookmark">Practical Refactoring</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=aWiwDdx_rdo" type="video" />
+    </references>
+  </event>
+  <event date="2015-06-30">
     <action type="watching">Martin Fowler @ OOP2014 "Workflows of Refactoring"</action>
     <references>
       <reference src="https://www.youtube.com/watch?v=vqEg37e4Mkw" type="source" />
