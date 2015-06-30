@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-06-30">
+    <action type="watching">Martin Fowler @ OOP2014 "Workflows of Refactoring"</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=vqEg37e4Mkw" type="source" />
+    </references>
+  </event>
+  <event date="2015-06-30">
     <action type="studying">Chapter 14: Dependencies on Libraries Are Killing Me - Chapter 15: My Application Is All API Calls</action>
     <references>
       <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
