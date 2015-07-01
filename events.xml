@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-06-30">
-    <action type="bookmark">Practical Refactoring</action>
+    <action type="watching">Practical Refactoring</action>
     <references>
       <reference src="https://www.youtube.com/watch?v=aWiwDdx_rdo" type="video" />
     </references>
