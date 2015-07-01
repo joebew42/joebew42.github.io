@@ -1,0 +1,9 @@
+Chapter 16 of Working Effectively with Legacy Code
+
+-- I Don’t Understand the Code Well Enough to Change It --
+
+- Take notes or sketching
+- Listing markup
+- Separating Responsibilities
+- Scratch Refactoring
+- Delete unused code
