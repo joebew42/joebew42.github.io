@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-07">
+    <action type="studying">Chapter 18: My Test Code Is in the Way</action>
+    <references>
+      <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
+    </references>
+  </event>
   <event date="2015-07-03">
     <action type="studying">Chapter 17: My Application Has No Structure - Telling the Story of the System</action>
     <references>
       <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
+    </references>
+  </event>
+  <event date="2015-07-02">
+    <action type="bookmark">Object-Oriented Reengineering Patterns</action>
+    <references>
+      <reference src="http://www.amazon.com/Object-Oriented-Reengineering-Patterns-Oscar-Nierstrasz/dp/395233412X" type="source" />
     </references>
   </event>
   <event date="2015-07-02">
