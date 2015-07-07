@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-07-07">
+    <action type="exploring">Doing some practice with Phoenix Framework</action>
+    <references>
+      <reference src="http://www.phoenixframework.org/" type="source" />
+    </references>
+  </event>
+  <event date="2015-07-07">
     <action type="studying">Chapter 18: My Test Code Is in the Way</action>
     <references>
       <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
