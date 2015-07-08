@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-08">
+    <action type="studying">Chapter 19: My Project Is Not Object Oriented. How Do I Make Safe Changes?</action>
+    <references>
+      <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
+    </references>
+  </event>
+  <event date="2015-07-08">
+    <action type="bookmark">Implementing the logic for a board game in Elixir - Torben Hoffmann</action>
+    <references>
+      <reference src="https://vimeo.com/131757761" type="source" />
+    </references>
+  </event>
   <event date="2015-07-07">
     <action type="exploring">Doing some practice with Phoenix Framework</action>
     <references>
