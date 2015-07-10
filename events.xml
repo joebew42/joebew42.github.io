@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-10">
+    <action type="bookmark">Sandro Mancuso : Crafted Design</action>
+    <references>
+      <reference src="https://vimeo.com/107963074" type="source" />
+    </references>
+  </event>
+  <event date="2015-07-10">
+    <action type="studying">Chapter 20: This Class Is Too Big and I Don’t Want It to Get Any Bigger</action>
+    <references>
+      <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
+      <reference src="notes/20150710Chapter20_wewlc.txt" type="note" />
+    </references>
+  </event>
   <event date="2015-07-08">
     <action type="studying">Chapter 19: My Project Is Not Object Oriented. How Do I Make Safe Changes?</action>
     <references>

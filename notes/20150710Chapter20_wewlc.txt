@@ -1,0 +1,23 @@
+# Seeing Responsabilities and extract them
+
+## Ask to ourself some question:
+
+ - Why is this method here?
+ - What is it doing for the class?
+
+## Some heuristics
+
+We are going to discover what is already there. Regardless of what
+structure legacy code has, its piece do **identiable things**
+
+### 1. Group Methods
+
+Look for similar method names. Write down all of the methods on a class,
+along with their access types (public, private, and so on), and try to find
+ones that seem to go together.
+
+Method grouping is a great team exercise also. Put up poster boards in your team
+room with lists of the method names for each of your major classes. Team members
+can mark up the posters over time, showing different groupings of methods.
+The whole team can hash out which groupings are better and decide on directions
+for the code to go in.
