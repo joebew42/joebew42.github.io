@@ -30,9 +30,9 @@ e.g. models/products/toy, models/products/cellphone, etc ...
 # Where do I have to look to know what our software actually does ?
 
 We can better express what our software does by making explicit the actions which we can
-perform on our system, with verbs (e.g. actions/makeOrder, actions/createUser, actions/makeOrder, etc ...)
+perform on our system, with verbs (e.g. actions/makeOrder, actions/createUser, actions/updateOrder, etc ...)
 
-# What about technical concerns like third parties library integration ?
+# What about technical concerns like third party libraries integration ?
 
 This is a kind of topic that has no valuable information regarding business, so, we are likely to
 push them all in a dedicated bucket that we can call "infrastructure", some example:
