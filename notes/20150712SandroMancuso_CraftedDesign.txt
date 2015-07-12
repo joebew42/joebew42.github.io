@@ -1,0 +1,40 @@
+# Some clarification about a clean architecture design
+
+## An example of an outside-in interaction workflow
+
+Controller -> Action -> Domain Service -> Entity -> Repository
+
+### What we can observe ?
+
+What does our system           ------------->  How does our system
+
+Higher number of collaborators ------------->  Few or no collaborators
+
+Behaviour is determined by
+  the interaction with         ------------->  No interaction
+    collaborators
+
+  We should use Mocks          ------------->  No mocks
+
+In general, the more outside we are the more the high-level behaviour is expressed through
+clear actions (e.g. CreateNewUser, MakeNewOrder, MakePayment, etc ...). On the other
+hand, the more inside we are the more low-level behaviour is expresses through concrete
+classes implementation (e.g. MongoDBUserRepository, ElastiSearchProductsSearchIndex, etc ...)
+
+# What our software is about ?
+
+Our software is about entities that interact one each other, we can express them by nouns,
+e.g. models/product, models/book, models/order, etc ... Or more specific, if needed,
+e.g. models/products/toy, models/products/cellphone, etc ...
+
+# Where do I have to look to know what our software effectively does ?
+
+We can better express what our software does by making explicit the actions which we can
+perform on our system, with verbs (e.g. actions/makeOrder, actions/createUser, actions/makeOrder, etc ...)
+
+# What about technical concerns like third parties library integration ?
+
+This is a kind of topic that has no valuable information regarding business, so, we are likely to
+push them all in a dedicated bucket that we can call "infrastructure", some example:
+
+infrastructure/repository/mysqlUserRepository, infrastructure/payments/payPalPaymentGateway
