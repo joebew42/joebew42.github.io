@@ -12,12 +12,61 @@ structure legacy code has, its piece do **identiable things**
 
 ### 1. Group Methods
 
-Look for similar method names. Write down all of the methods on a class,
-along with their access types (public, private, and so on), and try to find
-ones that seem to go together.
+Look for similar method names. Write down all of the methods on a
+class, along with their access types (public, private, and so on), and
+try to find ones that seem to go together.
 
-Method grouping is a great team exercise also. Put up poster boards in your team
-room with lists of the method names for each of your major classes. Team members
-can mark up the posters over time, showing different groupings of methods.
-The whole team can hash out which groupings are better and decide on directions
-for the code to go in.
+Method grouping is a great team exercise also. Put up poster boards in
+your team room with lists of the method names for each of your major
+classes. Team members can mark up the posters over time, showing
+different groupings of methods. The whole team can hash out which
+groupings are better and decide on directions for the code to go in.
+
+### 2. Look at Hidden Methods
+
+Pay attention to private and protected methods. If a class has many of
+them, it often indicates that there is another class in the class
+dying to get out.
+
+### 3. Look for Decisions That Can Change
+
+Look for decisions—not decisions that you are making in the code, but
+decisions that you’ve already made. Is there some way of doing
+something (talking to a database, talking to another set of objects,
+and so on) that seems hard-coded? Can you imagine it changing?
+
+### 4. Look for Internal Relationships
+
+Look for relationships between instance variables and methods.
+Are certain instance variables used by some methods and not others?
+
+Try to draw circles for each variable and method. Draw edge from a
+method to a variable if the method uses it. Try to find out clusters
+in this graph and extract them.
+
+### 5. Look for the Primary Responsibility
+
+Try to describe the responsibility of the class in a single sentence.
+
+- SRP: Single Responsability Principle
+  (look for violation: Interface and Implementation)
+
+- ISP: Interface Segregation Principle
+  (what group of functionalities a client must see?)
+
+  When a class is large, rarely do all of its clients use all of its
+  methods. Often we can see different groupings of methods that
+  particular clients use. If we create an interface for each of these
+  groupings and have the large class implement those interfaces, each
+  client can see the big class through that particular interface. This
+  helps us hide information and also decreases dependency in the
+  system. The clients no longer have to recompile whenever the large
+  class does.
+
+### 6. When All Else Fails, Do Some Scratch Refactoring
+
+If you are having a lot of trouble seeing responsibilities in a class,
+do some scratch refactoring. Scratch refactoring is a powerful tool.
+Just remember that it is an artificial exercise. The things you see
+when you "scratch" are not necessarily the things you'll end up with
+when you refactor.
