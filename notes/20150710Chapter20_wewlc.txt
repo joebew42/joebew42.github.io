@@ -8,7 +8,7 @@
 ## Some heuristics
 
 We are going to discover what is already there. Regardless of what
-structure legacy code has, its piece do **identiable things**
+structure legacy code has, its piece do **identifiable things**
 
 ### 1. Group Methods
 
