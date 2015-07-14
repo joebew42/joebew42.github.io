@@ -24,7 +24,8 @@
   <event date="2015-07-12">
     <action type="watching">Sandro Mancuso : Crafted Design</action>
     <references>
-      <reference src="https://vimeo.com/107963074" type="source" />
+      <reference src="https://vimeo.com/107963074" type="leanagilescotland" />
+      <reference src="https://vimeo.com/128596005" type="jax2014london" />
       <reference src="notes/20150712SandroMancuso_CraftedDesign.txt" type="note" />
     </references>
   </event>
