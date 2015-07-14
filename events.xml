@@ -2,6 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-07-14">
+    <action type="studying">Chapter 20: This Class Is Too Big and I Don’t Want It to Get Any Bigger</action>
+    <references>
+      <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
+      <reference src="notes/20150710Chapter20_wewlc.txt" type="note" />
+    </references>
+  </event>
+  <event date="2015-07-14">
     <action type="studying">Playing around the Phoenix Framework with a simple project</action>
     <references>
       <reference src="https://github.com/joebew42/cromer" type="source" />

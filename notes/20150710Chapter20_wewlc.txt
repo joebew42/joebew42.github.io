@@ -70,3 +70,48 @@ do some scratch refactoring. Scratch refactoring is a powerful tool.
 Just remember that it is an artificial exercise. The things you see
 when you "scratch" are not necessarily the things you'll end up with
 when you refactor.
+
+### 7. Focus on the Current Work
+
+Pay attention to what you have to do right now. If you are providing a
+different way of doing anything, you might have identified a
+responsibility that you should extract and then allow substitution
+for.
+
+Don't be overwhelmed about the number of responsabilites you can
+identify in a class, stay focused on what you are changing right now.
+Recognize code and extract it.
+
+### Moving Forward
+
+Once you recognize a bunch of responsabilities in a class, you have to
+deal with two issues:
+
+  - Strategy
+  - Tactics
+
+#### What about the strategy?
+
+The best approach to breaking down big classes is to identify the
+responsibilities, make sure that everyone else on the team understands
+them, and then break down the class on an as-needed basis. When you do
+that, you spread out the risk of the changes and can get other work
+done as you go.
+
+#### What about the tactics?
+
+If you are able to get tests in place, you can start to extract a
+class in a very straightforward way, using the Extract Class
+refactoring. However, if you aren't able to get tests in place, you
+can still move forward, albeit in a slightly riskier way. This is a
+very conservative approach, and it works regardless of whether you
+have a refactoring tool. Some steps:
+
+  1. Identifies variables or methods that should be moved
+
+      - You should extract new methods during this phase,
+        proceed by extracting them and add a prefix, example:
+        MOVING_[method_name]
+
+  2. Grouping methods and variables
+  3. Extract to a new class
