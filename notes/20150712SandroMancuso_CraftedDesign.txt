@@ -2,7 +2,8 @@
 
 ## An example of an outside-in interaction workflow
 
-Controller -> Action -> Domain Service -> Entity -> Repository
+Controller -> Action -> Domain Service -> Repository
+                                       -> Entity
 
 ### What we can observe ?
 
