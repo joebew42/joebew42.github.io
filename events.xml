@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-07-15">
+    <action type="studying">Chapter 21: I’m Changing the Same Code All Over the Place</action>
+    <references>
+      <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
+    </references>
+  </event>
+  <event date="2015-07-15">
     <action type="bookmark">The Most Common Reasons Why Software Projects Fail</action>
     <references>
       <reference src="http://www.infoq.com/articles/software-failure-reasons" type="source" />
