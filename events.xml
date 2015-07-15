@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-15">
+    <action type="bookmark">The Most Common Reasons Why Software Projects Fail</action>
+    <references>
+      <reference src="http://www.infoq.com/articles/software-failure-reasons" type="source" />
+    </references>
+  </event>
   <event date="2015-07-14">
     <action type="studying">Chapter 20: This Class Is Too Big and I Don’t Want It to Get Any Bigger</action>
     <references>
