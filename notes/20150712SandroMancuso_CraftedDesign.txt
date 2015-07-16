@@ -1,5 +1,37 @@
 # Some clarification about a clean architecture design
 
+## What about the structure of the application?
+
+We generally observe two main concepts that emerges from an application:
+
+- The business model
+- The delivery mechanism
+
+### The business model
+
+The first concept tell us about the business model of our application, what is
+the behaviour of our application. Which are the actions that we can invoke on it,
+and which are the entities, and how them collaborates each other.
+
+### The delivery mechanism
+
+The second concept tell us how we expose the application to the outside world, and
+how we control the workflow. We can have more than one delivery mechanisms for each
+business model.
+
+## What about the Exagonal Architecture or Ports and Adapters pattern?
+
+Yes, basically its the same concept described in a easy way ;)
+
+## How our application can be structured in real life examples ?
+
+src/
+   /core          <---- The business model
+      /models     <---- What our software is about
+      /actions    <---- What our software actually does
+   /web           <---- An HTTP delivery mechanism based on a REST API
+   /cl            <---- A command line delivery mechanism
+
 ## An example of an outside-in interaction workflow
 
 Controller -> Action -> Domain Service -> Repository
