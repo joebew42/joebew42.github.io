@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-07-16">
+    <action type="project">Just created the "Simple Board" project in Phoenix Framework</action>
+    <references>
+      <reference src="https://github.com/joebew42/simple_board" type="source" />
+    </references>
+  </event>
+  <event date="2015-07-16">
     <action type="studying">Chapter 21: I’m Changing the Same Code All Over the Place</action>
     <references>
       <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
