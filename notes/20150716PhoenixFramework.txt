@@ -1,0 +1,12 @@
+I decided to stop my studies/practices on Phoenix Framework due few
+reasons:
+
+- Primary reason: I have not a good knowledge on Elixir Language, I
+  prefer to keep focus on studying Erlang first.
+
+- Secondary reason: The Phoenix Framework itself is not yet mature as
+  other frameworks are, there is still work that have to be done in
+  order to make this framework usable for production use. At the
+  moment there are not so much information all around the Internet
+  about usages and real life examples of this framework. Community
+  around this project must grow.

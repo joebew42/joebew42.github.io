@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-18">
+    <action type="studying">Chapter 6 and 7 of "Programming Erlang" - Error Handling in Sequential Programs - Binaries and the Bit Syntax</action>
+    <references>
+      <reference src="https://pragprog.com/book/jaerlang2/programming-erlang" type="source" />
+    </references>
+  </event>
   <event date="2015-07-16">
     <action type="project">Just created the "Simple Board" project in Phoenix Framework</action>
     <references>
       <reference src="https://github.com/joebew42/simple_board" type="source" />
+      <reference src="notes/20150716PhoenixFramework.txt" type="note" />
     </references>
   </event>
   <event date="2015-07-16">
