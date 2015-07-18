@@ -9,7 +9,7 @@ body {
     font-size: 18pt;
     text-align: center;
     color: white;
-    background: cadetblue;
+    background: seagreen;
     box-shadow: 0 0 4px grey;
 }
 
@@ -54,8 +54,9 @@ ul {
     margin-left: 5px;
     color: #fff;
     font-size: 10pt;
-    padding: 2px 6px;
-    background: cadetblue;
+    font-weight: bold;
+    padding: 5px;
+    background: lightcoral;
     border-radius: 6px;
     float: right;
 }
