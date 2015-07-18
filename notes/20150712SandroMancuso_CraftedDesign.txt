@@ -16,10 +16,9 @@ and which are the entities, and how them collaborates each other.
 ### The delivery mechanism
 
 The second concept tell us how we expose the application to the outside world, and
-how we control the workflow. We can have more than one delivery mechanisms for each
-business model.
+how we control the workflow. A business model can have more than one delivery mechanism.
 
-## What about the Exagonal Architecture or Ports and Adapters pattern?
+## What about the Hexagonal Architecture or Ports and Adapters pattern?
 
 Yes, basically its the same concept described in a easy way ;)
 
