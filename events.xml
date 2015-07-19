@@ -171,7 +171,8 @@
     <action type="studying">Chapter 5 of "Programming Erlang" - Records and Maps</action>
     <references>
       <reference src="https://pragprog.com/book/jaerlang2/programming-erlang" type="source" />
-      <reference src="https://github.com/joebew42/programming-erlang/blob/master/exercises/chap5/records_maps.erl" type="exercise" />
+      <reference src="https://github.com/joebew42/programming-erlang/blob/master/exercises/chap5/records_maps.erl" type="ex. 2" />
+      <reference src="https://github.com/joebew42/programming-erlang/blob/master/exercises/chap5/mymaps.erl" type="ex. 3" />
     </references>
   </event>
   <event date="2015-06-28">
