@@ -8,7 +8,7 @@
     </references>
   </event>
   <event date="2015-07-18">
-    <action type="studying">Chapter 6 and 7 of "Programming Erlang" - Error Handling in Sequential Programs - Binaries and the Bit Syntax</action>
+    <action type="studying">Chapter 6 of "Programming Erlang" - Error Handling in Sequential Programs</action>
     <references>
       <reference src="https://pragprog.com/book/jaerlang2/programming-erlang" type="source" />
     </references>
