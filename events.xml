@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-07-19">
+    <action type="bookmark">Professor Frisby's Mostly Adeguate Guide to Functional Programming</action>
+    <references>
+      <reference src="http://drboolean.gitbooks.io/mostly-adequate-guide/" type="source" />
+    </references>
+  </event>
+  <event date="2015-07-19">
     <action type="watching">Eric Evans JAX 2015 Keynote: DDD and Microservices: At last, some boundaries!</action>
     <references>
       <reference src="https://vimeo.com/125769142" type="source" />
