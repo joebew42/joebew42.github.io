@@ -1,15 +1,20 @@
 body {
     margin: 0;
-    font: 12pt 'Fauna One', sans;
+    font: 11pt 'Open Sans', sans-serif;
+    background-image: url(https://abs.twimg.com/images/themes/theme10/bg.gif);
+    background-position: left 46px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-color: #642D8B;
 }
 
 .header {
-    padding: 10px;
-    font-weight: bold;
+    padding: 8px;
     font-size: 18pt;
+    font-weight: bold;
     text-align: center;
-    color: white;
-    background: seagreen;
+    color: #642D8B;
+    background: white;
     box-shadow: 0 0 4px grey;
 }
 
@@ -27,11 +32,17 @@ body {
     margin-top: 70px;
 }
 
+.with-bottom-margin {
+    margin-bottom: 20px;
+}
+
 ul {
-    padding: 0;
+    background: white;
+    padding: 10px;
     list-style-type: none;
     width: 640px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 .event {
@@ -41,12 +52,12 @@ ul {
 }
 
 .event small {
-    color: #444;
+    color: #464646;
     font-size: 10pt;
 }
 
 .event-title {
-    color: #020202;
+    color: #232323;
     font-size: 11pt;
 }
 
@@ -54,7 +65,6 @@ ul {
     margin-left: 5px;
     color: #fff;
     font-size: 10pt;
-    font-weight: bold;
     padding: 5px;
     background: lightcoral;
     border-radius: 6px;

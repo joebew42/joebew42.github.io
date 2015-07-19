@@ -5,7 +5,7 @@
     <html>
       <head>
         <title>Joebew's Activity Log</title>
-        <link href="http://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet" type="text/css" />
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="events.css" />
       </head>
       <body>
@@ -17,7 +17,7 @@
   </xsl:template>
 
   <xsl:template match="events">
-    <ul class="with-top-margin">
+    <ul class="with-top-margin with-bottom-margin">
       <xsl:apply-templates select="event"/>
     </ul>
   </xsl:template>
