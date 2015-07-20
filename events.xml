@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-20">
+    <action type="reading">The Most Common Reasons Why Software Projects Fail</action>
+    <references>
+      <reference src="http://www.infoq.com/articles/software-failure-reasons" type="source" />
+    </references>
+  </event>
   <event date="2015-07-19">
     <action type="bookmark">Professor Frisby's Mostly Adeguate Guide to Functional Programming</action>
     <references>
