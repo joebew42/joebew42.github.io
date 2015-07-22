@@ -1,0 +1,65 @@
+# On recruiting a passionate developer in the 21st century
+
+- What are the courses that he/she enjoyed the most during
+  the school/university ?
+
+    - Why ?
+    - Would he/she like to study in deep these topics in order to
+      improve knowledge ?
+    - Are there some courses that he/she would like to repeat ?
+        - Why ?
+
+- Does he/she writes code for fun and learn or is just a job like
+  another ?
+
+- Does he/she collaborates on opensource projects ?
+
+    - How he/she started one ?
+    - Why he/she decided to start ?
+    - What he/she was/is looking for ?
+    - Which are the main topics of interest and why ?
+    - Which is the favourite opensource project and why ?
+
+- Does he/she would like to collaborates on opensource projects ?
+
+    - Why did he/she not started yet ? No fear :)
+
+- What kind of topic he/she would like to practice on,
+  in the near future ?
+
+    - Why ?
+    - If he/she had the chance to start practice now, how he/she
+      thinks to apply this practices ?
+
+        - A Pet project ?
+        - A spike ?
+        - A blog ?
+        - An existing project ?
+
+- Does he/she join communities ?
+
+    - Did he/she has partecipated in conferences ?
+        - Which one ?
+        - Why ?
+        - What conference did he/she like most ? Why ?
+    - Does he/she partecipates to local meetups ?
+        - Which ones ? Why ?
+
+- Would he/she like to join local meetups or conferences ?
+
+- What are the latest book/blog/article on software development that
+  he/she read ?
+
+    - Why ?
+    - Any feedback about it ?
+
+- Oh, serious now! What the fuck is he/she looking for ?
+
+    - What he/she is supposed to find here ?
+    - How does he/she thinks to improve our team ?
+    - Is he/she is leaving a crew ?
+        - Why ?
+        - What did he/she learned from the past ?
+        - What he/she think to learn from us ?
+
+- Ok, let's write down some code with me !
