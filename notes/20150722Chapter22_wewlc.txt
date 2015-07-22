@@ -1,0 +1,23 @@
+# How to deal with Monster Methods
+
+## What is a Monter Method
+
+If you ever seen a thousands lines of code long method, complex and
+not very readable o clear, of course, that was a Monster Method.
+
+## Variety of Monsters
+
+- *Bulleted Methods*
+
+  A bulleted method is a method with nearly no indentation. It is just
+  a sequence of code chunks that reminds you of a bulleted list. Some
+  of the code in the chunks might be indented, but the method itself
+  isn't dominated by indentation.
+
+  What to do:
+
+  Just try to extract sections as method. That is not always an easy
+  way, because sometime a temporary variable used in a section is also
+  used in another section.
+
+- *Snarled Methods*

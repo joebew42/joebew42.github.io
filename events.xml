@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-22">
+    <action type="studying">Chapter 22: I Need to Change a Monster Method and I Can't Write Tests for It</action>
+    <references>
+      <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
+      <reference src="notes/20150722Chapter22_wewlc.txt" type="note" />
+    </references>
+  </event>
+  <event date="2015-07-21">
+    <action type="reading">Chapters 1-4 of Mostly Adeguate Guide to Functional Programming</action>
+    <references>
+      <reference src="http://drboolean.gitbooks.io/mostly-adequate-guide/" type="source" />
+    </references>
+  </event>
   <event date="2015-07-20">
     <action type="reading">The Most Common Reasons Why Software Projects Fail</action>
     <references>
