@@ -21,3 +21,20 @@ not very readable o clear, of course, that was a Monster Method.
   used in another section.
 
 - *Snarled Methods*
+
+  A snarled method is a method dominated by a single large, indented
+  section. The simplest case is a method that has one large
+  conditional statement
+
+- *Tackling Monsters with Automated Refactoring Support*
+
+  When doing automated refactoring without tests, use the tool
+  exclusively. After a series of automated refactorings, you can often
+  get tests in place that you can use to verify any manual edits that
+  you make.
+
+  - Key goals to keep in mind during extractions:
+
+    1. To separate logic from awkward dependencies
+    2. To introduce seams that make it easier to get tests in place
+       for more refactoring
