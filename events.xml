@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-25">
+    <action type="reading">Strangler Application</action>
+    <references>
+      <reference src="http://www.martinfowler.com/bliki/StranglerApplication.html" type="source" />
+    </references>
+  </event>
   <event date="2015-07-23">
     <action type="studying">Chapter 22: I Need to Change a Monster Method and I Can't Write Tests for It</action>
     <references>
