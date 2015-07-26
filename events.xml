@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-26">
+    <action type="reading">Chapter 5 of Mostly Adeguate Guide to Functional Programming</action>
+    <references>
+      <reference src="http://drboolean.gitbooks.io/mostly-adequate-guide/" type="source" />
+    </references>
+  </event>
   <event date="2015-07-25">
     <action type="reading">Strangler Application</action>
     <references>
