@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-27">
+    <action type="reading">Effective API testing with Cucumber</action>
+    <references>
+      <reference src="http://gregbee.ch/blog/effective-api-testing-with-cucumber" type="source" />
+    </references>
+  </event>
   <event date="2015-07-26">
     <action type="reading">Chapter 5 of Mostly Adeguate Guide to Functional Programming</action>
     <references>
