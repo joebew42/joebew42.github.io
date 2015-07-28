@@ -38,3 +38,11 @@ not very readable o clear, of course, that was a Monster Method.
     1. To separate logic from awkward dependencies
     2. To introduce seams that make it easier to get tests in place
        for more refactoring
+
+- *Introduce Sensing Variable*
+
+  Sometimes it helps to add a variable to a class and use it to sense
+  conditions in the method that we want to refactor. When we've done
+  the refactoring that we need to do, we can get rid of that variable.
+
+  It's like introduce a spy mechanism directly into application code.
