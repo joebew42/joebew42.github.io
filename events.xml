@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-29">
+    <action type="bookmark">Git 2.5, including multiple worktrees and triangular workflows</action>
+    <references>
+      <reference src="https://github.com/blog/2042-git-2-5-including-multiple-worktrees-and-triangular-workflows" type="source" />
+    </references>
+  </event>
   <event date="2015-07-28">
     <action type="studying">Chapter 22: I Need to Change a Monster Method and I Can't Write Tests for It</action>
     <references>
