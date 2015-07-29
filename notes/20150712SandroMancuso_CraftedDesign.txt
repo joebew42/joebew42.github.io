@@ -1,5 +1,19 @@
 # Some clarification about a clean architecture design
 
+## Main questions
+
+- What our software actually does ?
+
+    through explicit verbs, Action(s)
+
+- What our software is about ?
+
+    through nouns, Model(s)
+
+- How do we expose the features of our system ?
+
+    through a Delivery Mechanism(s)
+
 ## What about the structure of the application?
 
 We generally observe two main concepts that emerges from an application:
@@ -10,8 +24,10 @@ We generally observe two main concepts that emerges from an application:
 ### The business model
 
 The first concept tell us about the business model of our application, what is
-the behaviour of our application. Which are the actions that we can invoke on it,
-and which are the entities, and how them collaborates each other.
+the behaviour of our application? Which are the actions that we can invoke on it?
+And which are the entities? And how them collaborates each other?
+
+- Action(s) and Model(s) goes here.
 
 ### The delivery mechanism
 
@@ -35,6 +51,20 @@ src/
 
 Controller -> Action -> Domain Service -> Repository
                                        -> Entity
+
+### What are Action, Service and Entity about ?
+
+- Action
+
+  Defines the action our domain model will be asked to perform
+
+- Domain Service
+
+  Behaviour related to a group of entitiies
+
+- Entity
+
+  Behaviour related to the data of a single entity
 
 ### What we can observe ?
 
