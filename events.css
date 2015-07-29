@@ -1,11 +1,10 @@
 body {
     margin: 0;
     font: 11pt 'Open Sans', sans-serif;
-    background-image: url(https://abs.twimg.com/images/themes/theme10/bg.gif);
     background-position: left 46px;
     background-attachment: fixed;
     background-repeat: repeat;
-    background-color: #642D8B;
+    background-color: #F5F8FA;
 }
 
 .header {
@@ -13,7 +12,7 @@ body {
     font-size: 18pt;
     font-weight: bold;
     text-align: center;
-    color: #642D8B;
+    color: #0084B4;
     background: white;
     box-shadow: 0 0 4px grey;
 }
@@ -43,6 +42,7 @@ ul {
     width: 640px;
     margin: 0 auto;
     border-radius: 10px;
+    border: 1px solid #E1E8ED;
 }
 
 .event {
@@ -66,7 +66,7 @@ ul {
     color: #fff;
     font-size: 10pt;
     padding: 5px;
-    background: lightcoral;
+    background: #0084B4;
     border-radius: 6px;
     float: right;
 }
