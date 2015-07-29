@@ -1,9 +1,10 @@
 # How to deal with Monster Methods
 
-## What is a Monter Method
+## What is a Monster Method
 
 If you ever seen a thousands lines of code long method, complex and
-not very readable o clear, of course, that was a Monster Method.
+not very readable or clear, of course, that was a Monster Method. In
+this situation is also difficult or impossible write tests for it.
 
 ## Variety of Monsters
 
