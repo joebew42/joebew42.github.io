@@ -3,8 +3,9 @@ body {
     font: 11pt 'Open Sans', sans-serif;
     background-position: left 46px;
     background-attachment: fixed;
-    background-repeat: repeat;
-    background-color: #F5F8FA;
+    background-repeat: no-repeat;
+    background-color: #C0DEED;
+    background-image: url(https://abs.twimg.com/images/themes/theme1/bg.png);
 }
 
 .header {
