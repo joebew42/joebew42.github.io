@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-07-31">
+    <action type="watching">Microservices @ ThoughtWorks</action>
+    <references>
+      <reference src="https://thoughtworks.wistia.com/medias/8bql2cy7hz" type="source" />
+    </references>
+  </event>
   <event date="2015-07-30">
     <action type="project">Using spacegray-theme and enabling auto-complete in my emacs configuration</action>
     <references>
