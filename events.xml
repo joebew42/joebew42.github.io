@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-08-01">
+    <action type="project">Enabling a basic multiple-cursors in my emacs configuration</action>
+    <references>
+      <reference src="https://github.com/joebew42/bewmacs" type="bewmacs" />
+      <reference src="https://github.com/magnars/multiple-cursors.el" type="multiple-cursors" />
+      <reference src="http://emacsrocks.com/e13.html" type="video" />
+    </references>
+  </event>
   <event date="2015-07-31">
     <action type="watching">Microservices @ ThoughtWorks</action>
     <references>
