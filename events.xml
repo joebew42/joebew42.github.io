@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-08-02">
+    <action type="reading">An introduction to unikernels and how to deploy an Erlang application to EC2 as a LING unikernel</action>
+    <references>
+      <reference src="http://slides.com/technolo-g/intro-to-unikernels-and-erlang-on-xen-ling-demo/" type="source" />
+    </references>
+  </event>
   <event date="2015-08-01">
     <action type="project">Enabling a basic multiple-cursors in my emacs configuration</action>
     <references>
