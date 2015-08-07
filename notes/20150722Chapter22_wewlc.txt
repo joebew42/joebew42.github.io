@@ -47,3 +47,34 @@ this situation is also difficult or impossible write tests for it.
   the refactoring that we need to do, we can get rid of that variable.
 
   It's like introduce a spy mechanism directly into application code.
+
+- *Extract what you know*
+
+  Another strategy that we can use when we are working with monster
+  methods is to start small and find little pieces of code that we can
+  extract confidently without tests, and then add tests to cover them.
+  Okay, I need to say this in a different way because everyone's idea
+  of "little" is different. When I say "little" I mean two or three
+  lines, five, at most, a chunk of code that you can easily name.
+  The key thing to pay attention to when you do these little
+  extractions is the coupling count of the extraction.
+  The coupling count is the number of values that pass into and out of
+  the method you are extracting
+
+- *Gleaning dependencies*
+
+  Sometimes there is code in a monster method that is kind of
+  secondary to the method's main purpose.
+
+  What to do ?
+
+  You write tests for the logic that you need to preserve. Afterward,
+  you extract things that the tests do not cover. When you do this,
+  you can at least have confidence that you are preserving the
+  important behavior.
+
+  Gleaning Dependencies is particularly powerful when critical
+  behavior is tangled with other behavior. When you have solid tests
+  for the critical behavior, you can do a lot of editing that
+  technically isn’t all covered by tests, but it helps you to preserve
+  key behavior.
