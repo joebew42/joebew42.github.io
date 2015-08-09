@@ -1,65 +1,70 @@
 # On recruiting a passionate developer in the 21st century
 
-- What are the courses that he/she enjoyed the most during
-  the school/university ?
+- What are the courses that you enjoyed the most during
+  the school/university/other ?
 
     - Why ?
-    - Would he/she like to study in deep these topics in order to
+    - Would you like to study in deep these topics in order to
       improve knowledge ?
-    - Are there some courses that he/she would like to repeat ?
+    - Are there some courses that you would like to repeat ?
         - Why ?
 
-- Does he/she writes code for fun and learn or is just a job like
-  another ?
+- Do you like to write code and learn new things during your
+  spare time ?
 
-- Does he/she collaborates on opensource projects ?
+    - What is the last article/blog/book that you've read ?
+      - Any feedback ?
+      - Do you follow any website ? blog ? podcast ? whatever ?
 
-    - How he/she started one ?
-    - Why he/she decided to start ?
-    - What he/she was/is looking for ?
-    - Which are the main topics of interest and why ?
-    - Which is the favourite opensource project and why ?
+    - What kind of technologies/programming languages are you
+      studying right now ?
 
-- Does he/she would like to collaborates on opensource projects ?
+- What you think code quality stands for ?
+- How do you test your code ?
 
-    - Why did he/she not started yet ? No fear :)
+- Are you involved in opensource projects ?
 
-- What kind of topic he/she would like to practice on,
-  in the near future ?
+    - Which ones ?
+    - How do you started one ?
+    - Why do you decided to start ?
+    - What you are looking for in opensource projects ?
+    - What are the main topics of interest and why ?
+    - What is your favourite opensource project and why ?
+
+- Would you like to get involved in opensource projects ?
+
+    - Why you not started yet ?
+
+- What kind of topics would you like to practice on in the near
+  future ?
 
     - Why ?
-    - If he/she had the chance to start practice now, how he/she
+    - If you have the chance to start practice now, how do you
       thinks to apply this practices ?
 
-        - A Pet project ?
+        - A pet project ?
         - A spike ?
         - A blog ?
         - An existing project ?
 
-- Does he/she join communities ?
+- Do you join communities ?
 
-    - Did he/she has partecipated in conferences ?
+    - Did you partecipated in conferences ?
         - Which one ?
         - Why ?
-        - What conference did he/she like most ? Why ?
-    - Does he/she partecipates to local meetups ?
+        - What conference do you liked most ? Why ?
+    - Do you partecipates to local meetups ?
         - Which ones ? Why ?
 
-- Would he/she like to join local meetups or conferences ?
+- Would you like to join local meetups or conferences ?
 
-- What are the latest book/blog/article on software development that
-  he/she read ?
+- Oh, serious now! What the fuck you are looking for ?
 
-    - Why ?
-    - Any feedback about it ?
-
-- Oh, serious now! What the fuck is he/she looking for ?
-
-    - What he/she is supposed to find here ?
-    - How does he/she thinks to improve our team ?
-    - Is he/she is leaving a crew ?
+    - What you think to find here ?
+    - How do think to improve our team ?
+    - Are you leaving a crew ?
         - Why ?
-        - What did he/she learned from the past ?
-        - What he/she think to learn from us ?
+        - What did you learned from the past ?
+        - What you think to learn from us ?
 
 - Ok, let's write down some code with me !
