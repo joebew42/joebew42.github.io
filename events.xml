@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-08-09">
+    <action type="watching">DDD: putting the model to work</action>
+    <references>
+      <reference src="http://www.infoq.com/presentations/model-to-work-evans" type="source" />
+    </references>
+  </event>
   <event date="2015-08-07">
     <action type="studying">Chapter 7 of "Programming Erlang" - Binaries and the Bit Syntax</action>
     <references>
