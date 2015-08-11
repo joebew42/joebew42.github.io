@@ -1,4 +1,4 @@
-# Some clarification about a clean architecture design
+# A clean software architecture
 
 ## Main questions
 
@@ -8,7 +8,7 @@
 
 - What our software is about ?
 
-    through nouns, Model(s)
+    through nouns, Model(s) and Domain Service(s)
 
 - How do we expose the features of our system ?
 
@@ -16,29 +16,32 @@
 
 ## What about the structure of the application?
 
-We generally observe two main concepts that emerges from an application:
+We generally observe two main concepts that emerges from an
+application:
 
 - The business model
 - The delivery mechanism
 
 ### The business model
 
-The first concept tell us about the business model of our application, what is
-the behaviour of our application? Which are the actions that we can invoke on it?
-And which are the entities? And how them collaborates each other?
+The first concept tell us about the business model of our application,
+what is the behaviour of our application? What are the actions that we
+can invoke on it? And what are the entities? And how them collaborates
+each other?
 
-- Action(s) and Model(s) goes here.
+- Action(s), Domain Service(s) and Model(s) goes here.
 
 ### The delivery mechanism
 
-The second concept tell us how we expose the application to the outside world, and
-how we control the workflow. A business model can have more than one delivery mechanism.
+The second concept tell us how we expose the application to the
+outside world, and how we control the workflow. A business model can
+have more than one delivery mechanism.
 
 ## What about the Hexagonal Architecture or Ports and Adapters pattern?
 
-Yes, basically its the same concept described in a easy way ;)
+Yes, basically we are talking about the same thing.
 
-## How our application can be structured in real life examples ?
+## How our application can be structured in a real life example ?
 
 src/
    /core          <---- The business model
@@ -52,7 +55,7 @@ src/
 Controller -> Action -> Domain Service -> Repository
                                        -> Entity
 
-### What are Action, Service and Entity about ?
+### What are Action, Domain Service and Entity about ?
 
 - Action
 
@@ -78,25 +81,63 @@ Behaviour is determined by
 
   We should use Mocks          ------------->  No mocks
 
-In general, the more outside we are the more the high-level behaviour is expressed through
-clear actions (e.g. CreateNewUser, MakeNewOrder, MakePayment, etc ...). On the other
-hand, the more inside we are the more low-level behaviour is expresses through concrete
-classes implementation (e.g. MongoDBUserRepository, ElastiSearchProductsSearchIndex, etc ...)
+In general, the more outside we are the more the high-level behaviour
+is expressed through clear actions (e.g. CreateNewUser, MakeNewOrder,
+MakePayment, etc ...). On the other hand, the more inside we are the
+more low-level behaviour is expresses through concrete classes
+implementation (e.g. MongoDBUserRepository,
+ElastiSearchProductsSearchIndex, etc ...)
+
+## Interaction workflow helps us to define a Design workflow
+
+Here the name IDD (Interaction Driven Design) comes, because once we
+have an explicit and well-defined "Interaction Workflow" that follows
+an outside-in approach, we can use it as guide line to design our
+software.
+
+### Interaction workflow
+
+```
+                     /--> Domain Service --> Repository
+Controller -> Action
+                     \--> Entity
+```
+
+### Design workflow (an outside-in approach)
+
+0. A 'user story' can me mapped with an action
+
+1. Start to understand how our software communicates with the external
+   world. This helps us to bring out the role (interface) of the
+   'Action'; What are the inputs ? What are the outputs ?
+
+2. Once the 'Action' is there we can start to understand how the
+   action is supposed to performs its operations: Whare are its
+   collaborators (e.g. domain services, entities) ? How is supposed
+   its collaborators behave (interface/role discovery) ?
+
+3. Once domain services or entities are discovered we can start
+   develop on them (maybe new collaborators such as Repository will
+   emerge in this phase.)
 
 # What our software is about ?
 
-Our software is about entities that interact one each other, we can express them by nouns,
-e.g. models/product, models/book, models/order, etc ... Or more specific, if needed,
-e.g. models/products/toy, models/products/cellphone, etc ...
+Our software is about entities that interacts one each other, we can
+express them by nouns, e.g. models/product, models/book, models/order,
+etc ... Or more specific, if needed, e.g. models/products/toy,
+models/products/cellphone, etc ...
 
 # Where do I have to look to know what our software actually does ?
 
-We can better express what our software does by making explicit the actions which we can
-perform on our system, with verbs (e.g. actions/makeOrder, actions/createUser, actions/updateOrder, etc ...)
+We can better express what our software does by making explicit the
+actions which we can be performed on our system, with verbs (e.g.
+actions/makeOrder, actions/createUser, actions/updateOrder, etc ...)
 
-# What about technical concerns like third party libraries integration ?
+# Technical concerns about third party libraries integration
 
-This is a kind of topic that has no valuable information regarding business, so, we are likely to
-push them all in a dedicated bucket that we can call "infrastructure", some example:
+This is a kind of topic that has no valuable information regarding the
+business, so, we are likely to push them all in a dedicated bucket
+that we should call "infrastructure", some example:
 
-infrastructure/repository/mysqlUserRepository, infrastructure/payments/payPalPaymentGateway
+infrastructure/repository/MysqlUserRepository
+infrastructure/payments/PayPalPaymentGateway
