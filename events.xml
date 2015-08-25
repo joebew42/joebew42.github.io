@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-08-25">
+    <action type="studying">Chapter 22: I Need to Change a Monster Method and I Can't Write Tests for It</action>
+    <references>
+      <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
+      <reference src="notes/20150722Chapter22_wewlc.txt" type="note" />
+    </references>
+  </event>
   <event date="2015-08-09">
     <action type="watching">DDD: putting the model to work</action>
     <references>

@@ -78,3 +78,12 @@ this situation is also difficult or impossible write tests for it.
   for the critical behavior, you can do a lot of editing that
   technically isn’t all covered by tests, but it helps you to preserve
   key behavior.
+
+- *Break Out Method Object*
+
+  When you break out a method object, you create a class whose only
+  responsibility is to do the work of your monster method. The
+  parameters of the method become parameters to a constructor on the
+  new class, and the code of the monster method can go into a method
+  named `run` or `execute` on the new class.
+  Once the method is extracted into a class, we can refactor it.
