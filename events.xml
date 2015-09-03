@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-09-03">
+    <action type="bookmark">Continuous Delivery of Microservices at Netflix</action>
+    <references>
+      <reference src="http://www.oraclejavamagazine-digital.com/javamagazine_twitter/20150708?pg=23#pg23" type="source" />
+    </references>
+  </event>
+  <event date="2015-09-03">
     <action type="studying">Chapter 23: How Do I Know That I'm Not Breaking Anything?</action>
     <references>
       <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
