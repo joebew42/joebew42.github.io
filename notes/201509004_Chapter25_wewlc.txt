@@ -1,0 +1,23 @@
+# Dependency-Breaking Techniques
+
+Here we are going to expose some refactoring techniques that helps us
+to extract and test dependencies out from our code.
+
+These techniques are good to get methods, classes, and clusters of
+classes under test, to make the system more maintainable.
+At that point, we can use test-supported refactorings to make the
+design cleaner.
+
+In general, these are the main steps to execute for each technique:
+
+1. Extract code
+2. Write tests
+3. Refactor
+
+> Remember: When we are writing tests for existing code we want to
+> document what the software actually does and *NOT* what is supposed
+> to do.
+
+# Tecnhinques
+
+## Adapt Parameter
