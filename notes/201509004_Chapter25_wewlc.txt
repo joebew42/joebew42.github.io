@@ -21,3 +21,55 @@ In general, these are the main steps to execute for each technique:
 # Tecnhinques
 
 ## Adapt Parameter
+
+Use `Adapt Parameter` when you can't use `Extract Interface` on a
+parameter's class or when a parameter is difficult to fake.
+
+Example code:
+
+```
+public void populate(HttpServletRequest request) {
+  String[] values = request.getParameterValues(myValue);
+  String parameter = values[0];
+  ...
+}
+```
+
+`HttpServletRequest` is an external interface. It is out of our
+control.
+
+We can introduce our smaller interface, which we can control
+(ex. `SourceParameter`):
+
+```
+public void populate(SourceParameter source) {
+  String value = source.getParameterForName(myValue);
+  ...
+}
+```
+
+And then provide a `Fake` or `Real` implementation based on the
+environment. The `Real` implementation will work with
+`HttpServletRequest`.
+
+Move toward interfaces that communicate responsibilities rather than
+implementation details. This makes code easier to read and easier to
+maintain.
+
+### Steps
+
+1. Create the new interface that you will use in the method. Make it
+   as simple and communicative as possible, but try not to create an
+   interface that will require more than trivial changes in the method.
+2. Create a production implementer for the new interface.
+3. Create a fake* implementer for the interface.
+4. Write a simple test case, passing the fake to the method.
+5. Make changes you need to in the method to use the new parameter.
+6. Run your test to verify that you are able to test the method using
+   the fake.
+
+* the term `fake` is meant as any `test double` object.
+
+## Break Out Method Object
+
+...
