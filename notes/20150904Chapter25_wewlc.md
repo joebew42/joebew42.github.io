@@ -18,7 +18,7 @@ In general, these are the main steps to execute for each technique:
 > document what the software actually does and *NOT* what is supposed
 > to do.
 
-# Tecnhinques
+# Techniques
 
 ## Adapt Parameter
 
