@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-09-14">
+    <action type="studying">Part III - Chapter 25: Dependency-Breaking Techniques</action>
+    <references>
+      <reference src="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052" type="source" />
+      <reference src="notes/20150904Chapter25_wewlc.md" type="note" />
+    </references>
+  </event>
   <event date="2015-09-11">
     <action type="reading">How we ended up with microservices</action>
     <references>

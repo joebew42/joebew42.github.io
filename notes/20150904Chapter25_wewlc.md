@@ -111,3 +111,51 @@ state.
    delegates its work to it.
 8. If needed, use `Extract Interface` to break the dependency on the
    original class.
+
+## Encapsulate Global References
+
+This tecnique consists to encapsulate the globals in order to decouple
+things further. Lets see an example:
+
+```
+bool AGG230_activeframe[AGG230_SIZE];
+bool AGG230_suspendedframe[AGG230_SIZE];
+
+void AGGController::suspend_frame()
+{
+    frame_copy(AGG230_suspendedframe, AGG230_activeframe);
+    clear(AGG230_activeframe);
+    flush_frame_buffers();
+}
+
+void AGGController::flush_frame_buffers()
+{
+    for (int n = 0; n < AGG230_SIZE; ++n) {
+        AGG230_activeframe[n] = false;
+        AGG230_suspendedframe[n] = false;
+    }
+}
+```
+
+Here, `AGG230_activeframe` and `AGG230_suspendedframe` are globals.
+Often when globals are accessed together, means that they are part
+of the same class. So, what we can do here is to create a new class,
+i.e. `Frame` and puts in it the two globals. Further we can move
+methods and inject this new class (or fakes for test purpose) in
+`AGGController`.
+
+### Steps
+
+1. Identify the globals that you want to encapsulate.
+2. Create a class that you want to reference them from.
+3. Copy the globals into the class. If some of them are variables,
+   handle their initialization in the class.
+4. Comment out the original declarations of the globals.
+5. Declare a global instance of the new class.
+6. `Lean on the Compiler` to find all the unresolved references to the
+   old globals.
+7. Precede each unresolved reference with the name of the global
+   instance of the new class.
+8. In places where you want to use fakes, use
+   `Introduce Static Setter`, `Parameterize Constructor`,
+   `Parameterize Method` or `Replace Global Reference with Getter`.
