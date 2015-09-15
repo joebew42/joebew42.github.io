@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-09-15">
+    <action type="studying">Chapter 7 of "Programming Erlang" - Binaries and the Bit Syntax</action>
+    <references>
+      <reference src="https://pragprog.com/book/jaerlang2/programming-erlang" type="source" />
+      <reference src="https://github.com/joebew42/programming-erlang/blob/master/exercises/chap7" type="exercise" />
+    </references>
+  </event>
   <event date="2015-09-14">
     <action type="studying">Part III - Chapter 25: Dependency-Breaking Techniques</action>
     <references>
