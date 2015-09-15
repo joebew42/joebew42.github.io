@@ -2,6 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-09-15">
+    <action type="bookmark">Metrics in Kanban and Cumulative Flow Diagrams</action>
+    <references>
+      <reference src="http://pm.stackexchange.com/questions/10657/what-are-some-commonly-tracked-metrics-in-kanban" type="stack exchange" />
+      <reference src="http://brodzinski.com/2013/07/cumulative-flow-diagram.html" type="cumulative flow diagram" />
+      <reference src="https://open.bekk.no/cumulative-flow-diagrams-with-google-spreadsheets" type="cfd google spreadsheet" />
+    </references>
+  </event>
+  <event date="2015-09-15">
     <action type="studying">Chapter 7 of "Programming Erlang" - Binaries and the Bit Syntax</action>
     <references>
       <reference src="https://pragprog.com/book/jaerlang2/programming-erlang" type="source" />
