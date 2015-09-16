@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-09-16">
+    <action type="reading">Chapter 1 of "The Software Craftsman"</action>
+    <references>
+      <reference src="http://www.amazon.com/The-Software-Craftsman-Professionalism-Pragmatism/dp/0134052501" type="source" />
+    </references>
+  </event>
   <event date="2015-09-15">
     <action type="bookmark">Metrics in Kanban and Cumulative Flow Diagrams</action>
     <references>
