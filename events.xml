@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-09-16">
+    <action type="bookmark">Analyzing Your Applications with StatsD, InfluxDB, and Grafana</action>
+    <references>
+      <reference src="http://www.roblayton.com/2015/05/analyzing-your-applications-with-statsd.html" type="source" />
+    </references>
+  </event>
+  <event date="2015-09-16">
     <action type="reading">Chapter 1 of "The Software Craftsman"</action>
     <references>
       <reference src="http://www.amazon.com/The-Software-Craftsman-Professionalism-Pragmatism/dp/0134052501" type="source" />
