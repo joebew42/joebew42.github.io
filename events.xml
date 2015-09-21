@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-09-21">
+    <action type="bookmark">Spawned Shelter!</action>
+    <references>
+      <reference src="http://spawnedshelter.com/" type="source" />
+      <reference src="https://github.com/unbalancedparentheses/spawnedshelter" type="github" />
+    </references>
+  </event>
   <event date="2015-09-18">
     <action type="reading">Chapter 2 of "The Software Craftsman"</action>
     <references>
