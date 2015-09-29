@@ -26,8 +26,8 @@ application:
 
 The first concept tell us about the business model of our application,
 what is the behaviour of our application? What are the actions that we
-can invoke on it? And what are the entities? And how them collaborates
-each other?
+can invoke on it? And what are the entities? And how do they collaborate
+with each other?
 
 - Action(s), Domain Service(s) and Model(s) goes here.
 
