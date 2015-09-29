@@ -30,4 +30,28 @@ at the end of the list or in another `later list`.
 
 ## Test First: When should you write tests ?
 
-...
+Before you write code that is to be tested.
+
+## Evident Data: How do you represent the intent of the data ?
+
+Making it explicit. Don't put magic values inside your tests, rather
+than, try to give to your values some meaningful names that are
+related to the context.
+
+# Red Bar Patterns
+
+## One Step Test: Which test should you pick next from the list ?
+
+Pick the first one that gives you something new and that you are
+confident about its implementation.
+
+## Starter Test: Which test should you start with ?
+
+Start by looking at the initial and trivial one that you are quickly
+to get to work and learn something about the domain.
+
+## Do Over: What to do when you are feeling lost ?
+
+Throw away the code and start over.
+
+# Testing Patterns

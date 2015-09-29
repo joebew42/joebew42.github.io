@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+    <event date="2015-09-29">
+    <action type="studying">Part III of Test-Driven Development by example: Red Bar Patterns</action>
+    <references>
+      <reference src="http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530" type="source" />
+      <reference src="notes/20150925PartIII_TDDbyexample.md" type="note" />
+    </references>
+  </event>
   <event date="2015-09-25">
     <action type="studying">Part III of Test-Driven Development by example: Patterns for TDD</action>
     <references>
