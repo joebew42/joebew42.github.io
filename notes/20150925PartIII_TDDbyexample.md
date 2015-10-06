@@ -55,3 +55,23 @@ to get to work and learn something about the domain.
 Throw away the code and start over.
 
 # Testing Patterns
+
+- **Child Test**
+ Sometimes big tests takes minutes to get them pass/work, and results
+ difficult to mantain a fast feedback loop `red/green/refactoring`.
+ If you have a test that is going to be too big (it needs several
+ objects in place to make it works), try to find a `child test`:
+ A smaller test case that is contained in the bigger one. Or, try
+ to throw away the bigger one an start writing smaller tests, one for
+ each object that is used the bigger test.
+ Lets say that the bigger test `A` needs objects `B`, `C` and `D`, so,
+ in this case we can extract tests for `B`, `C` and `D`. And, once we
+ have confident about three child tests we can back on the bigger
+ test, or, simply we realize that is is not needed anymore and delete
+ it.
+
+- **Crash Test Dummy**
+_Code that is not tested does not work_. How do you test error code
+that is unlikely to be invoked? Invoke it anyway with a special case
+that  will throws the exception. What about the odd conditions? Do you
+want to test them, too? _Only if you want them to work_.
