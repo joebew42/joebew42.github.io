@@ -75,3 +75,19 @@ _Code that is not tested does not work_. How do you test error code
 that is unlikely to be invoked? Invoke it anyway with a special case
 that  will throws the exception. What about the odd conditions? Do you
 want to test them, too? _Only if you want them to work_.
+
+# Green Bar Patterns
+
+- **Fake It**
+Implementation will emerge by removing duplication.
+
+- **Triangulate**
+Use this only where you are unsure about the implementation.
+
+- **Obvious Implementation**
+If you are confident about the implementation, just write it.
+
+- **One to Many**
+How to deal with implementation that works with collections
+of objects ? Implement it without the collections first; Then make it
+work with a collections.
