@@ -91,3 +91,13 @@ If you are confident about the implementation, just write it.
 How to deal with implementation that works with collections
 of objects ? Implement it without the collections first; Then make it
 work with a collections.
+
+# Refactoring
+
+- **Reconcile Differences**
+
+- **Isolate Change**
+See `extract method`, `extract object` or `method object`
+
+- **Migrate Data**
+Move from one representation? First, duplicate it.
