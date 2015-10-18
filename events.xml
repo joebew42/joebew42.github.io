@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-10-18">
+    <action type="watching">Thinking like an Erlanger</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=6sBL1kHoMoo" type="source" />
+    </references>
+  </event>
   <event date="2015-10-13">
     <action type="studying">Part III of Test-Driven Development by example: Mastering TDD</action>
     <references>
