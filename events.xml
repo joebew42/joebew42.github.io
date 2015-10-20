@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-10-20">
+    <action type="reading">An Open Letter to the Erlang Beginner (or Onlooker)</action>
+    <references>
+      <reference src="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html" type="source" />
+    </references>
+  </event>
+  <event date="2015-10-19">
+    <action type="studying">Chapter 8 of "Programming Erlang" - The Rest of Sequential Erlang</action>
+    <references>
+      <reference src="https://pragprog.com/book/jaerlang2/programming-erlang" type="source" />
+      <reference src="https://github.com/joebew42/programming-erlang/blob/master/exercises/chap8" type="exercise" />
+    </references>
+  </event>
   <event date="2015-10-18">
     <action type="watching">Thinking like an Erlanger</action>
     <references>
