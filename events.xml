@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-11-12">
+    <action type="watching">Docker Clustering on Mesos with Marathon</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=hZNGST2vIds" type="source" />
+    </references>
+  </event>
   <event date="2015-11-02">
     <action type="reading">Building Microservices: How to Model Services</action>
     <references>
