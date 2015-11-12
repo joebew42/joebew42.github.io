@@ -2,13 +2,19 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-11-12">
+    <action type="studying">Chapter 4 of Building Microservices: Integration</action>
+    <references>
+      <reference src="http://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950358" type="source" />
+    </references>
+  </event>
+  <event date="2015-11-12">
     <action type="watching">Docker Clustering on Mesos with Marathon</action>
     <references>
       <reference src="https://www.youtube.com/watch?v=hZNGST2vIds" type="source" />
     </references>
   </event>
   <event date="2015-11-02">
-    <action type="reading">Building Microservices: How to Model Services</action>
+    <action type="reading">Chapter 3 of Building Microservices: How to Model Services</action>
     <references>
       <reference src="http://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950358" type="source" />
     </references>
