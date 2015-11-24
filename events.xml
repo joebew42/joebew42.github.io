@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-11-24">
+    <action type="studying">Chapter 8 of Building Microservices: Monitoring</action>
+    <references>
+      <reference src="http://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950358" type="source" />
+    </references>
+  </event>
   <event date="2015-11-12">
     <action type="studying">Chapter 4 of Building Microservices: Integration</action>
     <references>
