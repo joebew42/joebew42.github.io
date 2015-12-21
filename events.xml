@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-12-20">
+    <action type="studying">Chapter 12 of Building Microservices: Bringing It All Together</action>
+    <references>
+      <reference src="http://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950358" type="source" />
+      <reference src="notes/20151220_Chapter12_Building_Microservices.md" type="note" />
+    </references>
+  </event>
   <event date="2015-12-04">
     <action type="studying">Chapter 11 of Building Microservices: Microservices at Scale - Scaling Databases</action>
     <references>
