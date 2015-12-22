@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-12-22">
+    <action type="studying">Chapter 1 of Effective Unit Testing: The promise of good tests</action>
+    <references>
+      <reference src="http://www.amazon.com/Effective-Unit-Testing-guide-developers/dp/1935182579" type="source" />
+    </references>
+  </event>
   <event date="2015-12-20">
     <action type="studying">Chapter 12 of Building Microservices: Bringing It All Together</action>
     <references>
