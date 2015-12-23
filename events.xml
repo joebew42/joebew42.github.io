@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-12-23">
+    <action type="reading">Give Yourself the Gift of Sanity This Christmas</action>
+    <references>
+      <reference src="http://blog.jbrains.ca/permalink/give-yourself-the-gift-of-sanity-this-christmas" type="source" />
+    </references>
+  </event>
   <event date="2015-12-22">
     <action type="studying">Chapter 1 of Effective Unit Testing: The promise of good tests</action>
     <references>
