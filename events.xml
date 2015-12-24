@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2015-12-24">
+    <action type="studying">Chapter 2 of Effective Unit Testing: In search of good</action>
+    <references>
+      <reference src="http://www.amazon.com/Effective-Unit-Testing-guide-developers/dp/1935182579" type="source" />
+      <reference src="notes/20151224_Chapter2_Effective_Unit_Testing.md" type="note" />
+    </references>
+  </event>
   <event date="2015-12-23">
     <action type="bookmark">Xp Simplicity Rules</action>
     <references>
