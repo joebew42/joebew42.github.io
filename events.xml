@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-01-02">
+    <action type="studying">Chapter 3 of Effective Unit Testing: Guidelines for using test doubles</action>
+    <references>
+      <reference src="http://www.amazon.com/Effective-Unit-Testing-guide-developers/dp/1935182579" type="source" />
+    </references>
+  </event>
   <event date="2015-12-24">
     <action type="studying">Chapter 2 of Effective Unit Testing: In search of good</action>
     <references>
