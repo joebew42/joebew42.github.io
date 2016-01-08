@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-01-08">
+    <action type="bookmark">Docker Clustering on Mesos with Marathon</action>
+    <references>
+      <reference src="https://mesosphere.com/blog/2014/11/10/docker-on-mesos-with-marathon/" type="source" />
+    </references>
+  </event>
   <event date="2016-01-02">
     <action type="studying">Chapter 3 of Effective Unit Testing: Guidelines for using test doubles</action>
     <references>
