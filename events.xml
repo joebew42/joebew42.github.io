@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-01-13">
+    <action type="studying">Chapter 4 of Effective Unit Testing: Readability</action>
+    <references>
+      <reference src="http://www.amazon.com/Effective-Unit-Testing-guide-developers/dp/1935182579" type="source" />
+    </references>
+  </event>
   <event date="2016-01-08">
     <action type="bookmark">Docker Clustering on Mesos with Marathon</action>
     <references>
