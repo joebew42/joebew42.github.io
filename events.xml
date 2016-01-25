@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-01-25">
+    <action type="reading">Good Design is Easily-Learned</action>
+    <references>
+      <reference src="http://blog.scottbellware.com/2009/01/good-design-is-easily-learned.html" type="source" />
+    </references>
+  </event>
   <event date="2016-01-20">
     <action type="studying">Chapter 7 of Effective Unit Testing: Testable Design</action>
     <references>
