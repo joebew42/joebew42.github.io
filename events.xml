@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-02-02">
+    <action type="studying">Chapter 5 of The Nature of Software Development: Planning, Feature by Feature</action>
+    <references>
+      <reference src="https://pragprog.com/book/rjnsd/the-nature-of-software-development" type="source" />
+    </references>
+  </event>
   <event date="2016-02-01">
     <action type="studying">Chapter 3 and 4 of The Nature of Software Development</action>
     <references>
