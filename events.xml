@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-02-10">
+    <action type="studying">Chapter 9 and 10 of The Nature of Software Development</action>
+    <references>
+      <reference src="https://pragprog.com/book/rjnsd/the-nature-of-software-development" type="source" />
+    </references>
+  </event>
   <event date="2016-02-08">
     <action type="studying">Chapter 8 of The Nature of Software Development: Bug-Free and Well Designed</action>
     <references>
