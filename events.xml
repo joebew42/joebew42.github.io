@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2016-02-15">
+    <action type="studying">Chapter 13 and 14 of The Nature of Software Development</action>
+    <references>
+      <reference src="https://pragprog.com/book/rjnsd/the-nature-of-software-development" type="source" />
+    </references>
+  </event>
+  <event date="2016-02-15">
     <action type="studying">Chapter 11 and 12 of The Nature of Software Development</action>
     <references>
       <reference src="https://pragprog.com/book/rjnsd/the-nature-of-software-development" type="source" />
