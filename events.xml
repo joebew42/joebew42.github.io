@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-02-17">
+    <action type="bookmark">Practical Considerations For Microservice Architectures</action>
+    <references>
+      <reference src="https://vimeo.com/105751281" type="source" />
+    </references>
+  </event>
   <event date="2016-02-15">
     <action type="studying">Chapter 13 and 14 of The Nature of Software Development</action>
     <references>
