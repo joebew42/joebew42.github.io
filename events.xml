@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-02-23">
+    <action type="studying">Chapter 16 of The Nature of Software Development: Managing</action>
+    <references>
+      <reference src="https://pragprog.com/book/rjnsd/the-nature-of-software-development" type="source" />
+    </references>
+  </event>
   <event date="2016-02-17">
     <action type="studying">Chapter 15 of The Nature of Software Development: The five card method</action>
     <references>
