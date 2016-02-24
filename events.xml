@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-02-24">
+    <action type="bookmark">Chef: Managing multiple nodes</action>
+    <references>
+      <reference src="http://gettingstartedwithchef.com/managing-multiple-nodes.html" type="source" />
+    </references>
+  </event>
   <event date="2016-02-23">
     <action type="studying">Chapter 16 of The Nature of Software Development: Managing</action>
     <references>
