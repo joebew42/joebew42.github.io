@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-02-29">
+    <action type="reading">DevOps principles for IT managers</action>
+    <references>
+      <reference src="https://puppetlabs.com/blog/devops-principles-for-it-managers" type="source" />
+    </references>
+  </event>
   <event date="2016-02-26">
     <action type="studying">Chapter 17 of The Nature of Software Development</action>
     <references>
