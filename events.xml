@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-03-03">
+    <action type="studying">Chapter 20 of The Nature of Software Development: Agile Methods</action>
+    <references>
+      <reference src="https://pragprog.com/book/rjnsd/the-nature-of-software-development" type="source" />
+    </references>
+  </event>
   <event date="2016-02-29">
     <action type="studying">Chapter 18 and 19 of The Nature of Software Development</action>
     <references>
