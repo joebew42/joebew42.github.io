@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-03-17">
+    <action type="studying">DDD Quickly: What is domain-driven design</action>
+    <references>
+      <reference src="http://www.infoq.com/minibooks/domain-driven-design-quickly" type="source" />
+    </references>
+  </event>
   <event date="2016-03-08">
     <action type="studying">Chapter 21 of The Nature of Software Development: Scaling Agile</action>
     <references>
