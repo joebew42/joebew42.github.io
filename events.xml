@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-04-05">
+    <action type="reading">How to write a git commit message</action>
+    <references>
+      <reference src="http://chris.beams.io/posts/git-commit/" type="source" />
+    </references>
+  </event>
   <event date="2016-04-04">
     <action type="studying">DDD Quickly: The Building Blocks of a Model-Driven Design</action>
     <references>
