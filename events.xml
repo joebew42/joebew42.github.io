@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-04-12">
+    <action type="bookmark">Ian Cooper: TDD, where did it all go wrong</action>
+    <references>
+      <reference src="https://vimeo.com/68375232" type="source" />
+    </references>
+  </event>
   <event date="2016-04-11">
     <action type="studying">DDD Quickly: Preserving model integrity</action>
     <references>
