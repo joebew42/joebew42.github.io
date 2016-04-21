@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-04-21">
+    <action type="studying">DDD Quickly: DDD Matters today: An interview with Eric Evans</action>
+    <references>
+      <reference src="http://www.infoq.com/minibooks/domain-driven-design-quickly" type="source" />
+    </references>
+  </event>
   <event date="2016-04-12">
     <action type="bookmark">Ian Cooper: TDD, where did it all go wrong</action>
     <references>
