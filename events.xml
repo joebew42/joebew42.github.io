@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-04-29">
+    <action type="studying">Chapter 12 of "Programming Erlang" - Concurrent Programming</action>
+    <references>
+      <reference src="https://pragprog.com/book/jaerlang2/programming-erlang" type="source" />
+      <reference src="https://github.com/joebew42/programming-erlang/blob/master/exercises/chap12" type="exercise" />
+    </references>
+  </event>
   <event date="2016-04-27">
     <action type="reading">Continuous Deployment with Containers</action>
     <references>
