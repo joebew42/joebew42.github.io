@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-05-03">
+    <action type="studying">Chapter 3 of: Reactive Microservices Architecture</action>
+    <references>
+      <reference src="http://www.oreilly.com/programming/free/reactive-microservices-architecture.html" type="source" />
+    </references>
+  </event>
   <event date="2016-05-02">
     <action type="studying">Chapter 1 and 2 of: Reactive Microservices Architecture</action>
     <references>
