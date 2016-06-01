@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-06-01">
+    <action type="watching">8 Lines of Code</action>
+    <references>
+      <reference src="https://www.infoq.com/presentations/8-lines-code-refactoring" type="source" />
+    </references>
+  </event>
   <event date="2016-05-26">
     <action type="studying">Chapter 3 of: Developing Reactive Microservices</action>
     <references>
