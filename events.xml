@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-06-07">
+    <action type="studying">Implementing Domain-Driven Design: Command processors</action>
+    <references>
+      <reference src="http://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577" type="source" />
+    </references>
+  </event>
   <event date="2016-06-01">
     <action type="watching">8 Lines of Code</action>
     <references>
