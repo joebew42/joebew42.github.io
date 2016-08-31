@@ -11,9 +11,9 @@ I am Joe Bew, currently live and work in [Trento](https://en.wikipedia.org/wiki/
 I am from Calabria, where I attended secondary school in [Catanzaro](https://en.wikipedia.org/wiki/Catanzaro) and then I took a degree in Computer Science in [Cosenza](https://en.wikipedia.org/wiki/Cosenza) at [UNICAL](http://www.unical.it/).
 I spent a lot of time in supporting [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) activities with my fellows at [HackLab Cosenza](http://hlcs.it/) and [HackLab Catanzaro](http://hacklab.cz/).
 
-During my time in Calabria I also worked as Software Developer and for a small period I act as Linux System Administrator (mainly mail and web servers).
+During my time in Calabria I also worked as Software Developer and also as Linux System Administrator (mainly mail and web servers).
 
-In 2012 I started a Master in Computer Science studies in Trento, [University of Trento](http://www.unitn.it/en).
+In 2012 I started a Master in Computer Science in Trento, [University of Trento](http://www.unitn.it/en).
 
 In 2013 I met XPeppers and started to work with as Agile Software Developer.
 
