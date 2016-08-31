@@ -23,7 +23,7 @@ My [Daily Activity Log](http://joebew42.github.io/events.xml) is helping me to k
 
 * I have a [GitHub](https://github.com/joebew42) account that I use to share notes, pet projects or some spikes.
 * I like videogames
-* I like foods
+* I like food
 * I like to have a good talk with friends
 * I like the sun
 * I like music
