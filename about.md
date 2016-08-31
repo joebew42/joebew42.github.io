@@ -29,6 +29,12 @@ My [Daily Activity Log](http://joebew42.github.io/events.xml) is helping me to k
 * I like music
 * I like to have fun
 
+## Favorite quotes
+
+> *"You see things; you say, 'Why?' But I dream things that never were; and I say 'Why not?'"*
+>
+> George Bernard Shaw
+
 ## CV
 
 Sorry to inform you that I don't believe in CV, if you are interested to know more about me, I will be glad to have a chat with you! Send me an email *joebew42 at gmail.com*
