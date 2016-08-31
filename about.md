@@ -31,4 +31,4 @@ My [Daily Activity Log](http://joebew42.github.io/events.xml) is helping me to k
 
 ## CV
 
-Sorry to inform you that I don't believe in CV, if you are interested to know more about me, I will be glad to have a chat with you!
+Sorry to inform you that I don't believe in CV, if you are interested to know more about me, I will be glad to have a chat with you! Send me an email *joebew42 at gmail.com*
