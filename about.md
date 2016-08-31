@@ -17,6 +17,8 @@ In 2012 I started a Master in Computer Science studies in Trento, [University of
 
 In 2013 I met XPeppers and started to work with as Agile Software Developer.
 
+My [Daily Activity Log](http://joebew42.github.io/events.xml) is helping me to keep track of my studies. Feel free to read it every time you want to know what I am studying.
+
 ## Other stuffs
 
 * I have a [GitHub](https://github.com/joebew42) account that I use to share notes, pet projects or some spikes.
