@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-10-20">
+    <action type="studying">Chapter 5 of: XP Explained 2nd Ed. - Principles</action>
+    <references>
+      <reference src="https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658" type="source" />
+    </references>
+  </event>
   <event date="2016-10-11">
     <action type="studying">Chapter 4 of: XP Explained 2nd Ed. - Values</action>
     <references>
