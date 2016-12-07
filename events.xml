@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-12-07">
+    <action type="watching">Jez Humble | Continuous Delivery</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=skLJuksCRTw" type="source" />
+    </references>
+  </event>
+  <event date="2016-11-06">
+    <action type="studying">How to write a repository</action>
+    <references>
+      <reference src="http://philcalcado.com/2010/12/23/how_to_write_a_repository.html" type="source" />
+    </references>
+  </event>
   <event date="2016-11-24">
     <action type="studying">Chapter 8 of: XP Explained 2nd Ed. - Getting Started</action>
     <references>
