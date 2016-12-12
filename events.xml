@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-12-12">
+    <action type="studying">Chapter 10 of: XP Explained 2nd Ed. - The whole XP team</action>
+    <references>
+      <reference src="https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658" type="source" />
+    </references>
+  </event>
+  <event date="2016-12-12">
+    <action type="watching">Outside In TDD part II</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=gs0rqDdz3ko" type="source" />
+    </references>
+  </event>
+  <event date="2016-12-09">
+    <action type="watching">Outside In TDD part I</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=XHnuMjah6ps" type="source" />
+    </references>
+  </event>
   <event date="2016-12-07">
     <action type="watching">Jez Humble | Continuous Delivery</action>
     <references>
