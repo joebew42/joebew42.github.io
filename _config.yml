@@ -7,3 +7,4 @@ twitter_username: joebew42
 github_username:  joebew42
 
 markdown: kramdown
+exclude: ['notes']
