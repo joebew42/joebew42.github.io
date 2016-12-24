@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2016-12-24">
+    <action type="studying">Journey Two of: Decomposing the Domain</action>
+    <references>
+      <reference src="http://cqrsjourney.github.io/" type="source" />
+    </references>
+  </event>
+  <event date="2016-12-24">
     <action type="studying">Journey One of: Exploring CQRS and Event Sourcing</action>
     <references>
       <reference src="http://cqrsjourney.github.io/" type="source" />
