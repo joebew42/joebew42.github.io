@@ -22,7 +22,7 @@ My [Daily Activity Log](http://joebew42.github.io/events.xml) is helping me to k
 
 * With some of my collegues we started this [funny initiative](http://shittysomething.com/) in order to summarize our daily moods! Check it out, and if sometimes you feel like a shitty coder, please let we know by [issuing a pull request](https://github.com/ShittySomething/shittysomething.github.io)!
 
-* I've a [Twitch Channel](https://www.twitch.tv/joebew42) where sometimes I go live with programming session: teaching, exercising and contributing to real project. All sessions are accessible on [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ).
+* I have a [Twitch Channel](https://www.twitch.tv/joebew42) where sometimes I go live with programming session: teaching, exercising and contributing to real project. All sessions are accessible on [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ).
 
 ## Other stuffs
 
