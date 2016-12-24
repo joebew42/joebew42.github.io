@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2016-12-24">
+    <action type="studying">Journey One of: Exploring CQRS and Event Sourcing</action>
+    <references>
+      <reference src="http://cqrsjourney.github.io/" type="source" />
+    </references>
+  </event>
   <event date="2016-12-13">
     <action type="watching">Outside In TDD part III</action>
     <references>
