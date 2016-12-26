@@ -6,7 +6,7 @@ permalink: /about/
 
 Hello folks!
 
-I am Joe Bew, an [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) that currently live and work in [Trento](https://en.wikipedia.org/wiki/Trento), Italy, in [XPeppers](http://www.xpeppers.com/).
+I am Joe Bew, an [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) that currently live and work in [Trento](https://en.wikipedia.org/wiki/Trento), Italy, at [XPeppers](http://www.xpeppers.com/).
 
 I was born in Calabria, where I attended secondary school in [Catanzaro](https://en.wikipedia.org/wiki/Catanzaro) and then completed my studies with a degree in Computer Science at [UNICAL](http://www.unical.it/) in [Cosenza](https://en.wikipedia.org/wiki/Cosenza). There I spent a lot of time in supporting [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) activities with my fellows at [HackLab Cosenza](http://hlcs.it/) and [HackLab Catanzaro](http://hacklab.cz/). I will always be grateful to them for the great opportunity they have given me in making me understand and investigate many technical topics.
 
