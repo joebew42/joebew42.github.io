@@ -8,3 +8,5 @@ github_username:  joebew42
 
 markdown: kramdown
 exclude: ['notes']
+gems:
+  - jekyll-youtube

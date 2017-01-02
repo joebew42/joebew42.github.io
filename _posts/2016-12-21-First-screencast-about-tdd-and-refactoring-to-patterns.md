@@ -12,6 +12,6 @@ You'll find the code of this screencast on [GitHub](https://github.com/joebew42/
 
 ## The screencast
 
-{% youtube EV5FPByE8Xk 640 480 %}
+{% youtube "https://www.youtube.com/watch?v=EV5FPByE8Xk" %}
 
 If you like the idea to do pair with me during next session, please let me know. I'll be glad to do a session with you!
