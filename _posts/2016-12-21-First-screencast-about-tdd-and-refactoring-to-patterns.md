@@ -12,6 +12,6 @@ You'll find the code of this screencast on [GitHub](https://github.com/joebew42/
 
 ## The screencast
 
-<div class="embed-container"><iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/EV5FPByE8Xk" frameborder="0" allowfullscreen=""></iframe></div>
+{% include youtube.html video="EV5FPByE8Xk" %}
 
 If you like the idea to do pair with me during next session, please let me know. I'll be glad to do a session with you!
