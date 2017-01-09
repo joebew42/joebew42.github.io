@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-01-09">
+    <action type="watching">TDD and Software Design</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=ty3p5VDcoOI" type="source" />
+    </references>
+  </event>
   <event date="2016-12-29">
     <action type="reading">How Do I Test?</action>
     <references>
