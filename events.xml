@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-02-28">
+    <action type="watching">Book Reading Club: "Building Microservices" - part III</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=DAVMB_Tc00w" type="source" />
+    </references>
+  </event>
   <event date="2017-02-27">
     <action type="watching">Book Reading Club: "Building Microservices" - part II</action>
     <references>
