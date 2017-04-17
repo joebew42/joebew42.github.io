@@ -8,7 +8,7 @@ Hello folks!
 
 My name is Joe Bew, a passionate software developer working as [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I am involved in [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development).
 
-At the moment I am interested in [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design), [Microservices Architecture](https://martinfowler.com/articles/microservices.html), Distributed Systems and [Erlang](https://www.erlang.org/). If you are interested in following my study activities, you can take a look at my [Daily Activity Log](http://joebew42.github.io/events.xml).
+At the moment I am interested in [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design), [Microservices Architecture](https://martinfowler.com/articles/microservices.html), Distributed Systems and [Erlang](https://www.erlang.org/). If you are curious about my study activities, you can take a look at my [Daily Activity Log](http://joebew42.github.io/events.xml).
 
 Besides the mainly technical aspects I pay particular attention to the improvement of organizational aspects, processes, trainings and soft skills that plays an important role to the growth of a team and its culture.
 
