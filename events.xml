@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-04-24">
+    <action type="studying">Chapter 1: The Microservices Way</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/1491956259" type="source" />
+    </references>
+  </event>
   <event date="2017-02-28">
     <action type="watching">Book Reading Club: "Building Microservices" - part III</action>
     <references>
