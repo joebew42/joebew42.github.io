@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-05-03">
+    <action type="studying">Chapter 4: Establishing a Foundation</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/1491956259" type="source" />
+    </references>
+  </event>
   <event date="2017-05-02">
     <action type="studying">Chapter 3: Designing Microservice Systems</action>
     <references>
