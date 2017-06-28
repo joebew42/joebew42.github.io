@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-06-28">
+    <action type="watching">Greg Young - A Decade of DDD, CQRS, Event Sourcing</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=LDW0QWie21s" type="source" />
+    </references>
+  </event>
   <event date="2017-06-09">
     <action type="reading">Zombie Scrum – Symptoms, Causes and Treatment</action>
     <references>
