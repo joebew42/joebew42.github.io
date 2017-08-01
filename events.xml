@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-08-01">
+    <action type="watching">Continuous Delivery Sounds Great But It Won’t Work Here by Jez Humble</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=NNLBmbaZgkI" type="source" />
+    </references>
+  </event>
   <event date="2017-06-28">
     <action type="watching">Greg Young - A Decade of DDD, CQRS, Event Sourcing</action>
     <references>
