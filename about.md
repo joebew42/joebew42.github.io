@@ -24,6 +24,8 @@ Combining the practice of test-driven development with the disciplined pace driv
 
 I like to practice [pair programming](https://en.wikipedia.org/wiki/Pair_programming), besides the old technical review or other feedback process that starts only after the work has been committed, I am strongly convinced that an active and a constant feedback loop is even much better and effectiveness for the overall outcome quality.
 
+Being an agile software developer encourages me to be more interested in the practices rather than tools. Tools like programming languages changes over the time. Improving the mastery of [xp practices](https://en.wikipedia.org/wiki/Extreme_programming_practices) let me to easily adapt to changes.
+
 ## Side activities
 
 * A [study path](https://github.com/joebew42/study-path) about several topics about software development that you may find helpful for your career. I am trying to keep it up to date with my studies.
