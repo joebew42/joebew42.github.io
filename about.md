@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![profile photo](https://avatars1.githubusercontent.com/u/1238549?v=4&s=240)
+
 Hello folks!
 
 My name is Joe Bew, I am currently working as [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I deal with [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development), with the aim to help customers build better products.
