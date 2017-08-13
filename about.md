@@ -8,7 +8,7 @@ permalink: /about/
 
 Hello folks!
 
-My name is Joe Bew, I am currently working as [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I deal with [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development), with the aim to help customers build better products.
+My name is Joe Bew, I am currently working as an [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I deal with [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development), with the aim to help customers build better products.
 
 Right now I am going in depth with [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design), [Microservices Architecture](https://martinfowler.com/articles/microservices.html), [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) and [Erlang](https://www.erlang.org/). You can follow my studies by visiting my [Daily Activity Log](http://joebew42.github.io/events.xml).
 
@@ -16,7 +16,7 @@ Besides the mainly technical aspects I like to pay particular attention to the i
 
 ## How am I used to work ?
 
-I prefer to play and work with people, as a team. Better if we where in the same workplace. I am not used to work alone.
+I prefer to play and work with people, as a team. Better if we where in the same workplace.
 
 The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) plays an important role during my typical work day. It helps me to keep tracks of the effort required to complete a task of the day, with the outcome that at the end of my day I have a clear picture of what I have done, and a measure of the effective time spent on a particular activity, that I may use as feedback to improve the way I organize my next day's activities schedule.
 
