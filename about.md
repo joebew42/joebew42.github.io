@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![profile photo](https://avatars1.githubusercontent.com/u/1238549?v=4&s=240)
+![profile photo](https://avatars1.githubusercontent.com/u/1238549?v=4&s=180)
 
 Hello folks!
 
@@ -12,7 +12,7 @@ My name is Joe Bew, I am currently working as an [Agile Software Developer](http
 
 Right now I am going in depth with [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design), [Microservices Architecture](https://martinfowler.com/articles/microservices.html), [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) and [Erlang](https://www.erlang.org/). You can follow my studies by visiting my [Daily Activity Log](http://joebew42.github.io/events.xml).
 
-Besides the mainly technical aspects I like to pay particular attention to the improvement of organizational aspects, processes, trainings and soft skills that are the growth's pillars of a team and its culture.
+Besides the mainly technical aspects I like to pay particular attention to the improvement of organizational aspects, dynamics, trainings and soft skills that are the growth's pillars of a team and its culture.
 
 ## How am I used to work ?
 
