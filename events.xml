@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2017-08-18">
+    <action type="watching">Extreme Programming 20 years later by Kent Beck</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=cGuTmOUdFbo" type="source" />
+    </references>
+  </event>
+  <event date="2017-08-18">
     <action type="watching">GOTO 2016 • Software, Faster • Dan North</action>
     <references>
       <reference src="https://www.youtube.com/watch?v=USc-yLHXNUg" type="source" />
