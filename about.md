@@ -18,7 +18,7 @@ Besides the mainly technical aspects I like to pay particular attention to the i
 
 I prefer to play and work with people, as a team. Better if we where in the same workplace.
 
-The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) plays an important role during my typical work day. It helps me to keep tracks of the effort required to complete a task of the day, with the outcome that at the end of my day I have a clear picture of what I have done, and a measure of the effective time spent on a particular activity, that I may use as feedback to improve the way I organize my next day's activities schedule.
+The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) plays an important role during my typical work day. It helps me to stay focused on the current activity I am working on, to reduce distractions or interruptions and to keep tracks of the effort required to complete a task, with the outcome that at the end of my day I have a clear picture of what I have done, and a measure of the effective time spent on a particular activity, that I may use as feedback to improve the way I organize my next day's activities schedule.
 
 Combining the practice of test-driven development with the disciplined pace driven by the pomodoro technique, I can leverage on this quite mechanical way to work without the need to rush.
 
