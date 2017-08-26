@@ -36,11 +36,9 @@ Being an agile software developer encourages me to be more interested in the pra
 
 * With some of my collegues we started this [funny initiative](http://shittysomething.com/) in order to summarize our daily moods! Check it out, and if sometimes you feel like a shitty coder, please let we know by [issuing a pull request](https://github.com/ShittySomething/shittysomething.github.io)!
 
+## What else ?
 
-## Other stuffs
-
-* I have a [GitHub](https://github.com/joebew42) account that I use to share notes, pet projects or some spikes.
-* I like videogames
+* I like to play videogames
 * I like food
 * I like to have a good talk with friends
 * I like the sun
