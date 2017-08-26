@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" style="float:right;margin:30px" />
+<img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" style="float:right;margin:30px;margin-right:0" />
 
 Hello folks!
 
