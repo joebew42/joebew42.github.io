@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-08-26">
+    <action type="reading">Why waterfall was a big misunderstanding from the beginning</action>
+    <references>
+      <reference src="https://pragtob.wordpress.com/2012/03/02/why-waterfall-was-a-big-misunderstanding-from-the-beginning-reading-the-original-paper/" type="source" />
+    </references>
+  </event>
   <event date="2017-08-18">
     <action type="watching">Extreme Programming 20 years later by Kent Beck</action>
     <references>
