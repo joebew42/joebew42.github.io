@@ -20,9 +20,9 @@ I prefer to play and work with people, as a team. Better if we where in the same
 
 The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) plays an important role during my typical work day. It helps me to stay focused on the current activity I am working on, to reduce distractions or interruptions and to keep tracks of the effort required to complete a task, with the outcome that at the end of my day I have a clear picture of what I have done, and a measure of the effective time spent on a particular activity, that I may use as feedback to improve the way I organize my next day's activities schedule.
 
-Combining the practice of test-driven development with the disciplined pace driven by the pomodoro technique, I can leverage on this quite mechanical way to work without the need to rush.
+**When I am at writing code** I like to combine the practice of test-driven development with the disciplined pace driven by the pomodoro technique, so that I can leverage on this regulated way to work without the need to rush.
 
-I like to practice [pair programming](https://en.wikipedia.org/wiki/Pair_programming), besides the old technical review or other feedback process that starts only after the work has been committed, I am strongly convinced that an active and a constant feedback loop is even much better and effective for the overall outcome quality.
+I like to practice [pair programming](https://en.wikipedia.org/wiki/Pair_programming), besides the old technical review or other feedback process that starts only after the work has been committed, I strongly believe that an active and a constant feedback loop is even much better and effective for the overall outcome quality.
 
 Being an agile software developer encourages me to be more interested in the practices rather than tools. Tools like programming languages changes over the time. Improving the mastery of [xp practices](https://en.wikipedia.org/wiki/Extreme_programming_practices) let me to easily adapt to the change.
 
