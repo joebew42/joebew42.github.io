@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-08-31">
+    <action type="studying">Chapter 2 of Beyond Legacy Code: Out of the CHAOS</action>
+    <references>
+      <reference src="https://www.amazon.it/Beyond-Legacy-Code-Practices-Software-ebook/dp/B01CRIZEF8" type="source" />
+    </references>
+  </event>
+  <event date="2017-08-29">
+    <action type="studying">Chapter 1 of Beyond Legacy Code: Something's wrong</action>
+    <references>
+      <reference src="https://www.amazon.it/Beyond-Legacy-Code-Practices-Software-ebook/dp/B01CRIZEF8" type="source" />
+    </references>
+  </event>
   <event date="2017-08-26">
     <action type="reading">Why waterfall was a big misunderstanding from the beginning</action>
     <references>
