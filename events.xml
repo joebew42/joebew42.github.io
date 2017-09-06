@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-09-05">
+    <action type="studying">Chapter 3 of Beyond Legacy Code: New people, Smart ideas</action>
+    <references>
+      <reference src="https://www.amazon.it/Beyond-Legacy-Code-Practices-Software-ebook/dp/B01CRIZEF8" type="source" />
+    </references>
+  </event>
   <event date="2017-08-31">
     <action type="studying">Chapter 2 of Beyond Legacy Code: Out of the CHAOS</action>
     <references>
