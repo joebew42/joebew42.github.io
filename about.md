@@ -24,12 +24,12 @@ I like to practice [pair programming](https://en.wikipedia.org/wiki/Pair_program
 
 Being an Agile software developer encourages me to be more interested in the practices rather than tools. Tools like programming languages changes over the time. Improving the mastery of [XP practices](https://en.wikipedia.org/wiki/Extreme_programming_practices) let me to easily adapt to the change.
 
-## Topics that I find of interest
+## Topics that I am finding of interest
 
 * [Beyond Legacy Code](https://www.amazon.com/Beyond-Legacy-Code-Practices-Software-ebook/dp/B01CRIZEF8)
 * [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
 * [Microservices Architecture](https://martinfowler.com/articles/microservices.html)
-* [Erlang](https://www.erlang.org/)/[Elixir](elixir-lang.org)
+* [Erlang](https://www.erlang.org/) / [Elixir](https://elixir-lang.org)
 * [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
 
 You can follow my studies by visiting my [Daily Activity Log](http://joebew42.github.io/events.xml).
