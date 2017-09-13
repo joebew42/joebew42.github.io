@@ -10,7 +10,7 @@ Hello folks!
 
 My name is Joe Bew, I am currently working as an [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I deal with [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development).
 
-I like to keep the focus on the practices that we can apply during everyday work that enables us to save time, be more productive, build better products and make the team happier.
+I like to keep the focus on the practices that we can apply everyday to save time, be more productive, build better products and make the team happier.
 
 ## How am I used to work ?
 
