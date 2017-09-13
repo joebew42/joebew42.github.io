@@ -8,11 +8,9 @@ permalink: /about/
 
 Hello folks!
 
-My name is Joe Bew, I am currently working as an [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I deal with [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development), with the aim to help customers build better products.
+My name is Joe Bew, I am currently working as an [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I deal with [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development).
 
-Right now I am going in depth with [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design), [Microservices Architecture](https://martinfowler.com/articles/microservices.html), [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) and [Erlang](https://www.erlang.org/). You can follow my studies by visiting my [Daily Activity Log](http://joebew42.github.io/events.xml).
-
-Besides the mainly technical aspects I like to pay particular attention to the improvement of organizational aspects, dynamics, trainings and soft skills that are the growth's pillars of a team and its culture.
+I like to keep the focus on the practices that we can apply during everyday work to enable us to save time, be more productive, build better products and make the team happier.
 
 ## How am I used to work ?
 
@@ -22,9 +20,19 @@ The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) plays
 
 **When I am at writing code** I am used to combine the practice of test-driven development with the disciplined pace driven by the pomodoro technique, so that I can leverage on this regulated way to work without the need to rush.
 
-I like to practice [pair programming](https://en.wikipedia.org/wiki/Pair_programming), besides the old technical review or other feedback process that starts only after the work has been committed, I strongly believe that an active and a constant feedback loop is even much better and effective for the overall outcome quality.
+I like to practice [pair programming](https://en.wikipedia.org/wiki/Pair_programming) cause I strongly believe that an active and constant feedback loop is even much better and effective for the overall outcome quality instead of the old technical review or other feedback process that starts only after the work has been committed.
 
-Being an agile software developer encourages me to be more interested in the practices rather than tools. Tools like programming languages changes over the time. Improving the mastery of [xp practices](https://en.wikipedia.org/wiki/Extreme_programming_practices) let me to easily adapt to the change.
+Being an Agile software developer encourages me to be more interested in the practices rather than tools. Tools like programming languages changes over the time. Improving the mastery of [XP practices](https://en.wikipedia.org/wiki/Extreme_programming_practices) let me to easily adapt to the change.
+
+## Topics that I find of interest
+
+* [Beyond Legacy Code](https://www.amazon.com/Beyond-Legacy-Code-Practices-Software-ebook/dp/B01CRIZEF8)
+* [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
+* [Microservices Architecture](https://martinfowler.com/articles/microservices.html)
+* [Erlang](https://www.erlang.org/)/[Elixir](elixir-lang.org)
+* [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
+
+You can follow my studies by visiting my [Daily Activity Log](http://joebew42.github.io/events.xml).
 
 ## Side activities
 
@@ -32,9 +40,9 @@ Being an agile software developer encourages me to be more interested in the pra
 
 * If you have some experiences with [Mesos](http://mesos.apache.org/) or [Kubernetes](https://kubernetes.io/), you could be interested in joining [Mobos](https://github.com/mobos/mob). Unfortunately, I do not have enough time to ensure constant development on the project, so I can not guarantee when it will be available and usable, but I am always available to welcome people who want to contribute or want to know more about.
 
-* A [Twitch Channel](https://www.twitch.tv/joebew42) where sometimes I go live with programming session about teaching, exercising or contributing on opensource projects. All sessions are accessible on [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ).
+* A [Twitch Channel](https://www.twitch.tv/joebew42) where sometimes I go live with programming session about teaching, exercising or contributing on opensource projects. You can read more about my journey on Twitch by reading the [official journal](https://joebew42.github.io/twitch/).
 
-* With some of my collegues we started this [funny initiative](http://shittysomething.com/) in order to summarize our daily moods! Check it out, and if sometimes you feel like a shitty coder, please let we know by [issuing a pull request](https://github.com/ShittySomething/shittysomething.github.io)!
+* A [funny initiative](http://shittysomething.com/) to summarize our daily moods! Check it out, and if sometimes you feel like a _"shitty coder"_, please let me know by [issuing a pull request](https://github.com/ShittySomething/shittysomething.github.io)!
 
 ## What else ?
 
