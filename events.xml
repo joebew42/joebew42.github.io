@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-10-23">
+    <action type="studying">Chapter 8 of Beyond Legacy Code: Collaborate</action>
+    <references>
+      <reference src="https://www.amazon.it/Beyond-Legacy-Code-Practices-Software-ebook/dp/B01CRIZEF8" type="source" />
+    </references>
+  </event>
   <event date="2017-10-16">
     <action type="studying">Chapter 7 of Beyond Legacy Code: Integrate Continuously</action>
     <references>
