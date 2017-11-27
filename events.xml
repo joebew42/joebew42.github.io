@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-11-25">
+    <action type="reading">Developing Transactional Microservices Using Aggregates, Event Sourcing and CQRS - Part 1</action>
+    <references>
+      <reference src="https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-1-richardson" type="source" />
+    </references>
+  </event>
   <event date="2017-11-22">
     <action type="studying">Chapter 12 of Beyond Legacy Code: Implement the Design Last</action>
     <references>
