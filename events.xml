@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-11-28">
+    <action type="studying">Chapter 13 of Beyond Legacy Code: Refactor Legacy Code</action>
+    <references>
+      <reference src="https://www.amazon.it/Beyond-Legacy-Code-Practices-Software-ebook/dp/B01CRIZEF8" type="source" />
+    </references>
+  </event>
   <event date="2017-11-27">
     <action type="reading">Developing Transactional Microservices Using Aggregates, Event Sourcing and CQRS - Part 2</action>
     <references>
