@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2017-11-28">
+    <action type="studying">Chapter 14 of Beyond Legacy Code: Learning from our Legacy</action>
+    <references>
+      <reference src="https://www.amazon.it/Beyond-Legacy-Code-Practices-Software-ebook/dp/B01CRIZEF8" type="source" />
+    </references>
+  </event>
+  <event date="2017-11-28">
     <action type="studying">Chapter 13 of Beyond Legacy Code: Refactor Legacy Code</action>
     <references>
       <reference src="https://www.amazon.it/Beyond-Legacy-Code-Practices-Software-ebook/dp/B01CRIZEF8" type="source" />
