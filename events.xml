@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-12-04">
+    <action type="studying">Chapter 1 of Software Craftsmanship: Understanding Software Engineering</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/0201733862/" type="source" />
+    </references>
+  </event>
   <event date="2017-11-28">
     <action type="studying">Chapter 14 of Beyond Legacy Code: Learning from our Legacy</action>
     <references>
