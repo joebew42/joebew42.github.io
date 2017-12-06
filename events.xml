@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2017-12-06">
+    <action type="watching">SC London 2017: TDD, As If You Meant It by Alex Bolboaca</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=gNmsWP1LKKs" type="source" />
+    </references>
+  </event>
   <event date="2017-12-05">
     <action type="studying">Chapter 2 of Software Craftsmanship: The Problems with Software Engineering</action>
     <references>
