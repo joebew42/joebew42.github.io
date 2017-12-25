@@ -36,7 +36,7 @@ You can follow my studies by visiting my [Daily Activity Log](http://joebew42.gi
 
 ## Side activities
 
-* I started a [Twitch Channel](https://www.twitch.tv/joebew42) where I go live with programming session about Clean Code, Test-Driven Development and Refactoring. We will try to improve the way I can apply these practices by actively contribute to open source projects. If you want to join the streaming, come and say hi to me there!
+* I started a [Twitch Channel](https://www.twitch.tv/joebew42) where I go live with programming sessions about Clean Code, Test-Driven Development and Refactoring. We will try to improve the way I can apply these practices by actively contribute to open source projects. If you want to join the streaming, come and say hi to me there!
 
 * A [study path](https://github.com/joebew42/study-path) about several topics about software development that you may find helpful for your career. I am trying to keep it up to date with my studies.
 
