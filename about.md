@@ -6,7 +6,7 @@ permalink: /about/
 
 <img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" style="float:right;margin:30px;margin-right:0" />
 
-Hello folks!
+_"There is nothing you can't do, but only things you won't to do"_
 
 My name is Joe Bew, I am currently working as an [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I deal with [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development).
 
@@ -26,7 +26,7 @@ Being an Agile software developer encourages me to be more interested in the pra
 
 ## Topics that I am finding of interest
 
-* [Beyond Legacy Code](https://www.amazon.com/Beyond-Legacy-Code-Practices-Software-ebook/dp/B01CRIZEF8)
+* [Software Craftsmanship](https://www.amazon.com/Software-Craftsmanship-Imperative-Pete-McBreen/dp/0201733862)
 * [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
 * [Microservices Architecture](https://martinfowler.com/articles/microservices.html)
 * [Erlang](https://www.erlang.org/) / [Elixir](https://elixir-lang.org)
@@ -36,11 +36,11 @@ You can follow my studies by visiting my [Daily Activity Log](http://joebew42.gi
 
 ## Side activities
 
+* I started a [Twitch Channel](https://www.twitch.tv/joebew42) where I go live with programming session about Clean Code, Test-Driven Development and Refactoring. We will try to improve the way I can apply these practices by actively contribute to open source projects. If you want to join the streaming, come and say hi to me there!
+
 * A [study path](https://github.com/joebew42/study-path) about several topics about software development that you may find helpful for your career. I am trying to keep it up to date with my studies.
 
 * If you have some experiences with [Mesos](http://mesos.apache.org/) or [Kubernetes](https://kubernetes.io/), you could be interested in joining [Mobos](https://github.com/mobos/mob). Unfortunately, I do not have enough time to ensure constant development on the project, so I can not guarantee when it will be available and usable, but I am always available to welcome people who want to contribute or want to know more about.
-
-* A [Twitch Channel](https://www.twitch.tv/joebew42) where sometimes I go live with programming session about teaching, exercising or contributing on opensource projects. You can read more about my journey on Twitch by reading the [official journal](https://joebew42.github.io/twitch/).
 
 * A [funny initiative](http://shittysomething.com/) to summarize our daily moods! Check it out, and if sometimes you feel like a _"shitty coder"_, please let me know by [issuing a pull request](https://github.com/ShittySomething/shittysomething.github.io)!
 
