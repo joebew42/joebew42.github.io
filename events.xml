@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-01-08">
+    <action type="studying">Chapter 5 of Software Craftsmanship: Putting people back into software development</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/0201733862/" type="source" />
+    </references>
+  </event>
   <event date="2017-12-15">
     <action type="studying">Chapter 4 of Software Craftsmanship: Finding a better metaphor than software engineering</action>
     <references>
