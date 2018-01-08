@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2018-01-08">
+    <action type="studying">Chapter 6 of Software Craftsmanship: Craftsmanship is the opposite of licensing</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/0201733862/" type="source" />
+    </references>
+  </event>
+  <event date="2018-01-08">
     <action type="studying">Chapter 5 of Software Craftsmanship: Putting people back into software development</action>
     <references>
       <reference src="https://www.amazon.com/dp/0201733862/" type="source" />
