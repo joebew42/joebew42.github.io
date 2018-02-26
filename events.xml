@@ -955,7 +955,7 @@
   <event date="2015-07-27">
     <action type="reading">Effective API testing with Cucumber</action>
     <references>
-      <reference src="http://gregbee.ch/blog/effective-api-testing-with-cucumber" type="source" />
+      <reference src="https://www.gregbeech.com/2014/01/19/effective-api-testing-with-cucumber/" type="source" />
     </references>
   </event>
   <event date="2015-07-26">
