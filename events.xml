@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-03-06">
+    <action type="studying">Chapter 10 of Software Craftsmanship: How to become a craftsman</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/0201733862/" type="source" />
+    </references>
+  </event>
   <event date="2018-03-01">
     <action type="studying">Chapter 9 of Software Craftsmanship: Managing craftsmen</action>
     <references>
