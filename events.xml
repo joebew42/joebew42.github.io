@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-04-06">
+    <action type="studying">Chapter 13 of Software Craftsmanship: Journeymen Developers</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/0201733862/" type="source" />
+    </references>
+  </event>
   <event date="2018-04-04">
     <action type="studying">Chapter 12 of Software Craftsmanship: Apprentice Developers</action>
     <references>
