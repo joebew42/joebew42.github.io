@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-04-20">
+    <action type="studying">Chapter 1 of Extreme Programming Explained: What is XP?</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/0321278658" type="source" />
+    </references>
+  </event>
   <event date="2018-04-09">
     <action type="watching">GenStage and Flow - José Valim (Lambda Days 2017)</action>
     <references>
