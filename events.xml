@@ -897,7 +897,7 @@
   <event date="2015-09-07">
     <action type="reading">Continuous Delivery of Microservices at Netflix</action>
     <references>
-      <reference src="http://www.javamagazine.mozaicreader.com/JulyAug2015/Default/22/0/3227709#&pageSet=22&page=0" type="source" />
+      <reference src="http://www.javamagazine.mozaicreader.com/JulyAug2015/Default/22/0/3227709#&amp;pageSet=22&amp;page=0" type="source" />
     </references>
   </event>
   <event date="2015-09-04">
@@ -916,7 +916,7 @@
   <event date="2015-09-03">
     <action type="bookmark">Continuous Delivery of Microservices at Netflix</action>
     <references>
-      <reference src="http://www.javamagazine.mozaicreader.com/JulyAug2015/Default/22/0/3227709#&pageSet=22&page=0" type="source" />
+      <reference src="http://www.javamagazine.mozaicreader.com/JulyAug2015/Default/22/0/3227709#&amp;pageSet=22&amp;page=0" type="source" />
     </references>
   </event>
   <event date="2015-09-03">
