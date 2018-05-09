@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-05-09">
+    <action type="studying">Chapter 5 of Extreme Programming Explained: Principles</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/0321278658" type="source" />
+    </references>
+  </event>
   <event date="2018-05-07">
     <action type="watching">Event-driven architectures in Elixir - Maciej Kaszubowski - ElixirConf EU 2018</action>
     <references>
