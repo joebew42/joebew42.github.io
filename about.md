@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" style="float:right;margin:30px;margin-right:0" />
+<img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" style="float:right;margin:30px;margin-right:0;border-radius:50%" />
 
 _"There is nothing you can't do, but only things you won't to do"_
 
@@ -18,11 +18,11 @@ I prefer to play and work with people, as a team. Better if we where in the same
 
 The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) plays an important role during my typical work day. It helps me to stay focused on the current activity I am working on, to reduce distractions or interruptions and to keep tracks of the effort required to complete a task, with the outcome that at the end of my day I have a clear picture of what I have done, and a measure of the effective time spent on a particular activity, that I may use as feedback to improve the way I organize my next day's activities schedule.
 
-**When I am at writing code** I am used to combine the practice of test-driven development with the disciplined pace driven by the pomodoro technique, so that I can leverage on this regulated way to work without the need to rush.
+**When I am at [writing code](https://gist.github.com/joebew42/0ff621459779d0e7c1058f87dae3cea2)** I am used to combine the practice of test-driven development with the disciplined pace driven by the pomodoro technique, so that I can leverage on this regulated way to work without the need to rush.
 
 I like to practice [pair programming](https://en.wikipedia.org/wiki/Pair_programming) cause I strongly believe that an active and constant feedback loop is even much better and effective for the overall outcome quality instead of the old technical review or other feedback process that starts only after the work has been committed.
 
-Being an Agile software developer encourages me to be more interested in the practices rather than tools. Tools like programming languages changes over the time. Improving the mastery of [XP practices](https://en.wikipedia.org/wiki/Extreme_programming_practices) let me to easily adapt to the change.
+Being an Agile software developer encourages me to be more interested in principles and practices rather than tools. Tools like programming languages or technology stacks changes over the time. Improving the mastery of [XP](https://en.wikipedia.org/wiki/Extreme_programming) let me to easily adapt to the changes.
 
 ## Topics that I am finding of interest
 
