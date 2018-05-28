@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-05-26">
+    <action type="studying">Chapter 11 of Extreme Programming Explained: The theory of constraints</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/0321278658" type="source" />
+    </references>
+  </event>
+  <event date="2018-05-24">
+    <action type="studying">Chapter 8 and 9 of Extreme Programming Explained</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/0321278658" type="source" />
+    </references>
+  </event>
   <event date="2018-05-22">
     <action type="studying">Chapter 7 of Extreme Programming Explained: Primary Practices</action>
     <references>
