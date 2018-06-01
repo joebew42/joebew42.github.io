@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-06-01">
+    <action type="reading">Should we always use TDD to design?</action>
+    <references>
+      <reference src="https://codurance.com/2018/05/26/should-we-always-use-tdd-to-design/" type="source" />
+    </references>
+  </event>
   <event date="2018-05-26">
     <action type="studying">Chapter 11 of Extreme Programming Explained: The theory of constraints</action>
     <references>
