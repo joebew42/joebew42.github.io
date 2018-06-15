@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-06-15">
+    <action type="studying">Chapter 13 and 14 of Extreme Programming Explained</action>
+    <references>
+      <reference src="https://www.amazon.com/dp/0321278658" type="source" />
+    </references>
+  </event>
   <event date="2018-06-11">
     <action type="studying">Chapter 12 of Extreme Programming Explained: Planning: Managing Scope</action>
     <references>
