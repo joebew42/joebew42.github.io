@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-06-18">
+    <action type="reading">What do you mean by "Event-Driven"?</action>
+    <references>
+      <reference src="https://martinfowler.com/articles/201701-event-driven.html" type="source" />
+    </references>
+  </event>
   <event date="2018-06-15">
     <action type="studying">Chapter 13 and 14 of Extreme Programming Explained</action>
     <references>
