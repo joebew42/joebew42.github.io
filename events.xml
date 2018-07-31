@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-07-31">
+    <action type="studying">Chapter 3 of The Agile Samurai: How to get Everyone on the Bus</action>
+    <references>
+      <reference src="https://pragprog.com/book/jtrap/the-agile-samurai" type="source" />
+    </references>
+  </event>
   <event date="2018-07-25">
     <action type="watching">A craftsman's guide to designing a clean architecture, Marcus Biel</action>
     <references>
