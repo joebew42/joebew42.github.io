@@ -8,7 +8,7 @@ permalink: /about/
 
 _"There is nothing you can't do, but only things you won't to do"_
 
-My name is Joe Bew, I currently work as an [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I deal with [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development).
+My name is Joe, I currently work as an [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I deal with [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development).
 
 I like to keep the focus on the practices that we can apply everyday to save time, be more productive, build better products and make the team happier.
 
@@ -36,7 +36,7 @@ You can follow my studies by visiting my [Daily Activity Log](http://joebew42.gi
 
 ## Side activities
 
-* I started a [Twitch Channel](https://www.twitch.tv/joebew42) where I go live with programming sessions about Clean Code, Test-Driven Development and Refactoring. We will try to improve the way I can apply these practices by actively contribute to open source projects. If you want to join the streaming, come and say hi to me there!
+* A [Twitch Channel](https://www.twitch.tv/joebew42) about Clean Code, Test-Driven Development and Refactoring. We will try to improve the way we can apply these practices by actively contribute to open source projects. If you want to join the live coding session, come and say hi to me there! To read more about it visit the [related channel blog here](https://joebew42.github.io/twitch/).
 
 * A [study path](https://github.com/joebew42/study-path) about several topics about software development that you may find helpful for your career. I am trying to keep it up to date with my studies.
 
