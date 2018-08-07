@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-08-07">
+    <action type="studying">Chapter 4 of The Agile Samurai: Seeing the Big Picture</action>
+    <references>
+      <reference src="https://pragprog.com/book/jtrap/the-agile-samurai" type="source" />
+    </references>
+  </event>
   <event date="2018-08-02">
     <action type="reading">Coaching Technical Practices</action>
     <references>
