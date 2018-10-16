@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-10-16">
+    <action type="watching">Emily Bache: Effective Technical Agile - SCLConf 2018</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=CuO6dbdQup4" type="source" />
+    </references>
+  </event>
   <event date="2018-10-01">
     <action type="studying">Chapter 7 of The Agile Samurai: Estimation: The Fine Art of Guessing</action>
     <references>
