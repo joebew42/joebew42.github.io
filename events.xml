@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-11-21">
+    <action type="reading">Post-REST</action>
+    <references>
+      <reference src="https://www.tbray.org/ongoing/When/201x/2018/11/18/Post-REST" type="source" />
+    </references>
+  </event>
   <event date="2018-11-20">
     <action type="watching">Panel Discussion: Technical Practices - SCLConf 2018</action>
     <references>
