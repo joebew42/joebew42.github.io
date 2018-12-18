@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2018-12-18">
+    <action type="reading">A Critical Step towards #NoEstimates</action>
+    <references>
+      <reference src="https://blog.jbrains.ca/permalink/a-critical-step-towards-noestimates" type="source" />
+    </references>
+  </event>
   <event date="2018-12-12">
     <action type="watching">Agility ≠ Speed - Kevlin Henney</action>
     <references>
