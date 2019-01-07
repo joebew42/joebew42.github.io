@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-01-07">
+    <action type="watching">Kent Beck - 3X Explore/Expand/Extract</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=YGhS8VQpS6s" type="source" />
+    </references>
+  </event>
   <event date="2018-12-20">
     <action type="reading">The NoEstimates Movement</action>
     <references>
