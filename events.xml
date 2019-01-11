@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-01-10">
+    <action type="watching">Refactor your language knowledge portfolio - we are what we can code in</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=zajUPJI19ZQ" type="source" />
+    </references>
+  </event>
   <event date="2019-01-07">
     <action type="watching">Kent Beck - 3X Explore/Expand/Extract</action>
     <references>
