@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-01-25">
+    <action type="watching">Feature Branching is Evil (Thierry de Pauw, Belgium)</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=h4DM-Wa0aDQ" type="source" />
+    </references>
+  </event>
   <event date="2019-01-21">
     <action type="watching">substring, TCR style</action>
     <references>
