@@ -1,6 +1,6 @@
 requirements:
 
-* ruby 2.2.4
+* ruby 2.6.3
 
 setup:
 
