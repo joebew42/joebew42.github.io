@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-04-21">
+    <action type="watching">Code Refactoring: Learn Code Smells And Level Up Your Game!</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=D4auWwMsEnY" type="source" />
+    </references>
+  </event>
+  <event date="2019-04-20">
+    <action type="watching">Opening Keynote: Greg Young - Stop Over-Engenering</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=GRr4xeMn1uU" type="source" />
+    </references>
+  </event>
   <event date="2019-03-26">
     <action type="watching">Part 2/3 - Refactoring item logic using 'lift up conditional', Emily Bache</action>
     <references>
