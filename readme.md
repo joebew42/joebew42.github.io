@@ -5,14 +5,14 @@ requirements:
 setup:
 
 ```
-$ gem install bundler
-$ bundle
+gem install bundler
+bundle
 ```
 
 run:
 
 ```
-$ jekyll serve --watch
+bundle exec jekyll server --watch
 ```
 
 see it in action:
