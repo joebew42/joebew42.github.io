@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-05-10">
+    <action type="reading">Simplicity, Please - A Manifesto for Software Development</action>
+    <references>
+      <reference src="https://www.infoq.com/articles/simplicity-manifesto-development" type="source" />
+    </references>
+  </event>
   <event date="2019-04-21">
     <action type="watching">Code Refactoring: Learn Code Smells And Level Up Your Game!</action>
     <references>
