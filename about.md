@@ -21,6 +21,6 @@ Curious about people.
 ### Keep in touch
 
 - Social: [Twitter](https://twitter.com/joebew42) • [Telegram](https://t.me/joebew42) • [Diaspora*](https://joindiaspora.com/people/fdc8e995614a2609)
-- Code: [GitHub](https://github.com/joebew42) • [GitLab](https://gitlab.com/joebew42)
+- Code: [Twitch](https://twitch.tv/joebew42) • [GitHub](https://github.com/joebew42) • [GitLab](https://gitlab.com/joebew42)
 - Slack: [Software Crafters](http://slack.softwarecraftsmanship.org/)
 - Mail: joebew42 - at - gmail.com
