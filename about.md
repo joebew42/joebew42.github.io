@@ -6,19 +6,17 @@ permalink: /about/
 
 <img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" style="float:right;margin:30px;margin-right:0;border-radius:50%" />
 
-_"There is nothing you can't do, but only things you won't to do"_
-
 My name is Joe, I currently work as an [Agile Software Developer](https://en.wikipedia.org/wiki/Agile_software_development) at [XPeppers](http://www.xpeppers.com/) where I deal with [Agile](http://agilemanifesto.org/), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) and [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development).
 
 I like to keep the focus on the practices that we can apply everyday to save time, be more productive, build better products and make the team happier.
 
 ## How am I used to work ?
 
-I prefer to play and work with people, as a team. Better if we where in the same workplace.
+I prefer to play and work with people, as a team. Better if we are in the same workplace.
 
-The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) plays an important role during my typical work day. It helps me to stay focused on the current activity I am working on, to reduce distractions or interruptions and to keep tracks of the effort required to complete a task, with the outcome that at the end of my day I have a clear picture of what I have done, and a measure of the effective time spent on a particular activity, that I may use as feedback to improve the way I organize my next day's activities schedule.
+The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) plays an important role during my typical work day. It helps me to stay focused on the current activity I am working on, to reduce distractions or interruptions and to keep tracks of the required effort to complete a task, with the outcome that at the end of my day I have a clear picture of what I have done, and a measure of the effective time spent on a particular activity, that I may use as feedback to improve the way I organize my next day's activities schedule.
 
-**When I am at [writing code](https://gist.github.com/joebew42/0ff621459779d0e7c1058f87dae3cea2)** I am used to combine the practice of test-driven development with the disciplined pace driven by the pomodoro technique, so that I can leverage on this regulated way to work without the need to rush.
+When I am at [writing code](https://gist.github.com/joebew42/0ff621459779d0e7c1058f87dae3cea2) I am used to combine the practice of test-driven development with the disciplined pace driven by the pomodoro technique, so that I can leverage on this regulated way to work without the need to rush.
 
 I like to practice [pair programming](https://en.wikipedia.org/wiki/Pair_programming) cause I strongly believe that an active and constant feedback loop is even much better and effective for the overall outcome quality instead of the old technical review or other feedback process that starts only after the work has been committed.
 
@@ -27,6 +25,8 @@ Being an Agile software developer encourages me to be more interested in princip
 ## Topics that I am finding of interest
 
 * [Software Craftsmanship](https://www.amazon.com/Software-Craftsmanship-Imperative-Pete-McBreen/dp/0201733862)
+* Clean Code
+* Test-Driven Development
 * [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
 * [Microservices Architecture](https://martinfowler.com/articles/microservices.html)
 * [Erlang](https://www.erlang.org/) / [Elixir](https://elixir-lang.org)
