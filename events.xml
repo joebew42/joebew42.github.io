@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-06-19">
+    <action type="watching">Keith Harrison - Creating a Culture of Software Craftsmanship</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=uif5GnLqjZo" type="source" />
+    </references>
+  </event>
   <event date="2019-06-05">
     <action type="watching">The Principles of Clean Architecture by Uncle Bob Martin</action>
     <references>
