@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
-  https://medium.com/@DaveSchinkel/tdd-on-punch-cards-f17c25282fa4
+  <event date="2019-06-24">
+    <action type="bookmark">A Conversation with Werner Vogels</action>
+    <references>
+      <reference src="https://queue.acm.org/detail.cfm?id=1142065" type="source" />
+    </references>
+  </event>
   <event date="2019-06-24">
     <action type="enjoying">TDD on Punch Cards</action>
     <references>
