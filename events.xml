@@ -3,9 +3,9 @@
 <events>
   https://medium.com/@DaveSchinkel/tdd-on-punch-cards-f17c25282fa4
   <event date="2019-06-24">
-    <action type="watching">TDD on Punch Cards</action>
+    <action type="enjoying">TDD on Punch Cards</action>
     <references>
-      <reference src="https://medium.com/@DaveSchinkel/tdd-on-punch-cards-f17c25282fa4" type="enjoying" />
+      <reference src="https://medium.com/@DaveSchinkel/tdd-on-punch-cards-f17c25282fa4" type="source" />
     </references>
   </event>
   <event date="2019-06-19">
