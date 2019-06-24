@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  https://medium.com/@DaveSchinkel/tdd-on-punch-cards-f17c25282fa4
+  <event date="2019-06-24">
+    <action type="watching">TDD on Punch Cards</action>
+    <references>
+      <reference src="https://medium.com/@DaveSchinkel/tdd-on-punch-cards-f17c25282fa4" type="enjoying" />
+    </references>
+  </event>
   <event date="2019-06-19">
     <action type="watching">Keith Harrison - Creating a Culture of Software Craftsmanship</action>
     <references>
