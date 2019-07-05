@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2019-07-05">
+    <action type="reading">Programming is not a craft</action>
+    <references>
+      <reference src="https://dannorth.net/2011/01/11/programming-is-not-a-craft/" type="source" />
+    </references>
+  </event>
+  <event date="2019-07-05">
     <action type="reading">What Software Craftsmanship is about</action>
     <references>
       <reference src="https://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html" type="source" />
