@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-07-28">
+    <action type="reading">The Thing of Software Development</action>
+    <references>
+      <reference src="https://michaelfeathers.typepad.com/michael_feathers_blog/2011/01/the-thing-of-software-development.html" type="source" />
+    </references>
+  </event>
+  <event date="2019-07-11">
+    <action type="reading">The Path Already Taken</action>
+    <references>
+      <reference src="http://www.gilzilberfeld.com/2011/01/path-already-taken.html" type="source" />
+    </references>
+  </event>
   <event date="2019-07-05">
     <action type="reading">Programming is not a craft</action>
     <references>
