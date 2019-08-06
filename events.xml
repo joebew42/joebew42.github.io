@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-08-06">
+    <action type="reading">Building an Event Storage</action>
+    <references>
+      <reference src="https://cqrs.wordpress.com/documents/building-event-storage/" type="source" />
+    </references>
+  </event>
   <event date="2019-07-28">
     <action type="reading">The Thing of Software Development</action>
     <references>
