@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-09-02">
+    <action type="watching">SunDDDay discussion: CQRS & Event Sourcing systems with Alexey and Marco</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=5e7lhY2q8WQ" type="source" />
+    </references>
+  </event>
   <event date="2019-08-06">
     <action type="reading">Building an Event Storage</action>
     <references>
