@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2019-09-02">
-    <action type="watching">SunDDDay discussion: CQRS & Event Sourcing systems with Alexey and Marco</action>
+    <action type="watching">SunDDDay discussion: CQRS &amp; Event Sourcing systems with Alexey and Marco</action>
     <references>
       <reference src="https://www.youtube.com/watch?v=5e7lhY2q8WQ" type="source" />
     </references>
