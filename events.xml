@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-09-18">
+    <action type="watching">Event Sourcing after launch - Michiel Overeem - DDD Europe 2018</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=JzWJI8kW2kc" type="source" />
+    </references>
+  </event>
   <event date="2019-09-02">
     <action type="watching">SunDDDay discussion: CQRS &amp; Event Sourcing systems with Alexey and Marco</action>
     <references>
