@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-09-25">
+    <action type="reading">Endo-Testing: Unit Testing with Mock Objects</action>
+    <references>
+      <reference src="https://www2.ccs.neu.edu/research/demeter/related-work/extreme-programming/MockObjectsFinal.PDF" type="source" />
+    </references>
+  </event>
   <event date="2019-09-18">
     <action type="watching">Event Sourcing after launch - Michiel Overeem - DDD Europe 2018</action>
     <references>
