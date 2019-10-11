@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-10-10">
+    <action type="reading">Why Event Sourcing is a microservice communication anti-pattern</action>
+    <references>
+      <reference src="https://dev.to/olibutzki/why-event-sourcing-is-a-microservice-anti-pattern-3mcj" type="source" />
+    </references>
+  </event>
+  <event date="2019-10-09">
+    <action type="watching">Practical DDD: Bounded Contexts + Events = Microservices</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=Ab5-ebHja3o" type="source" />
+    </references>
+  </event>
   <event date="2019-09-25">
     <action type="reading">Endo-Testing: Unit Testing with Mock Objects</action>
     <references>
