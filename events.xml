@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-10-17">
+    <action type="watching">Understanding Legacy Code with TCR (test &amp;&amp; commit || revert)</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=FFzHOyFeovE" type="source" />
+    </references>
+  </event>
   <event date="2019-10-10">
     <action type="reading">Why Event Sourcing is a microservice communication anti-pattern</action>
     <references>
