@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2019-10-27">
+    <action type="reading">Sooner, Not Faster</action>
+    <references>
+      <reference src="http://butunclebob.com/ArticleS.TimOttinger.SoonerNotFaster" type="source" />
+    </references>
+  </event>
+  <event date="2019-10-27">
     <action type="reading">Organic Software Architecture</action>
     <references>
       <reference src="https://dev.to/kmruiz/organic-software-architecture-3548" type="source" />
