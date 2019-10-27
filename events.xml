@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-10-27">
+    <action type="reading">The Brand Called You</action>
+    <references>
+      <reference src="https://www.fastcompany.com/28905/brand-called-you" type="source" />
+    </references>
+  </event>
+  <event date="2019-10-24">
+    <action type="watching">Alberto Brandolini: The Gordian Knot - SCL Conf 2019</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=WcOONURucj4" type="source" />
+    </references>
+  </event>
   <event date="2019-10-17">
     <action type="watching">Understanding Legacy Code with TCR (test &amp;&amp; commit || revert)</action>
     <references>
