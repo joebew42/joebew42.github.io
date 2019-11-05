@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-10-31">
+    <action type="reading">Monolith Decomposition Patterns - Sam Newman</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=64w1zbpHGTg" type="source" />
+    </references>
+  </event>
   <event date="2019-10-27">
     <action type="reading">Sooner, Not Faster</action>
     <references>
