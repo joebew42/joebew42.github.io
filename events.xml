@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-11-06">
+    <action type="reading">How to Plan your Week the Right Way</action>
+    <references>
+      <reference src="https://medium.com/swlh/how-to-plan-your-week-the-right-way-4da9b98e8a68" type="source" />
+    </references>
+  </event>
+  <event date="2019-11-05">
+    <action type="watching">How to Plan Your Week | The Art of Manliness</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=KNxLNY6yxRI" type="source" />
+    </references>
+  </event>
   <event date="2019-10-31">
     <action type="reading">Monolith Decomposition Patterns - Sam Newman</action>
     <references>
