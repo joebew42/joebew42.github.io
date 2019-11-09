@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-11-09">
+    <action type="reading">Sooner, Not Faster Revisited</action>
+    <references>
+      <reference src="https://blog.jbrains.ca/permalink/sooner-not-faster-revisited" type="source" />
+    </references>
+  </event>
   <event date="2019-11-06">
     <action type="reading">How to Plan your Week the Right Way</action>
     <references>
