@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-11-28">
+    <action type="reading">Squad Health Check model - visualizing what to improve</action>
+    <references>
+      <reference src="https://labs.spotify.com/2014/09/16/squad-health-check-model/" type="source" />
+    </references>
+  </event>
   <event date="2019-11-25">
     <action type="reading">Advocating Against Advocating Against</action>
     <references>
