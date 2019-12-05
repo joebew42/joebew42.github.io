@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2019-12-05">
+    <action type="reading">Screaming Architecture</action>
+    <references>
+      <reference src="https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html" type="source" />
+    </references>
+  </event>
+  <event date="2019-12-05">
     <action type="reading">Bringing Balance to the Force</action>
     <references>
       <reference src="https://blog.cleancoder.com/uncle-bob/2011/01/19/individuals-and-interactions.html" type="source" />
