@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2019-12-09">
+    <action type="watching">Agile and architecture, finally friends after 15 years</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=W0lgoVXcgwk" type="source" />
+    </references>
+  </event>
+  <event date="2019-12-09">
     <action type="reading">Simple Hickey</action>
     <references>
       <reference src="https://blog.cleancoder.com/uncle-bob/2011/10/20/Simple-Hickey.html" type="source" />
