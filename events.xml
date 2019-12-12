@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2019-12-12">
+    <action type="reading">The Barbarians are at the Gates</action>
+    <references>
+      <reference src="https://blog.cleancoder.com/uncle-bob/2011/12/11/The-Barbarians-are-at-the-Gates.html" type="source" />
+    </references>
+  </event>
+  <event date="2019-12-11">
+    <action type="reading">Clean Architecture</action>
+    <references>
+      <reference src="https://blog.cleancoder.com/uncle-bob/2011/11/22/Clean-Architecture.html" type="source" />
+    </references>
+  </event>
   <event date="2019-12-09">
     <action type="watching">Agile and architecture, finally friends after 15 years</action>
     <references>
