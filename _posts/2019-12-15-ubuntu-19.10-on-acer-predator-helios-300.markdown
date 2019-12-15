@@ -1,0 +1,98 @@
+---
+layout: post
+title:  "Ubuntu 19.10 on Acer Predator Helios 300"
+date:   2019-12-15 15:00:00 +0100
+excerpt_separator: <!--more-->
+---
+
+![Ubuntu 19.10 on Acer Predator Helios 300](/assets/ubuntu-19.10-on-acer-predator-helios-300.jpg)
+_Ubuntu 19.10 on Acer Predator Helios 300_
+
+Long story short, I finally decided to buy a new laptop.
+
+The choose is [Acer Predator Helios 300](https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT).
+
+Specs are:
+
+- Monitor: 15.6 inches Full HD 144Hz 3ms IPS Display
+- CPU: Intel i7-9750H
+- Video: GTX 1660 Ti 6GB
+- RAM: 16GB DDR4
+- SSD: 256GB PCIe NVMe SSD
+
+Yes, it is a gaming laptop, that [I will use mainly to write code, video editing, remote pair programming and sometimes to do live coding sessions](https://twitter.com/joebew42/status/1188143433371836416) on [twitch](https://twitch.tv/joebew42).
+
+My preferred operating system is GNU/Linux and unfortunately, this laptop comes with Windows 10. Argh!
+
+Let's install Ubuntu 19.10!
+
+<!--more-->
+
+## Installing Ubuntu 19.10
+
+Yes, it works!
+
+My previous OS was Arch Linux, this time I decided to switch to Ubuntu 19.10 (easy to install, ready-to-go.)
+
+Steps I followed to install Ubuntu 19.10:
+
+### 1. Download [Ubuntu 19.10 Desktop](http://releases.ubuntu.com/19.10/)
+
+### 2. Create a USB Bootable Flash Drive:
+
+`dd if=~/Downloads/ubuntu-19.10-desktop-amd64.iso of=/dev/sdb bs=4M`
+
+_In my case the flash drive was attached to /dev/sdb._
+
+### 3. Change BIOS settings of the Acer Predator Helios 300
+
+- Turn the laptop on.
+- At boot press `F2` and enter the BIOS Setup.
+- Go to the `security` tab and set the BIOS Password (this is needed for the next step.)
+- Go to the `boot` tab and disable the `Secure Boot`.
+- Go to the `system` tab and switch `RST Premium Mode` to `AHCI Mode` (this will allow the Ubuntu Installer to recognize the SSD).
+- Save the changes, press `F10` and reboot.
+
+### 4. Install Ubuntu 19.10
+
+- Insert the USB Flash Drive
+- While the computer is booting press `F12`
+- Choose `Try Ubuntu without installing (safe graphics)`
+- Once Ubuntu is started, be sure you have an Internet connection (so that during the installation process it will fetch all the updates)
+- Press the icon `Install` (remember to check the boxes to install the third-party and proprietaries drivers, they are needed for the NVIDIA video card.)
+- **I removed all the Windows related partitions, and decided to have only Ubuntu on this laptop, no dual-boot. So, from this point proceed at your own risk!**
+- Once the installation is over, just restart the laptop :)
+
+### 5. Post installation steps
+
+I noticed that the laptop **doesn't wake up quickly, after suspend**.
+
+Some strange messages from the `dmesg` says:
+
+```
+...
+[10353.568820] Restarting tasks ... done.
+[10353.578325] PM: Possible incorrect RTC due to pm_trace, please use 'ntpdate' or 'rdate' to reset it.
+[10353.638335] PM: suspend exit
+```
+
+After [installing `chrony`](https://vitux.com/keep-your-clock-sync-with-internet-time-servers-in-ubuntu/), everything seems fixed:
+
+`sudo apt-get install chrony`
+
+But the **touchpad is not working after suspend!** What!?
+
+After playing for a while with `modprobe`, I discovered that:
+
+```
+sudo modprobe -vr i2c_hid
+sudo modprobe -v i2c_hid
+```
+
+Did the trick! Touchpad working again :)
+
+There should be the way to automate this step when the laptop wakes up after the suspend, but I need to learn more about that. If you know how, please let me know.
+
+### 6. Enjoy!
+
+Everything seems fine! If you find something new or wants to add more information, contact me on Twitter [`@joebew42`](https://twitter.com/joebew42).
