@@ -61,24 +61,44 @@ _In my case the flash drive was attached to /dev/sdb._
 - **I removed all the Windows related partitions, and decided to have only Ubuntu on this laptop, no dual-boot. So, from this point proceed at your own risk!**
 - Once the installation is over, just restart the laptop :)
 
-### 5. Post installation steps
+### 5. Post installation steps/issues
 
-I noticed that the laptop **doesn't wake up quickly, after suspend**.
+**Issue: [50-second hang each time I resume from a "deep" (suspend-to-RAM) sleep.](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1850238)**
+
+This seems to be an issue intoduced by the recent Linux Kernel 5.3 and NVIDIA drivers.
+
+The `dmesg` log:
+
+```
+[mer dic 18 15:18:22 2019] nvme nvme0: 8/0/0 default/read/poll queues
+[mer dic 18 15:19:12 2019] ucsi_ccg 0-0008: PPM NOT RESPONDING
+[mer dic 18 15:19:12 2019] PM: dpm_run_callback(): ucsi_ccg_resume+0x0/0x20 [ucsi_ccg] returns -110
+[mer dic 18 15:19:12 2019] PM: Device 0-0008 failed to resume: error -110
+```
+
+**Issue: System Clock is not updated after suspend**
+
+I noticed that after the suspend, the system clock is not getting updated.
 
 Some strange messages from the `dmesg` says:
 
 ```
-...
 [10353.568820] Restarting tasks ... done.
 [10353.578325] PM: Possible incorrect RTC due to pm_trace, please use 'ntpdate' or 'rdate' to reset it.
 [10353.638335] PM: suspend exit
 ```
 
-After [installing `chrony`](https://vitux.com/keep-your-clock-sync-with-internet-time-servers-in-ubuntu/), everything seems fixed:
+I had to [install `chrony`](https://vitux.com/keep-your-clock-sync-with-internet-time-servers-in-ubuntu/):
 
 `sudo apt-get install chrony`
 
-But the **touchpad is not working after suspend!** What!?
+And after the suspend I have to re-sync the date time manually, with:
+
+```
+sudo chronyd -q
+```
+
+**Issue: Touchpad is not working after suspend!**
 
 After playing for a while with `modprobe`, I discovered that:
 
@@ -93,4 +113,6 @@ There should be the way to automate this step when the laptop wakes up after the
 
 ### 6. Enjoy!
 
-Everything seems fine! If you find something new or wants to add more information, contact me on Twitter [`@joebew42`](https://twitter.com/joebew42).
+Everything seems fine except the suspend!
+
+If you find something new or wants to add more information, contact me on Twitter [`@joebew42`](https://twitter.com/joebew42).
