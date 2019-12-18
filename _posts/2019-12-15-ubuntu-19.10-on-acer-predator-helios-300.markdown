@@ -10,9 +10,7 @@ _Ubuntu 19.10 on Acer Predator Helios 300_
 
 Long story short, I finally decided to buy a new laptop.
 
-The choose is [Acer Predator Helios 300](https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT).
-
-Specs are:
+The choice is [Acer Predator Helios 300](https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT):
 
 - Monitor: 15.6 inches Full HD 144Hz 3ms IPS Display
 - CPU: Intel i7-9750H
@@ -20,7 +18,7 @@ Specs are:
 - RAM: 16GB DDR4
 - SSD: 256GB PCIe NVMe SSD
 
-Yes, it is a gaming laptop, that [I will use mainly to write code, video editing, remote pair programming and sometimes to do live coding sessions](https://twitter.com/joebew42/status/1188143433371836416) on [twitch](https://twitch.tv/joebew42).
+Yes, it is a gaming laptop, that [I will mainly use to write code, video editing, remote pair programming and sometimes to do live coding sessions](https://twitter.com/joebew42/status/1188143433371836416) on [twitch](https://twitch.tv/joebew42).
 
 My preferred operating system is GNU/Linux and unfortunately, this laptop comes with Windows 10. Argh!
 
