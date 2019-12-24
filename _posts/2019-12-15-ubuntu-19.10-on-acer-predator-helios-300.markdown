@@ -5,12 +5,7 @@ date:   2019-12-15 15:00:00 +0100
 excerpt_separator: <!--more-->
 ---
 
-![Ubuntu 19.10 on Acer Predator Helios 300](/assets/ubuntu-19.10-on-acer-predator-helios-300.jpg)
-_Ubuntu 19.10 on Acer Predator Helios 300_
-
-Long story short, I finally decided to buy a new laptop.
-
-The choice is [Acer Predator Helios 300](https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT):
+Long story short, I finally decided to buy a new laptop, it is an [Acer Predator Helios 300](https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT), here few specs:
 
 - Monitor: 15.6 inches Full HD 144Hz 3ms IPS Display
 - CPU: Intel i7-9750H
@@ -116,3 +111,7 @@ There should be the way to automate this step when the laptop wakes up after the
 Everything seems fine except the suspend!
 
 If you find something new or wants to add more information, contact me on Twitter [`@joebew42`](https://twitter.com/joebew42).
+
+![Ubuntu 19.10 on Acer Predator Helios 300](/assets/ubuntu-19.10-on-acer-predator-helios-300.jpg)
+
+_Ubuntu 19.10 on Acer Predator Helios 300_
