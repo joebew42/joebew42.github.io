@@ -5,7 +5,7 @@ date:   2019-12-15 15:00:00 +0100
 excerpt_separator: <!--more-->
 ---
 
-Long story short, I finally decided to buy a new laptop, it is an [Acer Predator Helios 300](https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT), here few specs:
+I finally decided to buy a new laptop, it is an [Acer Predator Helios 300](https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT), and here you have few specs of it:
 
 - Monitor: 15.6 inches Full HD 144Hz 3ms IPS Display
 - CPU: Intel i7-9750H
