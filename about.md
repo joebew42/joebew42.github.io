@@ -6,17 +6,19 @@ permalink: /about/
 
 <img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" style="float:right;margin:30px;margin-right:0;border-radius:50%" />
 
-My name is Joe.
+Hello there! 👋
 
-I work as a Computer Programmer. Currently I am in the role of Team Lead [@DerivcoSports](https://twitter.com/DerivcoSports) Sweden. Previously, Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers).
+It' Joe, an Agile Practioner, currently in the role of Team Lead / Technical Coach [@DerivcoSports](https://twitter.com/DerivcoSports) Sweden. We do Pair Programming, TDD, fight Legacy code bases and keep the focus using the Pomodoro Technique.
 
-I am interested in [Clean Code and Agile](https://github.com/joebew42/study-path), and all the other practices related to shorten the customer feedback loop.
+Previously, Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers).
 
-Sometimes [I write code on Twitch](https://twitch.tv/joebew42), share [videos about programming on YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), and organizing local meetups about Agile Software Development.
+I am interested in [Clean Code and Agile](https://github.com/joebew42/study-path), and all the other practices that can help us to grow a sustainable way to build software.
+
+Sometimes I write code on [Twitch](https://twitch.tv/joebew42), share videos about programming on [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), and organize local meetups about Agile Software Development.
 
 [Free and Open Source Software](https://www.fsf.org/) enthusiast.
 
-Here is my [Daily Activity Log](http://joebew42.github.io/events.xml) to check what I am reading, studying or watching! You can even [grab the RSS format](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events).
+Here is my [Daily Activity Log](http://joebew42.github.io/events.xml) to check what I am reading, studying or watching! You can even [grab the RSS format](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events), oh the good and old one.
 
 ### Keywords
 
