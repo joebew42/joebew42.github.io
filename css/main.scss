@@ -6,15 +6,16 @@
 
 
 // Our variables
-$base-font-family: 'Montserrat', serif;
-$base-font-size:   16px;
+$base-font-family: 'Source Serif Pro', serif;
+$base-font-size:   16pt;
 $base-font-weight: 400;
+$heading-font-weight: 700;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.6;
+$base-line-height: 28pt;
 
 $spacing-unit:     30px;
 
-$text-color:       #333;
+$text-color:       #424242;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -23,10 +24,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    900px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        900px;
 
 
 
