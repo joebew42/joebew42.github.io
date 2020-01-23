@@ -7,7 +7,7 @@
 
 // Our variables
 $base-font-family: 'Source Serif Pro', serif;
-$base-font-size:   16pt;
+$base-font-size:   15pt;
 $base-font-weight: 400;
 $heading-font-weight: 700;
 $small-font-size:  $base-font-size * 0.875;
@@ -24,10 +24,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    900px;
+$content-width:    700px;
 
 $on-palm:          600px;
-$on-laptop:        900px;
+$on-laptop:        700px;
 
 
 

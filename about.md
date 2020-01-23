@@ -8,15 +8,15 @@ permalink: /about/
 
 Hello there! 👋
 
-It's Joe, an Agile Practioner, currently in the role of Team Lead / Technical Coach [@DerivcoSports](https://twitter.com/DerivcoSports) Sweden. We do Pair Programming, TDD, fight Legacy code bases and keep the focus using the Pomodoro Technique.
+It's Joe, an **Agile Practioner**, currently in the role of Team Leader / Technical Coach [@DerivcoSports](https://twitter.com/DerivcoSports) Sweden. We do Pair Programming, TDD, fight Legacy code bases, use the Pomodoro Technique, and **try to accommodate new business requirements in a fast changing environment**.
 
 Previously, Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers).
 
-I am interested in [Clean Code and Agile](https://github.com/joebew42/study-path), and all other practices that can lead to a sustainable way of building software.
+I am interested in [Clean Code and Agile](https://github.com/joebew42/study-path), and all other practices that can lead to a sustainable way of writing software. I am always looking to learn, explore and experiment new ideas.
 
-Sometimes I write code on [Twitch](https://twitch.tv/joebew42), share videos about programming on [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), and organize local meetups about Agile Software Development.
+Sometimes you can find me on [Twitch](https://twitch.tv/joebew42), or on [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) where I share videos about programming. Usually I participate or organize local meetups about Agile Software Development.
 
-I am a [Free and Open Source Software](https://www.fsf.org/) enthusiast.
+I prefer to use [Free and Open Source Software](https://www.fsf.org/).
 
 Here is my [Daily Activity Log](http://joebew42.github.io/events.xml), where I share what I am reading, studying or watching! You can even [grab the RSS format](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) - _oh the good and old one_ - if you have an RSS Reader.
 
