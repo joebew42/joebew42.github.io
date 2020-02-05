@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-01-05">
+    <action type="watching">What is an aggregate with Thomas Ploch</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=7h3DqZmvF9A" type="source" />
+    </references>
+  </event>
   <event date="2020-01-29">
     <action type="watching">Martin Fowler and Toby Clemson - Experimentation Using Event-based Systems</action>
     <references>
