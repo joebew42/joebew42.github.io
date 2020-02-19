@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-02-19">
+    <action type="reading">The story about how we do Agile Technical Coaching</action>
+    <references>
+      <reference src="https://philippe.bourgau.net/the-story-about-how-we-do-agile-technical-coaching/" type="source" />
+    </references>
+  </event>
   <event date="2020-02-18">
     <action type="reading">The Beginning of Extreme Programming</action>
     <references>
