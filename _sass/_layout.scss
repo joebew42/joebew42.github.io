@@ -190,6 +190,7 @@
 }
 
 .post-link {
+    font-family: $base-heading-font-family;
     display: block;
 }
 
@@ -203,6 +204,7 @@
 // }
 
 .post-title {
+    font-family: $base-heading-font-family;
     font-size: 42px;
     line-height: 1.4em;
 
@@ -215,6 +217,7 @@
     margin-bottom: $spacing-unit;
 
     h2 {
+        font-family: $base-heading-font-family;
         font-size: 32px;
 
         @include media-query($on-laptop) {
@@ -223,6 +226,7 @@
     }
 
     h3 {
+        font-family: $base-heading-font-family;
         font-size: 26px;
 
         @include media-query($on-laptop) {
@@ -231,6 +235,7 @@
     }
 
     h4 {
+        font-family: $base-heading-font-family;
         font-size: 20px;
 
         @include media-query($on-laptop) {

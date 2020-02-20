@@ -6,17 +6,18 @@
 
 
 // Our variables
-$base-font-family: 'Source Serif Pro', serif;
-$base-font-size:   14pt;
-$base-font-weight: 400;
-$heading-font-weight: 700;
+$base-font-family: 'Open Sans', serif;
+$base-heading-font-family: 'Roboto', serif;
+$base-font-size: 13pt;
+$base-font-weight: 300;
+$heading-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 24pt;
 
 $spacing-unit:     30px;
 
-$text-color:       #424242;
-$background-color: #fdfdfd;
+$text-color:       #020202;
+$background-color: #ffffff;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -24,7 +25,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    700px;
+$content-width:    900px;
 
 $on-palm:          600px;
 $on-laptop:        700px;
