@@ -8,15 +8,13 @@ permalink: /about/
 
 Hello there! 👋
 
-It's Joe, an **Agile Practioner**, currently in the role of Team Leader / Technical Coach [@DerivcoSports](https://twitter.com/DerivcoSports) Sweden. We do Pair Programming, TDD, fight Legacy code bases, use the Pomodoro Technique, and **try to accommodate new business requirements in a fast changing environment**.
+It's Joe, an **Agile Practioner and Technical Coach**, currently in the role of Team Leader  [@DerivcoSports](https://twitter.com/DerivcoSports), Sweden. Previously, Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers), Italy.
 
-Previously, Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers).
+I am interested in [Clean Code and Agile](https://github.com/joebew42/study-path), and all other practices that can lead to a sustainable way of writing software, and I do really enjoy to share this passion with others, where I can. I am always looking to learn, explore and experiment new ideas.
 
-I am interested in [Clean Code and Agile](https://github.com/joebew42/study-path), and all other practices that can lead to a sustainable way of writing software. I am always looking to learn, explore and experiment new ideas.
+You can find me on [Twitch](https://twitch.tv/joebew42), or on [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) where I sometimes share videos about programming.
 
-Sometimes you can find me on [Twitch](https://twitch.tv/joebew42), or on [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) where I share videos about programming. Usually I participate or organize local meetups about Agile Software Development.
-
-I prefer to use [Free and Open Source Software](https://www.fsf.org/).
+I also tend to organize or join local meetups about Agile Software Development.
 
 Here is my [Daily Activity Log](http://joebew42.github.io/events.xml), where I share what I am reading, studying or watching! You can even [grab the RSS format](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) - _oh the good and old one_ - if you have an RSS Reader.
 
@@ -24,7 +22,7 @@ Here is my [Daily Activity Log](http://joebew42.github.io/events.xml), where I s
 
 _A limited set of hashtags that may trigger my attention:_
 
-#CleanCode, #TDD, #Refactoring, #SOLID, #CleanArchitecture, #CQRS, #EventSourcing, #DDD, #EventStorming, #LeanThinking, #Team, #Agile, #XP, #CodeKata, #PairProgramming, ...
+#CleanCode, #TDD, #Refactoring, #SOLID, #CleanArchitecture, #CQRS, #EventSourcing, #DDD, #EventStorming, #LeanThinking, #Team, #Agile, #XP, #CodeKata, #PairProgramming, [#FreeSoftware](https://www.fsf.org/)
 
 ### Keep in touch
 
