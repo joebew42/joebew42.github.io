@@ -1,31 +1,37 @@
 ---
 layout: post
-title:  "Ubuntu 19.10 on Acer Predator Helios 300"
+title:  "It's time to go for a new laptop"
 date:   2019-12-15 15:00:00 +0100
 excerpt_separator: <!--more-->
 ---
 
-I finally decided to buy a new laptop, it is an [Acer Predator Helios 300](https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT), and here you have few specs of it:
+The time has arrived and after almost seven years of really well served time of my previous laptop [^1], I finally decided to buy a new one. It's an [Acer Predator Helios 300](https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT), and as you can see it's a gaming laptop, which of course I will not use to play videogames. So, why this decision?
 
-- Monitor: 15.6 inches Full HD 144Hz 3ms IPS Display
-- CPU: Intel i7-9750H
-- Video: GTX 1660 Ti 6GB
-- RAM: 16GB DDR4
-- SSD: 256GB PCIe NVMe SSD
+There are several reasons that led me to end up with this decision.
 
-Yes, it is a gaming laptop, that [I will mainly use to write code, video editing, remote pair programming and sometimes to do live coding sessions](https://twitter.com/joebew42/status/1188143433371836416) on [twitch](https://twitch.tv/joebew42).
+First of all, I think at my [adventure on Twitch](https://joebew42.github.io/twitch/about). It had an important weight to this decision, and I really enjoyed the experience of Live Coding on Twitch, and sooner or later I will resume it!
 
-My preferred operating system is GNU/Linux and unfortunately, this laptop comes with Windows 10. Argh!
+Other reason is due I started to create few screencasts about [Clean Coding, TDD and Refactoring](https://www.youtube.com/watch?v=pmoLmjirmTk) (more creations are expected to come in the future), and I would like to continue to follow this idea to create more contents (as live code streaming sessions, more screencasts, and even complete video series) about the discipline of Clean Code.
 
-Let's install Ubuntu 19.10!
+Apart from all this, it's also my intention to schedule periodic Pair Programming sessions with you all (_so, if you are interested in doing pair programming with me, let me know_).
+
+And last but not least, I want to develop few ideas into real products. Yes, I will create few products of my own. What?!
+
+So, in order to support all these initiatives I had to end up with a first investment that it got translated in buying a more powerful computer.
+
+Here will follow the story in installing Ubuntu 19.10 as a replacement for Windows.
 
 <!--more-->
 
-## Installing Ubuntu 19.10
+## Yes, but, not Windows, please!
 
-Yes, it works!
+My preferred operating system is GNU/Linux and unfortunately, this laptop comes with a pre-installed copy of Windows 10. Damn, a malware!
 
-My previous OS was Arch Linux, this time I decided to switch to Ubuntu 19.10 (easy to install, ready-to-go.)
+Not so bad, let's fix it and install Ubuntu 19.10!
+
+_Long story short, yes, it works!, Ubuntu 19.10 is working "quite" fine!_
+
+My previous OS was Arch Linux but this time I decided to switch to Ubuntu 19.10 (easy to install, ready-to-go.)
 
 Steps I followed to install Ubuntu 19.10:
 
@@ -115,3 +121,5 @@ If you find something new or wants to add more information, contact me on Twitte
 ![Ubuntu 19.10 on Acer Predator Helios 300](/assets/ubuntu-19.10-on-acer-predator-helios-300.jpg)
 
 _Ubuntu 19.10 on Acer Predator Helios 300_
+
+[^1]: Lenovo T460U 2013 model.
