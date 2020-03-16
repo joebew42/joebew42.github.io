@@ -6,26 +6,29 @@
 
 
 // Our variables
-$base-font-family: 'Open Sans', serif;
-$base-heading-font-family: 'Roboto', serif;
-$base-font-size: 13pt;
+$base-font-family: 'Crimson Text', serif;
+$base-heading-font-family: 'Open Sans', sans-serif;
+$base-font-size: 22px;
 $base-font-weight: 300;
-$heading-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 24pt;
+$heading-font-weight: 700;
+$small-font-size:  $base-font-size * 0.9;
+$base-line-height: 34px;
+
+$header-color: rgba(255,255,255,0.9);
+$header-background-color: rgba(0,0,0,0.9);
 
 $spacing-unit:     30px;
 
-$text-color:       #020202;
+$text-color:       rgba(0,0,0,0.8);
 $background-color: #ffffff;
-$brand-color:      #2a7ae2;
+$brand-color:      $text-color;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    900px;
+$content-width:    760px;
 
 $on-palm:          600px;
 $on-laptop:        700px;

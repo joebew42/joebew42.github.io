@@ -14,7 +14,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font: $base-font-weight $base-font-size $base-font-family;
+    line-height: $base-line-height;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -48,6 +49,18 @@ img {
     vertical-align: middle;
 }
 
+
+/**
+ * Sub and Sup
+ */
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+sub {
+    top: 0.4em;
+}
 
 
 /**
@@ -93,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $brand-color;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:visited {
         color: darken($brand-color, 15%);
