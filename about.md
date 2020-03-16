@@ -8,21 +8,17 @@ permalink: /about/
 
 Hello there! 👋
 
-It's Joe, an **Agile Practioner and Technical Coach**, currently in the role of Team Leader  [@DerivcoSports](https://twitter.com/DerivcoSports), Sweden. Previously, Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers), Italy.
+Welcome to my personal digital space, where I will share experiments, thoughts and experiences about _Software Development_, _Tools_ and _Creative Processes_.
 
-I am interested in [Clean Code and Agile](https://github.com/joebew42/study-path), and all other practices that can lead to a sustainable way of writing software, and I do really enjoy to share this passion with others, where I can. I am always looking to learn, explore and experiment new ideas.
+### Few words about me ...
 
-You can find me on [Twitch](https://twitch.tv/joebew42), or on [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) where I sometimes share videos about programming.
+I am Joe, an _Agile Practioner and Technical Coach_, currently in the role of Team Lead  [@DerivcoSports](https://twitter.com/DerivcoSports), Sweden. Previously, Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers), Italy.
 
-I also tend to organize or join local meetups about Agile Software Development.
+I am interested in [Clean Code and Agile](https://github.com/joebew42/study-path)[^1], and everything else that can lead to a sustainable way of software development, and I do really enjoy to share this passion with others, _where I can_.
+
+You can catch me on [Twitch](https://twitch.tv/joebew42) and [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), where sometimes I do live coding sessions or share videos about programming. I also tend to organize or join local meetups about Agile Software Development. Rarely, attend conferences.
 
 Here is my [Daily Activity Log](http://joebew42.github.io/events.xml), where I share what I am reading, studying or watching! You can even [grab the RSS format](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) - _oh the good and old one_ - if you have an RSS Reader.
-
-### Keywords
-
-_A limited set of hashtags that may trigger my attention:_
-
-#CleanCode, #TDD, #Refactoring, #SOLID, #CleanArchitecture, #CQRS, #EventSourcing, #DDD, #EventStorming, #LeanThinking, #Team, #Agile, #XP, #CodeKata, #PairProgramming, [#FreeSoftware](https://www.fsf.org/)
 
 ### Keep in touch
 
@@ -30,3 +26,5 @@ _A limited set of hashtags that may trigger my attention:_
 - Code: [Twitch](https://twitch.tv/joebew42) • [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) • [GitHub](https://github.com/joebew42) • [GitLab](https://gitlab.com/joebew42)
 - Slack: [Software Crafters](http://slack.softwarecraftsmanship.org/)
 - Mail: joebew42 - at - gmail.com
+
+[^1]: This is an ambitious learning path about Software Development. The goal is to have a well-organized place where people can refer to when comes to read about _Software Design Principles_, _Test-Driven Design_, _Refactoring_, _Working With Legacy Code_, _Domain-Driven Design_, and _Microservices_.
