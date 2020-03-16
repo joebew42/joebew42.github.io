@@ -193,6 +193,12 @@
 .post-link {
     font-family: $base-heading-font-family;
     display: block;
+
+    &,
+    &:visited,
+    &:hover {
+        border: none;
+    }
 }
 
 
