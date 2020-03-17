@@ -15,7 +15,6 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: $base-font-weight $base-font-size $base-font-family;
-    line-height: $base-line-height;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -40,6 +39,12 @@ ul, ol, dl, figure,
 }
 
 
+/**
+ * Headers
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-family: $base-heading-font-family;
+}
 
 /**
  * Images

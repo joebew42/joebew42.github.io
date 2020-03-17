@@ -35,7 +35,6 @@
 
     .page-link {
         color: $header-color;
-        line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -196,6 +195,7 @@
     &,
     &:visited,
     &:hover {
+        text-decoration: underline;
         border: none;
     }
 }
@@ -211,41 +211,11 @@
 
 .post-title {
     font-family: $base-heading-font-family;
-    font-size: 36px;
-    line-height: 1.4em;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
+    line-height: $base-line-height;
 
-    h2 {
-        font-family: $base-heading-font-family;
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-family: $base-heading-font-family;
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-family: $base-heading-font-family;
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
+    // TODO make the font-size smaller on-palm
 }
