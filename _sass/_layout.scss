@@ -217,5 +217,8 @@
     margin-bottom: $spacing-unit;
     line-height: $base-line-height;
 
-    // TODO make the font-size smaller on-palm
+    @include media-query($on-palm) {
+        font: $base-font-weight $on-palm-font-size $base-font-family;
+        line-height: $on-palm-line-height;
+    }
 }
