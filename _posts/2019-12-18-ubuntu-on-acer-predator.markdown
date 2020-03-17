@@ -4,11 +4,11 @@ title:  "Installing Ubuntu 19.10 on Acer Predator Helios 300"
 date:   2019-12-18 15:00:00 +0100
 ---
 
-Here I will share the steps I followed to install Ubuntu 19.10 on the [Acer Predator Helios 300]({% post_url 2019-12-15-time-for-a-new-laptop %}), some of the encountered issues and workarounds I've followed to fix them.
+The steps I followed to install Ubuntu 19.10 on the [Acer Predator Helios 300]({% post_url 2019-12-15-time-for-a-new-laptop %}), some of the issues and workarounds I've followed to fix them.
 
-_Long story short, yes, it works!, Ubuntu 19.10 is running fine!_
+_Long story short, yes, it works! Ubuntu 19.10 is running fine..._
 
-Steps I followed:
+**Before proceeding:** _Consider to follow these steps at your own risk, replacing a pre-installed operating system may void the warranty of the laptop._
 
 ### 1. Download [Ubuntu 19.10 Desktop](http://releases.ubuntu.com/19.10/)
 
@@ -34,7 +34,7 @@ _In my case the flash drive was attached to /dev/sdb._
 - Choose `Try Ubuntu without installing (safe graphics)`
 - Once Ubuntu is started, be sure you have an Internet connection (so that during the installation process it will fetch all the updates)
 - Press the icon `Install` (remember to check the boxes to install the third-party and proprietaries drivers, they are needed for the NVIDIA video card.)
-- **I removed all the Windows related partitions, and decided to have only Ubuntu on this laptop, no dual-boot. So, from this point proceed at your own risk!**
+- **I removed all the Windows related partitions, and chose to have only Ubuntu on this laptop, no dual-boot!**
 - Once the installation is over, just restart the laptop :)
 
 ### 5. Post installation Issues
@@ -97,8 +97,6 @@ Did the trick! Touchpad working again :)
 There should be the way to automate this step when the laptop wakes up after the suspend, but I need to learn more about that. If you know how, please let me know.
 
 ### 6. Enjoy!
-
-Everything seems fine except the suspend!
 
 If you find something new or wants to add more information, contact me on Twitter [`@joebew42`](https://twitter.com/joebew42).
 
