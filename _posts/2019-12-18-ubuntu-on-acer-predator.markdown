@@ -4,7 +4,7 @@ title:  "Installing Ubuntu 19.10 on Acer Predator Helios 300"
 date:   2019-12-18 15:00:00 +0100
 ---
 
-The steps I followed to install Ubuntu 19.10 on the [Acer Predator Helios 300]({% post_url 2019-12-15-time-for-a-new-laptop %}), some of the issues and workarounds I've followed to fix them.
+These are steps I followed to install Ubuntu 19.10 on the [Acer Predator Helios 300]({% post_url 2019-12-15-time-for-a-new-laptop %}). I'll go through some of the issues I've encountered and their workarounds. To you who are reading this blog, I hope you'll find something useful and interesting. Cheers!
 
 _Long story short, yes, it works! Ubuntu 19.10 is running fine..._
 
