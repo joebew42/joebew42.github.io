@@ -8,7 +8,7 @@ permalink: /about/
 
 Hello there! 👋
 
-Welcome to my personal digital space, where I will share experiments, thoughts and experiences about _Software Development_, _Tools_ and _Creative Processes_.
+Welcome to my personal digital space, where I will share thoughts, experiments and experiences about _Software Development_, _Tools_ and _Creative Processes_.
 
 ### Few words about me ...
 
