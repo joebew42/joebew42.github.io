@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-03-26">
+    <action type="reading">Slicing Functionality: Alternate Paths</action>
+    <references>
+      <reference src="https://xp123.com/articles/slicing-functionality-alternate-paths/" type="source" />
+    </references>
+  </event>
   <event date="2020-03-17">
     <action type="reading">Teams are immutable structures</action>
     <references>
