@@ -4,17 +4,17 @@ title: About
 permalink: /about/
 ---
 
+Hello all! 👋 My name is Joe,
+
 <img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" class="center" />
 
-Hello there! 👋
-
-Welcome to my personal digital space, where I will share thoughts, experiments and experiences about _Software Development_, _Tools_ and _Creative Processes_.
+I am really glad to see you landed on this personal digital space of mine. So, welcome to some of my thoughts, experiments and experiences about _Software Development_, _Tools_ and _Creative Processes_ that I am going to share with you.
 
 ### Few words about me ...
 
-I am Joe, an _Agile Practioner and Technical Coach_, currently in the role of Team Lead  [@DerivcoSports](https://twitter.com/DerivcoSports), Sweden. Previously, Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers), Italy.
+Currently I am working as Team Lead  [@DerivcoSports](https://twitter.com/DerivcoSports), Sweden. Previously, Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers), Italy.
 
-I am interested in [Clean Code and Agile](https://github.com/joebew42/study-path)[^1], and everything else that can lead to a sustainable way of software development, and I do really enjoy to share this passion with others, _where I can_.
+I am interested in the discipline of [Clean Code and Agile](https://github.com/joebew42/study-path)[^1]. If you feel yourself interested in learning and practice more about these topics, please feel free to write me an email! It will be a joy to schedule a session with you.
 
 You can catch me on [Twitch](https://twitch.tv/joebew42) and [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), where sometimes I do live coding sessions or share videos about programming. I also tend to organize or join local meetups about Agile Software Development. Rarely, attend conferences.
 

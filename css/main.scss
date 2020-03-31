@@ -6,13 +6,15 @@
 
 
 // Our variables
-$base-font-family: 'Crimson Text', serif;
-$base-heading-font-family: 'Open Sans', sans-serif;
-$base-font-size: 26px;
-$base-font-weight: 300;
-$heading-font-weight: 700;
-$small-font-size:  $base-font-size * 0.9;
+$base-font-family: 'Source Serif Pro', sans-serif;
+$base-font-weight: 400;
+$base-font-size: 22px;
 $base-line-height: 38px;
+
+$base-heading-font-family: 'Source Sans Pro', serif;;
+$base-heading-font-weight: 700;
+
+$small-font-size:  $base-font-size * 0.9;
 
 $on-palm-font-size: 18px;
 $on-palm-line-height: 32px;
