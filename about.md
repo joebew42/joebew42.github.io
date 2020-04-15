@@ -8,7 +8,7 @@ Hello all! 👋 My name is Joe,
 
 <img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" class="center" />
 
-I am really glad to see you landed on this personal digital space of mine. So, welcome to some of my thoughts, experiments and experiences about _Software Development_, _Tools_ and _Creative Processes_ that I am going to share with you.
+Glad to see you landed on this personal space of mine. Welcome to some of my thoughts, experiments and experiences about _Software Development_, _Tools_ and _Creative Processes_ that I am going to share with you.
 
 ### Few words about me ...
 
