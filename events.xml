@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-04-15">
+    <action type="reading">REST API Design - Resource Modeling</action>
+    <references>
+      <reference src="https://www.thoughtworks.com/insights/blog/rest-api-design-resource-modeling" type="source" />
+    </references>
+  </event>
   <event date="2020-04-04">
     <action type="watching">Matteo Baglini "Onion Architecture with Functional Programming sauce"</action>
     <references>
