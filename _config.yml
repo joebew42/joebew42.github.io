@@ -6,5 +6,7 @@ url: "http://joebew42.github.io"
 twitter_username: joebew42
 github_username:  joebew42
 
+excerpt_separator: <!--more-->
+
 markdown: kramdown
 exclude: ['notes']

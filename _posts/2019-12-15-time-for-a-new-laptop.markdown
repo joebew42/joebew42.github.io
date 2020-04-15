@@ -4,6 +4,10 @@ title:  "It's time to go for a new laptop"
 date:   2019-12-15 15:00:00 +0100
 ---
 
+_I have decided to buy a new laptop. In this post I'll share the reason behind this decision and the purpose._
+
+<!--more-->
+
 The time has arrived and after almost seven years of really well served time of my previous laptop [^1], I finally decided to buy a new one. It's an [Acer Predator Helios 300](https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT), a gaming laptop which I will not use to play videogames. So, why this decision?
 
 There are several reasons that led me to end up with this decision.
