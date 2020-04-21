@@ -14,7 +14,7 @@ Glad to see you on my personal blog and welcome to some of my thoughts, experime
 
 My name is Joe,
 
-I am currently based in Stockholm, Sweden, where I work as Software Developer. I am love with Lean, Design Thinking, Agile and Software Craftsmanship.
+I am currently based in Stockholm, Sweden, where I work as Software Developer. I am in love with Lean, Design Thinking, Agile and Software Craftsmanship.
 
 > I do believe people comes before anything else. Successful teams, organizations and products are just symptoms of an healthy culture where people are given high Trust, Transparency, Autonomy, and Significance. The Motivation will follow.
 
