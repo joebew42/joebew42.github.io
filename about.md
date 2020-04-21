@@ -4,27 +4,45 @@ title: About
 permalink: /about/
 ---
 
-Hello all! 👋 My name is Joe,
+Hello all! 👋
 
 <img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" class="center" />
 
-Glad to see you landed on this personal space of mine. Welcome to some of my thoughts, experiments and experiences about _Software Development_, _Tools_ and _Creative Processes_ that I am going to share with you.
+Glad to see you on my personal blog and welcome to some of my thoughts, experiments and experiences about _Software Development_, _Tools_ and _Creative Process_ that I am going to share with you.
 
 ### Few words about me ...
 
-Currently I am working as Team Lead  [@DerivcoSports](https://twitter.com/DerivcoSports), Sweden. Previously, Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers), Italy.
+My name is Joe,
 
-I am interested in the discipline of [Clean Code and Agile](https://github.com/joebew42/study-path)[^1]. If you feel yourself interested in learning and practice more about these topics, please feel free to write me an email! It will be a joy to schedule a session with you.
+I am currently based in Stockholm, Sweden, where I work as Software Developer. I am love with Lean, Design Thinking, Agile and Software Craftsmanship.
 
-You can catch me on [Twitch](https://twitch.tv/joebew42) and [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), where sometimes I do live coding sessions or share videos about programming. I also tend to organize or join local meetups about Agile Software Development. Rarely, attend conferences.
+> I do believe people comes before anything else. Successful teams, organizations and products are just symptoms of an healthy culture where people are given high Trust, Transparency, Autonomy, and Significance. The Motivation will follow.
 
-Here is my [Daily Activity Log](http://joebew42.github.io/events.xml), where I share what I am reading, studying or watching! You can even [grab the RSS format](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) - _oh the good and old one_ - if you have an RSS Reader.
+### Catch me!
 
-### Keep in touch
+I am on [Twitter](https://twitter.com/joebew42). Or you can write an email at `joebew42 [at] gmail.com`.
+
+You can find me on [Twitch](https://twitch.tv/joebew42) or [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), where sometimes I do live coding sessions or share videos about programming. All of my code is on [GitHub](https://github.com/joebew42).
+
+Also available to do a pair programming session with you. I do usually like to run sessions about:
+
+- Code Kata (practice on SOLID, Clean Code, TDD, Refactoring, Legacy Code)
+- Contribution on open source projects
+- Learning new programming languages and tools
+- Chit-chat on methods of software development.
+
+Contact me if you want to schedule a session.
+
+Here is my [Daily Activity Log](http://joebew42.github.io/events.xml), where I share what I am reading, studying or watching! You can [grab the RSS format](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) too.
+
+### Work experiences
+
+- Team Lead [@DerivcoSports](https://twitter.com/DerivcoSports), Sweden.
+- Agile Software Developer, Technical Trainer [@XPeppers](https://twitter.com/xpeppers), Italy.
+
+### Contacts
 
 - Social: [Twitter](https://twitter.com/joebew42) • [Telegram](https://t.me/joebew42) • [Diaspora*](https://joindiaspora.com/people/fdc8e995614a2609)
 - Code: [Twitch](https://twitch.tv/joebew42) • [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) • [GitHub](https://github.com/joebew42) • [GitLab](https://gitlab.com/joebew42)
 - Slack: [Software Crafters](http://slack.softwarecraftsmanship.org/)
-- Mail: joebew42 - at - gmail.com
-
-[^1]: This is an ambitious learning path about Software Development. The goal is to have a well-organized place where people can refer to when comes to read about _Software Design Principles_, _Test-Driven Design_, _Refactoring_, _Working With Legacy Code_, _Domain-Driven Design_, and _Microservices_.
+- Mail: `joebew42 [at] gmail.com`
