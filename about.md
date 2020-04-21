@@ -20,11 +20,11 @@ I am currently based in Stockholm, Sweden, where I work as Software Developer. I
 
 ### Catch me!
 
-I am on [Twitter](https://twitter.com/joebew42). Or you can write an email at `joebew42 [at] gmail.com`.
+On [Twitter](https://twitter.com/joebew42), or you can write at `joebew42 [at] gmail.com`.
 
 You can find me on [Twitch](https://twitch.tv/joebew42) or [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), where sometimes I do live coding sessions or share videos about programming. All of my code is on [GitHub](https://github.com/joebew42).
 
-Also available to do a pair programming session with you. I do usually like to run sessions about:
+I am also available to organize pair programming sessions with you. I do usually like to play with:
 
 - Code Kata (practice on SOLID, Clean Code, TDD, Refactoring, Legacy Code)
 - Contribution on open source projects
