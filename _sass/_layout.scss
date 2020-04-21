@@ -2,7 +2,8 @@
  * Site header
  */
 .site-header {
-    border-bottom: 4px solid $grey-color-light;
+    font-family: $base-font-family;
+    border-bottom: 1px solid #EFEDF0;
     min-height: 60px;
 
     // Positioning context for the mobile navigation icon
@@ -11,9 +12,8 @@
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
+    font-size: 28px;
+    line-height: 60px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -22,12 +22,13 @@
     &:hover,
     &:visited {
         color: $header-color;
+        border: none;
     }
 }
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 60px;
 
     .menu-icon {
         display: none;
@@ -35,6 +36,7 @@
 
     .page-link {
         color: $header-color;
+        border: none;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -59,6 +61,7 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
+            border: none;
 
             > svg {
                 width: 18px;
@@ -97,7 +100,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid #EFEDF0;
     padding: $spacing-unit 0;
 }
 
@@ -186,6 +189,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    float: right;
 }
 
 .post-link {
