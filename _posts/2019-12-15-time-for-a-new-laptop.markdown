@@ -4,7 +4,7 @@ title:  "It's time to go for a new laptop"
 date:   2019-12-15 15:00:00 +0100
 ---
 
-> I have decided to buy a new laptop and in this post I want the tell the of this decision and how I am going to make use of it.
+> I have decided to buy a new laptop and in this post I want to tell the reasons of this decision and how I am going to make use of it.
 
 <!--more-->
 
