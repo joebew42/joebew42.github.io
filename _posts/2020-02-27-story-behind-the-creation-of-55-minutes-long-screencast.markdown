@@ -153,6 +153,8 @@ At the end, I did it. The solution? Gently <s>archive</s> trash the video script
 
 That was my journey in creating a screencast of 55 minutes. I wanted to share with you the whole story, my experiences and my learnings with the hope that my experience may be useful for someone.
 
-What about you? What are your experiences and learnings in creating screencasts? I am curious to know more about you, on [Twitter](https://twitter.com/joebew42). Tell me what worked and what have not worked for you.
+What about you? What are your experiences and learnings in creating screencasts? I am curious to know more.
+
+Grab me on [Twitter](https://twitter.com/joebew42) and tell me what worked and what have not worked for you.
 
 [^1]: [Good Elixir TDD resources?](https://elixirforum.com/t/good-elixir-tdd-resources/17482)
