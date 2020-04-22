@@ -43,7 +43,7 @@ That's why I chose the _London School_ TDD Outside-In approach.
 
 ## Going public to reach an end
 
-As a lazy and senior procrastinator I struggle to keep myself committed until the accomplishment my goals. Fortunately I have developed some techniques that help me to break the habit of procrastination.
+As a lazy and senior procrastinator I struggle to keep myself committed until the accomplishment of my goals. Fortunately I have developed some techniques that help me to break the habit of procrastination.
 
 One of these techniques consist to make goals public, in such a way to advertise your goal publicly so that it will spur you to find the motivation to complete something, on time, and give back the promised to your audience.
 
