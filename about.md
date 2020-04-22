@@ -24,16 +24,16 @@ On [Twitter](https://twitter.com/joebew42), or you can write at `joebew42 [at] g
 
 You can find me on [Twitch](https://twitch.tv/joebew42) or [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), where sometimes I do live coding sessions or share videos about programming. All of my code is on [GitHub](https://github.com/joebew42).
 
-I am also available to organize pair programming sessions with you. I do usually like to play with:
+I am open to organize sessions of pair programming with whoever wants to share experience on:
 
 - Code Kata (practice on SOLID, Clean Code, TDD, Refactoring, Legacy Code)
 - Contribution on open source projects
 - Learning new programming languages and tools
 - Chit-chat on methods of software development.
 
-Contact me if you want to schedule a session.
+If interested, do not hesitate to contact me. I will be glad to book a session with you.
 
-Here is my [Daily Activity Log](http://joebew42.github.io/events.xml), where I share what I am reading, studying or watching! You can [grab the RSS format](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) too.
+Here you can find my [Daily Activity Log](http://joebew42.github.io/events.xml), where I share my readings, studying or watching! You can [grab the RSS format](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) too.
 
 ### Work experiences
 
