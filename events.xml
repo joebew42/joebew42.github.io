@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-04-22">
+    <action type="watching">YOW! Perth 2019 - Kent Beck - 3X: Explore / Expand / Extract</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=Sez_AA5GxvE" type="source" />
+    </references>
+  </event>
   <event date="2020-04-15">
     <action type="reading">REST API Design - Resource Modeling</action>
     <references>
