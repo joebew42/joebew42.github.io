@@ -58,7 +58,7 @@ Before moving to the next paragraph, I want you try to stop a moment at this tes
 
 As we reached the point to write down that test, Piero helped me notice that tackling the "evolution" starting from this point would have been a step too big.
 
-He used this - powerful - metaphor of _"Forces, Axes or Dimensions"_ in a sense that if we look our test we can recognize at least **two forces that are moving along different axes (or dimensions)**:
+He used this - powerful - metaphor of _"Forces, Axes or Dimensions"_ in a sense that if we look at our test we can recognize at least **two forces that are moving along different axes (or dimensions)**:
 
 **First force: The construction of a world:**
 
