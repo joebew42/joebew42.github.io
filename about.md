@@ -8,7 +8,9 @@ Hello all! 👋
 
 <img alt="profile photo" src="https://avatars1.githubusercontent.com/u/1238549?v=4&s=180" class="center" />
 
-Glad to see you on my personal blog and welcome to some of my thoughts, experiments and experiences about _Software Development_, _Tools_ and _Creative Process_ I am going to share with you.
+Glad to see you on my personal blog and welcome to some of my thoughts, experiments and experiences about _Software Development_, _Tools_ and _Creative Process_.
+
+Yes, this blog is just another experiment.
 
 ### Few words about me ...
 
