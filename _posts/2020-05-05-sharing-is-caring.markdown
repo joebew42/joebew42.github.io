@@ -15,7 +15,7 @@ I guess so, I like to call it the _seed of curiosity_.
 
 ## The seed of curiosity
 
-Once its planted we start to feel something irrepressible happening inside us. The only thing we think about is to know more about that "new" thing, and we want to master it. We want that thing be part of us.
+Once the seed is planted we start to feel something irrepressible happening inside us. The only thing we think about is to know more about that "new" thing, and we want to master it. We want that thing be part of us.
 
 It's something we believe _valuable_ and _affordable_ to us. And we start to feel _envy_ for that knowledge.
 
