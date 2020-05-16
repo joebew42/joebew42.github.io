@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dependency Injection with Elixir"
-date:   2022-05-16 10:00:00 +0100
+date:   2020-05-16 10:00:00 +0100
 excerpt_separator: <!--more-->
 ---
 
