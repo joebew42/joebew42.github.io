@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 
 In computer programming, the **dependency injection** is the technique to pass objects (or functions) to another object (or function). If you came from functional programming, I guess then the term **composition** will be more familiar to you.
 
-There are several good reasons for using this technique, and it leads to important advantages in the overall code design, which I am not going to discuss here. The technique itself and its relation with software design deserve to be discussed in a separate post from this once.
+There are several good reasons for using this technique, and it leads to important advantages in the overall code design, which I am not going to discuss here. The technique itself and its relation with software design deserve to be discussed in a separate post from this one.
 
 Since the purpose of this post is not to talk about the technique itself, I want to share some of my experiences in trying to apply it with Elixir.
 
