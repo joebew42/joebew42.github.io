@@ -17,9 +17,9 @@ Since the purpose of this post is not to talk about the technique itself, I want
 
 ## A quick example of dependency injection
 
-I will take some inspirations from the [birthday greetings kata](https://github.com/xpmatteo/birthday-greetings-kata). There you have a function that have to send a birthday greeting message to all the employees which have the birthday on the current day.
+I will take some inspirations from the [birthday greetings kata](https://github.com/xpmatteo/birthday-greetings-kata), where you have to send a birthday greeting message to all the employees who have the birthday on the current day.
 
-A function like that could looks like:
+Suppose we'll write something like this:
 
 ```elixir
 def send_greetings() do
@@ -29,6 +29,17 @@ def send_greetings() do
   |> Enum.each(fn message -> GreetingMessageSender.send(message) end)
 end
 ```
+We could identify three different collaborators there:
+
+- The `Employees`, to returns all the employees.
+- The `GreetingMessage`, to create the greeting message.
+- And the `GreetingMessageSender`, to send the greeting message.
+
+The reasons why we might have to choose different implementations of each collaborator may be different: testing purposes, we might want to change the source from which we access the employees (from a database, from an external service, or from an in-memory storage). Or we might want to change the way we create the greeting message. Or having different mechanism to send the message (email, social media, or whatever).
+
+## Injection through Application.get_env()
+
+...
 
 ## Topics
 
