@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-05-23">
+    <action type="reading">Refactoring and Generalization in TDD</action>
+    <references>
+      <reference src="https://xp123.com/articles/refactoring-and-generalization-in-tdd/" type="source" />
+    </references>
+  </event>
   <event date="2020-05-16">
     <action type="watching">Gee Paw Hill &amp; Alex Bolboacă: XP, Change Harvesting and Camerata</action>
     <references>
