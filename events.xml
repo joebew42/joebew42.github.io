@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-05-25">
+    <action type="watching">Michael Feathers - the deep synergy between testability and good design</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=4cVZvoFGJTU" type="source" />
+    </references>
+  </event>
   <event date="2020-05-23">
     <action type="reading">Refactoring and Generalization in TDD</action>
     <references>
