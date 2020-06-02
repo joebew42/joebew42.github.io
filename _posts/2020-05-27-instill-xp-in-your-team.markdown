@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
-There is something valuable when approaching the practices of eXtreme Programming, and as Software Professional, it's easy to get completely sucked into when we have the chance to work in a team where the XP values, principles, and practices are deeply integrated as part of their daily work. The same might apply when observing someone that uses these practices to write software, and get all the benefits of doing so.
+There is something valuable when approaching the practices of eXtreme Programming, and as Software Professional, it's easy to get completely sucked into when we have the chance to work in a team where the XP values, principles, and practices are deeply integrated as part of the daily work. The same might apply when observing someone that uses these practices to write software, and get all the benefits of doing so.
 
 That's happened to me, the first time I joined and worked in an XP team.
 
