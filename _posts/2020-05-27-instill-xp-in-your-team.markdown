@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ways to proactively install XP in your team"
+title:  "Ways to proactively instill XP in your team"
 date:   2020-05-27 10:00:00 +0100
 excerpt_separator: <!--more-->
 ---
