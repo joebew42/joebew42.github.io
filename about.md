@@ -12,9 +12,11 @@ Glad to see you on my personal blog and welcome to some of my thoughts, experime
 
 I am based in Stockholm, Sweden, where I work as a Software Developer and Technical Trainer.
 
-During my work experience, I was fortunate enough to meet challenging work environments and great people that allowed me to learn, practice, understand and follow agile and eXtreme programming principles to find better ways of doing Software Development.
+Looking back at my work experiences, I came to the conclusion I was fortunate enough to have had the chance to meet great people and challenging work environments that spur me to learn, practice, understand, and explore better ways of doing Software Development.
 
-My current focus is to become a better Software Developer, and share what I learn about Lean, Design Thinking, Agile, and Software Craftsmanship with others.
+I like to help people understand the underlying principles of good software design and the practices which might be used to keep the process of writing software as sustainable as possible.
+
+My current focus is to become a better Software Developer, and share what I learn on Lean, Design Thinking, Agile, and Software Craftsmanship with others.
 
 > I do believe people comes before anything else. Successful teams, organizations and products are just symptoms of an healthy culture where people are given high Trust, Transparency, Autonomy, and Significance. The Motivation will follow.
 
