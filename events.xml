@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-06-16">
+    <action type="watching">How to Set Good OKRs With Examples</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=qYAnz1PwpRA" type="source" />
+    </references>
+  </event>
+  <event date="2020-06-16">
+    <action type="watching">Startup Lab workshop: How Google sets goals: OKRs</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=mJB83EZtAjc" type="source" />
+    </references>
+  </event>
+  <event date="2020-06-16">
+    <action type="watching">What is an OKR?</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=hI_tEIpCzyE" type="source" />
+    </references>
+  </event>
   <event date="2020-05-25">
     <action type="watching">Michael Feathers - the deep synergy between testability and good design</action>
     <references>
