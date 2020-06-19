@@ -10,21 +10,21 @@ Glad to see you on my personal blog and welcome to some of my thoughts, experime
 
 ### My name is Joe,
 
-I am based in Stockholm, Sweden, where I work as a Software Developer and Technical Trainer.
+I am a Software Professional and Technical Trainer, focused on Software Design Principles and Practices, Clean Code, TDD, Refactoring, Legacy Code and DDD. Currently working at [Hemnet](https://www.hemnet.se/), Sweden.
 
-Looking back at my work experiences, I came to the conclusion I was fortunate enough to have had the chance to meet great people and challenging work environments that spur me to learn, practice, understand, and explore better ways of doing Software Development.
+During my work experiences I had the chance to meet great people and challenging work environments that spur me to learn, practice, understand, and explore better ways of doing Software Development.
 
-I like to help people understand the underlying principles of good software design and the practices which might be used to keep the process of writing software as sustainable as possible.
+I like to help people understand the underlying principles of software design and the practices which might be used to keep the process of writing software as sustainable as possible.
 
-My current focus is to become a better Software Developer, and share what I learn on Lean, Design Thinking, Agile, and Software Craftsmanship with others.
+My current goal is to become better at Software Development, and share what I learn with others.
 
 > I do believe people comes before anything else. Successful teams, organizations and products are just symptoms of an healthy culture where people are given high Trust, Transparency, Autonomy, and Significance. The Motivation will follow.
 
 ### Keep in touch
 
-You can message me on [Twitter](https://twitter.com/joebew42), or an email at `joebew42 [at] gmail.com`.
+You can message me on [Twitter](https://twitter.com/joebew42) or email at `joebew42 [at] gmail.com`.
 
-I am also on [Twitch](https://twitch.tv/joebew42) or [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), where sometimes I do live coding sessions or share videos about programming. All of my code is on [GitHub](https://github.com/joebew42).
+I am also on [Twitch](https://twitch.tv/joebew42) and [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), where sometimes I do live coding sessions and share videos about programming. My code is available on [GitHub](https://github.com/joebew42).
 
 If you want to do pair programming with me, and share experience on:
 
@@ -39,12 +39,12 @@ Here you can find my [Daily Activity Log](http://joebew42.github.io/events.xml),
 
 ### Work experiences
 
-- Team Lead [@DerivcoSports](https://twitter.com/DerivcoSports), Sweden.
-- Agile Software Developer, Technical Trainer [@XPeppers](https://twitter.com/xpeppers), Italy.
+- Backend Software Developer [@Hemnet](https://twitter.com/hemnet), Sweden.
+- Team Lead [@DerivcoSports](https://twitter.com/derivcosports), Sweden.
+- Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers), Italy.
 
 ### On the jungle
 
 - Social: [Twitter](https://twitter.com/joebew42) • [Telegram](https://t.me/joebew42) • [Diaspora*](https://joindiaspora.com/people/fdc8e995614a2609)
 - Code: [Twitch](https://twitch.tv/joebew42) • [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) • [GitHub](https://github.com/joebew42) • [GitLab](https://gitlab.com/joebew42)
 - Slack: [Software Crafters](http://slack.softwarecraftsmanship.org/)
-- Mail: `joebew42 [at] gmail.com`
