@@ -12,9 +12,9 @@ Glad to see you on my personal blog and welcome to some of my thoughts, experime
 
 I am a Software Professional and Technical Trainer, focused on Software Design Principles and Practices, Clean Code, TDD, Refactoring, Legacy Code and DDD. Currently working at [Hemnet](https://www.hemnet.se/), Sweden.
 
-During my work experiences I had the chance to meet great people and challenging work environments that spur me to learn, practice, understand, and explore better ways of doing Software Development.
+During my work experiences I had the chance to meet great people and challenging work environments that encouraged me to learn, practice, understand, and explore better ways of doing Software Development.
 
-I like to help people understand the underlying principles of software design and the practices which might be used to keep the process of writing software as sustainable as possible.
+I like to help people understand the underlying principles of software design and the practices which might be used to keep the process of writing software as much sustainable as possible.
 
 My current goal is to become better at Software Development, and share what I learn with others.
 
