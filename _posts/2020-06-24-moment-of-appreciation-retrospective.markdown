@@ -23,7 +23,7 @@ If your team satisfies all the circumstances mentioned above, it's time to dive 
 So, yes, this retrospective is **"100% remote-friendly"**. It works really well on remote teams.
 
 [![The retrospective in action](/assets/trello-board-a-moment-of-appreciation-thumbnail.jpg)](/assets/trello-board-a-moment-of-appreciation-full.jpg)
-_This was one of the retrospective we experimented with this format. Trello did a good job. Click on the image to see the full size._
+_This was one of the retrospective we experimented with this format. Trello did a good job. Click on the image to access the full size._
 
 The picture shows an instant of the retrospective, and a brief description of all stages. Consider taking some time, open the image at its full size, and take a look at it.
 
