@@ -126,7 +126,7 @@ a {
  */
 blockquote {
     color: $blockquote-text-color;
-    border-left: 8px solid #43A7FF;
+    border-left: 8px solid $blue;
     padding: 5px 20px;
     font-size: 24px;
     line-height: 36px;

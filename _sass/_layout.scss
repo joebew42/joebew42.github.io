@@ -229,3 +229,25 @@
         line-height: $on-palm-line-height;
     }
 }
+
+
+.share-button {
+    display: block;
+    text-align: center;
+    font-family: $base-heading-font-family;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.blue {
+    color: $white;
+    background-color: $blue;
+
+    &,
+    &:visited,
+    &:hover {
+        text-decoration: none;
+        border: none;
+        color: $white;
+    }
+}
