@@ -11,3 +11,6 @@ excerpt_separator: <!--more-->
 
 markdown: kramdown
 exclude: ['notes']
+
+plugins:
+  - jemoji
