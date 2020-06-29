@@ -59,7 +59,7 @@ I hope you will give this retrospective a chance and try it out in your team. I 
 Creating a dedicated room to gather the appreciations is a very powerful tool. It is always nice to remember and recognize that our work is driven by people, and give or receive sincere appreciation is a good way to:
 - Understand **what others have appreciated**.
 - Understand **what are the habits we should preserve, or do more of**.
-- Having a starting ground the **reassemble the relevant facts of the sprint**.
+- Having a starting ground to **reassemble the relevant facts of the sprint**.
 
 
 [^1]: [https://leancoffee.org/](https://leancoffee.org/)
