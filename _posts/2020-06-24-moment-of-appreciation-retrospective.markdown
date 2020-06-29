@@ -31,9 +31,9 @@ The **time duration** for this retrospective is 1 hour or less.
 
 In order to set up this retrospective and have everything ready, you can prepare a physical board, or using a digital one (like Trello or Miro), with all the needed areas, and try to better highlight them.
 
-I have not tried yet, but an idea might be to have two physical boards, one for the **information gathering**, and another for the **Lean Coffee**.
+I have not tried yet, but an idea might be to have two physical boards, one for the **Information Gathering**, and another for the **Lean Coffee**.
 
-The phases or areas:
+Here we will go through each of the phase (or section) of the retrospective:
 
 - **Information Gathering** :information_source:
     - _The previous retrospective action_ :heavy_check_mark: (few minutes)
