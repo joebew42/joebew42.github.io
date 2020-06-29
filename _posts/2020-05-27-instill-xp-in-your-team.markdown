@@ -2,7 +2,7 @@
 layout: post
 title:  "Ways to proactively instill XP in your team"
 date:   2020-05-27 10:00:00 +0100
-excerpt_separator: <!--more-->
+summary: "No one in my team knows about XP and I'd like to see these practices widely adopted by them? What can I do? Don't think about others. Think about you, now, later, and your customer as well. The rest will follows."
 ---
 
 > No one in my team knows about XP and I'd like to see these practices widely adopted by them? What can I do? Don't think about others. Think about you, now, later, and your customer as well. The rest will follows.

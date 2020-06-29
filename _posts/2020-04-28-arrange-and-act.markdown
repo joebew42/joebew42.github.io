@@ -2,7 +2,7 @@
 layout: post
 title:  "The three forces of Arrange, Act and Assert"
 date:   2020-04-24 15:00:00 +0100
-excerpt_separator: <!--more-->
+summary: "Arrange, Act and Assert (AAA) represent the overall anatomy of a test. Sometimes they're like forces moving in different directions. I am going to share a way to identify when this happen and a strategy to have them aligned towards same direction."
 ---
 
 > Arrange, Act and Assert (AAA) represent the overall anatomy of a test. Sometimes they're like forces moving in different directions. I am going to share a way to identify when this happen and a strategy to have them aligned towards same direction.

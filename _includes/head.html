@@ -13,6 +13,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Twitter cards -->
+  <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+  <meta name="twitter:title"   content="{{ page.title }}">
+
+  {% if page.summary %}
+  <meta name="twitter:description" content="{{ page.summary }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+
+  {% if page.image %}
+  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  {% else %}
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.title_image }}">
+  {% endif %}
+  <!-- end of Twitter cards -->
+
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 

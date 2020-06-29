@@ -2,7 +2,7 @@
 layout: post
 title:  "A moment of appreciation in your retrospectives"
 date:   2020-06-24 10:00:00 +0100
-excerpt_separator: <!--more-->
+summary: "We seldom pay attention to the people behind the facts, and at how much important the presence of a colleague was, during the sprint. Retrospectives might be perfect to highlight appreciations for our colleagues. Here I will describe a format with the purpose to help your team to do so!"
 ---
 
 > We seldom pay attention to the people behind the facts, and at how much important the presence of a colleague was, during the sprint. Retrospectives might be perfect to highlight appreciations for our colleagues. Here I will describe a format with the purpose to help your team to do so!

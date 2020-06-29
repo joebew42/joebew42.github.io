@@ -2,6 +2,7 @@
 layout: post
 title:  "Installing Ubuntu 19.10 on Acer Predator Helios 300"
 date:   2019-12-18 15:00:00 +0100
+summary: "Do you remember the new laptop I bought some time ago? Cool, I have installed Ubuntu 19.10 and I want to share with you the steps I followed!"
 ---
 
 > Do you remember the [new laptop I bought]({% post_url 2019-12-15-time-for-a-new-laptop %}) some time ago? Cool, I have installed Ubuntu 19.10 and I want to share with you the steps I followed!

@@ -2,7 +2,7 @@
 layout: post
 title:  "Dependency Injection in Elixir"
 date:   2020-05-16 10:00:00 +0100
-excerpt_separator: <!--more-->
+summary: "How to deal with Dependency Injection in Elixir? In this post I am going to share the two ways which I am more comfortable with, and I invite you to share yours!"
 ---
 
 > How to deal with Dependency Injection in Elixir? In this post I am going to share the two ways which I am more comfortable with, and I invite you to share yours!
