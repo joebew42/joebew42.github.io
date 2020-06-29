@@ -32,6 +32,8 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 35%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$blockquote-text-color: rgba(0,0,0,0.6);
+
 // Width of the content area
 $content-width:    760px;
 
