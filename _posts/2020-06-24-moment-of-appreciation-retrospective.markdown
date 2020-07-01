@@ -18,9 +18,7 @@ If you are wondering **when is it suitable to run a retrospective like this**, I
 
 ## The format
 
-If your team satisfies all the circumstances mentioned above, it's time to dive into the format of this retrospective, and in the following section, I will describe how to set up this format, all the phases, and the time duration.
-
-So, yes, this retrospective is **"100% remote-friendly"**. It works really well on remote teams.
+Yes, this retrospective is **"100% remote-friendly"**. It works really well on remote teams.
 
 [![The retrospective in action](/assets/trello-board-a-moment-of-appreciation-thumbnail.jpg)](/assets/trello-board-a-moment-of-appreciation-full.jpg)
 _This was one of the retrospective we experimented with this format. Trello did a good job. Click on the image to access the full size._
@@ -29,38 +27,50 @@ The picture shows an instant of the retrospective, and a brief description of al
 
 The **time duration** for this retrospective is 1 hour or less.
 
-In order to set up this retrospective and have everything ready, you can prepare a physical board, or using a digital one (like Trello or Miro), with all the needed areas, and try to better highlight them.
+You can prepare a physical board, or using a digital one (like Trello or Miro), with all the needed areas, and try to better highlight them.
 
 I have not tried yet, but an idea might be to have two physical boards, one for the **Information Gathering**, and another for the **Lean Coffee**.
 
-Here we will go through each of the phase (or section) of the retrospective:
+<!-- Here we will go through each of the phase (or section) of the retrospective: -->
+## The structure
 
-- **Information Gathering** :information_source:
-    - _The previous retrospective action_ :heavy_check_mark: (few minutes)
-        - The team, or the people in charge of the previous action, will provide a brief update of it.
-    - _A moment of appreciation_ :pray: (~8 minutes)
-        - It is an exercise that each member of the team has to do. Trying to figure out a few words of appreciation for the people or facts that were very helpful for the success of the sprint.
-    - _What I did not like_ :thumbsdown: (~8 minutes)
-        - Each team member will write down all the things they didn't find of any value for the sprint.
-    - _What I liked!_ :thumbsup: (~8 minutes)
-        - Each team member will write down all the things they liked during the sprint. Everything that was valuable for the sprint.
-- **Lean Coffee** :coffee:
-    - The whole team will take a few minutes to review the information previously gathered.
-    - Start the Lean Coffee (~25 minutes)
-- **Agree on an Action** :heavy_check_mark:
-    - Find an action based on the topics discussed (5 minutes)
+The format is structured around three different subsequent stages:
 
-That's it, folks!
+- Information Gathering
+- Lean Coffee
+- Agree on an Action
 
-I hope you will give this retrospective a chance and try it out in your team. I am always curious to receive feedback based on your experience, what worked, what not and what you think could be improved in this format.
+### Information Gathering :information_source:
 
-## What I think I have learned
+- **The previous retrospective action** :heavy_check_mark: (few minutes)<br/>
+  The team, or the people in charge of the previous action, will provide a brief update of it.
+- **A moment of appreciation** :pray: (~8 minutes)<br/>
+  It is an exercise that each member of the team has to do. Trying to figure out a few words of appreciation for the people or facts that were very helpful for the success of the sprint.
+- **What I did not like** :thumbsdown: (~8 minutes)<br/>
+  Each team member will write down all the things they didn't find of any value for the sprint.
+- **What I liked!** :thumbsup: (~8 minutes)<br/>
+  Each team member will write down all the things they liked during the sprint. Everything that was valuable for the sprint.
 
-Creating a dedicated room to gather the appreciations is a very powerful tool. It is always nice to remember and recognize that our work is driven by people, and give or receive sincere appreciation is a good way to:
+### Lean Coffee :coffee:
+
+- The whole team will take a few minutes to review the information previously gathered.
+- Start the Lean Coffee (~25 minutes)
+
+### Agree on an Action :heavy_check_mark:
+
+- Find an action based on the topics discussed (5 minutes)
+
+## Conclusion and learnings ...
+
+That's all, folks!
+
+I hope you will give this retrospective a chance and try it out in your team, and I am curious to listen your feedback, what worked, what not and what you think could be improved in this format.
+
+After having run this retrospective format for a couple of times, I think I learned that creating a dedicated room to gather the appreciations is a very powerful tool. It is always nice to remember and recognize that our work is driven by people, and give or receive sincere appreciation is a good way to:
+
 - Understand **what others have appreciated**.
 - Understand **what are the habits we should preserve, or do more of**.
 - Having a starting ground to **reassemble the relevant facts of the sprint**.
-
 
 [^1]: [https://leancoffee.org/](https://leancoffee.org/)
 [^2]: This was actually the case where we were with the team. We decided to have retrospectives on Monday because  in each Friday one of the team members had the day-off due the on-call week.
