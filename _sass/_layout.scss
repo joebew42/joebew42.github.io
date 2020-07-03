@@ -7,8 +7,7 @@
     min-height: 60px;
 
     // Positioning context for the mobile navigation icon
-    position: fixed;
-    width: 100%;
+    position: relative;
     background-color: $header-background-color;
 }
 
@@ -171,7 +170,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit * 2 0 $spacing-unit 0;
+    padding: $spacing-unit 0;
 }
 
 .page-heading {
