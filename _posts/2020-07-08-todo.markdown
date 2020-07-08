@@ -1,0 +1,161 @@
+---
+layout: post
+title:  "TODO: One thing at a time!"
+date:   2020-07-08 10:00:00 +0100
+summary: "The art to accomplish great things, one little step at a time, without worrying to forget what you already have done, and remember what you still have to do."
+---
+
+> The art to accomplish great things, one little step at a time, without worrying to forget what you already have done, and remember what you still have to do.
+
+<!--more-->
+
+I cannot recall the exact moment when I started to follow this practice, but I can tell you I find it of **extreme value**.
+
+Since then, I am still in the process to understand and learn how to get the best from it.
+
+I am talking about the practice of using a **scratch pad** (or a TODO list), in the form of a text file, or traditional pen and paper, to keep track of the work we are doing.
+
+In the following post I will describe **how I am used to follow this practice**, and some of my suggestions.
+
+## The tool
+
+A **text-file**.
+
+Or, as an alternative, a pen and a paper works well, especially when you want to make some **drawings**.
+
+I do generally prefer a text-file since it's easy to change, navigate and it is always available within the editor or IDE I am using.
+
+In addition to this, a text-file can be easily put under version control, and this is really helpful when we want to share the TODO list with others, or resume the work on that project later in time.
+
+## Organizing the contents
+
+When I start a new scratch pad, the first thing I do is to **clearly state the problem**, the task or the new feature I am going to work on.
+
+If I am going to work on adding a new feature ([as happened here](https://github.com/joebew42/twitch/issues/28)), I tend to copy & paste the entire description of the desired feature, as is, and try to familiarize with the terms used, understand some parts of the domain, and then trying to look it into the code.
+
+As an example, if the feature description it talking about the concept of "Episode", I will look for it in the code.
+
+**This preliminary step gives me a scope and a first direction.**
+
+## A TODO list is born
+
+After I have a better context, understood some of the domain terms, and have explored the domain a little more I am ready to start filling the first TODO list.
+
+As I am ready to practically do some work, questions like these will arise:
+
+- How to run the application?
+- How to setup the database?
+- Do we depend on external services?
+- How to run tests?
+- Etc ...
+
+These are example of the first items I do usually put in my TODO list.
+
+Along with these, more domain and/or code related will emerge, like:
+
+- How does this domain concept is mapped into the code?
+- Why this concept is described differently into the code, compared to the description of the feature?
+- Should we rename this, into this?
+- Why they ended up with this design decision? Try to ask them ...
+- Etc ...
+
+These are usually a good set of items to start with.
+
+And when I am ready to start dig into the code, I like to outline the things I would like to accomplish:
+
+- Write a test that will hit an HTTP API
+- Expose an API to accept the request
+- Creating a new XXX
+- What happen when the XXX is not valid?
+- Write an integration test for the DB
+- Etc ...
+
+## First things first
+
+I do usually spend some time going through the TODO list, to understand what item is more important than another. This is an exercise that helps me to realize what I want to uncover, or accomplish first.
+
+For example: running the application locally is of more value than being able to run the tests?
+
+These are the kind of questions that emerges when I review the TODO list. Then I order the list based on what I believe has more value.
+
+It also happens to remove, or re-phrase items.
+
+At the end of this process, all the items on the list are ordered by importance.
+
+## One single thing at a time
+
+This is, in my opinion, **the golden rule**, the essence of this practice.
+
+Keep the focus on only one thing.
+
+How to do that?
+
+Move the item that is on top of the list to another section. I call it **DOING**. From this moment I am committed to work on only one thing, and go through the next item only once I am done.
+
+As an alternative, I usually tend to put a sign to the item I am currently working on.
+
+It's important to highlight the thing we are working on.
+
+As I said, this is the **golden rule**.
+
+One single thing at a time.
+
+No distractions.
+
+Avoid the temptation to get derailed from other things.
+
+## Keep it small
+
+I like to keep the items small enough to have a shorten feedback loop between them.
+
+Short enough to re-evaluate my progress quickly.
+
+## Take some breaks
+
+The items are there as a guidance. It's correct to rewrite them, discard or add new items as long as we proceed, and discover new things.
+
+So, I do usually take some breaks to re-evaluate and adjust the scope continually.
+
+## I got distracted from something else
+
+As a computer programmer I always have suffered from the _"on-the-fly-fix"_ syndrome. Fix whatever I see in the code when I am supposed to work on something else.
+
+For example, while working on a new test, and I notice that some test names are not really aligned with the rest, I feel the temptation to go and rewrite them. **NO!**
+
+Instead, I will put this observation as a new item on top of the list.
+
+There will come the time when I will address it, only after I am done with the current item.
+
+Whenever I see something that might be addressed, I will write it down as a new item, and put it on the top of the list.
+
+Only after I am done with the current item, I will decide if it is worth to move the newly added item in **DOING**, or continue with something else.
+
+## Benefits
+
+- Maintain a steady and organized process.
+- Don't need to keep everything in mind.
+- Focus on only one thing at a time.
+- Keep shorten feedback loops between one thing and another.
+- Moment to reflect on the next thing to do.
+- Enables discussion when doing a mob, or pair programming session.
+- Have a clear picture of the amount of work to do.
+- It's cheap!
+- Flexible to be adapted on many circumstances.
+
+## Enhance the experience
+
+The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) can be applied to enhance the experience of the scratch pad (or TODO list) because it will _enforce_ the habit of keep the focus on only one thing, remind us to take breaks, reflect between tasks, and provide useful metrics.
+
+## The scratch pad in action!
+
+Here I wanted to share two real scratch pads, that comes from two different projects or experiences.
+
+The first comes from a playground project I was working on, and the second from a session of remote pair programming.
+
+![](/assets/todo1.png)
+
+[The scratch pad of a chat application](https://github.com/joebew42/ex_chat/tree/01b8877354c0526acb24cc9d842e11b445176d29#scratchpad)
+
+![](/assets/todo2.png)
+
+[The scratch pad of the poker hands kata](https://github.com/xpepper/poker-hands-kata/tree/ed211c8a3fe72df83d6ebec8180d6ff83fb38605#todo). This is an example of scratch pad shared during a session of remote pair programming.
