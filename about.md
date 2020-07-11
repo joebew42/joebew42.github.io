@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi there! :wave:
 
-Glad to see you on my personal blog and welcome to some of my thoughts, experiments and experiences about _Software Development_, _Tools_ and _Creative Process_.
+Glad to see you on my personal blog and welcome to some of my thoughts, experiments and experiences on _Software Development_, _Tools_ and _Creative Process_.
 
 ### My name is Joe,
 
@@ -28,7 +28,7 @@ My current goal is to become better at Software Development, and share what I le
 
 ### Keep in touch :bookmark:
 
-You can message me on [Twitter](https://twitter.com/joebew42), or email at `joebew42 [at] gmail.com`.
+Message me on [Twitter](https://twitter.com/joebew42), or e-mail me at `joebew42 [at] gmail.com`.
 
 I am also on [Twitch](https://twitch.tv/joebew42) and [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), where sometimes I do live-coding or share videos on computer programming. My code is available on [GitHub](https://github.com/joebew42).
 
