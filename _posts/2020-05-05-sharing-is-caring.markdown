@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Sharing is caring - Part I: The code"
-date:   2020-05-05 15:00:00 +0100
-summary: "I believe there is something magical in the act of sharing. I wanted to start a series on this. Starting from the code, and why is important to share our code with others."
+layout:   post
+title:    "Sharing is caring - Part I: The code"
+date:     2020-05-05 15:00:00 +0100
+tag:      practice
+summary:  "I believe there is something magical in the act of sharing. I wanted to start a series on this. Starting from the code, and why is important to share our code with others."
 ---
 
 > I believe there is something magical in the act of sharing. I wanted to start a series on this. Starting from the code, and why is important to share our code with others.

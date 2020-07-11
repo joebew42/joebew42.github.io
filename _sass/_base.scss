@@ -239,3 +239,39 @@ pre {
     width: 24px;
     height: 24px;
 }
+
+/**
+ * Tags
+ */
+.post-tag {
+    margin: 5px;
+    padding: 5px;
+    // border-radius: 5px;
+    font: $base-font-weight $base-small-font-size $base-heading-font-family;
+    text-transform: uppercase;
+}
+
+.post-tag.practice {
+    color: white;
+    background-color: #c23b22;
+}
+
+.post-tag.elixir {
+    color: white;
+    background-color: #4a355f;
+}
+
+.post-tag.programming {
+    color: white;
+    background-color: teal;
+}
+
+.post-tag.creative {
+    color: black;
+    background-color: yellow;
+}
+
+.post-tag.tools {
+    color: white;
+    background-color: black;
+}

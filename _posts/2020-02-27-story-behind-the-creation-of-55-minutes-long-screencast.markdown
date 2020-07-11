@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "The story behind the creation of 55 minutes long screencast"
-date:   2020-02-27 15:00:00 +0100
-summary: "It took more than one year to create a 55 minutes long screencast on programming. In here I will tell you the story behind it. From the original idea to the final result."
+layout:   post
+title:    "The story behind the creation of 55 minutes long screencast"
+date:     2020-02-27 15:00:00 +0100
+tag:      creative
+summary:  "It took more than one year to create a 55 minutes long screencast on programming. In here I will tell you the story behind it. From the original idea to the final result."
 ---
 
 > It took more than one year to create a 55 minutes long screencast on programming. In here I will tell you the story behind it. From the original idea to the final result.
