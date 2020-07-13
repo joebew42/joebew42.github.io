@@ -7,9 +7,11 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
-      <span class="post-tag {{ post.tag }} to-right">
-        {{ post.tag }}
-      </span>
+      <a href="/tag/{{ post.tag }}">
+        <span class="post-tag {{ post.tag }} to-right no-margin-right">
+          {{ post.tag }}
+        </span>
+      </a>
       <h2 class="post-title" itemprop="name headline">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>

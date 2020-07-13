@@ -245,10 +245,29 @@ pre {
  */
 .post-tag {
     margin: 5px;
-    margin-right: 0px;
     padding: 5px;
     font: $base-font-weight $base-small-font-size $base-heading-font-family;
     text-transform: uppercase;
+
+    a {
+        &, &:visited, &:hover {
+            border-bottom: none;
+            text-decoration: none;
+        }
+    }
+}
+
+.post-tag.normal {
+    font-size: $base-font-size;
+    margin-bottom: 30px;
+}
+
+.post-tag.no-margin-left {
+    margin-left: 0px;
+}
+
+.post-tag.no-margin-right {
+    margin-right: 0px;
 }
 
 .post-tag.practice {
@@ -274,9 +293,4 @@ pre {
 .post-tag.tools {
     color: white;
     background-color: black;
-}
-
-.post-tag.thoughts {
-    color: black;
-    background-color: pink;
 }
