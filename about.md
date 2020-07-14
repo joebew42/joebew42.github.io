@@ -18,7 +18,12 @@ I am a Software Professional and Technical Trainer, focused on Software Design P
 
 I like to help people practice, explore, and understand the principles of Software Design, along with other helpful practices to keep the process of writing software as much sustainable as possible.
 
-When I am not writing code, I enjoy play video games :video_game:, read books :books:, walk :walking:, listen synthwave :musical_note:.
+When I am NOT writing code, I enjoy
+
+- Play video games :video_game:
+- Read books :books:
+- Walk :walking:
+- Listen synthwave :musical_note:
 
 > I do believe people comes before anything else. Successful teams, organizations and products are just symptoms of an healthy culture where people are given high Trust, Transparency, Autonomy, and Significance. The Motivation will follow.
 
