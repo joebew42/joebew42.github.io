@@ -6,11 +6,9 @@ permalink: /about/
 
 Hi there! :wave:
 
-Glad to see you on my personal blog and welcome to some of my thoughts, experiments and experiences on _Software Development_, _Tools_ and _Creative Process_.
-
 ### My name is Joe,
 
-I am a Software Professional and Technical Trainer, focused on Software Design Principles and Practices:
+I am a Software Professional and Technical Trainer, focused on Software Design Principles, and Practices of Software Development:
 
 - Clean Code
 - Test-Driven Development
@@ -18,11 +16,9 @@ I am a Software Professional and Technical Trainer, focused on Software Design P
 - Legacy Code
 - Domain-Driven Design
 
-During my work experiences I had the chance to meet great people and challenging work environments that encouraged me to learn, practice, understand, and explore better ways of doing Software Development.
+I like to help people practice, explore, and understand the principles of Software Design, along with other helpful practices to keep the process of writing software as much sustainable as possible.
 
-I like to help people understand the underlying principles of Software Design and the practices that might be used to keep the process of writing software as much sustainable as possible.
-
-My current goal is to become better at Software Development, and share what I learn with others.
+When I am not writing code, I enjoy play video games :video_game:, read books :books:, walk :walking:, listen synthwave :musical_note:.
 
 > I do believe people comes before anything else. Successful teams, organizations and products are just symptoms of an healthy culture where people are given high Trust, Transparency, Autonomy, and Significance. The Motivation will follow.
 
@@ -30,9 +26,7 @@ My current goal is to become better at Software Development, and share what I le
 
 Message me on [Twitter](https://twitter.com/joebew42), or e-mail me at `joebew42 [at] gmail.com`.
 
-I am also on [Twitch](https://twitch.tv/joebew42) and [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ), where sometimes I do live-coding or share videos on computer programming. My code is available on [GitHub](https://github.com/joebew42).
-
-Here you can find my [Daily Activity Log](http://joebew42.github.io/events.xml), where I share what I am reading, studying or watching! You can [grab the RSS](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) too.
+My [Daily Activity Log](http://joebew42.github.io/events.xml) can help you to follow my activities (last things I've read or watched). [RSS](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) is also available.
 
 ### Work experiences :briefcase:
 
@@ -42,6 +36,7 @@ Here you can find my [Daily Activity Log](http://joebew42.github.io/events.xml),
 
 ### Into the jungle :palm_tree:
 
+- Streaming: [Twitch](https://twitch.tv/joebew42) • [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ)
 - Social: [Twitter](https://twitter.com/joebew42) • [Telegram](https://t.me/joebew42) • [Diaspora*](https://joindiaspora.com/people/fdc8e995614a2609)
-- Code: [Twitch](https://twitch.tv/joebew42) • [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) • [GitHub](https://github.com/joebew42) • [GitLab](https://gitlab.com/joebew42)
+- Code: [GitHub](https://github.com/joebew42) • [GitLab](https://gitlab.com/joebew42)
 - Slack: [Software Crafters](http://slack.softwarecraftsmanship.org/)
