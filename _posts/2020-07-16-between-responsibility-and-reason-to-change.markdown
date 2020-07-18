@@ -293,7 +293,7 @@ Domain and Parser are kept in symmetry.
 
 ### 2. Testability
 
-It's easy to test the behaviour of the parsing of an hand, or a single card, in isolation. Using the single class version of the parser, we might feel tempted to access the private methods (e.g. `parseHand`, or `parseCard`) due to _Insufficient Access_ [^synergy_between_testability_and_design] on the parser class.
+It's easy to test the behavior of the parsing of an hand, or a single card, in isolation. Using the single class version of the parser, we might feel tempted to access the private methods (e.g. `parseHand`, or `parseCard`) due to _Insufficient Access_ [^synergy_between_testability_and_design] on the parser class.
 
 ### 3. Comprehensibility
 
