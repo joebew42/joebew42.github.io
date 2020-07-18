@@ -229,7 +229,7 @@ We can imagine that the main concern of having this parser came from the people 
 
 These people are going to send the information about a poker game with a string formatted like that. No more, no less.
 
-So, if nothing is gonna to change, having the parser with a single class is a well and reasonable decision. No other string formats to support, no other kind of input, just straight with that input.
+So, if nothing is going to change, having the parser with a single class is a well and reasonable decision. No other string formats to support, no other kind of input, just straight with that input.
 
 ## The Parser in a single class
 
@@ -273,7 +273,7 @@ public class PlayerParser {
 }
 ```
 
-As I said, having the parser in a single class is also a good way to go. The class it's not even big. It is also "easy" to grasp, read and identify what each methods does.
+As I said, having the parser in a single class is also a good way to go. The class it's not even big. It is also "easy" to grasp, read and identify what each method does.
 
 ## My takes on this experience
 
