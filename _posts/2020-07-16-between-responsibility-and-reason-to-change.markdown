@@ -10,11 +10,11 @@ summary:  "A case study on the Single Responsibility Principle: Reasons to Chang
 
 <!--more-->
 
-The _Single Responsibilty Principle_ [^srp] is a popular, and probably one of the most important principle in Software Design. Introduced in the late 1990s, by Uncle Bob, the principle states the following:
+The _Single Responsibility Principle_ [^srp] is quite popular, probably one of the most important principles in Software Design. Introduced in the late 1990s, by Uncle Bob, the principle states the following:
 
 > _"A CLASS SHOULD HAVE ONLY ONE REASON TO CHANGE."_
 
-Find one or more _reason because your code have to change_, and you are granted to separate those responsibilities in new classes, or modules.
+Find one _reason to change_ and take everything else out of the class, so that you’re granted to separate those responsibilities in new classes, or modules.
 
 But then, **the question**.
 
@@ -36,7 +36,7 @@ The answer to the question "What defines a reason to change?" is **People**.
 
 Reason why code changes is because people ask for changes, based on their needs. And usually their needs are dependant on the area of the business they are responsible for.
 
-Said that, following the example of the `Employee` class, we can stop a moment and reflect on each of the methods we have there:
+Said that, following the example of the `Employee` class, we can stop for a moment and reflect on each of the methods we have there:
 
 ```Java
 public Money calculatePay();
@@ -72,7 +72,7 @@ Each reason to change represent a different concern a person, or a group of peop
 Each of these areas will eventually grow and change with different reasons and rhythm from the others:
 
 - The Payroll area could change the procedure to calculate the payroll for a particular year, or for a particular employee. Or implement more complex rules.
-- The Data area could improve the way the data is stored, indexed, processed, or decide to opt in with a new storage mechanism.
+- The Data area could improve the way the data is stored, indexed, processed, or decide to opt-in with a new storage mechanism.
 - The Reporting area could change the way the report is built, change the layout of the report, add some more information, or extend it with a new format.
 
 And we prefer not to mix things that are not related together, with the chance to introduce defects in one specific area because of the changes introduced into another.
@@ -113,13 +113,13 @@ And so on.
 
 ## NOT only people. Maintainability also!
 
-**Maintainability** is also one of the great benefit when isolating the reason to change from each other. Having extracted the three different concerns from the `Employee` into three different classes:
+**Maintainability** is also one of the great benefits when isolating the reason to change from each other. Having extracted the three different concerns from the `Employee` into three different classes:
 
 - `Payroll`
 - `Repository`
 - `AuditReport`
 
-Gives us a better _control_ from the **testability** point of view.
+Gives us better control from the **testability** point of view.
 
 Thinking at the test suite of an employee class which has different reasons to change we can easily guess that its test suite will be organized at least into three different sections, one for each area:
 
@@ -149,11 +149,11 @@ public class EmployeeTest {
 
 With the result to have a reasonably big test suite for the `Employee`, and dealing with big test suite or big classes, or modules, are often two sides of the same coin:
 
-> Classes, or modules that centralizes too many responsibilities tend to be difficult to read and maintain.
+> Classes or modules that centralizes too many responsibilities tend to be difficult to read and maintain.
 
 ## A Parser for a Poker Hand
 
-For the last few months, I've been pair programming with some of my friends, [Piero Di Bello](https://twitter.com/pierodibello) and [Matteo Pierro](https://twitter.com/matteo_pierro). We were practing TDD on the [Poker Hands Kata](https://github.com/xpepper/poker-hands-kata/tree/b1295dd54e5f6a6a27ad5f7491df890bf855cd8a).
+For the last few months, I've been pair programming with some of my friends, [Piero Di Bello](https://twitter.com/pierodibello) and [Matteo Pierro](https://twitter.com/matteo_pierro). We were practicing TDD on the [Poker Hands Kata](https://github.com/xpepper/poker-hands-kata/tree/b1295dd54e5f6a6a27ad5f7491df890bf855cd8a).
 
 As part of the requirements is asked to parse the players and their hands from an input string, formed as follow:
 
