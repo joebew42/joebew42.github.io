@@ -275,7 +275,7 @@ public class PlayerParser {
 
 As I said, having the parser in a single class is also a good way to go. The class it's not even big. It is also "easy" to grasp, read and identify what each methods does.
 
-## My takes of this experience
+## My takes on this experience
 
 I don't think there is a right or wrong design decision here.
 
