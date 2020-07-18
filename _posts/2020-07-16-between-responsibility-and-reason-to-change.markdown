@@ -225,9 +225,9 @@ Short answer, yes! We can have the parser defined in a single class.
 
 Let's think about its **reason to change** and its **responsibility**.
 
-We can imagine that the main concern of having this parser came from the people in charge of designing the system from which we receive that input.
+We can assume that the main reason to have this parser is to satisfy the requirements of the client that will make use of the poker game, through specific requests.
 
-These people are going to send the information about a poker game with a string formatted like that. No more, no less.
+The client will send requests to play a poker game using a string formatted like that. No more, no less.
 
 So, if nothing is going to change, having the parser with a single class is a well and reasonable decision. No other string formats to support, no other kind of input, just straight with that input.
 
