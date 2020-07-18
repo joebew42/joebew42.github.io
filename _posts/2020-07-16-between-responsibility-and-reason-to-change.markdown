@@ -111,7 +111,7 @@ So that when a change to the report happens we know it will affect the `AuditRep
 
 And so on.
 
-## NOT only people. But maintainability also.
+## NOT only people. Maintainability also!
 
 **Maintainability** is also one of the great benefit when isolating the reason to change from each other. Having extracted the three different concerns from the `Employee` into three different classes:
 
