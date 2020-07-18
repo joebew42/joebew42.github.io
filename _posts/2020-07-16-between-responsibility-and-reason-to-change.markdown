@@ -281,7 +281,7 @@ I don't think there is a right or wrong design decision here.
 
 Both the solutions are valid. One class, or three classes, are certainly good ways to go. In both cases, the Single Responsibility Principle still hold, since as we have seen, the principle is more about people than code.
 
-At the end, we preferred the version of the parser that uses three classes.
+In the end, we preferred the version of the parser that uses three classes.
 
 This is also my personal preference, backed by some reasons I want to share with you:
 
