@@ -10,6 +10,136 @@ summary:  "A case study on the Single Responsibility Principle: Reasons to Chang
 
 <!--more-->
 
+## A Parser for a Poker Hand
+
+For the last few months, I've been pair programming with some of my friends, [Piero Di Bello](https://twitter.com/pierodibello) and [Matteo Pierro](https://twitter.com/matteo_pierro). We were practicing TDD on the [Poker Hands Kata](https://github.com/xpepper/poker-hands-kata/tree/b1295dd54e5f6a6a27ad5f7491df890bf855cd8a).
+
+As part of the requirements of the Code Kata is asked to parse the players and their hands from an input string, formed as follow:
+
+```
+Black: 2H 3D 5S 9C KD White: 2C 3H 4S 8C AH
+```
+
+After some sessions of coding we ended up writing a parser built on few classes:
+
+```Java
+public class PlayerParser {
+    private final HandParser handParser = new HandParser();
+
+    Player parse(String rawPlayer) {
+        String name = rawPlayer.split(":")[0];
+        String rawPokerHand = rawPlayer.split(": ")[1];
+        Hand hand = handParser.parse(rawPokerHand);
+        return new Player(name, hand);
+    }
+}
+```
+
+_That has the responsibility to parse the Player: `Black: 2H 3D 5S 9C KD`_
+
+```Java
+public class HandParser {
+    private final CardParser cardParser = new CardParser();
+
+    Hand parse(String rawPokerHand) {
+        String[] rawCards = rawPokerHand.split(" ");
+        Card firstCard = cardParser.parse(rawCards[0]);
+        Card secondCard = cardParser.parse(rawCards[1]);
+        return new Hand(firstCard, secondCard);
+    }
+}
+```
+
+_That has the responsibility to parse the Hand: `2H 3D 5S 9C KD`_
+
+```Java
+public class CardParser {
+    ...
+
+    Card parse(String rawCard) {
+        Character rawCardValue = rawCard.charAt(0);
+        Card.Value value = CHAR_TO_VALUE.get(rawCardValue);
+
+        Character rawCardSuit = rawCard.charAt(1);
+        Card.Suit suit = CHAR_TO_SUIT.get(rawCardSuit);
+
+        return new Card(value, suit);
+    }
+}
+```
+
+_That has the responsibility to parse the Card: `2H`_
+
+We had a really **pleasing discussion** around the decision of having three different classes, one for each part of the string (a class to parse a single `Card`, a class to parse the `Hand`, and lately, a class to parse the `Player`) instead of having a single class for the parser.
+
+## Why don't have the Parser in a single class?
+
+That was the question that laid the foundations for the pleasing discussion.
+
+Thank you Matteo for raising this question. This is also the reason why I decided to write this blog. We discussed some good points that deserves to be shared with the community.
+
+So, back to the question: **Why don't put the Parser in a single Class?**
+
+Short answer, yes! We can have the parser entirely defined in a single class.
+
+Are we not violating the _Single Responsibility Principle_[^srp] ?
+
+Shouldn't the classes be small and have only one reason to change?
+
+Let's first think about the **responsibility** and the **reason to change** of a parser like that. I will discuss the Single Responsibility Principle later in this blog.
+
+We can assume that the **responsibility of this parser** is to satisfy the requirements of the client that will make use of the poker game, through specific requests. The client will send requests to play a poker game using a string formatted like that. No more, no less.
+
+The **only reason to change** is a different format for the input string. If the format of the string changes, we need then to open the class and modify it.
+
+If nothing is gonna change, having the parser with a single class is a well and reasonable decision. No other string formats to support, no other kind of input, just straight with that input.
+
+## The Parser in a single class
+
+```
+PlayerParser
+
++ Player parse(String)
+
+- Hand parseHand(String)
+- Card parseCard(String)
+```
+
+The parsing of the `Hand` and its `Card`s are now an implementation detail of the method `parse`, and they are now `private`. There is no need for a _client_ to have direct access to these methods since the _client_ or the _caller_ will always use the public interface which exposes the method `parse(...)`.
+
+```Java
+public class PlayerParser {
+
+    Player parse(String rawPlayer) {
+        String name = rawPlayer.split(":")[0];
+        String rawPokerHand = rawPlayer.split(": ")[1];
+        Hand hand = parseHand(rawPokerHand);
+        return new Player(name, hand);
+    }
+
+    private Hand parseHand(String rawPokerHand) {
+        String[] rawCards = rawPokerHand.split(" ");
+        Card firstCard = parseCard(rawCards[0]);
+        Card secondCard = parseCard(rawCards[1]);
+        return new Hand(firstCard, secondCard);
+    }
+
+    private Card parseCard(String rawCard) {
+        Character rawCardValue = rawCard.charAt(0);
+        Card.Value value = CHAR_TO_VALUE.get(rawCardValue);
+
+        Character rawCardSuit = rawCard.charAt(1);
+        Card.Suit suit = CHAR_TO_SUIT.get(rawCardSuit);
+
+        return new Card(value, suit);
+    }
+}
+```
+
+As I said, having the parser in a single class is also a good way to go. The class it's not even big. It is also "easy" to grasp, read and identify what each method does.
+
+## The Single Responsibility Principle
+
 The _Single Responsibility Principle_ [^srp] is quite popular, probably one of the most important principles in Software Design. Introduced in the late 1990s, by Uncle Bob, the principle states the following:
 
 > _"A CLASS SHOULD HAVE ONLY ONE REASON TO CHANGE."_
@@ -151,131 +281,7 @@ With the result to have a reasonably big test suite for the `Employee`, and deal
 
 > Classes or modules that centralizes too many responsibilities tend to be difficult to read and maintain.
 
-## A Parser for a Poker Hand
-
-For the last few months, I've been pair programming with some of my friends, [Piero Di Bello](https://twitter.com/pierodibello) and [Matteo Pierro](https://twitter.com/matteo_pierro). We were practicing TDD on the [Poker Hands Kata](https://github.com/xpepper/poker-hands-kata/tree/b1295dd54e5f6a6a27ad5f7491df890bf855cd8a).
-
-As part of the requirements is asked to parse the players and their hands from an input string, formed as follow:
-
-```
-Black: 2H 3D 5S 9C KD White: 2C 3H 4S 8C AH
-```
-
-After some sessions of coding we ended up writing a parser built on few classes:
-
-```Java
-public class PlayerParser {
-    private final HandParser handParser = new HandParser();
-
-    Player parse(String rawPlayer) {
-        String name = rawPlayer.split(":")[0];
-        String rawPokerHand = rawPlayer.split(": ")[1];
-        Hand hand = handParser.parse(rawPokerHand);
-        return new Player(name, hand);
-    }
-}
-```
-
-_That has the responsibility to parse the Player: `Black: 2H 3D 5S 9C KD`_
-
-```Java
-public class HandParser {
-    private final CardParser cardParser = new CardParser();
-
-    Hand parse(String rawPokerHand) {
-        String[] rawCards = rawPokerHand.split(" ");
-        Card firstCard = cardParser.parse(rawCards[0]);
-        Card secondCard = cardParser.parse(rawCards[1]);
-        return new Hand(firstCard, secondCard);
-    }
-}
-```
-
-_That has the responsibility to parse the Hand: `2H 3D 5S 9C KD`_
-
-```Java
-public class CardParser {
-    ...
-
-    Card parse(String rawCard) {
-        Character rawCardValue = rawCard.charAt(0);
-        Card.Value value = CHAR_TO_VALUE.get(rawCardValue);
-
-        Character rawCardSuit = rawCard.charAt(1);
-        Card.Suit suit = CHAR_TO_SUIT.get(rawCardSuit);
-
-        return new Card(value, suit);
-    }
-}
-```
-
-_That has the responsibility to parse the Card: `2H`_
-
-We had a really **pleasing discussion** around the decision of having three different classes, one for each part of the string (a class to parse a single `Card`, a class to parse the `Hand`, and lately, a class to parse the `Player`) rather than having a single class for the parser.
-
-## Why don't have the Parser in a single class?
-
-That was the question that laid the foundations for the pleasing discussion.
-
-Thank you Matteo for raising this question. This is also the reason why I decided to write this blog. I think we discussed some good points that deserves to be shared with the community.
-
-So, back to the question: **Why don't put the Parser in a single Class?**
-
-Short answer, yes! We can have the parser defined in a single class.
-
-Let's think about its **reason to change** and its **responsibility**.
-
-We can assume that the main reason to have this parser is to satisfy the requirements of the client that will make use of the poker game, through specific requests.
-
-The client will send requests to play a poker game using a string formatted like that. No more, no less.
-
-So, if nothing is going to change, having the parser with a single class is a well and reasonable decision. No other string formats to support, no other kind of input, just straight with that input.
-
-## The Parser in a single class
-
-```
-PlayerParser
-
-+ Player parse(String)
-
-- Hand parseHand(String)
-- Card parseCard(String)
-```
-
-The parsing of the `Hand` and its `Card`s are now an implementation detail of the method `parse`, and they are now `private`. There is no need for a _client_ to have direct access to these methods since the _client_ or the _caller_ will always use the public interface which exposes the method `parse(...)`.
-
-```Java
-public class PlayerParser {
-
-    Player parse(String rawPlayer) {
-        String name = rawPlayer.split(":")[0];
-        String rawPokerHand = rawPlayer.split(": ")[1];
-        Hand hand = parseHand(rawPokerHand);
-        return new Player(name, hand);
-    }
-
-    private Hand parseHand(String rawPokerHand) {
-        String[] rawCards = rawPokerHand.split(" ");
-        Card firstCard = parseCard(rawCards[0]);
-        Card secondCard = parseCard(rawCards[1]);
-        return new Hand(firstCard, secondCard);
-    }
-
-    private Card parseCard(String rawCard) {
-        Character rawCardValue = rawCard.charAt(0);
-        Card.Value value = CHAR_TO_VALUE.get(rawCardValue);
-
-        Character rawCardSuit = rawCard.charAt(1);
-        Card.Suit suit = CHAR_TO_SUIT.get(rawCardSuit);
-
-        return new Card(value, suit);
-    }
-}
-```
-
-As I said, having the parser in a single class is also a good way to go. The class it's not even big. It is also "easy" to grasp, read and identify what each method does.
-
-## My takes on this experience
+## So, how many classes for the Parser?
 
 I don't think there is a right or wrong design decision here.
 
