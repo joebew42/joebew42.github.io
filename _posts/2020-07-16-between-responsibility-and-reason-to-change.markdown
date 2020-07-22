@@ -86,58 +86,6 @@ Are we not violating the _Single Responsibility Principle_[^srp] ?
 
 Shouldn't the classes be small and have only one reason to change?
 
-Let's first think about the **responsibility** and the **reason to change** of a parser like that. I will discuss the Single Responsibility Principle later in this blog.
-
-We can assume that the **responsibility of this parser** is to satisfy the requirements of the client that will make use of the poker game, through specific requests. The client will send requests to play a poker game using a string formatted like that. No more, no less.
-
-The **only reason to change** is a different format for the input string. If the format of the string changes, we need then to open the class and modify it.
-
-If nothing is gonna change, having the parser with a single class is a well and reasonable decision. No other string formats to support, no other kind of input, just straight with that input.
-
-## The Parser in a single class
-
-```
-PlayerParser
-
-+ Player parse(String)
-
-- Hand parseHand(String)
-- Card parseCard(String)
-```
-
-The parsing of the `Hand` and its `Card`s are now an implementation detail of the method `parse`, and they are now `private`. There is no need for a _client_ to have direct access to these methods since the _client_ or the _caller_ will always use the public interface which exposes the method `parse(...)`.
-
-```Java
-public class PlayerParser {
-
-    Player parse(String rawPlayer) {
-        String name = rawPlayer.split(":")[0];
-        String rawPokerHand = rawPlayer.split(": ")[1];
-        Hand hand = parseHand(rawPokerHand);
-        return new Player(name, hand);
-    }
-
-    private Hand parseHand(String rawPokerHand) {
-        String[] rawCards = rawPokerHand.split(" ");
-        Card firstCard = parseCard(rawCards[0]);
-        Card secondCard = parseCard(rawCards[1]);
-        return new Hand(firstCard, secondCard);
-    }
-
-    private Card parseCard(String rawCard) {
-        Character rawCardValue = rawCard.charAt(0);
-        Card.Value value = CHAR_TO_VALUE.get(rawCardValue);
-
-        Character rawCardSuit = rawCard.charAt(1);
-        Card.Suit suit = CHAR_TO_SUIT.get(rawCardSuit);
-
-        return new Card(value, suit);
-    }
-}
-```
-
-As I said, having the parser in a single class is also a good way to go. The class it's not even big. It is also "easy" to grasp, read and identify what each method does.
-
 ## The Single Responsibility Principle
 
 The _Single Responsibility Principle_ [^srp] is quite popular, probably one of the most important principles in Software Design. Introduced in the late 1990s, by Uncle Bob, the principle states the following:
@@ -281,7 +229,61 @@ With the result to have a reasonably big test suite for the `Employee`, and deal
 
 > Classes or modules that centralizes too many responsibilities tend to be difficult to read and maintain.
 
-## So, how many classes for the Parser?
+## The Parser in a single class
+
+Let's first think about the **responsibility** and the **reason to change** of a parser like that.
+
+The **responsibility of this parser** is to satisfy the requirements of the client that will make use of the poker game, through specific requests. The client will send requests to play a poker game using a string formatted like that. No more, no less.
+
+The **only reason to change** is a different format for the input string. If the format of the string changes, we need then to open the class and modify it.
+
+If nothing is gonna change, having the parser with a single class is a well and reasonable decision. No other string formats to support, no other kind of input, just straight with that input.
+
+```
+PlayerParser
+
++ Player parse(String)
+
+- Hand parseHand(String)
+- Card parseCard(String)
+```
+
+The parsing of the `Hand` and its `Card`s are now an implementation detail of the method `parse`, and they are now `private`. There is no need for a _client_ to have direct access to these methods since the _client_ or the _caller_ will always use the public interface which exposes the method `parse(...)`.
+
+```Java
+public class PlayerParser {
+
+    Player parse(String rawPlayer) {
+        String name = rawPlayer.split(":")[0];
+        String rawPokerHand = rawPlayer.split(": ")[1];
+        Hand hand = parseHand(rawPokerHand);
+        return new Player(name, hand);
+    }
+
+    private Hand parseHand(String rawPokerHand) {
+        String[] rawCards = rawPokerHand.split(" ");
+        Card firstCard = parseCard(rawCards[0]);
+        Card secondCard = parseCard(rawCards[1]);
+        return new Hand(firstCard, secondCard);
+    }
+
+    private Card parseCard(String rawCard) {
+        Character rawCardValue = rawCard.charAt(0);
+        Card.Value value = CHAR_TO_VALUE.get(rawCardValue);
+
+        Character rawCardSuit = rawCard.charAt(1);
+        Card.Suit suit = CHAR_TO_SUIT.get(rawCardSuit);
+
+        return new Card(value, suit);
+    }
+}
+```
+
+As I said, having the parser in a single class is also a good way to go. The class it's not even big. It is also "easy" to grasp, read and identify what each method does.
+
+## Conclusion
+
+**How many classes for the Parser?**
 
 I don't think there is a right or wrong design decision here.
 
