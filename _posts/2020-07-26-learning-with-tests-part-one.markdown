@@ -76,6 +76,7 @@ Let's try to think about at the many things we have learned so far:
 
 - How to easily compile and run code.
 - How to run tests: the confidence to see when we introduce regressions, and that our program is behaving as expected.
+- We have a sound ground to build our next learnings on.
 
 Look at the importance of writing tests:
 
