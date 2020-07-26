@@ -3,10 +3,10 @@ layout:   post
 title:    "Learning with Tests: Part I"
 date:     2020-07-26 10:00:00 +0100
 tag:      programming
-summary:  "Tests as a learning catalyst when it comes to learning new programming languages. Here is the part I."
+summary:  "Tests are a learning catalyst when it comes to learning new programming languages. Here is the part I."
 ---
 
-> Tests as a learning catalyst when it comes to learning new programming languages. Here is the part I.
+> Tests are a learning catalyst when it comes to learning new programming languages. Here is the part I.
 
 <!--more-->
 
