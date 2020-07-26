@@ -83,6 +83,7 @@ Look at the importance of writing tests:
 - Tests provide a clear direction on what to learn next.
 - Tests help us to keep well-defined scope.
 - Tests allow us to proceed with baby steps.
+- We learn by doing.
 
 **Hint:** Try to use a version control system (e.g. `git`) to save your progress.
 
