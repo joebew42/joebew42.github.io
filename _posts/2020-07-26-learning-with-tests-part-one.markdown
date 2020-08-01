@@ -10,16 +10,16 @@ summary:  "Tests are a learning catalyst when it comes to learning new programmi
 
 <!--more-->
 
-There might be desperate reasons you'll find yourself in the process to have to learn new programming language:
+During your career, there could be the chance you have to learn a new programming language, and the reasons may vary:
 
-- A new job.
-- Your company decided to invest in a new programming language.
-- Your team wants to try out a new programming language.
+- You have decided to start a new job.
+- The company decide to invest in a new programming language.
+- Your team decide to try out a new programming language.
 - Your favorite programming language is going to be "outdated".
 
 Don't panic!
 
-I this series I am gonna show you a practice - I generally use - that can boost the process of learning new programming languages. And the best of this practice is that it works with whatever programming languages, or even tools.
+In this series I am gonna show you a practice - I generally use - that can boost the process of learning new programming languages. And the best of this practice is that it works with whatever programming languages, or even tools.
 
 I am talking about the practice of **using tests as a guiding force of the learning process.**
 
