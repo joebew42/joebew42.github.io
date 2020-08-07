@@ -8,7 +8,7 @@ Hello there! :wave:
 
 ### My name is Joe,
 
-I am a computer programmer and a technical trainer, focused on software design principles and practices of software development:
+I am a computer programmer and technical trainer, focused on software design principles and practices of software development:
 
 - Clean Code
 - Test-Driven Development
