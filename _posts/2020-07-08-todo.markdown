@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "TODO: One thing at a time!"
+title:    "TODO List: One thing at a time!"
 date:     2020-07-08 10:00:00 +0100
 tag:      practice
 summary:  "The art to accomplish great things, one little step at a time, without worrying to forget what you already have done, and remember what you still have to do."
