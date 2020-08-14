@@ -23,7 +23,7 @@ In this series I am gonna show you a practice - I generally use - that can boost
 
 I am talking about the practice of **using tests as a guiding force of the learning process.**
 
-## The first test
+## Step One
 
 The very first step I do when I am sitting at learning a new programming language is to figure out how to write the first test.
 
