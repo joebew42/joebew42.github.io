@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-08-25">
+    <action type="reading">Domain-Driven Design in 2020</action>
+    <references>
+      <reference src="https://blog.avanscoperta.it/2020/08/04/domain-driven-design-in-2020/" type="source" />
+    </references>
+  </event>
   <event date="2020-07-04">
     <action type="reading">Evolutionary Design: Techniques and Example</action>
     <references>
