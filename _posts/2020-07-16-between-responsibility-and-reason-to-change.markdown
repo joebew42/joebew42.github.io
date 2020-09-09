@@ -10,11 +10,9 @@ summary:  "A case study on the Single Responsibility Principle: Reasons to Chang
 
 <!--more-->
 
-## A Parser for a Poker Hand
+For the last few months I've been pair programming with some of my friends, [Piero Di Bello](https://twitter.com/pierodibello) and [Matteo Pierro](https://twitter.com/matteo_pierro). We were practicing TDD on the [Poker Hands Kata](https://github.com/xpepper/poker-hands-kata/tree/b1295dd54e5f6a6a27ad5f7491df890bf855cd8a).
 
-For the last few months, I've been pair programming with some of my friends, [Piero Di Bello](https://twitter.com/pierodibello) and [Matteo Pierro](https://twitter.com/matteo_pierro). We were practicing TDD on the [Poker Hands Kata](https://github.com/xpepper/poker-hands-kata/tree/b1295dd54e5f6a6a27ad5f7491df890bf855cd8a).
-
-As part of the requirements of the Code Kata is asked to parse the players and their hands from an input string, formed as follow:
+As part of the requirements of the Code Kata is asked to **parse the players and their hands** from an input string, formed as follow:
 
 ```
 Black: 2H 3D 5S 9C KD White: 2C 3H 4S 8C AH
