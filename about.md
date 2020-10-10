@@ -4,11 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Hello there! :wave:
+# Hello there! :wave:
 
-### My name is Joe,
-
-I am a computer programmer and technical trainer, focused on software design principles and practices of software development:
+My name is Joe, I am a computer programmer and technical trainer, interested in software design principles and practices of software development:
 
 - Clean Code
 - Test-Driven Development
@@ -16,16 +14,15 @@ I am a computer programmer and technical trainer, focused on software design pri
 - Legacy Code
 - Domain-Driven Design
 
-I like to learn new things, run experiments, solve problems, write code, and share what I do with others.
+I like to learn new things, explore new ideas and share what I do with others.
 
-I am gonna use this blog to share my findings on programming, creative process, software design principles, practices of software development, and technologies.
+In this blog I will share my findings on programming, creative process, software design principles, practices of software development, and tools.
 
-When I am NOT writing code, I enjoy:
+When I am NOT at writing code, I enjoy to:
 
 - Play video games :video_game:
 - Read books :books:
-- Walk :walking:
-- Listen synthwave :musical_note:
+- Walk :walking: or run :running:
 
 > I do believe people comes before anything else. Successful teams, organizations and products are just symptoms of an healthy culture where people are given high Trust, Transparency, Autonomy, and Significance. The Motivation will follow.
 
