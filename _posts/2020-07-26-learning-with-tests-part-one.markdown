@@ -10,7 +10,7 @@ summary:  "Tests are a learning catalyst when it comes to learning new programmi
 
 <!--more-->
 
-There could be a chance that during your career you have to learn a new programming language. Maybe it already happened to you, and the reasons may vary:
+As you have noticed, the rate of changes in the IT industry is pretty high. Tools and programming languages come and go, and in this wind of changes might happen that you have to learn new tools or programming languages. Maybe it already happened to you, and the reasons may vary:
 
 - You have decided to start a new job.
 - Your company decided to invest in a new programming language.
