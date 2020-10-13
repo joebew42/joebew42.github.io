@@ -94,7 +94,7 @@ From testing perspective we will have everything in the same file. No need to to
 
 On the downside, it may be a bit harder to quick switch configuration between different environments.
 
-## Conclusions
+## Conclusion
 
 I am sure there are several other ways out there to achieve dependency injection in Elixir and take the benefits of both approaches:
 
