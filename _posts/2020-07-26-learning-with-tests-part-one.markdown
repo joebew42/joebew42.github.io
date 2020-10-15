@@ -10,7 +10,7 @@ summary:  "Tests are a learning catalyst when it comes to learning new programmi
 
 <!--more-->
 
-The rate of changes in the IT industry is pretty high. Tools and programming languages come and go, and in the midst of these changes, it might happen you have to learn new tools or programming languages.
+Changes happens, and in the IT industry changes happens with a very high rate. Tools and programming languages come and go, and in the midst of these changes, it might happen you have to learn new tools or programming languages.
 
 This is what already happened to me, several times I found myself in this situation, and I had to learn new programming languages, from the very beginning.
 
