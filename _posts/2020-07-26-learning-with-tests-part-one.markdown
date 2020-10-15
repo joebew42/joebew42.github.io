@@ -10,7 +10,9 @@ summary:  "Tests are a learning catalyst when it comes to learning new programmi
 
 <!--more-->
 
-The rate of changes in the IT industry is pretty high. Tools and programming languages come and go, and in this wind of changes, it might happen that you have to learn new tools or programming languages.
+The rate of changes in the IT industry is pretty high. Tools and programming languages come and go, and in the midst of these changes, it might happen you have to learn new tools or programming languages.
+
+This is what already happened to me, several times I found myself in this situation, and I had to learn new programming languages, from the very beginning.
 
 Maybe it already happened to you, and the reasons may vary:
 
@@ -20,20 +22,20 @@ Maybe it already happened to you, and the reasons may vary:
 - Your favorite programming language is going to be "outdated".
 - You want to learn a new programming language.
 
-Don't panic!
-
 In this series I am gonna show you a practice - I generally use - that can boost the process of learning new programming languages. And the best of this practice is that it works with whatever programming languages, or even tools.
 
 I am talking about the practice of **using tests as a guiding force of the learning process.**
 
 ## Step One
 
-The very first step I do when I am sitting at learning a new programming language is to figure out how to write the first test.
+The very first step I do when I am sitting at learning a new programming language is to figure out **how to write the first test**.
 
 And in this process I really need only two things:
 
-- Easily compile and run my code
-- Write and run tests
+- How to easily compile and run my code
+- How to Write and run tests
+
+Writing and running tests is what enables me to the learning process.
 
 ### Easily compile and run my code
 
