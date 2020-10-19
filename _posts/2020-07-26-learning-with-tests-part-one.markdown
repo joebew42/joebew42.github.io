@@ -10,19 +10,19 @@ summary:  "Tests are a learning catalyst when it comes to learning new programmi
 
 <!--more-->
 
-Changes happens, and in the IT industry changes happens with a very high rate. Tools and programming languages come and go, and in the midst of these changes, it might happen you have to learn new tools or programming languages.
+Changes happen, and in our industry, they happen at a very high rate. Tools and programming languages come and go, and during these changes, you too might have to learn new tools or programming languages.
 
-This is what already happened to me, several times I found myself in this situation, and I had to learn new programming languages, from the very beginning.
+This already happened to me. Several times I found myself in this situation where I had to learn new programming languages, from scratch.
 
-Maybe it already happened to you, and the reasons may vary:
+The reasons why we have to start learning new things may vary:
 
-- You have decided to start a new job.
-- Your company decided to invest in a new programming language.
-- Your team decided to try out a new programming language.
-- Your favorite programming language is going to be "outdated".
-- You want to learn a new programming language.
+- We have decided to start a new job.
+- Our company/client decided to invest in a new programming language.
+- Our team decided to try out a new programming language.
+- Our favorite programming language is going to be "outdated".
+- We just want to learn a new programming language.
 
-In this series I am gonna show you a practice - I generally use - that can boost the process of learning new programming languages. And the best of this practice is that it works with whatever programming languages, or even tools.
+In this series, I am gonna show you a practice that I generally use to boost the process of learning a new programming language. And the best of this practice is that it works with whatever programming languages, or even tools.
 
 I am talking about the practice of **using tests as a guiding force of the learning process.**
 
