@@ -63,7 +63,7 @@ it_prints_out_hello_world_when_called() {
 }
 
 ```
-_a pseudo code of a test like that_
+_a pseudo-code of a test like that_
 
 From this moment, the goal is to make this test pass.
 
@@ -81,7 +81,7 @@ Let's try to think about at the many things we have learned so far:
 
 - How to easily compile and run code.
 - How to run tests: the confidence to see when we introduce regressions, and that our program is behaving as expected.
-- We have a sound ground to build our next learnings on.
+- We have a sound ground to build our next learnings.
 
 Look at the importance of writing tests:
 
