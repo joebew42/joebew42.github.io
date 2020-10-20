@@ -6,7 +6,7 @@ permalink: /about/
 
 # Hello there! :wave:
 
-My name is Joe, I am a computer programmer and technical trainer, interested in software design principles and practices of software development:
+My name is Joe, I am a computer programmer and technical trainer, focused on software design principles and practices of software development:
 
 - Clean Code
 - Test-Driven Development
