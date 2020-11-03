@@ -23,7 +23,7 @@ The decision is based on:
 
 ## A slicing example
 
-I will take one of the example proposed by William Wake, just to give you a practical idea of how this strategy can be translated into the real world, but I want to encourage you to read the original article.
+I will take one of the examples proposed by William Wake, just to give you a practical idea of how this strategy can be translated into the real world, but I want to encourage you to read the original article.
 
 Consider you have to build **a web-based e-commerce system**.
 
@@ -104,7 +104,7 @@ I removed all the concepts like commands, obstacles, direction, and so on.
 
 At its bare minimum, I want a rover to be able to move up. Nothing more, nothing less.
 
-Starting from there, I then continued follow an incremental approach by supporting the concept of a single command, a sequence of commands, the obstacles, and so on.
+Starting from there, I then continued to follow an incremental approach by supporting the concept of a single command, a sequence of commands, the obstacles, and so on.
 
 ### Unusual Spending Kata
 
@@ -112,7 +112,7 @@ _I am currently working on it_ :nerd_face: Wait for it!
 
 ## Conclusion and takeaways
 
-I feel my development experience has been enriched since I followed this strategy. Being able to choose between **the part of the code that best capture the essence of the system**, and **the part of the code where I can learn the most from**, gives me a better sense of what to address first, based on its value.
+I feel my development experience has been enriched since I followed this strategy. Being able to choose between **the part of the code that best captures the essence of the system**, and **the part of the code where I can learn the most from**, gives me a better sense of what to address first, based on its value.
 
 Here will follow a few things I have noticed while applying this practice:
 
