@@ -90,7 +90,7 @@ In this code kata, we are asked to determine the number of stops needed until al
 
 If had to think about the **essence** of this system I would say that _a bus driver is able to exchange its gossip with another driver_. That's it. Nothing more, nothing less.
 
-And that was the point where I started to write my code. And I would say that ending up with a working solution was easier than expected!
+That was the point where I started to write my code. And I would say that ending up with a working solution was easier than expected!
 
 ### Mars Rover Kata
 
