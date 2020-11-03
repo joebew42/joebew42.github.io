@@ -112,13 +112,13 @@ _I am currently working on it_ :nerd_face: Wait for it!
 
 ## Conclusion and takeaways
 
-I feel my development experience has been enriched since I have started to use this new line of thought while writing code. Being able to choose between **the part of the code that best capture the essence of what I have to implement**, and **the part of the code where I believe I am more at risk and I have the opportunity to learn the most if I try to address it sooner**, gives me a better sense of what to address first, based on the value of doing it.
+I feel my development experience has been enriched since I followed this strategy. Being able to choose between **the part of the code that best capture the essence of the system**, and **the part of the code where I can learn the most from**, gives me a better sense of what to address first, based on its value.
 
 Here will follow a few things I have noticed while applying this practice:
 
 - The **"essence" part** was always reflecting the domain logic. I used it as my first driving force.
-- The **"learning" part** was always something related to: refactorings opportunities, exploratory code, parsing and formatting, delivery mechanisms, and so on, everything that it's needed but not strictly related to the domain of the application.
-- Switch between essence and learning parts was happening quite often. It was important to keep a note about all the pieces of the code left behind while switching context. I ended up using the TODO list[^2], comments in the code, throwing exceptions for the not finished of unhandled cases in the code, and so on.
+- The **"learning" part** was always something related to: refactorings opportunities, exploratory code, parsing and formatting, delivery mechanisms, and so on... Everything that it's needed but not strictly related to the domain of the application.
+- Switching between essence and learning parts was happening quite often. It was important to keep a note about all the pieces of the code left behind while switching context. I ended up using the TODO list[^2], comments in the code, throwing exceptions for the not finished of unhandled cases in the code, and so on.
 - Common sense and experience are important factors. Sometimes trying to defer important design decisions at the most end part might be useful. Are we gonna learn something doing this refactoring? If the answer is NO, best defer the decision (e.g. premature refactorings, or premature optimizations).
 - Pair or Mob Programming are very effective practices since discussions are crucial to identifies the essences, the learning points and agree on what to prioritize first.
 
