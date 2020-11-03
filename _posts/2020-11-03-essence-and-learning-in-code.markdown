@@ -118,7 +118,7 @@ Here will follow a few things I have noticed while applying this practice:
 
 - The **"essence" part** was always reflecting the domain logic. I used it as my first driving force.
 - The **"learning" part** was always something related to: refactorings opportunities, exploratory code, parsing and formatting, delivery mechanisms, and so on... Everything that it's needed but not strictly related to the domain of the application.
-- **Switching between essence and learning parts was happening quite often**. It was important to keep a note about all the pieces of the code left behind while switching context. I ended up using the TODO list[^2], comments in the code, throwing exceptions for the not finished of unhandled cases in the code, and so on.
+- **Switching between essence and learning parts was happening quite often**. It was important to keep a note about all the pieces of the code left behind while switching context. I ended up using the TODO list[^2], comments in the code, throwing exceptions for the not finished or unhandled cases in the code, and so on.
 - **Common sense and experience are important factors**. Sometimes trying to defer important design decisions at the most end part might be useful. _"Are we gonna learn something doing this refactoring?"_ If the answer is NO, best to defer the decision then (e.g. premature refactorings, or premature optimizations).
 - **Pair and Mob Programming are very effective practices** since discussions are crucial to identifies the essences, the learning points and agree on what to prioritize first.
 
