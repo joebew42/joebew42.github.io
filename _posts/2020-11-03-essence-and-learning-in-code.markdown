@@ -74,7 +74,7 @@ So, I started to write the code that was able to extract the rank from a set of 
 
 In the **second attempt**, I was not alone anymore, and I had the opportunity to pair up with [Piero Di Bello](https://twitter.com/pierodibello/).
 
-Here I want to remark once again that **pair programming** or **mob programming** are really effective practices when it comes to having a better feedback loop on what to prioritize first, **the essence**, or **the learning** part. And of course, provide a better scope of what the real essence of the system really is, since you have different perspectives.
+Here I want to remark once again that **pair programming** or **mob programming** are really effective practices when it comes to having a better feedback loop on what to prioritize first, **the essence**, or **the learning** part. And of course, provide a better view of what the real essence of the system really is, since you have different perspectives.
 
 And that's exactly what happened while pairing with Piero. We redefined **the essence** of the poker hands, starting very small.
 
