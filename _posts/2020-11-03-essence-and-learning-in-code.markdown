@@ -118,9 +118,9 @@ Here will follow a few things I have noticed while applying this practice:
 
 - The **"essence" part** was always reflecting the domain logic. I used it as my first driving force.
 - The **"learning" part** was always something related to: refactorings opportunities, exploratory code, parsing and formatting, delivery mechanisms, and so on... Everything that it's needed but not strictly related to the domain of the application.
-- Switching between essence and learning parts was happening quite often. It was important to keep a note about all the pieces of the code left behind while switching context. I ended up using the TODO list[^2], comments in the code, throwing exceptions for the not finished of unhandled cases in the code, and so on.
-- Common sense and experience are important factors. Sometimes trying to defer important design decisions at the most end part might be useful. Are we gonna learn something doing this refactoring? If the answer is NO, best defer the decision (e.g. premature refactorings, or premature optimizations).
-- Pair or Mob Programming are very effective practices since discussions are crucial to identifies the essences, the learning points and agree on what to prioritize first.
+- **Switching between essence and learning parts was happening quite often**. It was important to keep a note about all the pieces of the code left behind while switching context. I ended up using the TODO list[^2], comments in the code, throwing exceptions for the not finished of unhandled cases in the code, and so on.
+- **Common sense and experience are important factors**. Sometimes trying to defer important design decisions at the most end part might be useful. Are we gonna learn something doing this refactoring? If the answer is NO, best defer the decision (e.g. premature refactorings, or premature optimizations).
+- **Pair and Mob Programming are very effective practices** since discussions are crucial to identifies the essences, the learning points and agree on what to prioritize first.
 
 [^1]: Solutions to Code Katas: [Poker Hands Kata (in Elixir)](https://github.com/joebew42/poker_hands_elixir), [Poker Hands Kata (in Java)](https://github.com/xpepper/poker-hands-kata), [Gossing Bus Drivers Kata (in Java)](https://github.com/joebew42/gossiping-bus-drivers-kata), [Mars Rover Kata (in Java)](https://github.com/joebew42/mars-rover-kata), and [Unusual Spending Kata (in Java)](TODO).
 [^2]: [TODO List: One thing at a time!]({% post_url 2020-07-08-todo %})
