@@ -1,9 +1,9 @@
 ---
 layout:   post
 title:    "Essence and Learning in Code"
-date:     2020-07-26 10:00:00 +0100
+date:     2020-11-03 10:00:00 +0100
 tag:      programming
-summary:  "Tests are a learning catalyst when it comes to learning new programming languages. Here is the part I."
+summary:  "In the last few months, I have explored new ways to keep the process of writing code a little bit more disciplined. Here I want to share this experience, and what I think I have learned."
 ---
 
 > In the last few months, I have explored new ways to keep the process of writing code a little bit more disciplined. Here I want to share this experience, and what I think I have learned.
