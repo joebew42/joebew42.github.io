@@ -33,7 +33,7 @@ So, let's split it into several parts then.
 
 If we try to find **the slice that represents the essence of the system** we could all agree that at its bare minimum, this system can be expressed as a simple **purchase transaction**.
 
-From the other side, finding **the slice that can help us to learn the most** is more a matter to be aware of the places where we feel we are more at risk, and moving away from the analysis paralysis limbo.
+On the other hand, finding **the slice that can help us learn the most** is more a matter to be aware of the places where we feel we are more at risk, and moving away from the analysis paralysis limbo.
 
 What framework to use? Should we have to use a framework at all? How to handle security certificates? Which payment gateways to use? How to use them? Where to store the logs? Which platform to use to collect metrics? What database? How to integrate the product catalog with existing external solutions?
 
