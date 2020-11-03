@@ -104,7 +104,7 @@ I removed all the concepts like commands, obstacles, direction, and so on.
 
 At its bare minimum, I want a rover to be able to move up. Nothing more, nothing less.
 
-Starting from there, I then continued followed an incremental approach by supporting the concept of a single command, a sequence of commands, the obstacles, and so on.
+Starting from there, I then continued follow an incremental approach by supporting the concept of a single command, a sequence of commands, the obstacles, and so on.
 
 ### Unusual Spending Kata
 
