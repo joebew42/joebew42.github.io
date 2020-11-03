@@ -50,7 +50,7 @@ I have found this article so inspirational, and I decided to practice this strat
 - [Mars Rover Kata](https://kata-log.rocks/mars-rover-kata)
 - [Unusual Spending Kata](https://kata-log.rocks/unusual-spending-kata)
 
-I wanted to understand how does it feel when a strategy like this is applied while writing code, what are the outcomes and that's why I am writing this blog; To summarize and share my experience with you.
+I wanted to understand how does it feel to apply this strategy when coding and what are the outcomes. That's why I am writing this blog, to summarize and share my experience with you.
 
 ### Poker Hands Kata
 
