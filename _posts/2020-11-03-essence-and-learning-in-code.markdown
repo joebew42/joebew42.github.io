@@ -96,7 +96,7 @@ And that was the point where I started to write my code. And I would say that en
 
 This code kata became quite popular thanks to [Sandro Mancuso](https://twitter.com/sandromancuso) and his demonstration on [Outside-In Classicist TDD](https://www.youtube.com/watch?v=24vzFAvOzo0). I would invite you to go and check out that video if you are interested in Outside-In TDD with a Classicist approach.
 
-Here we are asked to program a Rover so that it will be able to move accordingly to an array of commands while being aware of the surrounding obstacles, and some other constraints of the world.
+Here we are asked to program a Rover so that it will be able to move accordingly to an array of commands it receives as input, while being aware of the surrounding obstacles, and some other constraints of the world.
 
 Regardless of the requested requirements, I tried to reduce them at their bare minimum, and thus to find the "real" essence of the system, I came out with a simple requirement: _a rover is able to move up_.
 
