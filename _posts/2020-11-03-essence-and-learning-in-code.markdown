@@ -39,9 +39,9 @@ What framework to use? Should we have to use a framework at all? How to handle s
 
 And we can continue with all other parts of the system where we feel more at risk and therefore, address them as quickly as possible to learn and regain our comfort zone.
 
-The **prioritization between the essence and learning slices** it then depends on which slice gives us the most in terms of **value** in a given time.
+The **prioritization between the essence and learning slices** then depends on which slice gives us the most in terms of **value** in a given time.
 
-## Applying this strategy while at code
+## Applying this strategy while coding
 
 I have found this article so inspirational, and I decided to practice this strategy while doing TDD on a few code katas [^1]:
 
