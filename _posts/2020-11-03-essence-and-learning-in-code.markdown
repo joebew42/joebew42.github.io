@@ -108,7 +108,13 @@ Starting from there, I then continued to follow an incremental approach by suppo
 
 ### Unusual Spending Kata
 
-_I am currently working on it_ :nerd_face: Wait for it!
+In this Code Kata, we are asked to build an alert system to notify users when their spendings are higher than usual. We can query all the payments a user have made in the current and previous month.
+
+After grouping the total amounts by spendings (e.g. "entertainment", "restaurants" and "golf") we have to find out the ones which the user spent at least 50% more than last month, and compose an e-mail to the user with the list of the unusual spendings.
+
+We have several terms in this code kata: User, Payments, Category, Spending, E-Mail message, and so on. But at its very bare minimum, we can agree that the slice of the system that best captures the essence is: _Trigger and alarm when a value is at least 50% higher than another one_.
+
+That's the point where I started. From there I then tried to follow an incremental approach to slowly introduce all the other concepts, of spendings, payments, users, and e-mail.
 
 ## Conclusion and takeaways
 
