@@ -86,7 +86,7 @@ As a final consideration I would say that in the second attempt, the approach wa
 
 ### Gossiping Bus Drivers Kata
 
-In this code kata, we are asked to determine the number of stops needed until all the bus drivers have exchanged all their gossips. It's a tricky code kata if you try to tackle it from the algorithmic point of view, but I would say that everything came much easier when we start from a small approach, as it happened to me when I started to think at its real essence.
+In this code kata, we are asked to determine the number of bus stops needed until all the bus drivers have exchanged all their gossips. It's a tricky code kata if you try to tackle it from the algorithmic point of view, but I would say that everything came much easier when we start from a small approach, as it happened to me when I started to think at its real essence.
 
 If had to think about the **essence** of this system I would say that _a bus driver is able to exchange its gossip with another driver_. That's it. Nothing more, nothing less.
 
