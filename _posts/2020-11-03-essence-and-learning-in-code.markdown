@@ -112,9 +112,15 @@ In this Code Kata, we are asked to build an alert system to notify users when th
 
 After grouping the total amounts by spendings (e.g. "entertainment", "restaurants" and "golf") we have to find out the ones which the user spent at least 50% more than last month, and compose an e-mail to the user with the list of the unusual spendings.
 
-We have several terms in this code kata: User, Payments, Category, Spending, E-Mail message, and so on. But at its very bare minimum, we can agree that the slice of the system that best captures the essence is: _Trigger and alarm when a value is at least 50% higher than another one_.
+We have several terms in this code kata: User, Payments, Category, Spending, and E-Mail messages.
 
-That's the point where I started. From there I then tried to follow an incremental approach to slowly introduce all the other concepts, of spendings, payments, users, and e-mail.
+But at its very bare minimum, we can agree that the slice of the system that best captures the essence is to _trigger and alarm when a value is at least 50% higher than another one_:
+
+```java
+return (value >= otherValue + otherValue / 2);
+```
+
+Starting from there I then tried to keep an incremental approach to slowly introduce all the other concepts, from inside-out. The primitive `int` values becomes `Spending`s, which then becomes `Payment`s, and so on.
 
 ## Conclusion and takeaways
 
@@ -128,5 +134,5 @@ Here will follow a few things I have noticed while applying this practice:
 - **Common sense and experience are important factors**. Sometimes trying to defer important design decisions at the most end part might be useful. _"Are we gonna learn something doing this refactoring?"_ If the answer is NO, best to defer the decision then (e.g. premature refactorings, or premature optimizations).
 - **Pair and Mob Programming are very effective practices** as discussions are crucial in identifying the essence, the learning points and agreeing on what to prioritize first.
 
-[^1]: Solutions to Code Katas: [Poker Hands Kata (in Elixir)](https://github.com/joebew42/poker_hands_elixir), [Poker Hands Kata (in Java)](https://github.com/xpepper/poker-hands-kata), [Gossing Bus Drivers Kata (in Java)](https://github.com/joebew42/gossiping-bus-drivers-kata), [Mars Rover Kata (in Java)](https://github.com/joebew42/mars-rover-kata), and [Unusual Spending Kata (in Java, still in progress)](https://github.com/joebew42/unusual-spending-kata).
+[^1]: Solutions to Code Katas: [Poker Hands Kata (in Elixir)](https://github.com/joebew42/poker_hands_elixir), [Poker Hands Kata (in Java)](https://github.com/xpepper/poker-hands-kata), [Gossing Bus Drivers Kata (in Java)](https://github.com/joebew42/gossiping-bus-drivers-kata), [Mars Rover Kata (in Java)](https://github.com/joebew42/mars-rover-kata), and [Unusual Spending Kata (in Java)](https://github.com/joebew42/unusual-spending-kata).
 [^2]: [TODO List: One thing at a time!]({% post_url 2020-07-08-todo %})
