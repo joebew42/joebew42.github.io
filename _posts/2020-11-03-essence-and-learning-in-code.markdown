@@ -114,7 +114,7 @@ After grouping the total amounts by spendings (e.g. "entertainment", "restaurant
 
 We have several terms in this code kata: User, Payments, Category, Spending, and E-Mail messages.
 
-But at its very bare minimum, we can agree that the slice of the system that best captures the essence is to _trigger and alarm when a value is at least 50% higher than another one_:
+But at its very bare minimum, we can agree that the slice of the system that best captures the essence is to _trigger an alarm when a value is at least 50% higher than another one_:
 
 ```java
 return (value >= otherValue + otherValue / 2);
