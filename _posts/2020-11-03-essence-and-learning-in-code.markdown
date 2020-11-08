@@ -108,7 +108,7 @@ Starting from there, I then continued to follow an incremental approach by suppo
 
 ### Unusual Spending Kata
 
-In this Code Kata, we are asked to build an alert system to notify users when their spendings are higher than usual. We can query all the payments a user have made in the current and previous month.
+In this code kata, we are asked to build an alert system to notify users when their spendings are higher than usual. We can query all the payments a user have made in the current and previous month.
 
 After grouping the total amounts by spendings (e.g. "entertainment", "restaurants" and "golf") we have to find out the ones which the user spent at least 50% more than last month, and compose an e-mail to the user with the list of the unusual spendings.
 
