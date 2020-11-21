@@ -10,7 +10,7 @@ summary:  "In the last few months, I have explored new ways to keep the process 
 
 <!--more-->
 
-It has been a while since I started to try the [Slicing Functionality: Alternate paths](https://xp123.com/articles/slicing-functionality-alternate-paths/) strategy while doing TDD on a few Code Katas.
+It has been a while since I started to practice the [Slicing Functionality: Alternate paths](https://xp123.com/articles/slicing-functionality-alternate-paths/) strategy while doing TDD on a few Code Katas.
 
 In his article, [William Wake](https://twitter.com/wwake) describes a strategy that might be handy when it comes to understanding _how to split a project into several parts_ (e.g. user stories), instead of tackling it as a whole.
 
