@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    "Monitor behaviours, not states"
-date:     2020-11-03 10:00:00 +0100
+date:     2020-11-26 10:00:00 +0100
 tag:      idea
 summary:  "Is it possible to reduce the number of tests suite, and at the same time reach a better level of observability and increase our confidence through all the different parts of our systems?"
 ---
