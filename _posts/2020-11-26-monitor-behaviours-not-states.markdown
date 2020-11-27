@@ -8,15 +8,15 @@ summary:  "Is it possible to reduce the number of tests suite, and at the same t
 
 > Is it possible to reduce the number of tests suite, and at the same time reach a better level of observability and increase our confidence through all the different parts of our systems?
 
-The following is a thought that I had regarding testing and monitoring software.
+The following is a thought I had regarding testing and monitoring software.
 
 I am not in the debate of what software is. Whatever we believe a software is, a product, a service, or a bunch of lines of code that miraculously do what is expected to do.
 
 I just want to share a few thoughts regarding **testing and monitoring software**.
 
-## Common tendency in testing and monitoring?
+## Common trends in testing and monitoring
 
-From what I have seen, and based on my experience in the software industry, the common tendency in testing and monitoring is to invest a lot of effort in creating a dedicated suite of tests based on specific purposes.
+From what I have seen, and based on my experience in the software industry, the common trend in testing and monitoring is to invest a lot of effort in creating a dedicated suite of tests based on specific purposes.
 
 Let me provide a few examples:
 
@@ -26,7 +26,7 @@ Let me provide a few examples:
 
 - **A suite of synthetic tests** that periodically run against a production instance to catch errors earlier. This is often a limited set of tests, also known as **smoke tests**.
 
-## Flavours of software
+## Flavors of software
 
 I am quite sure we are still creating several other specific tests suite for the most desperate use cases, while at the same time creating duplication between:
 
