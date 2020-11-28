@@ -8,11 +8,7 @@ summary:  "Is it possible to reduce the number of tests suite, and at the same t
 
 > Is it possible to reduce the number of tests suite, and at the same time reach a better level of observability and increase our confidence through all the different parts of our systems?
 
-The following is a thought I had regarding testing and monitoring software.
-
-I am not in the debate of what software is. Whatever we believe a software is, a product, a service, or a bunch of lines of code that miraculously do what is expected to do.
-
-I just want to share a few thoughts regarding **testing and monitoring software**.
+The following is an idea I had regarding testing and monitoring software, it is my intent to share here some of my thoughts with you and I am wishing to listen to your opinion.
 
 ## Common trends in testing and monitoring
 
@@ -54,7 +50,21 @@ And at the same time, regardless of the amount of effort we invest in a speciali
 - What are the most used and the less used features?
 - How the users are - really - using our systems?
 
-## We don't need a new tool or a new technique
+## What about logging and metrics?
+
+These are invaluable tools. I am not proposing the replace them.
+
+We need tools to collect metrics and logs throughout the system. These tools can tell us what part of the system is working and not.
+
+We can tell what requests are failing, which ones are responding slowly, and easily spot the reasons: slow database queries, third-party services down, queue system is stuck, and whatever happens.
+
+Being able to trace the error down to the root of the problem, is a must-have for troubleshooting.
+
+But these tools hardly can tell **what features have been impacted by a specific error.** This is what a **synthetic monitor** can tell in conjunction with tools for logging and metrics.
+
+_We can now tell that a malfunctioning third-party service had an impact on features A, B, and C of the system for the last 24 minutes._
+
+## It's not a new tool or technique
 
 **I am not writing this blog to propose a new suite of specialized tests**, instead I am proposing a clean-up, and replace all the test suite with a single, authoritative and reliable suite of tests that describe each feature and the exact behavior we expect to see through the system.
 
@@ -76,18 +86,25 @@ We might forget to update the load tests suite for a newly introduced feature; w
 
 It's my intention to provide a real-life example where the features are described only once, and then ran in different ways based on the system under test. In such a way to run the feature against a backend, or a specific client (frontend, mobile, or whatever) and also, with different setup (e.g. a test runner configured to run a load test.)
 
-Here below will follow a simple illustration where I try to provide a visual representation of what I am talking about:
+Here below I made an illustration to provide a visual representation of what I am talking about:
 
 ![Visual representation](/assets/monitor-behaviours-not-states.jpg)
 
+In this picture we can see:
+
+- The same test suite is running against the mobile application and found that feature three is not working.
+- The same test suite is running as a _synthetic monitor_, providing a real-time dashboard with the of each single feature.
+- The same test suite is running in a local development to help the developer catch regressions early.
+- The same test suite is running against the backend services and the frontend application.
+
 ## What's your feedback?
 
-With this blog post, I wanted to propose an idea to:
+With this blog post, I wanted to propose an idea for:
 
-- Have no duplication across several tests suite we might want to have.
-- Have a better observability of your system in production, on what feature is working and not.
-- Reach an observability parity between systems (web app, mobile, backend, TV).
-- Describe your features once and run in multiple ways.
+- Having no duplication across several tests suite we might want to have.
+- Having a better observability of your system in production, on what feature is working and not.
+- Reaching an observability parity between systems (web app, mobile, backend, TV).
+- Describing your features once and run in multiple ways.
 
 I am willing to continue exploring this topic and propose a simple real-life application that can be used as a reference implementation.
 
