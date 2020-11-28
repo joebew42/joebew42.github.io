@@ -44,27 +44,27 @@ On the other hand, we also **instrument our code to check the state of each sing
 
 Bear with me, I am not saying that these kinds of tools are bad. On the contrary, they are really important.
 
-But in the very end, we often find ourselves in a situation where a great variety of tools are used to keep the observability of our services, high.
+But in the very end, we often find ourselves in a situation where a great variety of tools are used to keep the observability of our services high.
 
 And at the same time, regardless of the amount of effort we invest in a specialized suite of tests, code instrumentation, alarm and notification systems, and logging, **we hardly can tell what is really happening in production**:
 
 - Are all the features working correctly?
 - What's the business impact of each single feature?
-- How do we have to react if a specific feature stop working?
+- How do we have to react if a specific feature stops working?
 - What are the most used and the less used features?
 - How the users are - really - using our systems?
 
 ## We don't need a new tool or a new technique
 
-**I am not writing this blog to propose a new suite of specialized tests**, instead I am proposing a clean-up, and replace all the test suites with a single, authoritative and reliable suite of tests that describe each feature and the exact behavior we expect to see through the system.
+**I am not writing this blog to propose a new suite of specialized tests**, instead I am proposing a clean-up, and replace all the test suite with a single, authoritative and reliable suite of tests that describe each feature and the exact behavior we expect to see through the system.
 
 ## Duplication! Duplication everywhere!
 
-I came to the conclusion that the differences between all these specialized test suites, it's not to be found in what they describe. It's to be found on the way they run.
+I came to the conclusion that the differences between all these specialized test suite, it's not to be found in what they describe. It's to be found on the way they run.
 
-> The "test runner" it's the changing part. Not the whole test suite.
+> The "test runner" is the changing part. Not the whole test suite.
 
-We do usually tend to have a duplication in terms of tests between a mobile and web application since we write two different test suites that basically are describing the same feature. The same can happen between frontend and backend. Again, it happens for Load Tests and Acceptance Tests.
+We do usually tend to have a duplication in terms of tests between a mobile and web application since we write two different test suite that basically are describing the same feature. The same can happen between frontend and backend. Again, it happens for Load Tests and Acceptance Tests.
 
 **Duplication is often a synonym for bad maintainability, and can easily lead to errors**.
 
@@ -91,6 +91,6 @@ With this blog post, I wanted to propose an idea to:
 
 I am willing to continue exploring this topic and propose a simple real-life application that can be used as a reference implementation.
 
-What's your thoughts? Do you like the idea?
+What's your opinion? Do you like the idea?
 
 If you want to share your story or give your feedback, feel free to reach me on [Twitter](http://twitter.com/joebew42).
