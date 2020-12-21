@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-12-21">
+    <action type="reading">On the Criteria To Be Used in Decomposing Systems into Modules</action>
+    <references>
+      <reference src="https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf" type="source" />
+    </references>
+  </event>
   <event date="2020-11-30">
     <action type="watching">ITkonekt 2019 | Robert C. Martin, Clean Architecture and Design</action>
     <references>
