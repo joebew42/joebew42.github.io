@@ -28,7 +28,9 @@ A few examples of non-functional requirements are:
 - Security
 - Deployability
 
-These are all requirements that should come with the business. In the same way that we implement a new feature in the system, we should also be aware of the necessary high-level requirements in terms of security, availability, performance, and so on.
+These are all requirements that should come with the business.
+
+In the same way that we implement a new feature in the system, we should also be aware of the necessary high-level requirements in terms of security, availability, performance, and so on.
 
 Since I like to treat all these "non-functional requirements" as **business requirements**, I expect to find them all while discussing User Story or functionality with stakeholders or the product owner.
 
