@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "Software Architecture is overrated"
+title:    "Software Architecture is \"overrated\""
 date:     2020-12-23 10:00:00 +0100
 tag:      programming
 summary:  "Software Architecture is an important topic, but it's overrated."
@@ -28,11 +28,11 @@ A few examples of non-functional requirements are:
 - Security
 - Deployability
 
-These are all requirements that should come with the business.
+Who dictates these requirements? The business, not the Architect.
 
 In the same way that we implement a new feature in the system, we should also be aware of the necessary high-level requirements in terms of security, availability, performance, and so on.
 
-Since I like to treat all these "non-functional requirements" as **business requirements**, I expect to find them all while discussing User Story or functionality with stakeholders or the product owner.
+Since I like to work with these "non-functional requirements" as **business requirements**, I expect to find them all while discussing User Story or functionality with stakeholders or the product owner.
 
 Then delegate the responsibility of finding the best choice of architecture to the team itself and not to a Software Architect.
 
@@ -40,13 +40,15 @@ Then delegate the responsibility of finding the best choice of architecture to t
 
 ... And the code changes too.
 
-The primary drivers for a "software architecture" should always be business requirements. I am not going to implement a faster delivery process if the change rate is low and time to market is not much important.
+Said that, keep in mind about the reality of the adoption and lifecycle of the system. [^1]
 
-But business requirements can and will change.
+Software architecture decisions should always be driven by business requirements. I am not going to implement a faster delivery process if the change rate is low and time to market is not much important. Like, I'm not going to implement a quick and automatic scaling solution if there are no numbers to justify it.
+
+Eventually, business requirements can and will change.
 
 If scaling or faster delivery process wasn't an issue before, they will be as soon as they have a real impact on product quality and business.
 
-The architecture of a system is only the result of current business needs.
+The architecture of a system should always reflect real business needs.
 
 ## Software Architectures are Design Patterns at a higher-level
 
@@ -56,10 +58,12 @@ It is always good to stay up to date on the latest software architecture and und
 
 I have used the term **"Software Architectures"** - note the plural - because it is a catalog of reusable solutions to recurring higher-level software problems.
 
-## Conclusion
+## Keep application decoupled from architectural changes
 
-I would rather invest more time trying to keep my application code as decoupled from external details as possible.
+I would rather invest more time trying to keep my application code as decoupled from external details as possible and avoid the trap of building a system that relies solely on some external details, such as database engines, communication protocols, or cloud providers.
 
-[The Twelve-Factor App](https://12factor.net/) is a good place to start.
+I can suggest reading [The Twelve-Factor App](https://12factor.net/) as a great starting point for exploring methods for making your application independent of external details.
 
-We should be moving in a direction where architectural changes may not have an impact on our application.
+We should go in a direction where architectural changes don't impact our application.
+
+[^1]: Thanks _druhlemann_ for the feedback given on the [reddit discussion](https://www.reddit.com/r/programming/comments/kizie4/software_architecture_is_overrated_questions_and/)
