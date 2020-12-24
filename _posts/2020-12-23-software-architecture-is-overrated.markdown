@@ -3,10 +3,10 @@ layout:   post
 title:    "Software Architecture is \"overrated\""
 date:     2020-12-23 10:00:00 +0100
 tag:      programming
-summary:  "Software Architecture is an important topic, but it's overrated."
+summary:  "Software Architecture is an important topic, but it's overrated, or we are approaching it the wrong way."
 ---
 
-> Software Architecture is an important topic, but it's overrated.
+> Software Architecture is an important topic, but it's overrated, , or we are approaching it the wrong way.
 
 A few days ago I had a conversation with some friends of mine about software architecture and to be honest, I'm not a huge fan of this area.
 
