@@ -66,7 +66,11 @@ I would rather **invest more time trying to keep my application code as decouple
 
 I can suggest reading [**The Twelve-Factor App**](https://12factor.net/) as a great starting point for exploring methods for making your application independent of external details.
 
-In the end, **the architect is an act, not a role**. It is the team's effort to explore and converge towards higher-level system design decisions that are good enough for current business needs, and accommodate changes in business requirements while keeping the impact on the application low.
+## Architect is an act, not a role
+
+In the end, **architect is an act, not a role**.
+
+It is the team's effort to explore and converge towards higher-level system design decisions that are good enough for current business needs, and accommodate changes in business requirements while keeping the impact on the application low.
 
 [^1]: [Software Architecture is Overrated, Clear and Simple Design is Underrated](https://blog.pragmaticengineer.com/software-architecture-is-overrated/).
 [^2]: Thanks _druhlemann_ for the feedback given on the [reddit discussion](https://www.reddit.com/r/programming/comments/kizie4/software_architecture_is_overrated_questions_and/).
