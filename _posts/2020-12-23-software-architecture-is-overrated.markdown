@@ -42,7 +42,7 @@ Then delegate the responsibility of finding the best choice of architecture to t
 
 Said that, keep in mind about the reality of the adoption and lifecycle of the system. [^1]
 
-Software architecture decisions should always be driven by business requirements. I am not going to implement a faster delivery process if the change rate is low and time to market is not much important. Like, I'm not going to implement a quick and automatic scaling solution if there are no numbers to justify it.
+Software architecture decisions should always be driven by business requirements. I am not going to implement a faster delivery process if the change rate is low and time to market is not much important. Like, I am not going to implement a quick and automatic scaling solution if there are no numbers to justify it.
 
 Eventually, business requirements can and will change.
 
