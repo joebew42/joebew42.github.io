@@ -44,11 +44,11 @@ Said that, keep in mind about the reality of the adoption and lifecycle of the s
 
 **Software architecture decisions should always be driven by business requirements.** I am not going to implement a faster delivery process if the change rate is low and time to market is not much important. Like, I am not going to implement a quick and automatic scaling solution if there are no numbers to justify it.
 
+We should **move away from the big up-front design approach**, or the desire to provide future-proof architecture, **in favor of an emergent approach**.
+
 Eventually, business requirements can and will change.
 
 If scaling or faster delivery process wasn't an issue before, they will be as soon as they have a real impact on product quality and business.
-
-We should **move away from the big up-front design approach**, or the desire to provide future-proof architecture, **in favor of an emergent approach**.
 
 The architecture of a system should move along with business goals.
 
