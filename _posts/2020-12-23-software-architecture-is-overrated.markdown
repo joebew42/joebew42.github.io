@@ -28,13 +28,17 @@ A few examples of non-functional requirements are:
 - Security
 - Deployability
 
-Who dictates these requirements? The business, not the Architect.
+All of these non-functional requirements are often designed by a Software Architect, who is responsible for the overall system architecture.
+
+**The undesirable effect** of working with this approach, or rather of centralizing the responsibility of the architecture on an individual, **is to fall into the trap of diverging from the real goals and business needs**, because too focused on the resolution of the technical task, and far from the real necessity.
+
+Contrary to this approach, **the team**, owner of the project or product, **should be entitled of making architectural choices**.
 
 In the same way that we implement a new feature in the system, we should also be aware of the necessary high-level requirements in terms of security, availability, performance, and so on.
 
-Since I like to approach **"non-functional requirements" as business requirements**, I expect to find them all while discussing User Story or functionality with stakeholders or the product owner.
+We should approach **"non-functional requirements" as business requirements**, expecting to find them all while discussing User Stories or features with stakeholders or the product owner.
 
-Then **delegate the responsibility of finding the best choice of architecture to the team**, owner of the project or product, and not to a Software Architect.
+Then **delegate the responsibility of finding the best architectural choice to the team**, and not to a Software Architect.
 
 ## Architecture change as business does ...
 
@@ -72,7 +76,7 @@ In the end, **architect is an act, not a role**.
 
 It is the team's effort to explore and converge towards higher-level system design decisions that are good enough for current business needs, and accommodate changes in business requirements while keeping the impact on the application low.
 
-**If you are a Software Architect** and the team is not mature enough to talk about architectural issues, **you can support and help them by facilitating architecture discussions**, with the business goals and requirements always in mind.
+**If you are a Software Architect** and the team is not mature enough to talk about architectural issues, **you can support and help them by facilitating architectural discussions**, with the business goals and requirements always in mind!
 
 [^1]: [Software Architecture is Overrated, Clear and Simple Design is Underrated](https://blog.pragmaticengineer.com/software-architecture-is-overrated/).
 [^2]: Thanks _druhlemann_ for the feedback given on the [reddit discussion](https://www.reddit.com/r/programming/comments/kizie4/software_architecture_is_overrated_questions_and/).
