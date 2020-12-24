@@ -3,7 +3,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171121958-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-171121958-1');
@@ -14,9 +14,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Twitter cards -->
-  <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
-  <meta name="twitter:title"   content="{{ page.title }}">
+  <meta name="twitter:title" content="{{ page.title }}">
 
   {% if page.summary %}
   <meta name="twitter:description" content="{{ page.summary }}">
@@ -25,20 +25,25 @@
   {% endif %}
 
   {% if page.image %}
-  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   {% else %}
-  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:image" content="{{ site.url }}{{ site.title_image }}">
   {% endif %}
   <!-- end of Twitter cards -->
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description"
+    content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Serif+Pro:wght@300;700&display=swap"
+    rel="stylesheet">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ " /css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend:
+    site.baseurl | prepend: site.url }}">
 </head>
