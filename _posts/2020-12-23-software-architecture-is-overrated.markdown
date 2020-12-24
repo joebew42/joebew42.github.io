@@ -34,7 +34,7 @@ In the same way that we implement a new feature in the system, we should also be
 
 Since I like to work with these "non-functional requirements" as **business requirements**, I expect to find them all while discussing User Story or functionality with stakeholders or the product owner.
 
-Then delegate the responsibility of finding the best choice of architecture to the team itself and not to a Software Architect.
+Then delegate the responsibility of finding the best choice of architecture to the team, owner of the project or product, and not to a Software Architect.
 
 ## Architecture change as business does ...
 
@@ -49,6 +49,8 @@ Eventually, business requirements can and will change.
 If scaling or faster delivery process wasn't an issue before, they will be as soon as they have a real impact on product quality and business.
 
 The architecture of a system should always reflect real business needs.
+
+We should move away from the **big up-front design** approach, or the desire to provide future-proof architecture, in favor of an **emergent** approach.
 
 ## Software Architectures are Design Patterns at a higher-level
 
