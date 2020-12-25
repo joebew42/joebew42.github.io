@@ -8,9 +8,9 @@ summary:  "Software Architecture is an important topic, but it's overrated, or w
 
 > Software Architecture is an important topic, but it's overrated, or we are approaching it the wrong way.
 
-A few days ago I had a conversation with some friends about software architecture and to be honest, I'm not a huge fan of this area.
+A few days ago I had a conversation with some friends about software architecture, and although this is an important area of the software industry, in my opinion it is overrated [^1], or we are probably approaching it the wrong way.
 
-In general, this is an overrated [^1] area of the software industry, or probably we are approaching it the wrong way. It shouldn't have as much space, as long as the role of Software Architect shouldn't exist.
+I believe Software Architecture should not have as much space, as long as the role of Software Architect should not exist.
 
 I will tell you why.
 
