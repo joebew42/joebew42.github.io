@@ -7,11 +7,9 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
-      <a href="/tag/{{ post.tag }}">
-        <span class="post-tag {{ post.tag }} to-right no-margin-right">
-          {{ post.tag }}
-        </span>
-      </a>
+      <span class="post-tag {{ post.tag }} to-right no-margin-right">
+        <a href="/tag/{{ post.tag }}">#{{ post.tag }}</a>
+      </span>
       <h2 class="post-title" itemprop="name headline">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
@@ -20,6 +18,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a></p>
+  <p class="rss-subscribe"><a href="{{ " /feed.xml" | prepend: site.baseurl }}">RSS Feed</a></p>
 
 </div>

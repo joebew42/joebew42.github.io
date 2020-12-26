@@ -272,6 +272,7 @@ pre {
         &, &:visited, &:hover {
             border-bottom: none;
             text-decoration: none;
+            color: white;
         }
     }
 }
@@ -307,13 +308,24 @@ pre {
 .post-tag.creative {
     color: black;
     background-color: yellow;
+    a {
+        &, &:visited, &:hover {
+            color: black;
+        }
+    }
 }
 
 .post-tag.tools {
     color: white;
     background-color: black;
 }
+
 .post-tag.idea {
     color: black;
     background-color: pink;
+    a {
+        &, &:visited, &:hover {
+            color: black;
+        }
+    }
 }

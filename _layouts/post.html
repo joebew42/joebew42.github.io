@@ -4,11 +4,9 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <a href="/tag/{{ page.tag }}">
-      <span class="post-tag {{ page.tag }} to-right no-margin-right">
-        {{ page.tag }}
-      </span>
-    </a>
+    <span class="post-tag {{ page.tag }} to-right no-margin-right">
+      <a href="/tag/{{ page.tag }}">#{{ page.tag }}</a>
+    </span>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
   </header>
 
