@@ -34,7 +34,7 @@ The person responsible for the overall system architecture, who primarily focuse
 
 **The undesirable effect** of working with this approach, or rather of centralizing the responsibility of the overall architecture on an individual, **is to fall into the trap of diverging from the business needs**, because too focused on the resolution of the single technical task, instead of what's really needed for the business goal.
 
-What I propose is that contrary to this approach, **the team**, owner of the project or product, **should have the right to make architectural choices**. In the same way that the team implements a new feature, they should also be aware of the necessary high-level requirements in terms of security, availability, performance, and so on, which could affect functionality.
+What I propose is that contrary to this approach, **the team**, owner of the project or product, **should be entitled of making the architectural choices**. In the same way that the team implements a new feature, they should also be aware of the necessary high-level requirements in terms of security, availability, performance, and so on, which could affect functionality.
 
 **We should start approach "non-functional requirements" as business requirements**, expecting to find them all while discussing User Stories or features with stakeholders or the product owner, **and not as a separate activity**.
 
