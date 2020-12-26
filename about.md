@@ -14,23 +14,21 @@ My name is Joe, I am a computer programmer and technical trainer, focused on sof
 - Legacy Code
 - Domain-Driven Design
 
-I like to learn new things, explore new ideas and share what I do with others.
-
-In this blog I will share my findings on programming, creative process, software design principles, practices of software development, and tools.
-
 When I am NOT at writing code, I enjoy to:
 
 - Play video games :video_game:
 - Read books :books:
 - Walk :walking: or run :running:
 
+I like to learn new things, explore new ideas and share what I do with others.
+
 > I do believe people comes before anything else. Successful teams, organizations and products are just symptoms of an healthy culture where people are given high Trust, Transparency, Autonomy, and Significance. The Motivation will follow.
 
 ### Keep in touch :bookmark:
 
-Message me on [Twitter](https://twitter.com/joebew42), or e-mail me at `joebew42 [at] gmail.com`.
+Reach me on [Twitter](https://twitter.com/joebew42), or e-mail me at `joebew42 [at] gmail.com`.
 
-My [Daily Activity Log](http://joebew42.github.io/events.xml) can help you to follow my activities (last things I've read or watched). [RSS](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) is also available.
+You can also check my [daily activity log](http://joebew42.github.io/events.xml) to stay updated on what I am studying. If you prefer, the [RSS](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) format is also available.
 
 ### Work experiences :briefcase:
 
