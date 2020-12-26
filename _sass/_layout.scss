@@ -195,19 +195,6 @@
     float: right;
 }
 
-.post-link {
-    font-family: $base-heading-font-family;
-    display: block;
-
-    &,
-    &:visited,
-    &:hover {
-        text-decoration: underline;
-        border: none;
-    }
-}
-
-
 
 /**
  * Posts
@@ -234,7 +221,7 @@
 .share-button {
     display: block;
     text-align: center;
-    font-family: $base-heading-font-family;
+    font-family: $base-font-family;
     font-size: 24px;
     padding: 10px;
     font-weight: 700;

@@ -45,6 +45,7 @@ ul, ol, dl, figure,
 h1, h2, h3, h4, h5, h6 {
     font-family: $base-heading-font-family;
     margin: 28px 0;
+    line-height: normal;
 }
 
 /**
@@ -120,6 +121,17 @@ a {
     }
 }
 
+.post-link {
+    font-family: $base-heading-font-family;
+    display: block;
+
+    &,
+    &:visited,
+    &:hover {
+        text-decoration: underline;
+        border: none;
+    }
+}
 
 
 /**
@@ -253,7 +265,7 @@ pre {
 .post-tag {
     margin: 5px;
     padding: 5px;
-    font: $base-heading-font-weight $base-small-font-size $base-heading-font-family;
+    font: $post-tag-font-weight $base-small-font-size $base-font-family;
     text-transform: uppercase;
 
     a {
