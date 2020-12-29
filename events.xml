@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2020-12-29">
+    <action type="reading">Really Simple CQRS</action>
+    <references>
+      <reference src="https://kalele.io/really-simple-cqrs/" type="source" />
+    </references>
+  </event>
   <event date="2020-12-21">
     <action type="reading">On the Criteria To Be Used in Decomposing Systems into Modules</action>
     <references>
