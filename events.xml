@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2021-01-04">
-    <action type="listening">Episode 180: Extreme Programming & 3X Explained with Kent Beck</action>
+    <action type="listening">Episode 180: Extreme Programming &amp; 3X Explained with Kent Beck</action>
     <references>
       <reference src="https://theagilerevolution.com/2020/02/20/episode-180-extreme-programming-3x-explained-with-kent-beck/" type="source" />
     </references>
