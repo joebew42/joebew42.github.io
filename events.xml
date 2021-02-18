@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2021-02-18">
+    <action type="reading">TDD: Balancing Progress with Stability</action>
+    <references>
+      <reference src="https://xp123.com/articles/tdd-balancing-progress-with-stability/" type="source" />
+    </references>
+  </event>
   <event date="2021-01-05">
     <action type="reading">Experience report: first week of 2 x 5 mobs going remote</action>
     <references>
