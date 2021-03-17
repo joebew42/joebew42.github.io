@@ -34,7 +34,7 @@ Lately, I was reading the book [*Clean Architecture*](https://www.goodreads.com/
 
 > *The primary goal of Software Architecture is to reduce the cost of maintenance by maximizing the development productivity.*
 
-It not only emphasizes the **goal** of Software Architecture: Why are we here talking about Software Architecture?
+It not only emphasizes the **goal** of Software Architecture: Why are we talking about Software Architecture?
 
 He also treats **non-functional requirements** as details, at the same level of database, and delivery mechanism. Even if these may be important details, we should not worry much about them.
 
