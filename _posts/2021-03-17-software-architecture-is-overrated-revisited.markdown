@@ -34,10 +34,14 @@ Lately, I was reading the book [*Clean Architecture*](https://www.goodreads.com/
 
 > *The primary goal of Software Architecture is to reduce the cost of maintenance by maximizing the development productivity.*
 
-It not only emphasizes the **goal** of Software Architecture: Why are we talking about Software Architecture?
+This is achieved by well drawing the boundaries between things that can change for different reasons, such as the user interface, business rules, or storage mechanism.
 
-He also treats **non-functional requirements** as details, at the same level of database, and delivery mechanism. Even if these may be important details, we should not worry much about them.
+Separation of concerns.
 
-Among the properties of Software Architecture (or Software Design?) we expect to be able to defer decisions on these details up until the very end of the development.
+In his book, he not only emphasizes the **goal** of software architecture: _ "Why are we talking about software architecture?" _
 
-This means that *scalability* should not have any effect on the development productivity, as well as decisions like which database to use, and how we want to expose our application (web, rest, TCP, or whatever ...)
+He also reminds us that the **non-functional requirements** are details, at the same level of a database, or a delivery mechanism (e.g. the web). While these may be important details, we shouldn't worry much about them.
+
+Among the properties of software architecture (or software design?), we expect decisions on these details can be deferred until the end of development.
+
+This means that _scalability_ shouldn't have any effect on development productivity, as well as decisions like which database to use and how we want to expose our application (web, rest, TCP or whatever ...)
