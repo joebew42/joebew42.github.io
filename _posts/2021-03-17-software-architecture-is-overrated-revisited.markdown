@@ -38,7 +38,7 @@ This is achieved by well drawing the boundaries between things that can change f
 
 Separation of concerns.
 
-In his book, he not only emphasizes the **goal** of software architecture: _ "Why are we talking about software architecture?" _
+In his book, he not only emphasizes the **goal** of software architecture: _"Why are we talking about software architecture?"_
 
 He also reminds us that the **non-functional requirements** are details, at the same level of a database, or a delivery mechanism (e.g. the web). While these may be important details, we shouldn't worry much about them.
 
