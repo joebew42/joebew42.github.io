@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Clean Architecture and Presenters"
+title: "Clean Architecture and the Presenter dilemma"
 date: 2021-06-05 9:00:00 +0100
 tag: programming
-summary: "Here I am going to share some of my learnings about Clean Architecture and Presenters."
+summary: "I am going to share some of my learnings on Clean Architecture, Presenters, and some design decisions."
 ---
 
-> Here I am going to share some of my learnings about Clean Architecture and Presenters.
+> I am going to share some of my learnings on Clean Architecture, Presenters, and some design decisions.
 
 During this time I have been busy studying the book ["Clean Architecture"](https://www.goodreads.com/book/show/18043011-clean-architecture) by [Robert C. Martin](https://twitter.com/unclebobmartin). Together with [Matteo Pierro](https://twitter.com/matteo_pierro) and [Piero Di Bello](https://twitter.com/pierodibello) we started an [online book club](https://www.youtube.com/channel/UCmPAZClDMjkqxjsqPfhqOxg/videos) (it's in Italian) discussing each chapter of the book, followed by hands-on sessions to apply our learnings on a real-life project.
 
