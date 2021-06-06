@@ -22,7 +22,7 @@ For our hands-on session, we decided to build a [**to-do list application**](htt
 
 While we were thinking and working on the UseCase, we decided to follow the design proposed in chapter 22 on "The Clean Architecture" of the book:
 
-![](https://i.imgur.com/rPAABIw.jpg)
+![](/assets/clean-architecture-presenters-dilemma-typical-scenario.jpg)
 
 We evaluated different options for the Presenter, ViewModel, and View flow.
 
@@ -92,7 +92,7 @@ Thankfully to Matteo, he had this great intuition to let the `Presenter` directl
 
 Looking at the diagram above we made a few changes:
 
-![](https://i.imgur.com/lvUHS9f.png)
+![](/assets/clean-architecture-presenters-dilemma-new-design.png)
 
 The Dependency Rule is still in place since the code dependency `ConsoleView` is pointing inward, and we managed to promote the `View` as a "higher-level" policy.
 
