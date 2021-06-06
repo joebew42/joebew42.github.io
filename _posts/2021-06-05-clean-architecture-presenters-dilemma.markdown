@@ -3,14 +3,14 @@ layout: post
 title: "Clean Architecture and the Presenter dilemma"
 date: 2021-06-05 9:00:00 +0100
 tag: programming
-summary: "I am going to share some of my learnings on Clean Architecture, Presenters, and some design decisions."
+summary: "I want to share some of my learnings on Clean Architecture, Presenters, and some design decisions."
 ---
 
-> I am going to share some of my learnings on Clean Architecture, Presenters, and some design decisions.
+> I want to share some of my learnings on Clean Architecture, Presenters, and some design decisions.
 
-During this time I have been busy studying the book ["Clean Architecture"](https://www.goodreads.com/book/show/18043011-clean-architecture) by [Robert C. Martin](https://twitter.com/unclebobmartin). Together with [Matteo Pierro](https://twitter.com/matteo_pierro) and [Piero Di Bello](https://twitter.com/pierodibello) we started an [online book club](https://www.youtube.com/channel/UCmPAZClDMjkqxjsqPfhqOxg/videos) (it's in Italian) discussing each chapter of the book, followed by hands-on sessions to apply our learnings on a real-life project.
+During this time I have been busy studying the book ["Clean Architecture"](https://www.goodreads.com/book/show/18043011-clean-architecture) by [Robert C. Martin](https://twitter.com/unclebobmartin). Together with [Matteo Pierro](https://twitter.com/matteo_pierro) and [Piero Di Bello](https://twitter.com/pierodibello) we started an [online book club](https://www.youtube.com/channel/UCmPAZClDMjkqxjsqPfhqOxg/videos) (it's in Italian) by discussing each chapter of the book, followed by hands-on sessions to apply our learnings on an example project.
 
-The topic that I found more difficult to grasp is the one related to the separation between the domain logic and its presentation. In Clean Architecture, this separation is achieved through _Presenter_, _ViewModel_, and _View_ (read chapter 23 on "Presenters and Humble Objects").
+The argument that I have found more difficult to understand is the one related to the separation between the domain logic and its presentation. In Clean Architecture, this separation is achieved through _Presenter_, _ViewModel_, and _View_ (read chapter 23 on "Presenters and Humble Objects").
 
 What puzzled me the most, and we will see later where this source of confusion originated, and what are the teachings I have drawn, is the fact that in the book there is no trace of code where you can look at to understand how this separation can be practically translated into code.
 
@@ -18,7 +18,7 @@ If that wasn't enough, the book offers a few design diagrams to show how Present
 
 ## The Presenter, ViewModel, and View dilemma
 
-For our hands-on session, we decided to build a [**TODO application**](https://github.com/MatteoPierro/clean-todo). An application that can be used to manage a TODO list, and we started from the use case for creating new todos: The `AddTodoUseCase`.
+For our hands-on session, we decided to build a [**to-do list application**](https://github.com/MatteoPierro/clean-todo). An application that can be used to manage a to-do list, and we started from the use case for creating new to-dos: The `AddTodoUseCase`.
 
 While we were thinking and working on the UseCase, we decided to follow the design proposed in chapter 22 on "The Clean Architecture" of the book:
 
@@ -30,15 +30,20 @@ We evaluated different options for the Presenter, ViewModel, and View flow.
 
 At first, and I would say naively looking at this diagram, it comes quite naturally to use the [**Observer pattern**](https://en.wikipedia.org/wiki/Observer_pattern) where the View was the Observer and the ViewModel the Observable.
 
-Implementing an observer mechanism was not straightforward and [the resulting code was more complex than expected](https://github.com/MatteoPierro/clean-todo/blob/bd224e4577ce08b78e0674bfe526ed53ba94d3c9/app/src/main/java/io/vocidelcodice/todo/apps/console/ConsoleApp.java), and I have to confess I had hard times figuring out the flow of execution.
+Implementing an observer mechanism was not straightforward and [the resulting code was more complex than expected](https://github.com/MatteoPierro/clean-todo/blob/bd224e4577ce08b78e0674bfe526ed53ba94d3c9/app/src/main/java/io/vocidelcodice/todo/apps/console/ConsoleApp.java), and to confess I had hard times figuring out the flow of execution.
 
-The reason why opting for an observer isn't a great idea is because the `ViewModel` is a simple data structure object and it shouldn't have any logic, nor know anything about the `View`. Thus because of the Dependency Rule [^1]:
+Opting for an observer isn't great because we don't want the `ViewModel` to attract more than one reason to change:
+
+- Simple data structure object (DTO) for the `View`.
+- Synchronization mechanism for the `View`.
+
+The synchronization mechanism has to happen somewhere else, and to make things more interesting we need to remember that the code responsible for synchronizing the View with the ViewModel shouldn't know anything about the View. Thus because of the Dependency Rule [^1]:
 
 > _Source code dependencies must point only inward, toward higher-level policies_.
 
-It was possible to satisfy this rule by introducing an intermediary collaborator between the `Presenter` and the `View`, which we named `ViewModelPublisher`.
+It was possible to satisfy this constraint by introducing an intermediary collaborator between the `Presenter` and the `View`, which we named `ViewModelPublisher`.
 
-In such a way that the `ViewModelPublisher` acted as an` Observer`, the `View` as an `Observer`, and the `Presenter` was responsible for creating the` ViewModel` and then notifying the view of its changes.
+In such a way that the `ViewModelPublisher` acted as an `Observer`, the `View` as an `Observer`, and the `Presenter` was responsible for creating the `ViewModel` and then notifying the view of its changes.
 
 Here you can see part of the implementation of the `Presenter`:
 
@@ -77,7 +82,7 @@ Some criticisms I feel like giving to this design choice are:
 
 - It's convoluted. There are too many moving parts.
 - The flow of execution is difficult to follow.
-- The "wiring" part is tightly coupled with a concrete implementation of a`ViewModelPublisher`.
+- The "wiring" part is tightly coupled with a concrete implementation of a `ViewModelPublisher`.
 
 ## Option 2: Getting rid of the Observer
 
