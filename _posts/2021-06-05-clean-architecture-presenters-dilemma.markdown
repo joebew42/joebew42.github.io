@@ -28,7 +28,7 @@ We evaluated different options for the Presenter, ViewModel, and View flow.
 
 ## Option 1: The Observer pattern
 
-At first, and I would say naively looking at this diagram, it comes quite naturally to use the [**Observer pattern**](https://en.wikipedia.org/wiki/Observer_pattern) where the View was the Observer and the ViewModel the Observable.
+At first, and I would say naively looking at this diagram, it comes quite naturally to use the [**Observer pattern**](https://en.wikipedia.org/wiki/Observer_pattern) where the View is the Observer and the ViewModel the Observable.
 
 Implementing an observer mechanism was not straightforward and [the resulting code was more complex than expected](https://github.com/MatteoPierro/clean-todo/blob/bd224e4577ce08b78e0674bfe526ed53ba94d3c9/app/src/main/java/io/vocidelcodice/todo/apps/console/ConsoleApp.java), and to confess I had hard times figuring out the flow of execution.
 
