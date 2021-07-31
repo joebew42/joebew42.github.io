@@ -4,9 +4,6 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <span class="post-tag {{ page.tag }} to-right no-margin-right">
-      <a href="/tag/{{ page.tag }}">#{{ page.tag }}</a>
-    </span>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
   </header>
 
@@ -22,6 +19,10 @@ layout: default
   <a class="share-button blue" target="_blank"
     href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+@{{ site.twitter_username | url_encode }}+{{ page.url | prepend: site.url | url_encode }}">Share
     on Twitter</a>
+</div>
+
+<div class="read-more post-tag {{ page.tag }}">
+  <a class="read-more-button" href="/tag/{{ page.tag }}">Read more on #{{ page.tag }}</a>
 </div>
 
 <div class="post_navigation">

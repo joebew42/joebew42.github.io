@@ -262,6 +262,19 @@ pre {
 /**
  * Tags
  */
+.read-more {
+  margin: 10px 0 !important;
+  text-transform: none !important;
+  font-size: 24px !important;
+  text-align: center;
+  padding: 10px !important;
+  font-weight: 700 !important;
+
+  a {
+    display: block !important;
+  }
+}
+
 .post-tag {
     margin: 5px;
     padding: 5px;
