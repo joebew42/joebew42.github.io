@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2021-09-20">
+    <action type="watching">Sandi Metz - Talk Session: Polly Want a Message</action>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=YtROlyWWhV0" type="source" />
+    </references>
+  </event>
   <event date="2021-03-31">
     <action type="watching">Alistair in the "Hexagone" 1/3</action>
     <references>
