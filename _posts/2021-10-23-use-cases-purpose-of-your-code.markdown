@@ -16,7 +16,7 @@ If you belong to that niche of people who believe that the domain should be well
 
 Regardless of the codebase on which you are currently working, be it either a new codebase or a legacy code, either using frameworks or not, you are always right at introducing use cases in your code.
 
-**Use Cases** are meant to be the _very entry points_ to the application domain, they describe the interactions between the actor of a domain with the rest of the application. They sit on the border between how the application communicates with the outside world and its domain. **They are the first place to look to understand the purpose of the application and all the business rules it supports.**
+**Use Cases** are meant to be the _very entry points_ to the application domain, they describe the interactions between the actor of a domain with the rest of the application. They sit on the border between how the application communicates with the outside world and its domain. **They are the first place to look to understand the purpose of the application, the domain, and all the business rules it supports.**
 
 ![](/assets/usecases-1.png)
 
