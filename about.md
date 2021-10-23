@@ -6,9 +6,9 @@ permalink: /about/
 
 # Hello there! :wave:
 
-I am Joe, programmer and agile practitioner, focused on software design principles and practices of software development.
+I am Joe. A Programmer, agile practitioner, focused on software design principles and practices of software development.
 
-When I am not coding, I enjoy playing video games, reading books or going for a walk.
+When I am not coding, I enjoy playing video games, reading books, or take long walks.
 
 I like to learn new things, explore new ideas and share what I do with others.
 
@@ -28,6 +28,6 @@ You can also check my [daily activity log](http://joebew42.github.io/events.xml)
 
 ### Into the jungle :palm_tree:
 
-- Live coding: [Twitch](https://twitch.tv/joebew42) • [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ)
-- Social: [Twitter](https://twitter.com/joebew42) • [Telegram](https://t.me/joebew42) • [Diaspora*](https://joindiaspora.com/people/fdc8e995614a2609)
+- Live coding: [Twitch](https://twitch.tv/programmingwithjoe) • [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ)
+- Social: [Twitter](https://twitter.com/joebew42) • [Telegram](https://t.me/joebew42) • [Diaspora\*](https://joindiaspora.com/people/fdc8e995614a2609)
 - Code: [GitHub](https://github.com/joebew42) • [GitLab](https://gitlab.com/joebew42)
