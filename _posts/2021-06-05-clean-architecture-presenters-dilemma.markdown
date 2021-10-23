@@ -43,7 +43,7 @@ The synchronization mechanism has to happen somewhere else, and to make things m
 
 It was possible to satisfy this constraint by introducing an intermediary collaborator between the `Presenter` and the `View`, which we named `ViewModelPublisher`.
 
-In such a way that the `ViewModelPublisher` acted as an `Observer`, the `View` as an `Observer`, and the `Presenter` was responsible for creating the `ViewModel` and then notifying the view of its changes.
+In such a way that the `ViewModelPublisher` acted as an `Observable`, the `View` as an `Observer`, and the `Presenter` was responsible for creating the `ViewModel` and then notifying the view of its changes.
 
 Here you can see part of the implementation of the `Presenter`:
 
