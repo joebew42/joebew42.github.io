@@ -58,7 +58,7 @@ So far we have said that use cases should:
 - Map one and only one business rule.
 - Not coupled with the mechanisms that trigger them.
 
-In the rest of this blog, we'll see how to translate these concepts into real code, and explore a few _desiderata_ that might be useful to don't forget.
+In the rest of this blog, we'll see how to translate these concepts into real code, and explore a few _desiderata_ that might be useful to remember.
 
 ## How Use Cases are translated into code?
 
