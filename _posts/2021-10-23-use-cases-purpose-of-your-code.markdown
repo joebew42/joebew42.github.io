@@ -103,7 +103,7 @@ class RevokeOrder {
 
 _Fig. 4 - An example of use case translated into code._
 
-Spend some time reading at the code, understanding what it does, what the domain objects are, and how well the business rule is described. Remember, the code above is just an example, it's now a reference for your implementation. Once you are done I will tell you a few of the _desiderata_ you might want to keep in mind when introducing use cases in your code.
+Spend some time reading at the code, understanding what it does, what the domain objects are, and how well the business rule is described. Remember, the code above is just an example, it's not a reference for your implementation. Once you are done I will tell you a few of the _desiderata_ you might want to keep in mind when introducing use cases in your code.
 
 **Use Case desiderata:**
 
