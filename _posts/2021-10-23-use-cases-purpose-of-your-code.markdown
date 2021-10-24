@@ -10,7 +10,7 @@ summary: "Have you ever wondered to what extent your code expresses the business
 
 Among all the things I have learned on the topic of software development, I would put the **use cases** at the very top of my _must-to-learn_ discipline for a software developer, and for the overall sustainability of a codebase in general.
 
-Have you ever wondered to what extent your code expresses the business rules it supports? How easy is it for a person to understand what your code does and where to get their hands on when it comes to changing a business requirement or supporting new ones? How hard is it to understand the domain? Does your code speak of technical terms, or terms used by the business experts?
+Have you ever wondered to what extent your code expresses the business rules it supports? Who is asking for these business rules, and for what reason? How easy is it for a person to understand what your code does and where to get their hands on when it comes to changing a business requirement or supporting new ones? How difficult is it to understand the domain? Does your code speak of technical terms, or terms used by the business experts?
 
 If you belong to that niche of people who believe that the domain should be well expressed in code and it should clearly reveal all its intentions, well, I think you've come to the right place.
 
