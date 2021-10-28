@@ -86,7 +86,7 @@ class RevokeOrder {
             return RevokeOrderResponse.orderNotFound();
         }
 
-        Order order = order.get();
+        Order order = optional.get();
         if (order.isProcessed()) {
             return RevokeOrderResponse.orderAlreadyProcessed();
         }
@@ -151,7 +151,7 @@ class RevokeOrder {
             presenter.orderNotFound(request.orderId());
         }
 
-        Order order = order.get();
+        Order order = optional.get();
         if (order.processed()) {
             presenter.orderAlreadyProcessed(request.orderId(), order.processedAt());
         }
