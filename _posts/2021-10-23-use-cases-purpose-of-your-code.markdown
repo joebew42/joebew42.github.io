@@ -30,7 +30,7 @@ The _good news_ is that your code is already implementing all the necessary busi
 
 Chances are very high that business rules sit very close - and probably coupled - with the part of the code that triggers them. You might have business rules as part of web controllers, background jobs, queue listeners, ORMs, databases, and whatever. Sometimes you can have the same business rule duplicated here and there, but no clear space to keep them well organized and decoupled from the rest of your application.
 
-I am telling this because I have been making this mistake over and over in a lot of projects where I worked, and I can still feel the pain of this mistake. To some extend I believe that if your code exists to support a complex domain, **the absence of _use cases_ has to be considered a code smell**.
+I am telling this because I have been making this mistake over and over in a lot of projects where I worked, and I can still feel the pain of this mistake. To some extent I believe that if your code exists to support a complex domain, **the absence of _use cases_ has to be considered a code smell**.
 
 A Use Case should not be coupled with the mechanism that triggers it. That said, a use case should know nothing about the detail of your web controller, or the background job, or the ORMs, or the queue listener. It's quite the opposite, a web controller is responsible to make sense of the external request and know how to _adapt_ it to a request for the use case.
 
