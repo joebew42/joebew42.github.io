@@ -107,7 +107,7 @@ Spend some time reading at the code, understanding what it does, what the domain
 
 **Use Case desiderata:**
 
-1. **Use Cases should be organized in packages or namespaces**. If you think the term _usecases_ does not fit well with your code convention, you can always find better ones: _interactors_, _actions_, _intents_, _businessrules_, _commands_. Try, discuss with your team and find the one that best matches your taste.
+1. **Use Cases should be organized in packages or namespaces**. If you think the term _usecases_ does not fit well with your code convention, you can always find better ones: _interactors_, _actions_, _intents_, _businessrules_, _commands_, _application services_ (if you comes from DDD). Try, discuss with your team and find the one that best matches your taste.
 2. At first, **don't try to organize your use cases into a package structure that is deeper than one level**. Take some time to see what all your use cases are and only then understand how they can be well organized (by domain area, by actor, or whatever makes the organization clearer).
 3. The name of the use case should reveal the action that is about to happen on a specific domain object, so always choose an imperative form (_verb-noun_).
 4. Use cases are decoupled from the part of the system that triggers them, the callers should always depend on use cases (see `RevokeOrderRequest request`, and `RevokeOrderResponse`). Sometimes the response can happen in terms of callbacks instead of return values (see fig. 6 in the Appendix).
