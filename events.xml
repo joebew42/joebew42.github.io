@@ -1569,7 +1569,7 @@
   <event date="2015-09-07">
     <action type="reading">Continuous Delivery of Microservices at Netflix</action>
     <references>
-      <reference src="http://www.javamagazine.mozaicreader.com/JulyAug2015/Default/22/0/3227709#&amp;pageSet=22&amp;page=0" type="source" />
+      <reference src="https://www.academia.edu/32879008/HOW_NETFLIX_RUNS_ITS_DEVOPS_PIPELINES_22_FUNCTIONAL_PROGRAMMING_IN_JAVA_8_40_BUILD_A_DEVOPS_PIPELINE_WITH_DOCKER_AND_PUPPET_THE_PIPELINE_TO_BUILDING_BETTER_SOFTWARE_FASTER" type="source" />
     </references>
   </event>
   <event date="2015-09-04">
