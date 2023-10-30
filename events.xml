@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2023-10-30">
+    <action type="watching">The Limited Red Society</action>
+    <references>
+      <reference src="https://www.infoq.com/presentations/The-Limited-Red-Society" type="source" />
+    </references>
+  </event>
   <event date="2021-09-20">
     <action type="watching">Sandi Metz - Talk Session: Polly Want a Message</action>
     <references>
