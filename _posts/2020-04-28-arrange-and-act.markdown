@@ -10,7 +10,7 @@ summary: "Arrange, Act and Assert (AAA) represent the overall anatomy of a test.
 
 <!--more-->
 
-During the past few months, [Piero Di Bello](https://twitter.com/pierodibello/) and I have been doing pair programming in a weekly basis, doing [Code Katas](https://en.wikipedia.org/wiki/Kata_(programming), sharing our resulting [code](https://github.com/xpepper?tab=repositories), the stories and the learnings with the community, as already happened here: [One assertion per test?](https://medium.com/@pierodibello/one-assertion-per-test-732cc2a7d3d).
+During the past few months, [Piero Di Bello](https://twitter.com/pierodibello/) and I have been doing pair programming in a weekly basis, doing [Code Katas](<https://en.wikipedia.org/wiki/Kata_(programming)>), sharing our resulting [code](https://github.com/xpepper?tab=repositories), the stories and the learnings with the community, as already happened here: [One assertion per test?](https://medium.com/@pierodibello/one-assertion-per-test-732cc2a7d3d).
 
 In this post I want to share one of the key learning I had during one of these programming sessions, where we were working on the [Game of Life Kata](http://codingdojo.org/kata/GameOfLife/) (the code can be found [here](https://github.com/xpepper/game-of-life-kata)).
 
