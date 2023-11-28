@@ -1,20 +1,20 @@
 ---
-layout:   post
-title:    "The three forces of Arrange, Act and Assert"
-date:     2020-04-24 15:00:00 +0100
-tag:      programming
-summary:  "Arrange, Act and Assert (AAA) represent the overall anatomy of a test. Sometimes they're like forces moving in different directions. I am going to share a way to identify when this happen and a strategy to have them aligned towards same direction."
+layout: post
+title: "The three forces of Arrange, Act and Assert"
+date: 2020-04-24 15:00:00 +0100
+tag: programming
+summary: "Arrange, Act and Assert (AAA) represent the overall anatomy of a test. Sometimes they're like forces moving in different directions. I am going to share a way to identify when this happen and a strategy to have them aligned towards same direction."
 ---
 
 > Arrange, Act and Assert (AAA) represent the overall anatomy of a test. Sometimes they're like forces moving in different directions. I am going to share a way to identify when this happen and a strategy to have them aligned towards same direction.
 
 <!--more-->
 
-It have been since few months that [Piero Di Bello](https://twitter.com/pierodibello/) and I started to have pair programming sessions at weekly basis. The goal of these sessions is to refine our programming skills through [Code Katas](https://en.wikipedia.org/wiki/Kata_(programming)). With the result to share the [code](https://github.com/xpepper?tab=repositories), the stories and the learnings with the community, as already happened here: [One assertion per test?](https://medium.com/@pierodibello/one-assertion-per-test-732cc2a7d3d).
+During the past few months, [Piero Di Bello](https://twitter.com/pierodibello/) and I have been doing pair programming in a weekly basis, doing [Code Katas](https://en.wikipedia.org/wiki/Kata_(programming), sharing our resulting [code](https://github.com/xpepper?tab=repositories), the stories and the learnings with the community, as already happened here: [One assertion per test?](https://medium.com/@pierodibello/one-assertion-per-test-732cc2a7d3d).
 
-In this post I want to propose and share one of the key learning I had during one of these programming sessions, where we were working on the [Game of Life Kata](http://codingdojo.org/kata/GameOfLife/) (the code can be found [here](https://github.com/xpepper/game-of-life-kata)).
+In this post I want to share one of the key learning I had during one of these programming sessions, where we were working on the [Game of Life Kata](http://codingdojo.org/kata/GameOfLife/) (the code can be found [here](https://github.com/xpepper/game-of-life-kata)).
 
-As part of this journey we took some stops - from time to time - to reflect and compare our design decisions with the ones presented in the [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign) book. In his book, [Corey Haines](https://twitter.com/coreyhaines) is using the same Code Kata to illustrate the rules of simple design.
+As part of this journey we took some stops to reflect and compare our design decisions with the ones presented in the [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign) book. In his book, [Corey Haines](https://twitter.com/coreyhaines) is using the same Code Kata to illustrate the rules of simple design.
 
 > The [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a simulation which involves several cells to interact each other following few simple rules. Each next iteration is then obtained by applying these rules on each cell.
 
@@ -37,7 +37,6 @@ class World {
 ```
 
 We proceeded to write a test first and we ended up with:
-
 
 ```java
 public static final World AN_EMPTY_WORLD = new World();
