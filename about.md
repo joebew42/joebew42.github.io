@@ -6,7 +6,7 @@ permalink: /about/
 
 # Hello there! :wave:
 
-I am Joe. A Programmer, agile practitioner, focused on software design principles and practices of software development.
+I am Joe. A software developer, agile practitioner, focused on software design principles and practices of software development.
 
 When I am not coding, I enjoy playing video games, reading books, or take long walks.
 
