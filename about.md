@@ -6,11 +6,11 @@ permalink: /about/
 
 # Hello there! :wave:
 
-I am Joe. A software developer, agile practitioner, focused on software design principles and practices of software development.
+I am Joe, currently working as a Software Engineer with a focus on agile practices, software design principles, and processes of software development.
 
-When I am not coding, I enjoy playing video games, reading books, or take long walks.
+When I am not working, I enjoy playing video games, reading books, or taking long walks.
 
-I like to learn new things, explore new ideas and share what I do with others.
+I am using this blog to share some of my experiences with the Internet and, at the same time, to have a place to keep what I have learned well organized.
 
 > I do believe people comes before anything else. Successful teams, organizations and products are just symptoms of an healthy culture where people are given high Trust, Transparency, Autonomy, and Significance. The Motivation will follow.
 
@@ -22,12 +22,11 @@ You can also check my [daily activity log](http://joebew42.github.io/events.xml)
 
 ### Work experiences :briefcase:
 
-- Software Developer [@Hemnet](https://twitter.com/hemnet), Sweden.
+- Software Engineer [@Hemnet](https://twitter.com/hemnet), Sweden.
 - Team Lead [@DerivcoSports](https://twitter.com/derivcosports), Sweden.
 - Agile Software Developer and Technical Trainer [@XPeppers](https://twitter.com/xpeppers), Italy.
 
 ### Into the jungle :palm_tree:
 
-- Live coding: [Twitch](https://twitch.tv/programmingwithjoe) • [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ)
-- Social: [Twitter](https://twitter.com/joebew42) • [Telegram](https://t.me/joebew42) • [Diaspora\*](https://joindiaspora.com/people/fdc8e995614a2609)
+- Social: [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) • [Twitter](https://twitter.com/joebew42) • [Telegram](https://t.me/joebew42)
 - Code: [GitHub](https://github.com/joebew42) • [GitLab](https://gitlab.com/joebew42)
