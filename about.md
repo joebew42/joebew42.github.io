@@ -6,11 +6,11 @@ permalink: /about/
 
 # Hello there! :wave:
 
-I am Joe, currently working as a Software Engineer with a focus on agile practices, software design principles, and processes of software development.
+I am Joe, currently working as a Software Engineer with focus on agile practices, software design principles, and processes of software development.
 
 When I am not working, I enjoy playing video games, reading books, or taking long walks.
 
-I am using this blog to share some of my experiences with the Internet and, at the same time, to have a place to keep what I have learned well organized.
+I created this blog to share some of my experiences and keep them well organized.
 
 > I do believe people comes before anything else. Successful teams, organizations and products are just symptoms of an healthy culture where people are given high Trust, Transparency, Autonomy, and Significance. The Motivation will follow.
 
