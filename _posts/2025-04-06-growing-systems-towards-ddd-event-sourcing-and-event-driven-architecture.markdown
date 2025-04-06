@@ -16,7 +16,7 @@ If you are working with **Domain-Driven Design (DDD)** and/or **CQRS/Event-Sourc
 
 Whether you are new to these topics or already familiar with them, I would like to clarify a few key aspects:
 
-- This blog shares a **practical approach to combining DDD, Event-Sourcing, and Event-Driven concepts** when they are all present in the same codebase - even though they are conceptually separate.
+- This blog shares a **practical approach to combine topics like Domain-driven Design, Event-Sourcing, and Event-Driven** when all present in the same code base - even though they are conceptually separate.
 - **Event-Sourcing is rarely a strict requirement.** - Most of the time, a well-structured relational database with a few good tables will do the job just fine.
 - **Domain-Driven Design is not CQRS/Event-Sourcing.** - While they often appear together, they serve different purposes.
 - **Event-Sourcing does not mean Event-Driven.** - State persistence as a sequence of events is not the same as an event-driven system.
@@ -199,12 +199,12 @@ Think of a _Change_ as the intention to revoke an order. It would become an _Eve
 
 We have walked through how a system can grow from a simple MVC application, toward Domain-Driven Design, Event-Sourcing, and Event-Driven architecture. Even though these topics are often mentioned together, they don't have to be applied all at once, or even at all. They serve different purposes and solve different needs.
 
-Here are the key takeaways:
+#### Takeaways
 
-- **Start simple**. You do not need to begin your system with full-blown DDD, an event store, or a message broker. Consider to let the system grow as the needs become clear.
+- **Start simple**. There is no need to start your system with DDD, Event-Sourcing, or Event-Driven. Consider to let the system grow as the needs become clear.
 - **DDD helps to better picture the business domain into your code**. Particularly when things starts to grow.
-- **Event-Sourcing is a persistence mechanism**. It changes how you store and load the state, but it should not leak outside the repository or drive your entire design.
-- **Event-Driven architecture help with communication**. It is about propagating changes. Not about persistence.
+- **Event-Sourcing is a persistence mechanism**. It changes how you store and load the state, but it should not leak outside the repository or be coupled with other parts of your code.
+- **Event-Driven architecture helps with communication**. It is about propagating changes and maintain systems decoupled each other. Not about persistence.
 - **Decoupling matters**. Even if you are using all three approaches, they should remain loosely coupled. A change in your event publishing strategy should not require changes to your domain model.
 - **The Application Service is your transactional boundary**. It defines the atomic scope of a use case, ensuring all related changes happen together, or not at all.
 
