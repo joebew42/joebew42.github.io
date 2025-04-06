@@ -189,7 +189,7 @@ _interactions within the transactional boundary_.
 
 ### Differences between Change and Event
 
-You might have noticed I am using the terms **Change** and **Event**, and that is deliberate. I want to make a clear distinction between a Change (as something we expect to happen as the result of an action) and an Event (a fact that has been persisted, meaning it actually already happened). Until persistence, it is just a Change.
+You might have noticed I am using the terms **Change** and **Event**, and that is deliberate. I want to make a clear distinction between a Change (as something we expect to happen as the result of an action) and an Event (a fact that has been persisted, meaning it actually already happened). Until persisted, an Event is just a Change we expect to see happen.
 
 A Change and an Event, they are two different things, serving distinct purposes and potentially having different structures. For simplicity, I have kept their implementation mostly the same in this blog, the only real difference is that an Event has its own ID, because persisted.
 
