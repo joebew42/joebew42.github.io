@@ -108,7 +108,7 @@ When I think about Event-Sourcing, I always want to remind myself that it is a p
 
 ```ruby
 class RevokeOrder
-  def .call(order_id)
+  def self.call(order_id)
     order = Orders.find(order_id)
     order.revoke
     Orders.save(order)
@@ -143,7 +143,7 @@ And a possible other usage of the _changes_ outside the scope of the persistence
 
 ```ruby
 class RevokeOrder
-  def .call(order_id)
+  def self.call(order_id)
     order = Orders.find(order_id)
     order.revoke
     Orders.save(order)
@@ -163,7 +163,7 @@ What follows is an example of how we can describe the _atomicity_ of the Applica
 
 ```ruby
 class RevokeOrder
-  def .call(order_id)
+  def self.call(order_id)
     within_transactional_boundary do
       order = Orders.find(order_id)
       order.revoke
