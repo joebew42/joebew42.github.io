@@ -17,7 +17,7 @@ If you are working with **Domain-Driven Design (DDD)** and/or **CQRS/Event-Sourc
 Whether you are new to these topics or already familiar with them, I would like to clarify a few key aspects:
 
 - This blog shares a **practical approach to combine topics like Domain-Driven Design, Event-Sourcing, and Event-Driven** when all present in the same code base - even though they are conceptually separate.
-- **Event-Sourcing is rarely a strict requirement.** - Most of the time, a well-structured relational database with a few good tables will do the job just fine.
+- **Event-Sourcing is rarely a strict need.** - Most of the time, a well-structured relational database with a few good tables will do the job just fine.
 - **Domain-Driven Design is not CQRS/Event-Sourcing.** - While they often appear together, they serve different purposes.
 - **Event-Sourcing does not mean Event-Driven.** - State persistence as a sequence of events is not the same as an event-driven system.
 
