@@ -43,7 +43,7 @@ There are multiple ways to implement this, each with its own trade-offs. I can m
 3. **Repository as Publisher** – The event store remains an implementation detail of the repository, and the **repository itself** is responsible for event publishing.
 4. **Application Service as Publisher** – Events are explicitly published at the **application service level** (_or command handler_).
 
-Each approach is valid, and the desidered one only depends on the needs and the familiarity of the people that are working on such systems. I will not dig into the trade-offs of any of the suggested approaches though.
+Each approach is valid, and the desidered one depends on the needs and the familiarity of the people that are working on such systems. I will not dig into the trade-offs of any of the suggested approaches though.
 
 Instead, I would like to start from personal reflections and share with you a possible alternative approach, and why in my opinion can result in a overall better design of your code.
 
