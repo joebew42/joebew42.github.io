@@ -134,7 +134,8 @@ And a simplified implementation of an Event-Sourced `Orders` repository:
 ```ruby
 class EventStoreOrders < Orders
   def .save(order)
-    EventStore.append_to_event_stream(order.id, order.changes)
+    events = to_events(order.changes)
+    EventStore.append_to_event_stream(order.id, events)
   end
 end
 ```
