@@ -3,10 +3,10 @@ layout: post
 title: "Growing systems towards DDD, Event-Sourcing and Event-Driven architecture"
 date: 2025-04-06 9:00:00 +0100
 tag: programming
-summary: "This blog explores how software systems can grow from simple MVC Applications, toward Domain-driven Design, Event-Sourcing, and Event-Driven, in an incremental way. It highlights how these concepts can stay decoupled, and show how Application Services defines transactional boundaries."
+summary: "This article explores how software systems can grow from simple MVC Applications, toward Domain-driven Design, Event-Sourcing, and Event-Driven, in an incremental way. It highlights how these concepts can stay decoupled, and show how Application Services defines transactional boundaries."
 ---
 
-> This blog explores how software systems can grow from simple MVC Applications, toward Domain-driven Design, Event-Sourcing, and Event-Driven, in an incremental way. It highlights how these concepts can stay decoupled, and show how Application Services defines transactional boundaries.
+> This article explores how software systems can grow from simple MVC Applications, toward Domain-driven Design, Event-Sourcing, and Event-Driven, in an incremental way. It highlights how these concepts can stay decoupled, and show how Application Services defines transactional boundaries.
 
 I want to summarize some of my insights from my previous work experiences and studies on DDD, Event-Sourcing, and Event-Driven architectures, and more recently, from a book club ran together with [Pietro Di Bello](https://github.com/xpepper) and [Matteo Pierro](https://github.com/matteopierro) on the book [Exploring CQRS and Event Sourcing](https://www.goodreads.com/book/show/19086899-exploring-cqrs-and-event-sourcing).
 
@@ -16,12 +16,12 @@ If you are working with **Domain-Driven Design (DDD)** and/or **CQRS/Event-Sourc
 
 Whether you are new to these topics or already familiar with them, I would like to clarify a few key aspects:
 
-- This blog shares a **practical approach to combine topics like Domain-Driven Design, Event-Sourcing, and Event-Driven** when all present in the same code base - even though they are conceptually separate.
+- This article shares a **practical approach to combine topics like Domain-Driven Design, Event-Sourcing, and Event-Driven** when all present in the same code base - even though they are conceptually separate.
 - **Event-Sourcing is rarely a strict need.** - Most of the time, a well-structured relational database with a few good tables will do the job just fine.
 - **Domain-Driven Design is not CQRS/Event-Sourcing.** - While they often appear together, they serve different purposes.
 - **Event-Sourcing is NOT Event-Driven.** - Event-Sourcing uses events to persist state. Event-Driven supports the need for asynchronous and decoupled communication between systems. Event Sourcing and Event-Driven have different purposes and the type of events are also different.
 
-Keeping this in mind will help to set the right context for this blog, because during my studies I tried to _blend_ aspects like DDD, Event-Sourcing and Event-Driven together, and I hope, this can help to provide a clearer implementation of such systems, and also a few hints to think about if you are considering pursuing the journey towards these topics.
+Keeping this in mind will help to set the right context for this article, because during my studies I tried to _blend_ aspects like DDD, Event-Sourcing and Event-Driven together, and I hope, this can help to provide a clearer implementation of such systems, and also a few hints to think about if you are considering pursuing the journey towards these topics.
 
 ### ... Let's continue
 
@@ -51,13 +51,13 @@ Instead, I would like to start from personal reflections and share with you a po
 
 Software systems grow over time. You might start without DDD, Event-Sourcing, or Event-Driven architecture, and that is perfectly fine. As the system evolves, you may gradually find yourself in the need to refactor towards DDD, adopt Event-Sourcing for state persistence, or start publishing events to communicate with other parts of the system.
 
-That is the key idea behind this blog. I want to illustrate how systems can grow over time in this direction, how they can evolve in a decoupled way, and why there is no single _"correct"_ order to follow, as you refactor your code in that growth.
+That is the key idea behind this article. I want to illustrate how systems can grow over time in this direction, how they can evolve in a decoupled way, and why there is no single _"correct"_ order to follow, as you refactor your code in that growth.
 
-My goal is to keep this blog as practical as possible and provide a reference example of how a system can grow towards DDD, Event-Sourcing, and ultimately Event-Driven architecture (the order is of my preference, but you can try to grow the system starting from another point, based on your needs).
+My goal is to keep this article as practical as possible and provide a reference example of how a system can grow towards DDD, Event-Sourcing, and ultimately Event-Driven architecture (the order is of my preference, but you can try to grow the system starting from another point, based on your needs).
 
-:warning: Before we move on, I want to remind you once again that you should read the content presented in this blog as a reference example, and not something you can _copy and paste_ into your codebase. There are several things I have deliberately skipped, and the example code is overly simplified, to keep the focus on the most important parts of the flow.
+:warning: Before we move on, I want to remind you once again that you should read the content presented in this article as a reference example, and not something you can _copy and paste_ into your codebase. There are several things I have deliberately skipped, and the example code is overly simplified, to keep the focus on the most important parts of the flow.
 
-I am considering open-sourcing a more complete sample code on GitHub (possibly implemented in different programming languages). I think this could be a great help to familiarize with these topics. For convenience, the code shown in this blog will be Ruby.
+I am considering open-sourcing a more complete sample code on GitHub (possibly implemented in different programming languages). I think this could be a great help to familiarize with these topics. For convenience, the code shown in this article will be Ruby.
 
 ### 0. Starting code
 
@@ -158,7 +158,7 @@ end
 
 When it comes to _event-driven_ architecture we need to find a way to publish a message somewhere, as result of a change happened, so that other parts of the system can be notified, and eventually, new processes are triggered.
 
-One key aspect of this design I want to highlight in this blog is to **explictly identify** the Transactional Boundary as defined as part of the Application Service, to not be confused with _Consistency Boundary_ or _Aggregate Business Invariants_.
+One key aspect of this design I want to highlight in this article is to **explictly identify** the Transactional Boundary as defined as part of the Application Service, to not be confused with _Consistency Boundary_ or _Aggregate Business Invariants_.
 
 What follows is an example of how we can describe the _atomicity_ of the Application Service - everything inside either succeeds or fails together, all or nothing:
 
@@ -192,7 +192,7 @@ _interactions within the transactional boundary_.
 
 You might have noticed I am using the terms **Change** and **Event**, and that is deliberate. I want to make a clear distinction between a Change (as something we expect to happen as the result of an action) and an Event (a fact that has been persisted, meaning it actually already happened). Until persisted, an Event is just a Change we expect to see happen.
 
-A Change and an Event, they are two different things, serving distinct purposes and potentially having different structures. For simplicity, I have kept their implementation mostly the same in this blog, the only real difference is that an Event has its own ID, because persisted.
+A Change and an Event, they are two different things, serving distinct purposes and potentially having different structures. For simplicity, I have kept their implementation mostly the same in this article, the only real difference is that an Event has its own ID, because persisted.
 
 Think of a _Change_ as the intention to revoke an order. It would become an _Event_ only once that intent has been fulfilled, and recorded.
 
@@ -209,7 +209,7 @@ We have walked through how a system can grow from a simple MVC application, towa
 - **Decoupling matters**. Even if you are using all three approaches, they should remain loosely coupled. A change in your event publishing strategy should not require changes to your domain model.
 - **The Application Service is your transactional boundary**. It defines the atomic scope of a use case, ensuring all related changes happen together, or not at all.
 
-I hope this blog gave you a clearer mental model of how these concepts like DDD, Event-Sourcing, and Event-Driven, relates each other, and how they can coexist without coupling your code.
+I hope this article gave you a clearer mental model of how these concepts like DDD, Event-Sourcing, and Event-Driven, relates each other, and how they can coexist without coupling your code.
 
 Also, I wanted to highlight how the design of a system can happen in an incremental way.
 
