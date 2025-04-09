@@ -214,3 +214,7 @@ I hope this article gave you a clearer mental model of how concepts like DDD, Ev
 Also, I wanted to highlight how the design of a system can happen in an incremental way.
 
 As I stated previously, if you are interested in exploring this further, I am considering open-sourcing a more complete example on GitHub, possibly with different implementations in Ruby, Elixir, and Java. Let me know if that is something you would find useful, email me or send a DM on Twitter (now X).
+
+#### Acknowledgements
+
+Thanks to Matteo and Piero for the time spent together in our book club sessions, and for all their feedback while I was writing this article
