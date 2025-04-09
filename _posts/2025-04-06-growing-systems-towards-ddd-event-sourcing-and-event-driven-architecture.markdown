@@ -39,7 +39,7 @@ Let's take a look at a typical flow of a use case in a codebase where Domain-Dri
 There are multiple ways to implement this, each with its own trade-offs. I can mention a few, and I hope some of them can resonate with any of your experiences:
 
 1. **Event Store as Publisher** – The aggregate is loaded from the event store, changes are persisted, and the **event store itself** takes responsibility for publishing events.
-2. **Aggregate as Publisher** – The aggregate emits events directly, ensuring that event generation is coupled with business logic.
+2. **Aggregate as Publisher** – The aggregate publishes the events directly, ensuring that event generation is coupled with business logic.
 3. **Repository as Publisher** – The event store remains an implementation detail of the repository, and the **repository itself** is responsible for event publishing.
 4. **Application Service as Publisher** – Events are explicitly published at the **application service level** (_or command handler_).
 
