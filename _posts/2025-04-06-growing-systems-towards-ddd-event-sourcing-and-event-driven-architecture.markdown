@@ -217,4 +217,4 @@ As I stated previously, if you are interested in exploring this further, I am co
 
 #### Acknowledgements
 
-Thanks to Matteo and Piero for the time spent together in our book club sessions, and for all their feedback while I was writing this article
+Thanks to Matteo and Piero for the time spent together in our book club sessions, and for all their feedback while I was writing this article.
