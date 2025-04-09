@@ -78,7 +78,7 @@ end
 
 ### 1. Towards DDD
 
-As we start refactoring towards DDD, we begin to introduce concepts like _Application Services_, _Repositories_, and _Aggregates_. In this case, the logic for revoking an order is moved into an **application service** (`RevokeOrder`), the actual details are encapsulated within the **aggregate** (`Order`), and move away from direct usage of an ORM, introducing a **repository** (`Orders`) to provide a clear separation for persistence:
+As we start refactoring towards DDD, we begin to introduce concepts like _Application Services_, _Repositories_, and _Aggregates_. In this case, the logic for revoking an order is moved into an **application service** (`RevokeOrder`), the actual details are encapsulated within the **aggregate** (`Order`), and moved away from direct usage of an ORM, introducing a **repository** (`Orders`) to provide a clear separation for persistence:
 
 ```ruby
 class RevokeOrder
