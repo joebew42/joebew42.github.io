@@ -25,7 +25,7 @@ Keeping this in mind will help to set the right context for this article, becaus
 
 ### ... Let's continue
 
-Let’s take a look at a typical flow:
+Let's take a look at a typical flow of a use case in a codebase where Domain-Driven Design, Event-Sourcing, and Event-Driven are all present:
 
 1. A client interacts with an **application service** (or _command handler_), triggering a request.
 2. The corresponding **aggregate** is **loaded from the event store (or repository)**.
