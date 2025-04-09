@@ -209,7 +209,7 @@ We have walked through how a system can grow from a simple MVC application, towa
 - **Decoupling matters**. Even if you are using all three approaches, they should remain loosely coupled. A change in your event publishing strategy should not require changes to your domain model.
 - **The Application Service is your transactional boundary**. It defines the atomic scope of a use case, ensuring all related changes happen together, or not at all.
 
-I hope this article gave you a clearer mental model of how these concepts like DDD, Event-Sourcing, and Event-Driven, relates each other, and how they can coexist without coupling your code.
+I hope this article gave you a clearer mental model of how concepts like DDD, Event-Sourcing, and Event-Driven relate to each other, and how they can coexist without coupling your code
 
 Also, I wanted to highlight how the design of a system can happen in an incremental way.
 
