@@ -116,7 +116,7 @@ class RevokeOrder
 end
 ```
 
-On the _surface_ no changes can be noticed, but something happened, the `Orders` repository is now implemented via Event-Sourcing; and this requires some changes in the `order` aggregate: a way for the aggregate to expose the resulting changes caused by the `revoke` action. The changes will be used by the repository to persist the new state as a series of events in the event store.
+On the _surface_ no changes can be noticed, but something happened: the `Orders` repository is now implemented via Event-Sourcing; and this requires some changes in the `order` aggregate: a way for the aggregate to expose the resulting changes caused by the `revoke` action. The changes will be used by the repository to persist the new state as a series of events in the event store.
 
 **Trade-off**: The objection raised here is that we are slightly modifying the Aggregate (a domain component) to fulfill a persistence need (implementation detail).
 
