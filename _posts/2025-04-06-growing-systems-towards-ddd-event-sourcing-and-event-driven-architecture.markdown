@@ -182,7 +182,7 @@ I like to think of the Transactional Boundary as:
 
 > "Everything that happens inside the Application Service, stays inside the Application Service."
 
-In other words, the Application Service defines the scope of the operation, and it should guarantee that everything within it happens atomically and consistently: if something fails, the whole operation is rolled back, unless intentional.
+In other words, the Application Service defines the scope of the operation, and it should guarantee that everything within it happens atomically and consistently: if something fails, the whole operation is rolled back, unless this is intentional.
 
 ![](/assets/growing-system-towards-ddd-image-1.png)
 
