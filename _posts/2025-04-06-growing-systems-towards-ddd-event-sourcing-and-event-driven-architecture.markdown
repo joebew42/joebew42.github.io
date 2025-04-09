@@ -186,7 +186,7 @@ In other words, the Application Service defines the scope of the operation, and 
 
 ![](/assets/growing-system-towards-ddd-image-1.png)
 
-_interactions within the transactional boundary_.
+_Fig. 1 - Interactions within the transactional boundary_.
 
 ### Differences between Change and Event
 
