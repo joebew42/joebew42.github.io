@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
+  <event date="2025-04-22">
+    <action type="reading">Scaling the Practice of Architecture, Conversationally</action>
+    <references>
+      <reference src="https://martinfowler.com/articles/scaling-architecture-conversationally.html" type="source" />
+    </references>
+  </event>
   <event date="2023-11-07">
     <action type="watching">Responsive Design</action>
     <references>
