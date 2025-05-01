@@ -66,7 +66,7 @@ However, some objections and doubts may arise at this point, and I would like to
 
 #### How the current scope of the sponsor product team is affected?
 
-The goal is not to block or change the current scope of the sponsor product team to the one of the themed group. Rather, the purpose of having a sponsor team is to **makes sure the proposed solution has a clear ownership** within the existing organization, and won't be left in a limbo. The sponsor team already have a proper domain knowledge or full understanding on the matter. For example, in a themed group focused on improving some infrastructure parts, the sponsor team might be the one that is already responsible for that area (platform, infrastructure, or architectural team).
+The goal is not to block or change the current scope of the sponsor product team to the one of the themed group. Rather, the purpose of having a sponsor team is to **make sure the proposed solution has a clear ownership** within the existing organization, and won't be left in a limbo. The sponsor team already have a proper domain knowledge or full understanding on the matter. For example, in a themed group focused on improving some infrastructure parts, the sponsor team might be the one that is already responsible for that area (platform, infrastructure, or architectural team).
 
 #### What if the sponsor team lacks familiarity with the proposed solution?
 
