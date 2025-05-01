@@ -15,7 +15,7 @@ summary: "Spotify Model, Communities of Practice (CoP), Task Forces, and Interna
 
 ## Abstract
 
-In this article I am proposing an alternative, or complementary structure to traditional, static internal communities, which are often organized around specific technical areas and can be limited in scope and participation. Instead, the idea of *"Themed Groups"* is introduced, emphasizing their **dynamism** as they are formed to address **specific, current needs**, and disbanded once solutions are found. These groups are designed to be **cross-functional**, involving people with diverse set of skills and experience to find concrete and efficient solutions to real needs. Opposed to task forces that are formed because of external pressure, focused on deadlines or technical debt, themed groups emerge organically, and in full autonomy, with the purpose to produce tangible outcomes (or improve knowledge areas and awareness around a specific topic), with the responsibility that the actual implementation is done in the relevant **sponsoring product team**.
+In this article I am proposing an alternative, or complementary structure to traditional, static internal communities, which are often organized around specific technical areas and can be limited in scope and participation. Instead, the idea of *"Themed Groups"* is introduced, emphasizing their **dynamism** as they are formed to address **specific, current needs**, and disbanded once solutions are found. These groups are designed to be **cross-functional**, involving people with diverse set of skills and experience to find concrete and efficient solutions to real needs. Opposed to task forces that are formed because of external pressure, focused on deadlines or technical debt, themed groups emerge organically, and in full autonomy, with the purpose to produce tangible outcomes (or improve knowledge areas and awareness around a specific topic), with the responsibility that the actual implementation is done in the relevant **sponsor product team**.
 
 ## Themed Groups: A dynamic alternative to Internal Communities
 
@@ -55,8 +55,24 @@ This dynamic nature of themed groups offers several advantages, and they have im
 - **S.M.A.R.T. goals:** the outcome that the group agreed to achieve should be a S.M.A.R.T. goal *(Specific, Measurable, Achievable, Relevant, and Timely)*.
 - **Efficient and Time-boxed:** The expectation is to find a solution for a concrete need, in the most efficient way possible, and not dragging on for months. This is one of the crucial characteristics of themed groups.
 - **Organic and bottom-up:** They are formed organically and autonomously from proposals originated from the people doing the real work, so it is a bottom-up approach. They are NOT formed following a mandate forced from top-down (e.g., task forces, which will be discussed later in the section *"Themed Groups vs. Task Forces"*).
-- **Focus on What and How:** While a themed group discuss the strategy and the approach to follow to solve a concrete need, the actual execution (and/or implementation work) is delegated to the ***sponsoring product team***, particuarly if the outcome is expected to be a *tangible artifact*.
+- **Focus on What and How:** While a themed group discuss the strategy and the approach to follow to solve a concrete need, the actual execution (and/or implementation work) is delegated to the ***sponsor product team***, particuarly if the outcome is expected to be a *tangible artifact*.
 - **Not limited to problem solving only:** They can also be formed, simply for *improving knowledge sharing, achieve a better understanding and clarity, and/or spark awareness* on a specific topic. The real need here is **"better and shared understanding"**, once that is met, the group is disbanded.
+
+### Themed Groups and the Sponsor Product Team
+
+A key concept of the *themed groups* is that while they have the responsibility to explore and find the best solution, **the actual execution and implementation is handed over to a relevant sponsor product team**. This helps to give the outcome of themed groups a clear ownership, and also guarantee for possible follow up work, if needed.
+
+However, some objections and doubts may arise at this point, and I would like to address some of them, as it is important to provide more clarity over the concept of Sponsor Product Team.
+
+#### How the current scope of the sponsor product team is affected?
+
+The goal is not to block or change the current scope of the sponsor product team to the one of the themed group. Rather, the purpose of having a sponsor team is to **makes sure the proposed solution has a clear ownership** within the existing organization, and won't be left in a limbo. The sponsor team already have a proper domain knowledge or full understanding on the matter. For example, in a themed group focused on improving some infrastructure parts, the sponsor team might be the one that is already responsible for that area (platform, infrastructure, or architectural team).
+
+#### What if the sponsor team lacks familiarity with the proposed solution?
+
+The themed group is formed to bring together various perspectives, help to uncover hidden spots, and gather as many insights as possible. Once the group agrees on a *well-informed consensus*, the sponsor team is now in the best position to do the work. They have the **domain ownership**, background context, and more **fresh inputs** from the themed group. This balance between existing knowledge and newly gathered insights should help the sponsor team to reduce blind spots and build more confidence.
+
+Also, keep in mind the outcome should be S.M.A.R.T. If the proposed solution is at the time **not achievable** (reasons may vary here), then consider to disband the themed group and try when better times come.
 
 ### Themed Groups vs. Task Forces
 
@@ -67,7 +83,7 @@ There is a **crucial distinction** between the two groups, and it is important t
 
 ### Themed Group: An example
 
-For example, consider the need to improve the process of setting up a local development environment for non-backend developers. This necessity might first appear in a backend community meeting, triggering a bell for a possible real need. A themed group could then be formed specifically to address this need, in a efficient, and timely manner. The group would possibly involve the right people with different roles and competences (backend, frontend, apps, infrastructure) who are either directly impacted or can actively contribute to the solution (e.g., some representatives from the *sponsoring product team* are expected here). Their goal would be to explore options, reach a consensus on the best approach, and then hand over implementation details to the sponsoring product team. Once the improved setup is in place and shared, the themed group is disbanded.
+For example, consider the need to improve the process of setting up a local development environment for non-backend developers. This necessity might first appear in a backend community meeting, triggering a bell for a possible real need. A themed group could then be formed specifically to address this need, in a efficient, and timely manner. The group would possibly involve the right people with different roles and competences (backend, frontend, apps, infrastructure) who are either directly impacted or can actively contribute to the solution (e.g., some representatives from the *sponsor product team* are expected here). Their goal would be to explore options, reach a consensus on the best approach, and then hand over implementation details to the sponsor product team. Once the improved setup is in place and shared, the themed group is disbanded.
 
 ### Themed Group: Alternatives
 
