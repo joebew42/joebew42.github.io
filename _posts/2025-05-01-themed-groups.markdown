@@ -95,13 +95,13 @@ For example, consider the need to improve the process of setting up a local deve
 
 ### Themed Group: Alternatives
 
-Although there are existing structures and models that share some characteristics with *Themed Groups*, none fully capture its **dynamism**, **time-boxed nature**, and **outcome-focused approach**. Some of these alternatives include:
+Although there are existing models that share some characteristics with *Themed Groups*, none fully capture its **dynamism**, **time-boxed nature**, and **outcome-focused approach**. Some of these models include:
 
 - **Guilds & Chapters** (a.k.a., Spotify Model)
 - **Communities of Practice** (CoP)
 - **Working Groups** or **Tiger Teams** (a.k.a., Task Forces)
 
-While these alternative structures (Guilds & Chapters, CoPs, and Task Forces) provides value from their own, they often lack the flexibility to quickly adapt to real, timely needs and can suffer from too much process or static participation.
+While all of them provides value from their own, they often **lack the flexibility to quickly adapt to real, timely needs** and can suffer from too much process or static participation.
 
 ## Wrapping-up and Takeaways
 
