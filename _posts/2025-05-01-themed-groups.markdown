@@ -66,13 +66,21 @@ However, some objections and doubts may arise at this point, and I would like to
 
 #### How the current scope of the sponsor product team is affected?
 
-The goal is not to block or change the current scope of the sponsor product team to the one of the themed group. Rather, the purpose of having a sponsor team is to **make sure the proposed solution has a clear ownership** within the existing organization, and won't be left in a limbo. The sponsor team already have a proper domain knowledge or full understanding on the matter. For example, in a themed group focused on improving some infrastructure parts, the sponsor team might be the one that is already responsible for that area (platform, infrastructure, or architectural team).
+The goal is not to block or change the current scope of the sponsor product team to the one of the themed group. Rather, the purpose of having a sponsor team is to **make sure the proposed solution has a clear ownership** within the existing organization, and won't be left in a limbo. The sponsor team already have a proper domain knowledge or full understanding on the matter.
+
+For example, in a themed group focused on improving some parts of the infrastructure, the sponsor team might be the one that is already responsible for that area (e.g., platform, infrastructure, or architectural team, or else).
 
 #### What if the sponsor team lacks familiarity with the proposed solution?
 
 The themed group is formed to bring together various perspectives, help to uncover hidden spots, and gather as many insights as possible. Once the group agrees on a *well-informed consensus*, the sponsor team is now in the best position to do the work. They have the **domain ownership**, background context, and more **fresh inputs** from the themed group. This balance between existing knowledge and newly gathered insights should help the sponsor team to reduce blind spots and build more confidence.
 
 Also, keep in mind the outcome should be S.M.A.R.T. If the proposed solution is at the time **not achievable** (reasons may vary here), then consider to disband the themed group and try when better times come.
+
+#### Balance between well-informed consensus and quick solution
+
+I have said that **themed groups should be short-lived and emerge to address timely needs, in a quick way**, especially when there is a need to gather more input from different perspectives: to help manage the limited scope of internal communities or to uncover unknowns in the sponsor team.
+
+In my view, being quick to find a well-informed consensus is part of the process of finding a quick solution. If a themed group is too much invested to find consensus, and/or the solution they found would take too long to implement (or execute), then I would suggest disbanding the group and waiting for better times. Sometimes slow consensus, or the lack of feasibility to design efficient solutions, can be a symptom of something else: Why was it difficult to find consensus? Why we couldn't find a quicker solution?
 
 ### Themed Groups vs. Task Forces
 
@@ -110,4 +118,4 @@ Adopting themed groups do not require any changes to your existing organization 
 - Unlike task forces, **they are bottom-up initiatives**, formed organically and in full autonomy.
 - Their focus is on **practical impact**, and make sure the *sponsoring product team* can do the real work.
 - They are not limited to problem-solving only! **Knowledge sharing and building awareness** are valid and great triggers for their formation.
-- Themed groups **do not require changes in your current organization structure**.
+- Themed groups **do not require any changes to the current structure of an organization**.
