@@ -16,6 +16,8 @@ Themed Groups are dynamic, cross-functional teams formed in full autonomy to add
 
 Themed Groups are lightweight and purely optional, their adoption do not require the current organization structure to change: they are a thin layer of a structure that appears and disappears strategically, when the needs of the moment would require it.
 
+Themed Groups seek for clear team ownership, to prevent initiatives from starting and ending in a limbo, in that gray area that no one owns.
+
 In the next part I will try to break down the key phases of the life cycle of themed groups.
 
 ## The Lifecyle of a Themed Group
