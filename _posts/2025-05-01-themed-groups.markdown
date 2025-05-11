@@ -3,10 +3,10 @@ layout: post
 title: "Themed Groups: A dynamic way to respond to real and timely needs"
 date: 2025-05-01 9:00:00 +0100
 tag: collaboration
-summary: "Spotify Model, Communities of Practice (CoP), Task Forces, and Internal Communities each have their value, but none fully meet my needs. The Spotify Model feels slow, CoPs focus too much on discussion, Task Forces feel more like a symptom of a bigger issue, and Internal Communities are too static and limited. I am looking for a more practical, lightweight, and dynamic approach that can quickly respond and adapt to real and timely needs."
+summary: "Spotify Model, Communities of Practice (CoP), Task Forces (a.k.a. Tiger Teams), and Internal Communities each have their value, but none fully meet my needs. The Spotify Model feels slow, CoPs focus too much on discussion, Task Forces feel more like a symptom of a bigger issue, and Internal Communities are too static and limited. I am looking for a more practical, lightweight, and dynamic approach that can quickly respond and adapt to real and timely needs."
 ---
 
-> Spotify Model, Communities of Practice (CoP), Task Forces, and Internal Communities each have their value, but none fully meet my needs. The Spotify Model feels slow, CoPs focus too much on discussion, Task Forces feel more like a symptom of a bigger issue, and Internal Communities are too static and limited. I am looking for a more practical, lightweight, and dynamic approach that can quickly respond and adapt to real and timely needs.
+> Spotify Model, Communities of Practice (CoP), Task Forces (a.k.a. Tiger Teams), and Internal Communities each have their value, but none fully meet my needs. The Spotify Model feels slow, CoPs focus too much on discussion, Task Forces feel more like a symptom of a bigger issue, and Internal Communities are too static and limited. I am looking for a more practical, lightweight, and dynamic approach that can quickly respond and adapt to real and timely needs.
 
 <small>*Listen the podcast version of this article, below (AI generated).*</small>
 <audio controls style="width:100%">
