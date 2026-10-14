@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '3.4.3'
+ruby file: '.tool-versions'
 
 gem 'jekyll'
 gem 'jemoji'
