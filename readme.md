@@ -1,18 +1,18 @@
 requirements:
 
-- ruby 3.3.3
+- [mise](https://mise.jdx.dev) (the ruby version is pinned in `.tool-versions`)
 
 setup:
 
 ```
-gem install bundler
-bundle
+mise install
+bundle install
 ```
 
 run:
 
 ```
-bundle exec jekyll server --watch
+bundle exec jekyll serve --watch
 ```
 
 see it in action:
