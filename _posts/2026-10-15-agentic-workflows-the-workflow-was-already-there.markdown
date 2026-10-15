@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agentic Workflows: The workflow was already there"
-date: 2026-10-18 9:00:00 +0100
+date: 2026-10-15 12:00:00 +0200
 tag: practice
 summary: "A year ago my team started using Claude Code to assist us in writing code. Instead of changing the way we work, we tried to make the way we already work \"agentic\". This is the story, and a few things I have learned along the way."
 ---
