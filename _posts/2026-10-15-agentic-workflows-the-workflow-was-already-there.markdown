@@ -37,9 +37,15 @@ The way I see it, an agentic workflow is a structured process made of **an agent
 
 > The workflow and the experience matter more than the AI. AI is a tool.
 
-Looking back, there are three ideas that shaped our journey the most.
+## Main ideas that shaped our journey
 
-## The workflow was already there, we made it agentic
+Looking back, there are three ideas that shaped our journey the most:
+
+1. The workflow was already there, we made it agentic.
+2. Fundamentals still decide the outcome.
+3. The specification as the unit of work.
+
+### 1. The workflow was already there, we made it agentic
 
 We didn't invent a new process, and there was no AI "magic wand". We already had a way of developing product changes, and we tried to make each of its steps agentic:
 
@@ -61,7 +67,7 @@ For the client side, web and mobile apps, we went a step further. We connected t
 
 Since the skills are isolated from each other, we could change the workflow by putting more skills to work together. For example, when a feature was too big for a single pull request, we added a _multi-phase_ flow on top of the same four steps: one main plan, and many small phases that go through the normal flow. We even ran phases in parallel through git worktrees, it was crazy!
 
-## Fundamentals still decide the outcome
+### 2. Fundamentals still decide the outcome
 
 What I noticed is that **the agent amplifies the habits we already have**. Good practices get multiplied, and so do the weak ones. When the guidelines don't cover enough, the worst thing is to see the agent drifting on its own. So we tried to catch these drifts and keep the skill definitions always up to date. **Treat your skills as a living artefact.**
 
@@ -69,7 +75,7 @@ This is why tests, conventions, and small increments still made the difference f
 
 As I said, the guidelines were not written in one go. They grew one learning at a time, every time we noticed something worth keeping. Rules like _"always ask before pushing"_, _"database migrations go in separate commits"_, or _"implement one test at a time"_ all came from real situations. At some point we also asked the workflow to **suggest new guidelines** after each pull request review, so that feedback had a chance to become a shared practice.
 
-## The specification as the unit of work
+### 3. The specification as the unit of work
 
 The biggest shift for me was this one: **the specification became the primary unit of work, and the code became the output.** Design decisions moved into the specification, where we discuss and agree on them before any code is written.
 
