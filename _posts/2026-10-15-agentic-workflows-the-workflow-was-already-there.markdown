@@ -87,7 +87,7 @@ Some time ago I had a conversation about all of this with [Pietro Di Bello](http
 
 ## Why it worked well for our team
 
-Looking back, the biggest change was **where our time goes**. Most of the team's time shifted from the act of typing code to the two ends of the workflow: **writing the specification** and **reviewing pull requests**. With more work done, there was also more work to review.
+The biggest change was **where our time goes**. Most of the team's time shifted from the act of typing code to the two ends of the workflow: **writing the specification** and **reviewing pull requests**. With more work done, there was also more work to review.
 
 Here is why I think the review step still worked well for us. It comes from a few habits we already had:
 
