@@ -3,10 +3,10 @@ layout: post
 title: "App-First: Fake It Till You Make It"
 date: 2026-10-27 9:00:00 +0100
 tag: practice
-summary: "When a product change goes across the app, the API and the backend, the app is usually the last one in the line. This is how my team turned the company's App-First principle into a practice: we released a good-enough fake API in production, and let backend and app development run in parallel."
+summary: "Why does app development have to wait until the API is ready? This is how my team turned the company's App-First principle into a practice: we released a good-enough fake API in production, and let backend and app development run in parallel."
 ---
 
-> When a product change goes across the app, the API and the backend, the app is usually the last one in the line. This is how my team turned the company's App-First principle into a practice: we released a good-enough fake API in production, and let backend and app development run in parallel.
+> Why does app development have to wait until the API is ready? This is how my team turned the company's App-First principle into a practice: we released a good-enough fake API in production, and let backend and app development run in parallel.
 
 <!--more-->
 
