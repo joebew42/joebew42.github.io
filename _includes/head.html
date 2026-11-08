@@ -44,8 +44,13 @@
     rel="stylesheet">
 
   <script>
-    document.documentElement.setAttribute('data-theme',
-      window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    (function () {
+      var picked = null;
+      try { picked = localStorage.getItem('theme'); } catch (e) {}
+      var preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      var known = picked === 'light' || picked === 'dark' || picked === 'sepia';
+      document.documentElement.setAttribute('data-theme', known ? picked : preferred);
+    })();
   </script>
   <link rel="stylesheet" href="{{ " /css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

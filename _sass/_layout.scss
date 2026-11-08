@@ -42,6 +42,22 @@
         display: none;
     }
 
+    .trigger {
+        display: inline-block;
+    }
+
+    .mode-toggle {
+        float: right;
+        margin-left: 20px;
+        padding: 0;
+        border: none;
+        background: none;
+        font: inherit;
+        line-height: inherit;
+        color: $header-color;
+        cursor: pointer;
+    }
+
     .page-link {
         color: $header-color;
         border: none;
@@ -79,6 +95,13 @@
                     fill: $grey-color-light;
                 }
             }
+        }
+
+        .mode-toggle {
+            width: 36px;
+            height: 36px;
+            margin-left: 0;
+            line-height: 36px;
         }
 
         .trigger {
