@@ -238,6 +238,38 @@
     font-size: $post-list-title-font-size;
 }
 
+.docked-title {
+    position: fixed;
+    top: $header-height;
+    left: 0;
+    right: 0;
+    z-index: $header-z-index - 1;
+    border-bottom: 1px solid $divider-color;
+    background-color: $header-background-color;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+
+    &.is-visible {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    p {
+        margin: 0;
+        padding: $docked-title-padding 0;
+        font-size: $docked-title-font-size;
+        font-weight: $base-heading-font-weight;
+        line-height: $base-line-height;
+    }
+}
+
+.docked-title ~ .post-content {
+    h1, h2, h3, h4, h5, h6 {
+        scroll-margin-top: $header-offset + $docked-title-height;
+    }
+}
+
 .post-content {
     margin-bottom: $spacing-unit;
     line-height: $base-line-height;

@@ -12,6 +12,9 @@ $post-tag-font-weight: 400;
 $small-font-size:  $base-font-size * 0.9;
 
 $post-list-title-font-size: 22px;
+$docked-title-font-size:    16px;
+$docked-title-padding:      6px;
+$docked-title-height:       $docked-title-font-size * $base-line-height + 2 * $docked-title-padding;
 
 $on-palm-font-size: 18px;
 $on-palm-line-height: 32px;
@@ -19,7 +22,7 @@ $on-palm-line-height: 32px;
 $spacing-unit:     30px;
 
 $header-height:    60px;
-$header-z-index:   1;
+$header-z-index:   2;
 $header-offset:    $header-height + $spacing-unit;
 
 $modes: (

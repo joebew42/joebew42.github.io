@@ -7,6 +7,24 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
   </header>
 
+  <div class="docked-title" aria-hidden="true">
+    <div class="wrapper">
+      <p>{{ page.title }}</p>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var title = document.querySelector('.post-header .post-title');
+      var docked = document.querySelector('.docked-title');
+      var headerHeight = document.querySelector('.site-header').offsetHeight;
+
+      new IntersectionObserver(function (entries) {
+        docked.classList.toggle('is-visible', !entries[0].isIntersecting);
+      }, { rootMargin: '-' + headerHeight + 'px 0px 0px 0px' }).observe(title);
+    })();
+  </script>
+
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
