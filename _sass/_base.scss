@@ -1,4 +1,4 @@
-@use "sass:list";
+@use "sass:map";
 @use "sass:math";
 @use "variables" as *;
 
@@ -294,7 +294,7 @@ pre {
         &, &:visited, &:hover {
             border-bottom: none;
             text-decoration: none;
-            color: $tag-text-light;
+            color: inherit;
         }
     }
 }
@@ -313,19 +313,14 @@ pre {
 }
 
 @each $tag, $colors in $tag-colors {
-    $background: list.nth($colors, 1);
-    $text: list.nth($colors, 2);
-
     .post-tag.#{$tag} {
-        color: $text;
-        background-color: $background;
+        color: map.get($colors, text);
+        background-color: map.get($colors, light);
+    }
 
-        @if $text != $tag-text-light {
-            a {
-                &, &:visited, &:hover {
-                    color: $text;
-                }
-            }
+    @each $mode in (dark, sepia) {
+        :root[data-theme="#{$mode}"] .post-tag.#{$tag} {
+            background-color: map.get($colors, $mode);
         }
     }
 }

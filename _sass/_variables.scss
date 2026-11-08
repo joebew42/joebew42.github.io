@@ -34,18 +34,88 @@ $modes: (
         code-background-color:      #eef,
         highlight-background-color: #fff,
         blockquote-text-color:      rgba(0,0,0,0.6),
+        tag-text-light:             white,
+        tag-text-dark:              black,
+
+        syntax-comment:             #998,
+        syntax-muted:               #999,
+        syntax-output:              #888,
+        syntax-prompt:              #555,
+        syntax-subheading:          #aaa,
+        syntax-whitespace:          #bbb,
+        syntax-error:               #a61717,
+        syntax-error-background:    #e3d2d2,
+        syntax-generic-error:       #a00,
+        syntax-diff-text:           #000,
+        syntax-deleted:             #fdd,
+        syntax-deleted-specific:    #faa,
+        syntax-inserted:            #dfd,
+        syntax-inserted-specific:   #afa,
+        syntax-type:                #458,
+        syntax-number:              #099,
+        syntax-string:              #d14,
+        syntax-variable:            #008080,
+        syntax-builtin:             #0086B3,
+        syntax-entity:              #800080,
+        syntax-function:            #900,
+        syntax-tag:                 #000080,
+        syntax-regex:               #009926,
+        syntax-symbol:              #990073,
     ),
     dark: (
         text-color:                 #e6e6e6,
         background-color:           #1a1a1a,
         header-color:               #e6e6e6,
         header-background-color:    #1a1a1a,
+        grey-color:                 #9a9a9a,
+        grey-color-light:           #4a4a4a,
+        divider-color:              #2e2e2e,
+        code-background-color:      #262626,
+        highlight-background-color: #262626,
+        blockquote-text-color:      rgba(230,230,230,0.7),
+        tag-text-light:             #e6e6e6,
+        tag-text-dark:              #1a1a1a,
+
+        syntax-comment:             #8b949e,
+        syntax-muted:               #8b949e,
+        syntax-output:              #8b949e,
+        syntax-prompt:              #c9d1d9,
+        syntax-subheading:          #8b949e,
+        syntax-whitespace:          #6e7681,
+        syntax-error:               #ffa198,
+        syntax-error-background:    #490202,
+        syntax-generic-error:       #ffa198,
+        syntax-diff-text:           #e6e6e6,
+        syntax-deleted:             #490202,
+        syntax-deleted-specific:    #67060c,
+        syntax-inserted:            #04260f,
+        syntax-inserted-specific:   #033a16,
+        syntax-type:                #ffa657,
+        syntax-number:              #79c0ff,
+        syntax-string:              #a5d6ff,
+        syntax-variable:            #79c0ff,
+        syntax-builtin:             #ffa657,
+        syntax-entity:              #d2a8ff,
+        syntax-function:            #d2a8ff,
+        syntax-tag:                 #7ee787,
+        syntax-regex:               #7ee787,
+        syntax-symbol:              #ff7b72,
     ),
     sepia: (
         text-color:                 #5b4636,
         background-color:           #f4ecd8,
         header-color:               #5b4636,
         header-background-color:    #f4ecd8,
+        grey-color:                 #8b7b6b,
+        grey-color-light:           #d8c9a8,
+        divider-color:              #e3d6b8,
+        code-background-color:      #ece1c6,
+        highlight-background-color: #ece1c6,
+        blockquote-text-color:      rgba(91,70,54,0.75),
+        tag-text-light:             #f4ecd8,
+        tag-text-dark:              #3b2e24,
+
+        syntax-comment:             #7a6b50,
     ),
 );
 
@@ -59,6 +129,8 @@ $divider-color:              var(--divider-color);
 $code-background-color:      var(--code-background-color);
 $highlight-background-color: var(--highlight-background-color);
 $blockquote-text-color:      var(--blockquote-text-color);
+$tag-text-light:             var(--tag-text-light);
+$tag-text-dark:              var(--tag-text-dark);
 
 // Width of the content area
 $content-width:    740px;
@@ -69,17 +141,14 @@ $on-laptop:        700px;
 $blue: #43A7FF;
 $white: #FFFFFF;
 
-$tag-text-light: white;
-$tag-text-dark:  black;
-
 $tag-colors: (
-    practice:      (#f03e3e, $tag-text-light),
-    elixir:        (#4a355f, $tag-text-light),
-    programming:   (teal,    $tag-text-light),
-    creative:      (yellow,  $tag-text-dark),
-    tools:         (black,   $tag-text-light),
-    idea:          (pink,    $tag-text-dark),
-    collaboration: (#d43ca2, $tag-text-light),
+    practice:      (text: $tag-text-light, light: #f03e3e, dark: #9a3030, sepia: #d2403c),
+    elixir:        (text: $tag-text-light, light: #4a355f, dark: #4a3a5c, sepia: #4d3857),
+    programming:   (text: $tag-text-light, light: teal,    dark: #0b6262, sepia: #127471),
+    creative:      (text: $tag-text-dark,  light: yellow,  dark: #a3a30a, sepia: #deda0b),
+    tools:         (text: $tag-text-light, light: black,   dark: #3a3a3a, sepia: #120e0b),
+    idea:          (text: $tag-text-dark,  light: pink,    dark: #a37e84, sepia: #dea8ad),
+    collaboration: (text: $tag-text-light, light: #d43ca2, dark: #8a2e6c, sepia: #bc3e8c),
 );
 
 // Use media queries like this:
