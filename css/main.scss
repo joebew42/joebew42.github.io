@@ -5,67 +5,8 @@
 
 
 
-// Our variables
-$base-font-family: 'Source Serif Pro', sans-serif;
-$base-font-weight: 300;
-$base-font-size: 15pt;
-$base-small-font-size: 10pt;
-$base-line-height: 28pt;
-
-$base-heading-font-family: 'Lato', sans-serif;
-$base-heading-font-weight: 700;
-
-$post-tag-font-family: 'Lato', sans-serif;
-$post-tag-font-weight: 400;
-
-$small-font-size:  $base-font-size * 0.9;
-
-$on-palm-font-size: 18px;
-$on-palm-line-height: 32px;
-
-$header-color: #010101;
-$header-background-color: #fefefe;
-
-$spacing-unit:     30px;
-
-$text-color:       #010101;
-$background-color: #fefefe;
-$brand-color:      $text-color;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 35%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$blockquote-text-color: rgba(0,0,0,0.6);
-
-// Width of the content area
-$content-width:    760px;
-
-$on-palm:          600px;
-$on-laptop:        700px;
-
-$blue: #43A7FF;
-$white: #FFFFFF;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "navigation"
-;
+@use "base";
+@use "layout";
+@use "syntax-highlighting";
+@use "navigation";

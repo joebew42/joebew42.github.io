@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .post_navigation {
   margin-top: 20px;
   font: $base-font-weight $base-font-size $base-heading-font-family;
