@@ -1,0 +1,15 @@
+@use "variables" as *;
+
+@each $mode, $colors in $modes {
+    $selector: if($mode == light, ":root", ":root[data-theme=\"#{$mode}\"]");
+
+    #{$selector} {
+        @if $mode == dark {
+            color-scheme: dark;
+        }
+
+        @each $name, $value in $colors {
+            --#{$name}: #{$value};
+        }
+    }
+}

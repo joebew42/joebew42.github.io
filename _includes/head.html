@@ -43,6 +43,10 @@
     href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap"
     rel="stylesheet">
 
+  <script>
+    document.documentElement.setAttribute('data-theme',
+      window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  </script>
   <link rel="stylesheet" href="{{ " /css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend:

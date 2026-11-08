@@ -16,26 +16,49 @@ $post-list-title-font-size: 22px;
 $on-palm-font-size: 18px;
 $on-palm-line-height: 32px;
 
-$header-color: #010101;
-$header-background-color: #fefefe;
-
 $spacing-unit:     30px;
 
 $header-height:    60px;
 $header-z-index:   1;
 $header-offset:    $header-height + $spacing-unit;
 
-$text-color:       #010101;
-$background-color: #fefefe;
+$modes: (
+    light: (
+        text-color:                 #010101,
+        background-color:           #fefefe,
+        header-color:               #010101,
+        header-background-color:    #fefefe,
+        grey-color:                 #828282,
+        grey-color-light:           #dbdbdb,
+        divider-color:              #EFEDF0,
+        code-background-color:      #eef,
+        highlight-background-color: #fff,
+        blockquote-text-color:      rgba(0,0,0,0.6),
+    ),
+    dark: (
+        text-color:                 #e6e6e6,
+        background-color:           #1a1a1a,
+        header-color:               #e6e6e6,
+        header-background-color:    #1a1a1a,
+    ),
+    sepia: (
+        text-color:                 #5b4636,
+        background-color:           #f4ecd8,
+        header-color:               #5b4636,
+        header-background-color:    #f4ecd8,
+    ),
+);
 
-$grey-color:       #828282;
-$grey-color-light: #dbdbdb;
-
-$divider-color:              #EFEDF0;
-$code-background-color:      #eef;
-$highlight-background-color: #fff;
-
-$blockquote-text-color: rgba(0,0,0,0.6);
+$text-color:                 var(--text-color);
+$background-color:           var(--background-color);
+$header-color:               var(--header-color);
+$header-background-color:    var(--header-background-color);
+$grey-color:                 var(--grey-color);
+$grey-color-light:           var(--grey-color-light);
+$divider-color:              var(--divider-color);
+$code-background-color:      var(--code-background-color);
+$highlight-background-color: var(--highlight-background-color);
+$blockquote-text-color:      var(--blockquote-text-color);
 
 // Width of the content area
 $content-width:    740px;
