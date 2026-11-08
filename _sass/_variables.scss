@@ -25,7 +25,11 @@ $text-color:       #010101;
 $background-color: #fefefe;
 
 $grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 35%);
+$grey-color-light: #dbdbdb;
+
+$divider-color:              #EFEDF0;
+$code-background-color:      #eef;
+$highlight-background-color: #fff;
 
 $blockquote-text-color: rgba(0,0,0,0.6);
 
@@ -37,6 +41,9 @@ $on-laptop:        700px;
 
 $blue: #43A7FF;
 $white: #FFFFFF;
+
+$tag-text-light: white;
+$tag-text-dark:  black;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

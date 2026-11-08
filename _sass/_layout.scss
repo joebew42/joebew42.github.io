@@ -6,7 +6,7 @@
  */
 .site-header {
     font-family: $base-font-family;
-    border-bottom: 1px solid #EFEDF0;
+    border-bottom: 1px solid $divider-color;
     min-height: 60px;
 
     // Positioning context for the mobile navigation icon
@@ -103,7 +103,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid #EFEDF0;
+    border-top: 1px solid $divider-color;
     padding: $spacing-unit 0;
 }
 

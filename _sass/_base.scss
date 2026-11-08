@@ -169,7 +169,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $code-background-color;
 }
 
 code {
@@ -292,7 +292,7 @@ pre {
         &, &:visited, &:hover {
             border-bottom: none;
             text-decoration: none;
-            color: white;
+            color: $tag-text-light;
         }
     }
 }
@@ -311,46 +311,46 @@ pre {
 }
 
 .post-tag.practice {
-    color: white;
+    color: $tag-text-light;
     background-color: #f03e3e;
 }
 
 .post-tag.elixir {
-    color: white;
+    color: $tag-text-light;
     background-color: #4a355f;
 }
 
 .post-tag.programming {
-    color: white;
+    color: $tag-text-light;
     background-color: teal;
 }
 
 .post-tag.creative {
-    color: black;
+    color: $tag-text-dark;
     background-color: yellow;
     a {
         &, &:visited, &:hover {
-            color: black;
+            color: $tag-text-dark;
         }
     }
 }
 
 .post-tag.tools {
-    color: white;
+    color: $tag-text-light;
     background-color: black;
 }
 
 .post-tag.idea {
-    color: black;
+    color: $tag-text-dark;
     background-color: pink;
     a {
         &, &:visited, &:hover {
-            color: black;
+            color: $tag-text-dark;
         }
     }
 }
 
 .post-tag.collaboration {
-    color: white;
+    color: $tag-text-light;
     background-color: #d43ca2;
 }
