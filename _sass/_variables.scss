@@ -22,6 +22,8 @@ $header-background-color: #fefefe;
 $spacing-unit:     30px;
 
 $header-height:    60px;
+$header-z-index:   1;
+$header-offset:    $header-height + $spacing-unit;
 
 $text-color:       #010101;
 $background-color: #fefefe;
