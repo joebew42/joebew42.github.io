@@ -12,14 +12,6 @@ summary: "Does a coding agent need every step of Red-Green-Refactor? I tried to 
 
 ![Three robots on a theater stage act out Red, Green and Refactor, while a developer in the audience wonders about the cycle](/assets/tdd-and-coding-agents-theater.jpg)
 
-## Key takeaways
-
-- **Known change:** write the tests together.
-- **Unknown change:** one test at a time.
-- **Ask for proof:** tests fail without the code.
-- **Start from your workflow first,** cut steps later.
-- **Judge the workflow:** by its results, not its steps.
-
 ## Red. Green. Refactor.
 
 If you practice Test-Driven Development, you know this rhythm well. Kent Beck described it in _Test-Driven Development: By Example_ more than twenty years ago, and I have been following it for years. It helps me find a good design, keep things simple, and move forward in small steps.
@@ -30,7 +22,7 @@ But a coding agent is not a human developer. In aido, the agent starts from an a
 
 Last week, I had a session about AI coding agents with [Pietro Di Bello](https://github.com/xpepper). During the session, Pietro shared Birgitta Böckeler's article [TDD inside the agent loop - theater or actual value?](https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html). Out of curiosity, we discussed it a little, and decided to experiment with **cutting the TDD ceremony out of aido**.
 
-The experiment is in [aido PR #47](https://github.com/joebew42/aido/pull/47). The sections below go through these takeaways.
+The experiment is in [aido PR #47](https://github.com/joebew42/aido/pull/47).
 
 ## 1. Knowns and unknowns
 
