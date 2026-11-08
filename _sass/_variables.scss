@@ -47,6 +47,16 @@ $white: #FFFFFF;
 $tag-text-light: white;
 $tag-text-dark:  black;
 
+$tag-colors: (
+    practice:      (#f03e3e, $tag-text-light),
+    elixir:        (#4a355f, $tag-text-light),
+    programming:   (teal,    $tag-text-light),
+    creative:      (yellow,  $tag-text-dark),
+    tools:         (black,   $tag-text-light),
+    idea:          (pink,    $tag-text-dark),
+    collaboration: (#d43ca2, $tag-text-light),
+);
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {

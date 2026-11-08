@@ -1,3 +1,4 @@
+@use "sass:list";
 @use "variables" as *;
 
 /**
@@ -310,47 +311,20 @@ pre {
     margin-right: 0px;
 }
 
-.post-tag.practice {
-    color: $tag-text-light;
-    background-color: #f03e3e;
-}
+@each $tag, $colors in $tag-colors {
+    $background: list.nth($colors, 1);
+    $text: list.nth($colors, 2);
 
-.post-tag.elixir {
-    color: $tag-text-light;
-    background-color: #4a355f;
-}
+    .post-tag.#{$tag} {
+        color: $text;
+        background-color: $background;
 
-.post-tag.programming {
-    color: $tag-text-light;
-    background-color: teal;
-}
-
-.post-tag.creative {
-    color: $tag-text-dark;
-    background-color: yellow;
-    a {
-        &, &:visited, &:hover {
-            color: $tag-text-dark;
+        @if $text != $tag-text-light {
+            a {
+                &, &:visited, &:hover {
+                    color: $text;
+                }
+            }
         }
     }
-}
-
-.post-tag.tools {
-    color: $tag-text-light;
-    background-color: black;
-}
-
-.post-tag.idea {
-    color: $tag-text-dark;
-    background-color: pink;
-    a {
-        &, &:visited, &:hover {
-            color: $tag-text-dark;
-        }
-    }
-}
-
-.post-tag.collaboration {
-    color: $tag-text-light;
-    background-color: #d43ca2;
 }
