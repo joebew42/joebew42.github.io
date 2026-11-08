@@ -261,6 +261,9 @@
         font-size: $docked-title-font-size;
         font-weight: $base-heading-font-weight;
         line-height: $base-line-height;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
