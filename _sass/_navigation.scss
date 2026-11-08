@@ -2,7 +2,8 @@
 
 .post_navigation {
   margin-top: 20px;
-  font: $base-font-weight $base-font-size $base-heading-font-family;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
   display: block;
   width: auto;
   overflow: hidden;

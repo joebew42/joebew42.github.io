@@ -47,7 +47,6 @@ ul, ol, dl, figure,
  * Headers
  */
 h1, h2, h3, h4, h5, h6 {
-    font-family: $base-heading-font-family;
     margin: 28px 0;
     line-height: normal;
 }
@@ -126,7 +125,6 @@ a {
 }
 
 .post-link {
-    font-family: $base-heading-font-family;
     display: block;
 
     &,
@@ -287,7 +285,8 @@ pre {
 .post-tag {
     margin: 5px;
     padding: 5px;
-    font: $post-tag-font-weight $base-small-font-size $post-tag-font-family;
+    font-weight: $post-tag-font-weight;
+    font-size: $base-small-font-size;
     text-transform: uppercase;
 
     a {

@@ -1,17 +1,17 @@
 // Our variables
 $base-font-family: 'Source Serif Pro', sans-serif;
-$base-font-weight: 300;
+$base-font-weight: 400;
 $base-font-size: 15pt;
 $base-small-font-size: 10pt;
-$base-line-height: 28pt;
+$base-line-height: 1.6;
 
-$base-heading-font-family: 'Lato', sans-serif;
 $base-heading-font-weight: 700;
 
-$post-tag-font-family: 'Lato', sans-serif;
 $post-tag-font-weight: 400;
 
 $small-font-size:  $base-font-size * 0.9;
+
+$post-list-title-font-size: 22px;
 
 $on-palm-font-size: 18px;
 $on-palm-line-height: 32px;
@@ -36,7 +36,7 @@ $highlight-background-color: #fff;
 $blockquote-text-color: rgba(0,0,0,0.6);
 
 // Width of the content area
-$content-width:    760px;
+$content-width:    740px;
 
 $on-palm:          600px;
 $on-laptop:        700px;

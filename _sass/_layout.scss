@@ -207,8 +207,8 @@
 //     // margin-bottom: $spacing-unit;
 // }
 
-.post-title {
-    font-family: $base-heading-font-family;
+.post-list .post-title {
+    font-size: $post-list-title-font-size;
 }
 
 .post-content {
@@ -216,8 +216,7 @@
     line-height: $base-line-height;
 
     @include media-query($on-palm) {
-        font: $base-font-weight $on-palm-font-size $base-font-family;
-        line-height: $on-palm-line-height;
+        font-size: $on-palm-font-size;
     }
 }
 
@@ -225,7 +224,6 @@
 .share-button {
     display: block;
     text-align: center;
-    font-family: $post-tag-font-family;
     font-size: 24px;
     padding: 10px;
     font-weight: 700;
