@@ -52,8 +52,8 @@ $modes: (
         code-background-color:      #f6f8fa,
         highlight-background-color: #fff,
         blockquote-text-color:      rgba(0,0,0,0.6),
-        tag-text-light:             white,
-        tag-text-dark:              black,
+        tag-text-pale:              white,
+        tag-text-ink:               black,
 
         syntax-comment:             #998,
         syntax-muted:               #999,
@@ -92,8 +92,8 @@ $modes: (
         code-background-color:      #262626,
         highlight-background-color: #262626,
         blockquote-text-color:      rgba(230,230,230,0.7),
-        tag-text-light:             #e6e6e6,
-        tag-text-dark:              #1a1a1a,
+        tag-text-pale:              #e6e6e6,
+        tag-text-ink:               #1a1a1a,
 
         syntax-comment:             #8b949e,
         syntax-muted:               #8b949e,
@@ -132,8 +132,8 @@ $modes: (
         code-background-color:      #ece1c6,
         highlight-background-color: #ece1c6,
         blockquote-text-color:      rgba(91,70,54,0.75),
-        tag-text-light:             #f4ecd8,
-        tag-text-dark:              #3b2e24,
+        tag-text-pale:              #f4ecd8,
+        tag-text-ink:               #3b2e24,
 
         syntax-comment:             #7a6b50,
     ),
@@ -150,8 +150,8 @@ $divider-color:              var(--divider-color);
 $code-background-color:      var(--code-background-color);
 $highlight-background-color: var(--highlight-background-color);
 $blockquote-text-color:      var(--blockquote-text-color);
-$tag-text-light:             var(--tag-text-light);
-$tag-text-dark:              var(--tag-text-dark);
+$tag-text-pale:              var(--tag-text-pale);
+$tag-text-ink:               var(--tag-text-ink);
 
 // Width of the content area
 $content-width:    740px;
@@ -163,13 +163,13 @@ $blue: #43A7FF;
 $white: #FFFFFF;
 
 $tag-colors: (
-    practice:      (text: $tag-text-light, light: #f03e3e, dark: #9a3030, sepia: #d2403c),
-    elixir:        (text: $tag-text-light, light: #4a355f, dark: #4a3a5c, sepia: #4d3857),
-    programming:   (text: $tag-text-light, light: teal,    dark: #0b6262, sepia: #127471),
-    creative:      (text: $tag-text-dark,  light: yellow,  dark: #a3a30a, sepia: #deda0b),
-    tools:         (text: $tag-text-light, light: black,   dark: #3a3a3a, sepia: #120e0b),
-    idea:          (text: $tag-text-dark,  light: pink,    dark: #a37e84, sepia: #dea8ad),
-    collaboration: (text: $tag-text-light, light: #d43ca2, dark: #8a2e6c, sepia: #bc3e8c),
+    practice:      (text: $tag-text-pale, light: #f03e3e, dark: #9a3030, sepia: #d2403c),
+    elixir:        (text: $tag-text-pale, light: #4a355f, dark: #4a3a5c, sepia: #4d3857),
+    programming:   (text: $tag-text-pale, light: teal,    dark: #0b6262, sepia: #127471),
+    creative:      (text: $tag-text-ink,  light: yellow,  dark: #a3a30a, sepia: #deda0b),
+    tools:         (text: $tag-text-pale, light: black,   dark: #3a3a3a, sepia: #120e0b),
+    idea:          (text: $tag-text-ink,  light: pink,    dark: #a37e84, sepia: #dea8ad),
+    collaboration: (text: $tag-text-pale, light: #d43ca2, dark: #8a2e6c, sepia: #bc3e8c),
 );
 
 // Use media queries like this:
