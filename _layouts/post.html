@@ -7,8 +7,35 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
   </header>
 
+  <div class="docked-title">
+    <div class="wrapper">
+      <button type="button" class="back-to-top" aria-label="Back to top">&uarr;</button>
+      <p aria-hidden="true">{{ page.title }}</p>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var title = document.querySelector('.post-header .post-title');
+      var docked = document.querySelector('.docked-title');
+      var headerHeight = document.querySelector('.site-header').offsetHeight;
+
+      new IntersectionObserver(function (entries) {
+        docked.classList.toggle('is-visible', !entries[0].isIntersecting);
+      }, { rootMargin: '-' + headerHeight + 'px 0px 0px 0px' }).observe(title);
+
+      function backToTop() {
+        var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+      }
+
+      docked.querySelector('.back-to-top').addEventListener('click', backToTop);
+      docked.querySelector('p').addEventListener('click', backToTop);
+    })();
+  </script>
+
   <div class="post-content" itemprop="articleBody">
-    {{ content }}
+    {% include heading-links.html html=content %}
   </div>
 
   <!-- <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p> -->

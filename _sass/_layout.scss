@@ -1,19 +1,27 @@
+@use "sass:math";
+@use "variables" as *;
+@use "base";
+
 /**
  * Site header
  */
 .site-header {
-    font-family: $base-font-family;
-    border-bottom: 1px solid #EFEDF0;
-    min-height: 60px;
+    font-family: $heading-font-family;
+    border-bottom: 1px solid $divider-color;
+    min-height: $header-height;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: $header-z-index;
     background-color: $header-background-color;
 }
 
 .site-title {
     font-size: 28px;
-    line-height: 60px;
+    line-height: $header-height;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -22,21 +30,30 @@
     &:hover,
     &:visited {
         color: $header-color;
-        border: none;
     }
 }
 
 .site-nav {
     float: right;
-    line-height: 60px;
+    line-height: $header-height;
 
     .menu-icon {
         display: none;
     }
 
+    .trigger {
+        display: inline-block;
+    }
+
+    .mode-toggle {
+        @extend %plain-button;
+        float: right;
+        margin-left: 20px;
+        color: $header-color;
+    }
+
     .page-link {
         color: $header-color;
-        border: none;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -47,7 +64,7 @@
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
-        right: $spacing-unit / 2;
+        right: math.div($spacing-unit, 2);
         background-color: $header-background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -61,7 +78,6 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
-            border: none;
 
             > svg {
                 width: 18px;
@@ -71,6 +87,13 @@
                     fill: $grey-color-light;
                 }
             }
+        }
+
+        .mode-toggle {
+            width: 36px;
+            height: 36px;
+            margin-left: 0;
+            line-height: 36px;
         }
 
         .trigger {
@@ -100,13 +123,13 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid #EFEDF0;
+    border-top: 1px solid $divider-color;
     padding: $spacing-unit 0;
 }
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: math.div($spacing-unit, 2);
 }
 
 .contact-list,
@@ -118,14 +141,14 @@
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    margin-left: math.div(-$spacing-unit, 2);
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    margin-bottom: math.div($spacing-unit, 2);
+    padding-left: math.div($spacing-unit, 2);
 }
 
 .footer-col-1 {
@@ -170,7 +193,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $header-offset 0 $spacing-unit;
 }
 
 .page-heading {
@@ -203,8 +226,60 @@
 //     // margin-bottom: $spacing-unit;
 // }
 
-.post-title {
-    font-family: $base-heading-font-family;
+.post-list .post-title {
+    font-size: $post-list-title-font-size;
+}
+
+.docked-title {
+    position: fixed;
+    top: $header-height;
+    left: 0;
+    right: 0;
+    z-index: $header-z-index - 1;
+    border-bottom: 1px solid $divider-color;
+    background-color: $header-background-color;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+
+    &.is-visible {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .back-to-top {
+        @extend %plain-button;
+        margin-right: $docked-title-padding * 2;
+        font-size: $docked-title-font-size;
+        line-height: $base-line-height;
+        color: $header-color;
+    }
+
+    p {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+        padding: $docked-title-padding 0;
+        cursor: pointer;
+        font-family: $heading-font-family;
+        font-size: $docked-title-font-size;
+        font-weight: $base-heading-font-weight;
+        line-height: $base-line-height;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.docked-title ~ .post-content {
+    h1, h2, h3, h4, h5, h6 {
+        scroll-margin-top: $header-offset + $docked-title-height;
+    }
 }
 
 .post-content {
@@ -212,16 +287,61 @@
     line-height: $base-line-height;
 
     @include media-query($on-palm) {
-        font: $base-font-weight $on-palm-font-size $base-font-family;
-        line-height: $on-palm-line-height;
+        font-size: $on-palm-font-size;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        position: relative;
+        margin: $heading-space-above 0 $heading-space-below;
+        line-height: $heading-line-height;
+
+        &:hover .heading-link {
+            opacity: 1;
+        }
+    }
+
+    a {
+        &,
+        &:visited,
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: $text-color;
+            text-decoration-thickness: $link-underline-thickness;
+            text-underline-offset: $link-underline-offset;
+        }
+    }
+
+    .heading-link {
+        position: absolute;
+        right: 100%;
+        padding-right: $heading-link-gap;
+        opacity: 0;
+        transition: opacity 0.2s;
+
+        &,
+        &:visited,
+        &:hover {
+            color: $grey-color;
+            text-decoration: none;
+        }
+
+        &:focus {
+            opacity: 1;
+        }
+
+        @include media-query($on-laptop) {
+            position: static;
+            padding: 0 0 0 $heading-link-gap;
+            opacity: $heading-link-faded-opacity;
+        }
     }
 }
 
 
 .share-button {
+    font-family: $heading-font-family;
     display: block;
     text-align: center;
-    font-family: $post-tag-font-family;
     font-size: 24px;
     padding: 10px;
     font-weight: 700;
@@ -235,7 +355,6 @@
     &:visited,
     &:hover {
         text-decoration: none;
-        border: none;
         color: $white;
     }
 }

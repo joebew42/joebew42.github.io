@@ -1,6 +1,10 @@
+@use "variables" as *;
+
 .post_navigation {
   margin-top: 20px;
-  font: $base-font-weight $base-font-size $base-heading-font-family;
+  font-family: $heading-font-family;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
   display: block;
   width: auto;
   overflow: hidden;
@@ -11,7 +15,6 @@
   width: 50%;
   float: left;
   margin: 1em 0;
-  border: none;
 }
 
 .post_navigation .next {

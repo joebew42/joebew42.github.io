@@ -1,3 +1,7 @@
+@use "sass:map";
+@use "sass:math";
+@use "variables" as *;
+
 /**
  * Reset some basic elements
  */
@@ -34,8 +38,8 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-top: $spacing-unit / 2;
-    margin-bottom: $spacing-unit / 2;
+    margin-top: math.div($spacing-unit, 2);
+    margin-bottom: math.div($spacing-unit, 2);
 }
 
 
@@ -43,7 +47,8 @@ ul, ol, dl, figure,
  * Headers
  */
 h1, h2, h3, h4, h5, h6 {
-    font-family: $base-heading-font-family;
+    font-family: $heading-font-family;
+    color: $heading-color;
     margin: 28px 0;
     line-height: normal;
 }
@@ -104,6 +109,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-heading-font-weight;
+    scroll-margin-top: $header-offset;
 }
 
 
@@ -117,19 +123,26 @@ a {
     &:hover {
         color: $text-color;
         text-decoration: none;
+    }
+}
+
+.rss-subscribe a,
+.social-media-list a {
+    &,
+    &:visited,
+    &:hover {
         border-bottom: 1px solid $text-color;
     }
 }
 
 .post-link {
-    font-family: $base-heading-font-family;
+    font-family: $heading-font-family;
     display: block;
 
     &,
     &:visited,
     &:hover {
         text-decoration: underline;
-        border: none;
     }
 }
 
@@ -164,10 +177,12 @@ strong {
  */
 pre,
 code {
-    font-size: 15px;
+    font-family: $code-font-family;
+    font-size: $code-font-size;
+    font-variant-ligatures: none;
     border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    border-radius: $code-border-radius;
+    background-color: $code-background-color;
 }
 
 code {
@@ -202,8 +217,8 @@ pre {
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        padding-right: math.div($spacing-unit, 2);
+        padding-left: math.div($spacing-unit, 2);
     }
 }
 
@@ -219,6 +234,20 @@ pre {
         display: table;
         clear: both;
     }
+}
+
+
+
+/**
+ * Plain button
+ */
+%plain-button {
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    line-height: inherit;
+    cursor: pointer;
 }
 
 
@@ -283,14 +312,15 @@ pre {
 .post-tag {
     margin: 5px;
     padding: 5px;
-    font: $post-tag-font-weight $base-small-font-size $post-tag-font-family;
+    font-family: $heading-font-family;
+    font-weight: $post-tag-font-weight;
+    font-size: $base-small-font-size;
     text-transform: uppercase;
 
     a {
         &, &:visited, &:hover {
-            border-bottom: none;
             text-decoration: none;
-            color: white;
+            color: inherit;
         }
     }
 }
@@ -308,47 +338,15 @@ pre {
     margin-right: 0px;
 }
 
-.post-tag.practice {
-    color: white;
-    background-color: #f03e3e;
-}
+@each $tag, $colors in $tag-colors {
+    .post-tag.#{$tag} {
+        color: map.get($colors, text);
+        background-color: map.get($colors, light);
+    }
 
-.post-tag.elixir {
-    color: white;
-    background-color: #4a355f;
-}
-
-.post-tag.programming {
-    color: white;
-    background-color: teal;
-}
-
-.post-tag.creative {
-    color: black;
-    background-color: yellow;
-    a {
-        &, &:visited, &:hover {
-            color: black;
+    @each $mode in map.keys(map.remove($modes, light)) {
+        :root[data-theme="#{$mode}"] .post-tag.#{$tag} {
+            background-color: map.get($colors, $mode);
         }
     }
-}
-
-.post-tag.tools {
-    color: white;
-    background-color: black;
-}
-
-.post-tag.idea {
-    color: black;
-    background-color: pink;
-    a {
-        &, &:visited, &:hover {
-            color: black;
-        }
-    }
-}
-
-.post-tag.collaboration {
-    color: white;
-    background-color: #d43ca2;
 }

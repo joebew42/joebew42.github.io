@@ -40,9 +40,35 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Serif+Pro:wght@300;400;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&family=Source+Serif+Pro:wght@400;600;700&display=swap"
     rel="stylesheet">
 
+  <script>
+    window.colorMode = (function () {
+      var key = 'theme';
+      var modes = ['light', 'dark', 'sepia'];
+      var root = document.documentElement;
+
+      function picked() {
+        try { return localStorage.getItem(key); } catch (e) { return null; }
+      }
+
+      function preferred() {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      var initial = picked();
+      root.setAttribute('data-theme', modes.indexOf(initial) !== -1 ? initial : preferred());
+
+      return {
+        current: function () { return root.getAttribute('data-theme'); },
+        set: function (mode) {
+          root.setAttribute('data-theme', mode);
+          try { localStorage.setItem(key, mode); } catch (e) {}
+        }
+      };
+    })();
+  </script>
   <link rel="stylesheet" href="{{ " /css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend:

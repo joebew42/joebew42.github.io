@@ -1,0 +1,186 @@
+// Our variables
+$base-font-family: 'Source Serif Pro', serif;
+$heading-font-family: 'Inter', sans-serif;
+$code-font-family: 'JetBrains Mono', monospace;
+$base-font-weight: 400;
+$base-font-size: 18px;
+$base-small-font-size: 10pt;
+$base-line-height: 1.65;
+
+$base-heading-font-weight: 700;
+$heading-line-height: 1.25;
+$heading-space-above: 2.5rem;
+$heading-space-below: 1rem;
+
+$post-tag-font-weight: 400;
+
+$link-underline-offset:    3px;
+$link-underline-thickness: 1px;
+
+$heading-link-gap:           0.3em;
+$heading-link-faded-opacity: 0.4;
+
+$small-font-size:  $base-font-size * 0.9;
+
+$code-font-size:     14.5px;
+$code-border-radius: 6px;
+
+$post-list-title-font-size: 22px;
+$docked-title-font-size:    16px;
+$docked-title-padding:      6px;
+$docked-title-height:       $docked-title-font-size * $base-line-height + 2 * $docked-title-padding;
+
+$on-palm-font-size: 18px;
+$on-palm-line-height: 32px;
+
+$spacing-unit:     30px;
+
+$header-height:    60px;
+$header-z-index:   2;
+$header-offset:    $header-height + $spacing-unit;
+
+$modes: (
+    light: (
+        text-color:                 #24292e,
+        heading-color:              #111111,
+        background-color:           #fefefe,
+        header-color:               #010101,
+        header-background-color:    #fefefe,
+        grey-color:                 #828282,
+        grey-color-light:           #dbdbdb,
+        divider-color:              #EFEDF0,
+        code-background-color:      #f6f8fa,
+        highlight-background-color: #fff,
+        blockquote-text-color:      rgba(0,0,0,0.6),
+        tag-text-pale:              white,
+        tag-text-ink:               black,
+
+        syntax-comment:             #998,
+        syntax-muted:               #999,
+        syntax-output:              #888,
+        syntax-prompt:              #555,
+        syntax-subheading:          #aaa,
+        syntax-whitespace:          #bbb,
+        syntax-error:               #a61717,
+        syntax-error-background:    #e3d2d2,
+        syntax-generic-error:       #a00,
+        syntax-diff-text:           #000,
+        syntax-deleted:             #fdd,
+        syntax-deleted-specific:    #faa,
+        syntax-inserted:            #dfd,
+        syntax-inserted-specific:   #afa,
+        syntax-type:                #458,
+        syntax-number:              #099,
+        syntax-string:              #d14,
+        syntax-variable:            #008080,
+        syntax-builtin:             #0086B3,
+        syntax-entity:              #800080,
+        syntax-function:            #900,
+        syntax-tag:                 #000080,
+        syntax-regex:               #009926,
+        syntax-symbol:              #990073,
+    ),
+    dark: (
+        text-color:                 #e6e6e6,
+        heading-color:              #e6e6e6,
+        background-color:           #1a1a1a,
+        header-color:               #e6e6e6,
+        header-background-color:    #1a1a1a,
+        grey-color:                 #9a9a9a,
+        grey-color-light:           #4a4a4a,
+        divider-color:              #2e2e2e,
+        code-background-color:      #262626,
+        highlight-background-color: #262626,
+        blockquote-text-color:      rgba(230,230,230,0.7),
+        tag-text-pale:              #e6e6e6,
+        tag-text-ink:               #1a1a1a,
+
+        syntax-comment:             #8b949e,
+        syntax-muted:               #8b949e,
+        syntax-output:              #8b949e,
+        syntax-prompt:              #c9d1d9,
+        syntax-subheading:          #8b949e,
+        syntax-whitespace:          #6e7681,
+        syntax-error:               #ffa198,
+        syntax-error-background:    #490202,
+        syntax-generic-error:       #ffa198,
+        syntax-diff-text:           #e6e6e6,
+        syntax-deleted:             #490202,
+        syntax-deleted-specific:    #67060c,
+        syntax-inserted:            #04260f,
+        syntax-inserted-specific:   #033a16,
+        syntax-type:                #ffa657,
+        syntax-number:              #79c0ff,
+        syntax-string:              #a5d6ff,
+        syntax-variable:            #79c0ff,
+        syntax-builtin:             #ffa657,
+        syntax-entity:              #d2a8ff,
+        syntax-function:            #d2a8ff,
+        syntax-tag:                 #7ee787,
+        syntax-regex:               #7ee787,
+        syntax-symbol:              #ff7b72,
+    ),
+    sepia: (
+        text-color:                 #5b4636,
+        heading-color:              #5b4636,
+        background-color:           #f4ecd8,
+        header-color:               #5b4636,
+        header-background-color:    #f4ecd8,
+        grey-color:                 #8b7b6b,
+        grey-color-light:           #d8c9a8,
+        divider-color:              #e3d6b8,
+        code-background-color:      #ece1c6,
+        highlight-background-color: #ece1c6,
+        blockquote-text-color:      rgba(91,70,54,0.75),
+        tag-text-pale:              #f4ecd8,
+        tag-text-ink:               #3b2e24,
+
+        syntax-comment:             #7a6b50,
+    ),
+);
+
+$text-color:                 var(--text-color);
+$heading-color:              var(--heading-color);
+$background-color:           var(--background-color);
+$header-color:               var(--header-color);
+$header-background-color:    var(--header-background-color);
+$grey-color:                 var(--grey-color);
+$grey-color-light:           var(--grey-color-light);
+$divider-color:              var(--divider-color);
+$code-background-color:      var(--code-background-color);
+$highlight-background-color: var(--highlight-background-color);
+$blockquote-text-color:      var(--blockquote-text-color);
+$tag-text-pale:              var(--tag-text-pale);
+$tag-text-ink:               var(--tag-text-ink);
+
+// Width of the content area
+$content-width:    740px;
+
+$on-palm:          600px;
+$on-laptop:        700px;
+
+$blue: #43A7FF;
+$white: #FFFFFF;
+
+$tag-colors: (
+    practice:      (text: $tag-text-pale, light: #f03e3e, dark: #9a3030, sepia: #d2403c),
+    elixir:        (text: $tag-text-pale, light: #4a355f, dark: #4a3a5c, sepia: #4d3857),
+    programming:   (text: $tag-text-pale, light: teal,    dark: #0b6262, sepia: #127471),
+    creative:      (text: $tag-text-ink,  light: yellow,  dark: #a3a30a, sepia: #deda0b),
+    tools:         (text: $tag-text-pale, light: black,   dark: #3a3a3a, sepia: #120e0b),
+    idea:          (text: $tag-text-ink,  light: pink,    dark: #a37e84, sepia: #dea8ad),
+    collaboration: (text: $tag-text-pale, light: #d43ca2, dark: #8a2e6c, sepia: #bc3e8c),
+);
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: math.div($spacing-unit, 2);
+//         padding-left: math.div($spacing-unit, 2);
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
