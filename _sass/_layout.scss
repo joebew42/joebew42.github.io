@@ -46,15 +46,10 @@
     }
 
     .mode-toggle {
+        @extend %plain-button;
         float: right;
         margin-left: 20px;
-        padding: 0;
-        border: none;
-        background: none;
-        font: inherit;
-        line-height: inherit;
         color: $header-color;
-        cursor: pointer;
     }
 
     .page-link {

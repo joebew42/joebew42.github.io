@@ -240,6 +240,20 @@ pre {
 
 
 /**
+ * Plain button
+ */
+%plain-button {
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+
+
+/**
  * Icons
  */
 .icon {
