@@ -47,6 +47,8 @@ ul, ol, dl, figure,
  * Headers
  */
 h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-family;
+    color: $heading-color;
     margin: 28px 0;
     line-height: normal;
 }
@@ -126,6 +128,7 @@ a {
 }
 
 .post-link {
+    font-family: $heading-font-family;
     display: block;
 
     &,
@@ -167,9 +170,11 @@ strong {
  */
 pre,
 code {
-    font-size: 15px;
+    font-family: $code-font-family;
+    font-size: $code-font-size;
+    font-variant-ligatures: none;
     border: 1px solid $grey-color-light;
-    border-radius: 3px;
+    border-radius: $code-border-radius;
     background-color: $code-background-color;
 }
 
@@ -286,6 +291,7 @@ pre {
 .post-tag {
     margin: 5px;
     padding: 5px;
+    font-family: $heading-font-family;
     font-weight: $post-tag-font-weight;
     font-size: $base-small-font-size;
     text-transform: uppercase;

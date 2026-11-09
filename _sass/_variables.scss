@@ -1,15 +1,23 @@
 // Our variables
-$base-font-family: 'Source Serif Pro', sans-serif;
+$base-font-family: 'Source Serif Pro', serif;
+$heading-font-family: 'Inter', sans-serif;
+$code-font-family: 'JetBrains Mono', monospace;
 $base-font-weight: 400;
-$base-font-size: 15pt;
+$base-font-size: 18px;
 $base-small-font-size: 10pt;
-$base-line-height: 1.6;
+$base-line-height: 1.65;
 
 $base-heading-font-weight: 700;
+$heading-line-height: 1.25;
+$heading-space-above: 2.5rem;
+$heading-space-below: 1rem;
 
 $post-tag-font-weight: 400;
 
 $small-font-size:  $base-font-size * 0.9;
+
+$code-font-size:     14.5px;
+$code-border-radius: 6px;
 
 $post-list-title-font-size: 22px;
 $docked-title-font-size:    16px;
@@ -27,14 +35,15 @@ $header-offset:    $header-height + $spacing-unit;
 
 $modes: (
     light: (
-        text-color:                 #010101,
+        text-color:                 #24292e,
+        heading-color:              #111111,
         background-color:           #fefefe,
         header-color:               #010101,
         header-background-color:    #fefefe,
         grey-color:                 #828282,
         grey-color-light:           #dbdbdb,
         divider-color:              #EFEDF0,
-        code-background-color:      #eef,
+        code-background-color:      #f6f8fa,
         highlight-background-color: #fff,
         blockquote-text-color:      rgba(0,0,0,0.6),
         tag-text-light:             white,
@@ -67,6 +76,7 @@ $modes: (
     ),
     dark: (
         text-color:                 #e6e6e6,
+        heading-color:              #e6e6e6,
         background-color:           #1a1a1a,
         header-color:               #e6e6e6,
         header-background-color:    #1a1a1a,
@@ -106,6 +116,7 @@ $modes: (
     ),
     sepia: (
         text-color:                 #5b4636,
+        heading-color:              #5b4636,
         background-color:           #f4ecd8,
         header-color:               #5b4636,
         header-background-color:    #f4ecd8,
@@ -123,6 +134,7 @@ $modes: (
 );
 
 $text-color:                 var(--text-color);
+$heading-color:              var(--heading-color);
 $background-color:           var(--background-color);
 $header-color:               var(--header-color);
 $header-background-color:    var(--header-background-color);
