@@ -278,6 +278,17 @@
         margin: $heading-space-above 0 $heading-space-below;
         line-height: $heading-line-height;
     }
+
+    a {
+        &,
+        &:visited,
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: $text-color;
+            text-decoration-thickness: $link-underline-thickness;
+            text-underline-offset: $link-underline-offset;
+        }
+    }
 }
 
 
