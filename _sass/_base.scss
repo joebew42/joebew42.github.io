@@ -123,6 +123,15 @@ a {
     &:hover {
         color: $text-color;
         text-decoration: none;
+    }
+}
+
+.post-content a,
+.rss-subscribe a,
+.social-media-list a {
+    &,
+    &:visited,
+    &:hover {
         border-bottom: 1px solid $text-color;
     }
 }
@@ -135,7 +144,6 @@ a {
     &:visited,
     &:hover {
         text-decoration: underline;
-        border: none;
     }
 }
 
@@ -298,7 +306,6 @@ pre {
 
     a {
         &, &:visited, &:hover {
-            border-bottom: none;
             text-decoration: none;
             color: inherit;
         }

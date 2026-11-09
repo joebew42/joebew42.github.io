@@ -30,7 +30,6 @@
     &:hover,
     &:visited {
         color: $header-color;
-        border: none;
     }
 }
 
@@ -60,7 +59,6 @@
 
     .page-link {
         color: $header-color;
-        border: none;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -85,7 +83,6 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
-            border: none;
 
             > svg {
                 width: 18px;
@@ -306,7 +303,6 @@
     &:visited,
     &:hover {
         text-decoration: none;
-        border: none;
         color: $white;
     }
 }
