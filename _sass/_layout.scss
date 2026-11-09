@@ -247,9 +247,25 @@
         opacity: 1;
     }
 
+    .wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .back-to-top {
+        @extend %plain-button;
+        margin-right: $docked-title-padding * 2;
+        font-size: $docked-title-font-size;
+        line-height: $base-line-height;
+        color: $header-color;
+    }
+
     p {
+        flex: 1;
+        min-width: 0;
         margin: 0;
         padding: $docked-title-padding 0;
+        cursor: pointer;
         font-family: $heading-font-family;
         font-size: $docked-title-font-size;
         font-weight: $base-heading-font-weight;
