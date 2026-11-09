@@ -344,7 +344,7 @@ pre {
         background-color: map.get($colors, light);
     }
 
-    @each $mode in (dark, sepia) {
+    @each $mode in map.keys(map.remove($modes, light)) {
         :root[data-theme="#{$mode}"] .post-tag.#{$tag} {
             background-color: map.get($colors, $mode);
         }
