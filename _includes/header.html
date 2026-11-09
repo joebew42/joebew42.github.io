@@ -33,7 +33,6 @@
         dark: { name: 'Dark', icon: '\u263e\ufe0e', next: 'sepia' },
         sepia: { name: 'Sepia', icon: '\u2615\ufe0e', next: 'light' }
       };
-      var root = document.documentElement;
       var button = document.querySelector('.site-header .mode-toggle');
 
       function show(mode) {
@@ -43,12 +42,11 @@
         button.setAttribute('title', label);
       }
 
-      show(root.getAttribute('data-theme'));
+      show(colorMode.current());
 
       button.addEventListener('click', function () {
-        var next = modes[root.getAttribute('data-theme')].next;
-        root.setAttribute('data-theme', next);
-        try { localStorage.setItem('theme', next); } catch (e) {}
+        var next = modes[colorMode.current()].next;
+        colorMode.set(next);
         show(next);
       });
     })();

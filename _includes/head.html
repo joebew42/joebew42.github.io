@@ -44,12 +44,29 @@
     rel="stylesheet">
 
   <script>
-    (function () {
-      var picked = null;
-      try { picked = localStorage.getItem('theme'); } catch (e) {}
-      var preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      var known = picked === 'light' || picked === 'dark' || picked === 'sepia';
-      document.documentElement.setAttribute('data-theme', known ? picked : preferred);
+    window.colorMode = (function () {
+      var key = 'theme';
+      var modes = ['light', 'dark', 'sepia'];
+      var root = document.documentElement;
+
+      function picked() {
+        try { return localStorage.getItem(key); } catch (e) { return null; }
+      }
+
+      function preferred() {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      var initial = picked();
+      root.setAttribute('data-theme', modes.indexOf(initial) !== -1 ? initial : preferred());
+
+      return {
+        current: function () { return root.getAttribute('data-theme'); },
+        set: function (mode) {
+          root.setAttribute('data-theme', mode);
+          try { localStorage.setItem(key, mode); } catch (e) {}
+        }
+      };
     })();
   </script>
   <link rel="stylesheet" href="{{ " /css/main.css" | prepend: site.baseurl }}">
