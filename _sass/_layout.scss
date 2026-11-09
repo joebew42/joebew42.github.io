@@ -291,8 +291,13 @@
     }
 
     h1, h2, h3, h4, h5, h6 {
+        position: relative;
         margin: $heading-space-above 0 $heading-space-below;
         line-height: $heading-line-height;
+
+        &:hover .heading-link {
+            opacity: 1;
+        }
     }
 
     a {
@@ -303,6 +308,31 @@
             text-decoration-color: $text-color;
             text-decoration-thickness: $link-underline-thickness;
             text-underline-offset: $link-underline-offset;
+        }
+    }
+
+    .heading-link {
+        position: absolute;
+        right: 100%;
+        padding-right: $heading-link-gap;
+        opacity: 0;
+        transition: opacity 0.2s;
+
+        &,
+        &:visited,
+        &:hover {
+            color: $grey-color;
+            text-decoration: none;
+        }
+
+        &:focus {
+            opacity: 1;
+        }
+
+        @include media-query($on-laptop) {
+            position: static;
+            padding: 0 0 0 $heading-link-gap;
+            opacity: $heading-link-faded-opacity;
         }
     }
 }
