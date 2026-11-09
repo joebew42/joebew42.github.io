@@ -1,0 +1,18 @@
+{%- assign parts = include.html | split: '<h' -%}
+{%- for part in parts -%}
+  {%- if forloop.first -%}
+    {{- part -}}
+    {%- continue -%}
+  {%- endif -%}
+  {%- assign level = part | slice: 0 -%}
+  {%- assign after_level = part | slice: 1 -%}
+  {%- assign opening_tag = part | split: '>' | first -%}
+  {%- if "123456" contains level and after_level == " " and opening_tag contains ' id="' -%}
+    {%- assign id = opening_tag | split: ' id="' | last | split: '"' | first -%}
+    {%- capture closing_tag %}</h{{ level }}>{% endcapture -%}
+    {%- capture heading_link %}<a class="heading-link" href="#{{ id }}" aria-label="Link to this heading">#</a>{{ closing_tag }}{% endcapture -%}
+    <h{{ part | replace_first: closing_tag, heading_link }}
+  {%- else -%}
+    <h{{ part }}
+  {%- endif -%}
+{%- endfor -%}
