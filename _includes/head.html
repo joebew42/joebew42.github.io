@@ -33,6 +33,11 @@
   {% endif %}
   <!-- end of Twitter cards -->
 
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.summary | default: site.description | escape }}">
+  <meta property="og:image" content="{{ page.image | default: site.title_image | prepend: site.url }}">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
