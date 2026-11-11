@@ -43,8 +43,11 @@ layout: default
 </article>
 
 <div class="share">
-  <a class="share-button blue" target="_blank"
-    href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+@{{ site.twitter_username | url_encode }}+{{ page.url | prepend: site.url | url_encode }}">Comment on Twitter</a>
+  {%- assign post_url = page.url | prepend: site.url | url_encode %}
+  <a class="share-button x" target="_blank"
+    href="https://x.com/intent/post?text={{ page.title | url_encode }}&url={{ post_url }}">Share on X</a>
+  <a class="share-button linkedin" target="_blank"
+    href="https://www.linkedin.com/sharing/share-offsite/?url={{ post_url }}">Share on LinkedIn</a>
 </div>
 
 <div class="read-more post-tag {{ page.tag }}">

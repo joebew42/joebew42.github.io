@@ -172,6 +172,11 @@ $tag-colors: (
     collaboration: (text: $tag-text-pale, light: #d43ca2, dark: #8a2e6c, sepia: #bc3e8c),
 );
 
+$share-colors: (
+    x:        (light: black,   dark: #3a3a3a, sepia: #120e0b),
+    linkedin: (light: #0a66c2, dark: #0a66c2, sepia: #0a66c2),
+);
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
