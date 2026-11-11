@@ -48,6 +48,12 @@ So, together with Claude, I changed the rule. The agent writes the tests togethe
 
 This is close to what Beck already suggested in his book: if you know what to write, just write it (_Obvious Implementation_), and go back to smaller steps when the tests surprise you.
 
+### When to explore the unknowns
+
+Small steps are not the only way to uncover unknowns, and TDD is not a prescription for agentic workflows: it is a choice taken in that specific agentic workflow (aido). An agent could also explore the code during planning, but even a detailed plan can rest on assumptions that turn out to be wrong, while small steps uncover them as they come up, before much work depends on them.
+
+That's the trade-off that would be interesting to explore more:**how much should an agent learn before implementation, and how much should it learn by implementing?**
+
 ## 2. Checking the result
 
 One step I kept is the Red step, watching the test fail. **But now the agent has to prove it.**
