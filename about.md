@@ -6,7 +6,7 @@ permalink: /about/
 
 # Hello there! :wave:
 
-I am Joe, currently working as a Software Engineer with focus on agile practices, software design principles, and processes of software development.
+I am Joe, currently working as a Software Engineer with focus on agile practices, software design principles, and processes of software development. Exploring AI-augmented engineering and agentic workflows.
 
 When I am not working, I enjoy playing video games, reading books, or taking long walks.
 
@@ -16,7 +16,7 @@ I created this blog to share some of my experiences and keep them well organized
 
 ### Keep in touch :bookmark:
 
-Reach me on [Twitter](https://twitter.com/joebew42), or e-mail me at `joebew42 [at] gmail.com`.
+Reach me on [X](https://x.com/joebew42), or e-mail me at `joebew42 [at] gmail.com`.
 
 You can also check my [daily activity log](http://joebew42.github.io/events.xml) to stay updated on what I am studying. If you prefer, the [RSS](https://daily2rss.herokuapp.com/rss/?url=http://joebew42.github.io/events) format is also available.
 
@@ -28,5 +28,5 @@ You can also check my [daily activity log](http://joebew42.github.io/events.xml)
 
 ### Into the jungle :palm_tree:
 
-- Social: [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) • [Twitter](https://twitter.com/joebew42) • [Telegram](https://t.me/joebew42)
+- Social: [YouTube](https://www.youtube.com/channel/UCEt-X-5yZ86SYTNDbSQgVAQ) • [X](https://x.com/joebew42) • [LinkedIn](https://www.linkedin.com/in/joebew42/) • [Telegram](https://t.me/joebew42)
 - Code: [GitHub](https://github.com/joebew42) • [GitLab](https://gitlab.com/joebew42)
