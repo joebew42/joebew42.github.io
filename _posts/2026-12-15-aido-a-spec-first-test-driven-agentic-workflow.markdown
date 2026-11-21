@@ -3,16 +3,16 @@ layout: post
 title: "aido: A Spec-First, Test-Driven Agentic Workflow"
 date: 2026-12-15 9:00:00 +0100
 tags: [augmented-engineer]
-summary: "aido is the agentic workflow I use every day, at work and on side projects. Here is what it is, how it differs from other agentic workflows, and where it falls short."
+summary: "aido is the agentic workflow I use daily. Here is what it is, how it differs from other agentic workflows, and where it falls short."
 ---
 
-> aido is the agentic workflow I use every day, at work and on side projects. Here is what it is, how it differs from other agentic workflows, and where it falls short.
+> aido is the agentic workflow I use daily. Here is what it is, how it differs from other agentic workflows, and where it falls short.
 
 <!--more-->
 
 Maybe you have already tried a coding agent, with a prompt or its plan mode, and got some working code. Then you started to wonder how to make it more **structured** and **disciplined**, closer to the way a software engineer would work.
 
-That was the question behind [aido](https://github.com/joebew42/aido). It grew out of the workflow my team built over the last year, which I described in [Agentic Workflows: The workflow was already there]({% post_url 2026-10-15-agentic-workflows-the-workflow-was-already-there %}), and it has evolved quite a bit since then. Today I use it at work and on personal projects. This post is one person's experience with one tool, not a review of the others.
+That was the question behind [aido](https://github.com/joebew42/aido). It grew out of the workflow my team built over the last year, which I described in [Agentic Workflows: The workflow was already there]({% post_url 2026-10-15-agentic-workflows-the-workflow-was-already-there %}), and it has evolved quite a bit since then. Today I use it daily.
 
 ## What aido is
 
