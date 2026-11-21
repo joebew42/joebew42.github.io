@@ -2,7 +2,7 @@
 layout: post
 title: "TDD and Coding Agents: Is It Theater?"
 date: 2026-11-08 9:00:00 +0100
-tag: practice
+tags: [practice, augmented-engineer]
 summary: "Does a coding agent need every step of Red-Green-Refactor? I tried to find out. Here is what I changed, what I measured, and what I learned."
 ---
 
