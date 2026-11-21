@@ -50,9 +50,11 @@ layout: default
     href="https://www.linkedin.com/sharing/share-offsite/?url={{ post_url }}">Share on LinkedIn</a>
 </div>
 
-<div class="read-more post-tag {{ page.tag }}">
-  <a class="read-more-button" href="/tag/{{ page.tag }}">Read more on #{{ page.tag }}</a>
+{% for tag in page.tags %}
+<div class="read-more post-tag {{ tag }}">
+  <a class="read-more-button" href="/tag/{{ tag }}">Read more on #{{ tag }}</a>
 </div>
+{% endfor %}
 
 <div class="post_navigation">
   {% if page.previous.url %}
