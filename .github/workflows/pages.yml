@@ -4,6 +4,10 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
+  # Rebuild daily so posts with a future date go live on their day.
+  # 08:15 UTC is after 9:00 local time for posts dated +0100 or +0200.
+  schedule:
+    - cron: "15 8 * * *"
 
 permissions:
   contents: read
