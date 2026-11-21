@@ -71,7 +71,8 @@ To try a spec-first way of working, with or without aido:
 
 1. **Pick a small, well-scoped change** from your backlog.
 2. **Before any code, write down the intent, what is out of scope, and a few numbered acceptance criteria**, and ask the agent to work from them.
-3. **At the end, check each criterion** against the result, and compare it with the way you work today.
+3. **When the agent is done, go through the criteria one by one** and check that the result meets each of them.
+4. **Compare it with how the same change would have gone** with your usual way of working.
 
 ## aido super powers
 
